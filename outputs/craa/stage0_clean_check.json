@@ -1,0 +1,1036 @@
+{
+  "schema": "craa_stage0_clean_check_v1",
+  "n_cells": 4,
+  "u_refusal_R_inf": [
+    606815.4375,
+    308257.25,
+    757947.625,
+    321368.03125
+  ],
+  "random_R_inf_mean": 45927.997930908205,
+  "random_R_inf_median": 39578.875,
+  "ratios": [
+    15.16967411831896,
+    7.6393852003945835,
+    16.252387073061936,
+    9.944511295699817
+  ],
+  "records": [
+    {
+      "query_id": "h49",
+      "carrier_id": "c07",
+      "u_refusal": {
+        "grad_l1": 606815.4375,
+        "grad_l2": 3012.085693359375,
+        "R_inf": 606815.4375,
+        "R_2": 3012.085693359375,
+        "max_displacement_linf": 38074.69411764706,
+        "s_mode": -106.28886413574219
+      },
+      "random": [
+        {
+          "kind": "gaussian_unit",
+          "index": 0,
+          "R_inf": 66237.578125,
+          "R_2": 340.6031494140625
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 1,
+          "R_inf": 54618.15625,
+          "R_2": 409.0235290527344
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 2,
+          "R_inf": 15125.45703125,
+          "R_2": 76.56087493896484
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 3,
+          "R_inf": 43069.25,
+          "R_2": 361.0180969238281
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 4,
+          "R_inf": 58125.59375,
+          "R_2": 300.9564208984375
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 5,
+          "R_inf": 39673.8046875,
+          "R_2": 261.20465087890625
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 6,
+          "R_inf": 50805.578125,
+          "R_2": 246.57266235351562
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 7,
+          "R_inf": 24372.318359375,
+          "R_2": 160.19351196289062
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 8,
+          "R_inf": 37204.765625,
+          "R_2": 227.85568237304688
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 9,
+          "R_inf": 15891.7421875,
+          "R_2": 77.19329833984375
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 10,
+          "R_inf": 43913.6171875,
+          "R_2": 260.21002197265625
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 11,
+          "R_inf": 85299.24218750001,
+          "R_2": 486.93807983398443
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 12,
+          "R_inf": 45998.2734375,
+          "R_2": 213.49111938476562
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 13,
+          "R_inf": 29611.3359375,
+          "R_2": 223.77476501464844
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 14,
+          "R_inf": 41782.2109375,
+          "R_2": 212.67787170410156
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 15,
+          "R_inf": 52676.3125,
+          "R_2": 279.83428955078125
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 16,
+          "R_inf": 37201.77734375,
+          "R_2": 232.2640838623047
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 17,
+          "R_inf": 24948.890625,
+          "R_2": 173.8671112060547
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 18,
+          "R_inf": 52779.4453125,
+          "R_2": 262.12750244140625
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 19,
+          "R_inf": 28732.236328125,
+          "R_2": 171.67019653320312
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 0,
+          "R_inf": 45896.3984375,
+          "R_2": 264.3123779296875
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 1,
+          "R_inf": 33773.07421875,
+          "R_2": 165.67446899414062
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 2,
+          "R_inf": 96179.0625,
+          "R_2": 599.4861450195312
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 3,
+          "R_inf": 55480.1953125,
+          "R_2": 310.3351135253906
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 4,
+          "R_inf": 32697.83984375,
+          "R_2": 222.315185546875
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 5,
+          "R_inf": 46983.69140625,
+          "R_2": 217.55755615234375
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 6,
+          "R_inf": 38703.234375,
+          "R_2": 285.3302001953125
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 7,
+          "R_inf": 48026.23046875001,
+          "R_2": 236.70652770996097
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 8,
+          "R_inf": 40329.94921875,
+          "R_2": 343.8671875
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 9,
+          "R_inf": 35024.50390625,
+          "R_2": 312.4172668457031
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 10,
+          "R_inf": 22694.76171875,
+          "R_2": 121.62332153320312
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 11,
+          "R_inf": 23147.21875,
+          "R_2": 149.38076782226562
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 12,
+          "R_inf": 40718.43359375,
+          "R_2": 240.0548858642578
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 13,
+          "R_inf": 22039.0078125,
+          "R_2": 110.30113220214844
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 14,
+          "R_inf": 37673.5078125,
+          "R_2": 193.12692260742188
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 15,
+          "R_inf": 26836.1015625,
+          "R_2": 176.9930877685547
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 16,
+          "R_inf": 61095.6484375,
+          "R_2": 446.0516662597656
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 17,
+          "R_inf": 25971.630859375,
+          "R_2": 147.68064880371094
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 18,
+          "R_inf": 44436.0625,
+          "R_2": 307.45587158203125
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 19,
+          "R_inf": 27556.6171875,
+          "R_2": 142.9344482421875
+        }
+      ]
+    },
+    {
+      "query_id": "h49",
+      "carrier_id": "c08",
+      "u_refusal": {
+        "grad_l1": 308257.25,
+        "grad_l2": 1599.985595703125,
+        "R_inf": 308257.25,
+        "R_2": 1599.985595703125,
+        "max_displacement_linf": 19341.631372549018,
+        "s_mode": -107.41534423828125
+      },
+      "random": [
+        {
+          "kind": "gaussian_unit",
+          "index": 0,
+          "R_inf": 33601.05078125,
+          "R_2": 248.8621368408203
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 1,
+          "R_inf": 65746.96875,
+          "R_2": 448.713623046875
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 2,
+          "R_inf": 46516.671875,
+          "R_2": 369.7904357910156
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 3,
+          "R_inf": 41218.1640625,
+          "R_2": 331.1225891113281
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 4,
+          "R_inf": 76059.1875,
+          "R_2": 513.7655029296875
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 5,
+          "R_inf": 84003.875,
+          "R_2": 599.9038696289062
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 6,
+          "R_inf": 145521.90625,
+          "R_2": 1000.4777221679688
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 7,
+          "R_inf": 93541.53125,
+          "R_2": 663.578369140625
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 8,
+          "R_inf": 108272.578125,
+          "R_2": 779.4940795898438
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 9,
+          "R_inf": 20529.001953125,
+          "R_2": 127.85635375976562
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 10,
+          "R_inf": 111250.6171875,
+          "R_2": 818.3489990234375
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 11,
+          "R_inf": 23254.740234375004,
+          "R_2": 145.79467773437503
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 12,
+          "R_inf": 82882.609375,
+          "R_2": 507.5777587890625
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 13,
+          "R_inf": 28985.9296875,
+          "R_2": 233.35604858398438
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 14,
+          "R_inf": 37962.29296875,
+          "R_2": 222.9529571533203
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 15,
+          "R_inf": 30766.44140625,
+          "R_2": 194.82394409179688
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 16,
+          "R_inf": 39483.9453125,
+          "R_2": 254.34536743164062
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 17,
+          "R_inf": 33833.96875,
+          "R_2": 209.48281860351562
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 18,
+          "R_inf": 38969.34765625,
+          "R_2": 312.21368408203125
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 19,
+          "R_inf": 53313.8515625,
+          "R_2": 509.76129150390625
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 0,
+          "R_inf": 42707.90625,
+          "R_2": 302.5868225097656
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 1,
+          "R_inf": 28584.6015625,
+          "R_2": 170.42555236816406
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 2,
+          "R_inf": 94665.484375,
+          "R_2": 619.0401611328125
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 3,
+          "R_inf": 37875.53125,
+          "R_2": 301.5572814941406
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 4,
+          "R_inf": 32517.359375,
+          "R_2": 215.4468994140625
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 5,
+          "R_inf": 32004.3046875,
+          "R_2": 213.396484375
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 6,
+          "R_inf": 53669.390625,
+          "R_2": 434.2579650878906
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 7,
+          "R_inf": 24904.361328125004,
+          "R_2": 159.4891510009766
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 8,
+          "R_inf": 91957.203125,
+          "R_2": 619.2705078125
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 9,
+          "R_inf": 34040.75,
+          "R_2": 258.9347229003906
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 10,
+          "R_inf": 62426.08203125,
+          "R_2": 463.154296875
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 11,
+          "R_inf": 51681.5234375,
+          "R_2": 312.9099426269531
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 12,
+          "R_inf": 22549.029296875,
+          "R_2": 155.60569763183594
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 13,
+          "R_inf": 44095.671875,
+          "R_2": 279.46014404296875
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 14,
+          "R_inf": 28572.134765625,
+          "R_2": 182.57554626464844
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 15,
+          "R_inf": 43081.796875,
+          "R_2": 265.4622802734375
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 16,
+          "R_inf": 36958.3046875,
+          "R_2": 251.20639038085938
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 17,
+          "R_inf": 76774.59375,
+          "R_2": 522.4029541015625
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 18,
+          "R_inf": 34058.2421875,
+          "R_2": 315.025146484375
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 19,
+          "R_inf": 13612.7568359375,
+          "R_2": 91.07940673828125
+        }
+      ]
+    },
+    {
+      "query_id": "h56",
+      "carrier_id": "c07",
+      "u_refusal": {
+        "grad_l1": 757947.625,
+        "grad_l2": 4252.8623046875,
+        "R_inf": 757947.625,
+        "R_2": 4252.8623046875,
+        "max_displacement_linf": 47557.49803921569,
+        "s_mode": -66.23123931884766
+      },
+      "random": [
+        {
+          "kind": "gaussian_unit",
+          "index": 0,
+          "R_inf": 19173.568359375,
+          "R_2": 148.2720184326172
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 1,
+          "R_inf": 80468.828125,
+          "R_2": 447.09539794921875
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 2,
+          "R_inf": 78228.171875,
+          "R_2": 483.39593505859375
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 3,
+          "R_inf": 61165.11328125,
+          "R_2": 342.89300537109375
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 4,
+          "R_inf": 131628.390625,
+          "R_2": 793.3182983398438
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 5,
+          "R_inf": 158681.5,
+          "R_2": 931.6082153320312
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 6,
+          "R_inf": 30376.962890625,
+          "R_2": 191.94105529785156
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 7,
+          "R_inf": 55704.65625,
+          "R_2": 312.0314636230469
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 8,
+          "R_inf": 47096.2421875,
+          "R_2": 257.5252990722656
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 9,
+          "R_inf": 71681.09375,
+          "R_2": 421.5347900390625
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 10,
+          "R_inf": 13133.6015625,
+          "R_2": 75.40445709228516
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 11,
+          "R_inf": 54745.89453125001,
+          "R_2": 297.2774963378907
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 12,
+          "R_inf": 55247.578125,
+          "R_2": 345.1554870605469
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 13,
+          "R_inf": 74846.484375,
+          "R_2": 439.4665832519531
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 14,
+          "R_inf": 51742.53515625,
+          "R_2": 321.0841369628906
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 15,
+          "R_inf": 52129.21875,
+          "R_2": 285.9931640625
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 16,
+          "R_inf": 29945.54296875,
+          "R_2": 196.02188110351562
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 17,
+          "R_inf": 39710.7890625,
+          "R_2": 298.3716735839844
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 18,
+          "R_inf": 37765.578125,
+          "R_2": 236.26112365722656
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 19,
+          "R_inf": 23414.828125,
+          "R_2": 176.3956756591797
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 0,
+          "R_inf": 97382.8046875,
+          "R_2": 598.68603515625
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 1,
+          "R_inf": 20964.9453125,
+          "R_2": 100.70621490478516
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 2,
+          "R_inf": 20011.140625,
+          "R_2": 117.48019409179688
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 3,
+          "R_inf": 47447.9375,
+          "R_2": 294.1367492675781
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 4,
+          "R_inf": 76607.25,
+          "R_2": 464.5406188964844
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 5,
+          "R_inf": 27648.72265625,
+          "R_2": 231.44473266601562
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 6,
+          "R_inf": 45326.46484375,
+          "R_2": 245.21556091308594
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 7,
+          "R_inf": 23417.658203125004,
+          "R_2": 166.93338012695315
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 8,
+          "R_inf": 46175.91796875,
+          "R_2": 320.142822265625
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 9,
+          "R_inf": 71606.5703125,
+          "R_2": 440.73370361328125
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 10,
+          "R_inf": 46127.8203125,
+          "R_2": 305.3388977050781
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 11,
+          "R_inf": 33183.75390625,
+          "R_2": 247.7786407470703
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 12,
+          "R_inf": 45947.15625,
+          "R_2": 254.7410125732422
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 13,
+          "R_inf": 25993.21875,
+          "R_2": 169.59703063964844
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 14,
+          "R_inf": 132882.90625,
+          "R_2": 795.7840576171875
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 15,
+          "R_inf": 58830.57421875,
+          "R_2": 430.48931884765625
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 16,
+          "R_inf": 44761.5703125,
+          "R_2": 273.2137451171875
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 17,
+          "R_inf": 81030.90625,
+          "R_2": 492.35699462890625
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 18,
+          "R_inf": 32090.11328125,
+          "R_2": 226.4358367919922
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 19,
+          "R_inf": 25299.8828125,
+          "R_2": 182.2977752685547
+        }
+      ]
+    },
+    {
+      "query_id": "h56",
+      "carrier_id": "c08",
+      "u_refusal": {
+        "grad_l1": 321368.03125,
+        "grad_l2": 1699.951904296875,
+        "R_inf": 321368.03125,
+        "R_2": 1699.951904296875,
+        "max_displacement_linf": 20164.26862745098,
+        "s_mode": -68.44148254394531
+      },
+      "random": [
+        {
+          "kind": "gaussian_unit",
+          "index": 0,
+          "R_inf": 49400.9296875,
+          "R_2": 363.85345458984375
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 1,
+          "R_inf": 31460.546875,
+          "R_2": 190.12855529785156
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 2,
+          "R_inf": 26404.583984375,
+          "R_2": 165.86801147460938
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 3,
+          "R_inf": 41604.75,
+          "R_2": 281.998779296875
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 4,
+          "R_inf": 31124.513671875,
+          "R_2": 229.34716796875
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 5,
+          "R_inf": 35336.8046875,
+          "R_2": 179.2416534423828
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 6,
+          "R_inf": 72989.625,
+          "R_2": 460.6835632324219
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 7,
+          "R_inf": 41737.03125,
+          "R_2": 267.5205993652344
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 8,
+          "R_inf": 73215.90625,
+          "R_2": 471.4542541503906
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 9,
+          "R_inf": 60606.08984375,
+          "R_2": 370.61279296875
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 10,
+          "R_inf": 34834.5234375,
+          "R_2": 203.21221923828125
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 11,
+          "R_inf": 16097.873046875002,
+          "R_2": 100.49571990966798
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 12,
+          "R_inf": 21672.39453125,
+          "R_2": 187.84422302246094
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 13,
+          "R_inf": 33796.28125,
+          "R_2": 252.62393188476562
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 14,
+          "R_inf": 25253.54296875,
+          "R_2": 152.8610076904297
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 15,
+          "R_inf": 25527.67578125,
+          "R_2": 171.7727813720703
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 16,
+          "R_inf": 32129.59765625,
+          "R_2": 198.96466064453125
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 17,
+          "R_inf": 42351.296875,
+          "R_2": 254.54159545898438
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 18,
+          "R_inf": 50463.484375,
+          "R_2": 345.6372375488281
+        },
+        {
+          "kind": "gaussian_unit",
+          "index": 19,
+          "R_inf": 30433.12109375,
+          "R_2": 199.8984375
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 0,
+          "R_inf": 38604.51171875,
+          "R_2": 224.69105529785156
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 1,
+          "R_inf": 34862.78515625,
+          "R_2": 165.90219116210938
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 2,
+          "R_inf": 32502.64453125,
+          "R_2": 204.87051391601562
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 3,
+          "R_inf": 28018.689453125,
+          "R_2": 226.009033203125
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 4,
+          "R_inf": 28829.9375,
+          "R_2": 156.8874053955078
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 5,
+          "R_inf": 23189.671875,
+          "R_2": 147.6446075439453
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 6,
+          "R_inf": 30674.56640625,
+          "R_2": 176.06089782714844
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 7,
+          "R_inf": 29507.218750000004,
+          "R_2": 187.34568786621097
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 8,
+          "R_inf": 18406.55859375,
+          "R_2": 118.40504455566406
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 9,
+          "R_inf": 23120.9375,
+          "R_2": 152.0010223388672
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 10,
+          "R_inf": 23260.60546875,
+          "R_2": 115.68445587158203
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 11,
+          "R_inf": 67131.65625,
+          "R_2": 411.5759582519531
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 12,
+          "R_inf": 24247.796875,
+          "R_2": 116.05001831054688
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 13,
+          "R_inf": 44916.0859375,
+          "R_2": 273.87335205078125
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 14,
+          "R_inf": 17132.958984375,
+          "R_2": 124.0218734741211
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 15,
+          "R_inf": 41148.671875,
+          "R_2": 330.2537841796875
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 16,
+          "R_inf": 43146.0,
+          "R_2": 290.7906799316406
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 17,
+          "R_inf": 37906.29296875,
+          "R_2": 243.5025177001953
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 18,
+          "R_inf": 64860.8515625,
+          "R_2": 436.9800720214844
+        },
+        {
+          "kind": "random_orthogonal",
+          "index": 19,
+          "R_inf": 15164.298828125,
+          "R_2": 100.36592102050781
+        }
+      ]
+    }
+  ]
+}

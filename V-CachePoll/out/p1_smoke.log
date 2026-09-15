@@ -1,0 +1,11 @@
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:05,  1.36s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:03,  1.30s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:03<00:02,  1.28s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:05<00:01,  1.28s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.04it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.11s/it]
+== p1 smoke c000 ==
+p1 c000 1/6 L=-0.269 Lq=-0.0524 Le=-0.220 rA=0.474 rB=0.526 a_out=0 b_in=0 mem=20.575722694396973
+p1 c000 2/6 L=-0.327 Lq=-0.0658 Le=-0.264 rA=0.467 rB=0.533 a_out=1 b_in=27 mem=20.593081951141357
+p1 c000 3/6 L=-0.343 Lq=-0.0695 Le=-0.278 rA=0.465 rB=0.535 a_out=2 b_in=31 mem=20.593081951141357
+p1 c000 4/6 L=-0.419 Lq=-0.0855 Le=-0.338 rA=0.457 rB=0.543 a_out=3 b_in=29 mem=20.593081951141357
+p1 c000 5/6 L=-0.428 Lq=-0.0935 Le=-0.338 rA=0.453 rB=0.547 a_out=3 b_in=30 mem=20.593081951141357
+p1 c000 6/6 L=-0.437 Lq=-0.0977 Le=-0.344 rA=0.451 rB=0.549 a_out=3 b_in=30 mem=20.593081951141357
+{'n': 1, 'path': '/root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/p1_smoke.json', 'elapsed_s': 8.330524206161499}

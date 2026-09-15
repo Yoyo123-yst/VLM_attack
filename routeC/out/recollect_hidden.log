@@ -1,0 +1,126 @@
+nohup: ignoring input
+cuda free=23.91GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:05,  1.40s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:04,  1.39s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:04<00:02,  1.35s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:05<00:01,  1.32s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.02it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.15s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+P0.4 saved h53:c07:e16:r0
+P0.4 saved h53:c07:e16:r1
+P0.4 saved h53:c07:e16:r2
+P0.4 saved h53:c07:e16:r3
+P0.4 saved h53:c07:e16:r4
+P0.4 saved h53:c07:e16:r5
+P0.4 saved h53:c07:e16:r6
+P0.4 saved h53:c07:e16:r7
+P0.4 saved h53:c08:e16:r1
+P0.4 saved h53:c08:e16:r2
+P0.4 saved h53:c08:e16:r3
+P0.4 saved h53:c08:e16:r5
+P0.4 saved h53:c08:e16:r7
+P0.4 saved h56:c08:e16:r2
+P0.4 saved h61:c07:e16:r0
+P0.4 saved h61:c07:e16:r1
+P0.4 saved h61:c07:e16:r2
+P0.4 saved h61:c07:e16:r3
+P0.4 saved h61:c07:e16:r4
+P0.4 saved h61:c07:e16:r7
+P0.4 saved h61:c08:e16:r0
+P0.4 saved h61:c08:e16:r2
+P0.4 saved h61:c08:e16:r7
+P0.4 saved h64:c08:e16:r1
+P0.4 saved h64:c08:e16:r2
+P0.4 saved h72:c07:e16:r1
+P0.4 saved h72:c07:e16:r6
+P0.4 saved h72:c08:e16:r7
+P0.4 saved h74:c07:e16:r1
+P0.4 saved h74:c07:e16:r2
+P0.4 saved h74:c07:e16:r3
+P0.4 saved h74:c07:e16:r5
+P0.4 saved h74:c07:e16:r6
+P0.4 saved h74:c07:e16:r7
+P0.4 saved h74:c08:e16:r1
+P0.4 saved h74:c08:e16:r2
+P0.4 saved h74:c08:e16:r4
+P0.4 saved h74:c08:e16:r5
+P0.4 saved h74:c08:e16:r6
+P0.4 saved h81:c07:e16:r0
+P0.4 saved h81:c07:e16:r3
+P0.4 saved h81:c07:e16:r4
+P0.4 saved h01:c06:e16:r1
+P0.4 saved h21:c05:e16:r1
+P0.4 saved h31:c05:e16:r2
+P0.4 saved h31:c05:e16:r3
+P0.4 saved h31:c05:e16:r6
+P0.4 saved h31:c06:e16:r6
+P0.4 saved h53:c08:e16:r0
+P0.4 saved h53:c08:e16:r4
+P0.4 saved h53:c08:e16:r6
+P0.4 saved h56:c08:e16:r0
+P0.4 saved h56:c08:e16:r1
+P0.4 saved h56:c08:e16:r3
+P0.4 saved h56:c08:e16:r4
+P0.4 saved h56:c08:e16:r5
+P0.4 saved h56:c08:e16:r6
+P0.4 saved h56:c08:e16:r7
+P0.4 saved h61:c07:e16:r5
+P0.4 saved h61:c07:e16:r6
+P0.4 saved h61:c08:e16:r1
+P0.4 saved h61:c08:e16:r3
+P0.4 saved h61:c08:e16:r4
+P0.4 saved h61:c08:e16:r5
+P0.4 saved h61:c08:e16:r6
+P0.4 saved h64:c08:e16:r0
+P0.4 saved h64:c08:e16:r3
+P0.4 saved h64:c08:e16:r4
+P0.4 saved h64:c08:e16:r5
+P0.4 saved h64:c08:e16:r6
+P0.4 saved h64:c08:e16:r7
+P0.4 saved h72:c07:e16:r0
+P0.4 saved h72:c07:e16:r2
+P0.4 saved h72:c07:e16:r3
+P0.4 saved h72:c07:e16:r4
+P0.4 saved h72:c07:e16:r5
+P0.4 saved h72:c07:e16:r7
+P0.4 saved h72:c08:e16:r0
+P0.4 saved h72:c08:e16:r1
+P0.4 saved h72:c08:e16:r2
+P0.4 saved h72:c08:e16:r3
+P0.4 saved h72:c08:e16:r4
+P0.4 saved h72:c08:e16:r5
+P0.4 saved h72:c08:e16:r6
+P0.4 saved h74:c07:e16:r0
+P0.4 saved h74:c07:e16:r4
+P0.4 saved h74:c08:e16:r0
+P0.4 saved h74:c08:e16:r3
+P0.4 saved h74:c08:e16:r7
+P0.4 saved h81:c07:e16:r1
+P0.4 saved h81:c07:e16:r2
+P0.4 saved h81:c07:e16:r5
+P0.4 saved h81:c07:e16:r6
+P0.4 saved h81:c07:e16:r7
+P0.4 saved h01:c06:e16:r0
+P0.4 saved h01:c06:e16:r2
+P0.4 saved h01:c06:e16:r3
+P0.4 saved h01:c06:e16:r4
+P0.4 saved h01:c06:e16:r5
+P0.4 saved h01:c06:e16:r6
+P0.4 saved h01:c06:e16:r7
+P0.4 saved h21:c05:e16:r0
+P0.4 saved h21:c05:e16:r2
+P0.4 saved h21:c05:e16:r3
+P0.4 saved h21:c05:e16:r4
+P0.4 saved h21:c05:e16:r5
+P0.4 saved h21:c05:e16:r6
+P0.4 saved h21:c05:e16:r7
+P0.4 saved h31:c05:e16:r0
+P0.4 saved h31:c05:e16:r1
+P0.4 saved h31:c05:e16:r4
+P0.4 saved h31:c05:e16:r5
+P0.4 saved h31:c05:e16:r7
+P0.4 saved h31:c06:e16:r0
+P0.4 saved h31:c06:e16:r1
+P0.4 saved h31:c06:e16:r2
+P0.4 saved h31:c06:e16:r3
+P0.4 saved h31:c06:e16:r4
+P0.4 saved h31:c06:e16:r5
+P0.4 saved h31:c06:e16:r7
+P0.4 done: 120 records

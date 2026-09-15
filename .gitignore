@@ -1,0 +1,32 @@
+# caches / editor
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.cursor/
+.DS_Store
+
+# secrets / keys
+.env
+.env.*
+*.pem
+id_rsa
+id_ed25519
+id_ed25519.pub
+
+# model weights and dense tensors (too large for GitHub)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.npz
+*.npy
+
+# third-party PDFs (copyrighted; keep local)
+/paper/
+V-CachePoll/paper/
+
+# bulky activation traces / subspaces
+outputs/**/traces*.json
+outputs/**/subspace*.json

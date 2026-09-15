@@ -1,0 +1,30 @@
+{'t2_only': 'start', 'n': 8, 'eta_h': '2-3'}
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|##        | 1/5 [00:01<00:06,  1.62s/it]Loading checkpoint shards:  40%|####      | 2/5 [00:03<00:04,  1.62s/it]Loading checkpoint shards:  60%|######    | 3/5 [00:04<00:03,  1.66s/it]Loading checkpoint shards:  80%|########  | 4/5 [00:06<00:01,  1.65s/it]Loading checkpoint shards: 100%|##########| 5/5 [00:07<00:00,  1.25s/it]Loading checkpoint shards: 100%|##########| 5/5 [00:07<00:00,  1.43s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+{'sample': 'h11_clean_c05', 'no_write': 'ANSWER', 'safe': True, 's': -24.249711990356445}
+{'done': 'h11_clean_c05', 'free_rhc': False, 'keep_rhc': True, 'joint_rhc': False, 'keep_mode': 'ANSWER', 'sec': 163.5}
+{'checkpoint': 'h11_clean_c05', 'eta_min': 19.1}
+{'sample': 'h11:c05:e16:r1', 'no_write': 'ANSWER', 'safe': True, 's': -10.285011291503906}
+{'done': 'h11:c05:e16:r1', 'free_rhc': False, 'keep_rhc': False, 'joint_rhc': False, 'keep_mode': 'ANSWER', 'sec': 162.5}
+{'checkpoint': 'h11:c05:e16:r1', 'eta_min': 16.3}
+{'sample': 'h11:c05:e16:r2', 'no_write': 'ANSWER', 'safe': True, 's': -8.631364822387695}
+{'done': 'h11:c05:e16:r2', 'free_rhc': False, 'keep_rhc': False, 'joint_rhc': False, 'keep_mode': 'ANSWER', 'sec': 165.7}
+{'checkpoint': 'h11:c05:e16:r2', 'eta_min': 13.7}
+{'sample': 'h11:c06:e16:r0', 'no_write': 'ANSWER', 'safe': True, 's': -2.4207022190093994}
+{'done': 'h11:c06:e16:r0', 'free_rhc': True, 'keep_rhc': False, 'joint_rhc': True, 'keep_mode': 'ANSWER', 'sec': 164.1}
+{'checkpoint': 'h11:c06:e16:r0', 'eta_min': 10.9}
+{'sample': 'h11:c06:e16:r1', 'no_write': 'ANSWER', 'safe': True, 's': -7.199428558349609}
+{'done': 'h11:c06:e16:r1', 'free_rhc': True, 'keep_rhc': True, 'joint_rhc': False, 'keep_mode': 'ANSWER', 'sec': 167.4}
+{'checkpoint': 'h11:c06:e16:r1', 'eta_min': 8.2}
+{'sample': 'h07:c06:e16:r1', 'no_write': 'ANSWER', 'safe': True, 's': -18.648956298828125}
+{'done': 'h07:c06:e16:r1', 'free_rhc': True, 'keep_rhc': True, 'joint_rhc': False, 'keep_mode': 'ANSWER', 'sec': 159.3}
+{'checkpoint': 'h07:c06:e16:r1', 'eta_min': 5.5}
+{'sample': 'h07:c06:e16:r5', 'no_write': 'ANSWER', 'safe': True, 's': -12.909048080444336}
+{'done': 'h07:c06:e16:r5', 'free_rhc': True, 'keep_rhc': True, 'joint_rhc': True, 'keep_mode': 'ANSWER', 'sec': 163.4}
+{'checkpoint': 'h07:c06:e16:r5', 'eta_min': 2.7}
+{'sample': 'h21:c06:e16:r2', 'no_write': 'ANSWER', 'safe': True, 's': -13.782549858093262}
+{'done': 'h21:c06:e16:r2', 'free_rhc': False, 'keep_rhc': False, 'joint_rhc': True, 'keep_mode': 'ANSWER', 'sec': 162.6}
+{'checkpoint': 'h21:c06:e16:r2', 'eta_min': 0.0}
+{'t2_only': 'done', 'pass': True, 'data_gate': 'pass', 'elapsed_min': 22.0}

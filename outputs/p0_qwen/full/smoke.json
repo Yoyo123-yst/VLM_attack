@@ -1,0 +1,12 @@
+{
+  "generate": "A cozy living room with a dining table",
+  "patched_zero": "ych, a living room with a dining",
+  "hook_dim": 3584,
+  "n_layers": 28,
+  "n_layers_hooked": 7,
+  "hidden_size": 3584,
+  "grad_ok": true,
+  "grad_abs_mean": 0.04239363595843315,
+  "vram_mb": 5920.12841796875,
+  "setting": "native"
+}

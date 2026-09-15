@@ -1,0 +1,17 @@
+{
+  "started": "2026-09-16T00:20:08+08:00",
+  "n_cells": 4,
+  "finished": "2026-09-16T00:20:46+08:00",
+  "n_rows": 4,
+  "win_stages": {
+    "k1_token": 2,
+    "clean": 2
+  },
+  "k_stars": {
+    "k1_token:1": 2,
+    "clean:0": 2
+  },
+  "terminal_labels": {
+    "gateflip:RHC": 4
+  }
+}

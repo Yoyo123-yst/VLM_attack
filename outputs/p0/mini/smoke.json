@@ -1,0 +1,9 @@
+{
+  "generate": "A woman is standing in a kitchen with a table and chairs.",
+  "patched_zero": ".",
+  "hook_dim": 4096,
+  "n_layers_hooked": 3,
+  "grad_ok": true,
+  "grad_abs_mean": 0.058326561003923416,
+  "vram_mb": 4228.880859375
+}

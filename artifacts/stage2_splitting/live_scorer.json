@@ -1,0 +1,127 @@
+{
+  "full": {
+    "name": "live_full",
+    "features": [
+      "refusal_margin",
+      "logit_max",
+      "frac",
+      "prefix_word_count",
+      "stage_early",
+      "stage_mid",
+      "stage_late",
+      "stage_pre_eos"
+    ],
+    "coef": {
+      "refusal_margin": -1.1927600495675037,
+      "logit_max": -0.2659405361117676,
+      "frac": -0.8143867419659483,
+      "prefix_word_count": 1.2479527425192518,
+      "stage_early": 0.039427031183080836,
+      "stage_mid": 0.01790163660465135,
+      "stage_late": -0.010317091227966715,
+      "stage_pre_eos": -0.04701157655976509
+    },
+    "intercept": -0.5351385317117873,
+    "train": {
+      "n": 192,
+      "n_pos": 52,
+      "prevalence": 0.2708333333333333,
+      "auroc": 0.8026098901098901,
+      "brier": 0.1849434299148103,
+      "brier_prevalence": 0.19748263888888892
+    },
+    "val": {
+      "n": 128,
+      "n_pos": 56,
+      "prevalence": 0.4375,
+      "auroc": 0.751984126984127,
+      "brier": 0.1914650967144561,
+      "brier_prevalence": 0.24609375
+    },
+    "val_auroc_by_stage": {
+      "early": 0.6785714285714286,
+      "mid": 0.7222222222222223,
+      "late": 0.7579365079365079,
+      "pre_eos": 0.753968253968254
+    },
+    "better_than_random": true,
+    "brier_beats_prevalence": true,
+    "not_only_eos": true,
+    "advisory_auroc_070": true,
+    "gate": "GO",
+    "scaler_mean": [
+      -4.406746943791707,
+      17.330729166666668,
+      0.6379515329426568,
+      30.854166666666668,
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "scaler_scale": [
+      3.7824680609077324,
+      1.5890464105899125,
+      0.2840985052649172,
+      24.916309571019706,
+      0.4330127018922193,
+      0.4330127018922193,
+      0.4330127018922193,
+      0.4330127018922193
+    ]
+  },
+  "refusal_margin": {
+    "name": "live_margin",
+    "features": [
+      "refusal_margin"
+    ],
+    "coef": {
+      "refusal_margin": -0.940769689186803
+    },
+    "intercept": -0.1931011847384517,
+    "train": {
+      "n": 192,
+      "n_pos": 52,
+      "prevalence": 0.2708333333333333,
+      "auroc": 0.653846153846154,
+      "brier": 0.22198569176033808,
+      "brier_prevalence": 0.19748263888888892
+    },
+    "val": {
+      "n": 128,
+      "n_pos": 56,
+      "prevalence": 0.4375,
+      "auroc": 0.7063492063492064,
+      "brier": 0.21299844848189534,
+      "brier_prevalence": 0.24609375
+    },
+    "val_auroc_by_stage": {
+      "early": 0.7063492063492064,
+      "mid": 0.7063492063492064,
+      "late": 0.7063492063492064,
+      "pre_eos": 0.7063492063492064
+    },
+    "better_than_random": true,
+    "brier_beats_prevalence": true,
+    "not_only_eos": true,
+    "advisory_auroc_070": true,
+    "gate": "GO",
+    "scaler_mean": [
+      -4.406746943791707
+    ],
+    "scaler_scale": [
+      3.7824680609077346
+    ]
+  },
+  "features": [
+    "refusal_margin",
+    "logit_max",
+    "frac",
+    "prefix_word_count",
+    "stage_early",
+    "stage_mid",
+    "stage_late",
+    "stage_pre_eos"
+  ],
+  "written": "2026-09-14T23:00:50+08:00"
+}

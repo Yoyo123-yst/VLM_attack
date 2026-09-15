@@ -1,0 +1,52 @@
+{
+  "gate": {
+    "pass": true,
+    "reasons": []
+  },
+  "pollution": {
+    "n_legacy_related_safe": 67,
+    "n_core_safe_answer": 66,
+    "refuse_or_advice_frac": 0.0,
+    "theme_denial_frac": 0.0,
+    "legacy_refuse_or_deny_frac": 0.0,
+    "n_pairs": 51,
+    "pair_refuse_or_deny_frac": 0.0,
+    "refuse_or_deny_frac": 0.0
+  },
+  "duplicates": {
+    "n_pairs": 51,
+    "duplicate_pair_id": 0,
+    "duplicate_query_image": 0,
+    "duplicate_pair_id_frac": 0.0,
+    "duplicate_query_image_frac": 0.0
+  },
+  "n_pairs": 51,
+  "n_benign": 70,
+  "relabel": {
+    "annotators": 1,
+    "method": "interval_rule_relabel",
+    "n_sample": 10,
+    "frac": 0.2,
+    "agreement": {
+      "safety": 1.0,
+      "response_mode": 1.0,
+      "grounding": 1.0,
+      "quality": 1.0
+    },
+    "dispute_rule": "rule-based four_axes is source of truth; keep after-label on disagreement",
+    "pair_ids": [
+      "h02:c02",
+      "h17:c04",
+      "h54:c03",
+      "h19:c02",
+      "h68:c03",
+      "h29:c02",
+      "h17:c02",
+      "h18:c04",
+      "h37:c01",
+      "h28:c01"
+    ]
+  },
+  "source": "/root/autodl-tmp/multimodal_attack_project/outputs/p0_qwen/full/native/traces_n0.json",
+  "dropped_sealed": 0
+}

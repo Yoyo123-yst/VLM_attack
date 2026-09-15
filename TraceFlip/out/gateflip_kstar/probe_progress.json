@@ -1,0 +1,19 @@
+{
+  "started": "2026-09-15T19:33:22+08:00",
+  "n_cells": 8,
+  "finished": "2026-09-15T19:35:19+08:00",
+  "n_rows": 8,
+  "win_stages": {
+    "k_full": 1,
+    "k_short": 4,
+    "k1_token": 3
+  },
+  "k_stars": {
+    "k_full:11": 1,
+    "k_short:3": 4,
+    "k1_token:1": 3
+  },
+  "terminal_labels": {
+    "gateflip:RHC": 8
+  }
+}

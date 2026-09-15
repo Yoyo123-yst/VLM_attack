@@ -1,0 +1,20 @@
+{
+  "n_probe": 35,
+  "n_screen_kept": 35,
+  "n_screen_rejected": 5,
+  "mean_abs_drA": 0.003521248272487095,
+  "frac_quota_shift": 0.0,
+  "frac_a_out": 0.37142857142857144,
+  "frac_swap_avtp": 0.37142857142857144,
+  "frac_swap_global": 0.5142857142857142,
+  "frac_full_adv_hold": 1.0,
+  "frac_avtp_comp_fail": 0.0,
+  "n_causal": 13,
+  "frac_isolated_recover": 1.0,
+  "frac_restore_a_recover": 1.0,
+  "frac_full_recover_on_evict": 1.0,
+  "decision": "CONTINUE",
+  "reason": "B changes A's quota or survivor set while full-token mostly holds",
+  "dataset": "coco300_standin",
+  "model": "Qwen2-VL-7B-Instruct"
+}

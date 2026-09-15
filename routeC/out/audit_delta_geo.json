@@ -1,0 +1,93 @@
+{
+  "n_content_pairs": 9,
+  "pairs": [
+    {
+      "pair_id": "h56:c08:eps0.062745:1-5",
+      "rhc_record_id": "h56:c08:e16:r1",
+      "safe_record_id": "h56:c08:e16:r5",
+      "cosine": 0.029706062749028206,
+      "corr_distance": 0.970606826771911
+    },
+    {
+      "pair_id": "h56:c08:eps0.062745:4-3",
+      "rhc_record_id": "h56:c08:e16:r4",
+      "safe_record_id": "h56:c08:e16:r3",
+      "cosine": 0.041143998503685,
+      "corr_distance": 0.9591879130314807
+    },
+    {
+      "pair_id": "h64:c08:eps0.062745:3-6",
+      "rhc_record_id": "h64:c08:e16:r3",
+      "safe_record_id": "h64:c08:e16:r6",
+      "cosine": 0.032338034361600876,
+      "corr_distance": 0.9679841043283811
+    },
+    {
+      "pair_id": "h66:c07:eps0.062745:0-3",
+      "rhc_record_id": "h66:c07:e16:r0",
+      "safe_record_id": "h66:c07:e16:r3",
+      "cosine": 0.015500074252486229,
+      "corr_distance": 0.9845563415808394
+    },
+    {
+      "pair_id": "h66:c08:eps0.062745:1-5",
+      "rhc_record_id": "h66:c08:e16:r1",
+      "safe_record_id": "h66:c08:e16:r5",
+      "cosine": 0.03036370687186718,
+      "corr_distance": 0.9698972440888757
+    },
+    {
+      "pair_id": "h72:c07:eps0.062745:5-3",
+      "rhc_record_id": "h72:c07:e16:r5",
+      "safe_record_id": "h72:c07:e16:r3",
+      "cosine": 0.035351745784282684,
+      "corr_distance": 0.9647139569626075
+    },
+    {
+      "pair_id": "h72:c08:eps0.062745:2-0",
+      "rhc_record_id": "h72:c08:e16:r2",
+      "safe_record_id": "h72:c08:e16:r0",
+      "cosine": 0.03956117108464241,
+      "corr_distance": 0.9606926342845519
+    },
+    {
+      "pair_id": "h74:c07:eps0.062745:4-0",
+      "rhc_record_id": "h74:c07:e16:r4",
+      "safe_record_id": "h74:c07:e16:r0",
+      "cosine": 0.031785737723112106,
+      "corr_distance": 0.9682656278065742
+    },
+    {
+      "pair_id": "h74:c08:eps0.062745:7-3",
+      "rhc_record_id": "h74:c08:e16:r7",
+      "safe_record_id": "h74:c08:e16:r3",
+      "cosine": 0.020987382158637047,
+      "corr_distance": 0.9793210381855442
+    }
+  ],
+  "same_cell_pairwise_cosine": {
+    "n": 13,
+    "mean": 0.032088877203372806,
+    "min": 0.015500074252486229,
+    "max": 0.041143998503685,
+    "values": [
+      0.03747886046767235,
+      0.03681096434593201,
+      0.029706062749028206,
+      0.041143998503685,
+      0.0350491888821125,
+      0.031078476458787918,
+      0.032338034361600876,
+      0.015500074252486229,
+      0.03036370687186718,
+      0.035351745784282684,
+      0.03956117108464241,
+      0.031785737723112106,
+      0.020987382158637047
+    ]
+  },
+  "verdict": {
+    "distinct_if_cos_near_zero_or_negative": true,
+    "note": "cos≈0/negative across pairs => same-cell SAFE vs RHC deltas are orthogonal, not small perturbations; 'same-cell pairing' concept void."
+  }
+}

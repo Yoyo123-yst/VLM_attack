@@ -1,0 +1,37 @@
+{
+  "isolation": {
+    "n_probe": 90,
+    "n_attack_test": 40,
+    "probe_attack_overlap": 0,
+    "n_discover": 40,
+    "n_holdout": 30,
+    "discover_holdout_overlap": 0,
+    "n_trace_records": 140
+  },
+  "provenance": {
+    "traces_rhc_sha256": "ea5235cab9c0cd26b445f33f1aa5e5d0101be69c59b5c9ef385423c4b36ed3aa",
+    "traces_sha256": "bcd571b07dcb96eb193a3283fe89d79f6b72dc0313bdd3b927c14843899ebdda",
+    "subspace_sha256": "548117dc1ac7ab78be4e6394dabff041dc194fd089c1415e67e7d3c70787b397",
+    "u_matrix_sha256": "d616a91b66151701607b6039cc34d3763710082abd52b74835012ce2ba558abe",
+    "test_catalog_sha256": "6e9aae963e1c3ae0530fb1d2b6113a562e63d4ff5ea975b9da40a165c7e59ea6",
+    "catalog_sha256": "df15bad163759e7db5e118adfb1a42e6a9dc8735942416509cc49aa0417c79a8",
+    "model_revision": "93cc24eb2ca3e3680ce937d4fe2692f6e224231a55004394270eb85598e0a10d",
+    "attack_config_sha256": "ce4c4a417cfe3ab7291e364fa889d19a1a6f5ee12bbf756e5bf8e42df39d2b26",
+    "model_path": "/root/autodl-tmp/models/Qwen2-VL-7B-Instruct",
+    "pin_layer": 24,
+    "pin_requested_rank": 32,
+    "n_discover_rhc": 27,
+    "effective_rank": 26,
+    "requested_rank": 32,
+    "used_rank": 26,
+    "centered": true
+  },
+  "subspace_aligned": false,
+  "requested_rank": 32,
+  "effective_rank": 26,
+  "used_rank": 26,
+  "n_discover_rhc": 27,
+  "archived": {},
+  "patch_cache_ok": true,
+  "causal_cache_ok": true
+}

@@ -1,0 +1,9 @@
+{
+  "n": 321,
+  "by_kind": {
+    "REFUSE": 259,
+    "DENY": 45,
+    "UNGROUNDED": 4,
+    "GARBAGE": 13
+  }
+}

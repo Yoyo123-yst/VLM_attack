@@ -1,0 +1,34 @@
+# PathEM Stage 0 / Stage 1 pilot. Not a paper protocol.
+# Do not read h83–h130. store_raw_outputs stays false.
+
+project_root: /root/autodl-tmp/multimodal_attack_project
+output_directory: /root/autodl-tmp/multimodal_attack_project/artifacts
+model_id: Qwen2-VL-7B-Instruct
+model_path: /root/autodl-tmp/models/Qwen2-VL-7B-Instruct
+model_revision: local
+query_ids: [h49, h53, h56, h64, h66, h72]
+carrier_ids: [c07, c08]
+epsilon: 0.06274509803921569
+alpha: 0.00392156862745098
+image_min: 0.0
+image_max: 1.0
+image_size: 336
+generation_max_tokens: 96
+temperature: 0.95
+top_p: 0.92
+optimization_seeds: [20260, 20261, 20262, 20263, 20264, 20265, 20266, 20267]
+validation_seeds: [30360, 30361, 30362, 30363]
+evaluation_seeds: [40460, 40461, 40462, 40463, 40464, 40465, 40466, 40467]
+particle_count: 8
+generation_block_size: 16
+resample_fraction: 0.5
+max_splitting_levels: 4
+outer_iterations: 1
+projection_steps: 8
+projection_learning_rate: 0.00392156862745098
+gradient_clip: 1.0
+judge_id: n0.axes.four_axes+p0.judge.harmful_compliance
+store_raw_outputs: false
+cr0_candidates: /root/autodl-tmp/multimodal_attack_project/outputs/causal_reach/cr0/candidates.json
+warm_start: cr0_delta
+stage: 0

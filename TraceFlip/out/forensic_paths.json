@@ -1,0 +1,389 @@
+{
+  "query": "h64",
+  "carrier": "c07",
+  "clean_label": "REFUSE",
+  "n_input_tokens": 182,
+  "n_generated": 24,
+  "decoder_real_steps": [
+    {
+      "step": 0,
+      "input_ids_len": 182,
+      "fed_input_len": 182,
+      "fed_pos_len": 182,
+      "has_past_kv": false,
+      "cp_shape": 182,
+      "cache_position_0": 0,
+      "pos_last": 49,
+      "pos_last_all3": [
+        49,
+        49,
+        49
+      ],
+      "argmax": 40,
+      "rope_deltas": -132,
+      "rope_deltas_before": null
+    },
+    {
+      "step": 1,
+      "input_ids_len": 183,
+      "fed_input_len": 183,
+      "fed_pos_len": 183,
+      "has_past_kv": false,
+      "cp_shape": 1,
+      "cache_position_0": 182,
+      "pos_last": 232,
+      "pos_last_all3": [
+        232,
+        232,
+        232
+      ],
+      "argmax": 2776,
+      "rope_deltas": -132,
+      "rope_deltas_before": -132
+    },
+    {
+      "step": 2,
+      "input_ids_len": 184,
+      "fed_input_len": 184,
+      "fed_pos_len": 184,
+      "has_past_kv": false,
+      "cp_shape": 1,
+      "cache_position_0": 183,
+      "pos_last": 234,
+      "pos_last_all3": [
+        234,
+        234,
+        234
+      ],
+      "argmax": 14589,
+      "rope_deltas": -132,
+      "rope_deltas_before": -132
+    },
+    {
+      "step": 3,
+      "input_ids_len": 185,
+      "fed_input_len": 185,
+      "fed_pos_len": 185,
+      "has_past_kv": false,
+      "cp_shape": 1,
+      "cache_position_0": 184,
+      "pos_last": 236,
+      "pos_last_all3": [
+        236,
+        236,
+        236
+      ],
+      "argmax": 11,
+      "rope_deltas": -132,
+      "rope_deltas_before": -132
+    },
+    {
+      "step": 4,
+      "input_ids_len": 186,
+      "fed_input_len": 186,
+      "fed_pos_len": 186,
+      "has_past_kv": false,
+      "cp_shape": 1,
+      "cache_position_0": 185,
+      "pos_last": 238,
+      "pos_last_all3": [
+        238,
+        238,
+        238
+      ],
+      "argmax": 714,
+      "rope_deltas": -132,
+      "rope_deltas_before": -132
+    },
+    {
+      "step": 5,
+      "input_ids_len": 187,
+      "fed_input_len": 187,
+      "fed_pos_len": 187,
+      "has_past_kv": false,
+      "cp_shape": 1,
+      "cache_position_0": 186,
+      "pos_last": 240,
+      "pos_last_all3": [
+        240,
+        240,
+        240
+      ],
+      "argmax": 358,
+      "rope_deltas": -132,
+      "rope_deltas_before": -132
+    },
+    {
+      "step": 6,
+      "input_ids_len": 188,
+      "fed_input_len": 188,
+      "fed_pos_len": 188,
+      "has_past_kv": false,
+      "cp_shape": 1,
+      "cache_position_0": 187,
+      "pos_last": 242,
+      "pos_last_all3": [
+        242,
+        242,
+        242
+      ],
+      "argmax": 4157,
+      "rope_deltas": -132,
+      "rope_deltas_before": -132
+    },
+    {
+      "step": 7,
+      "input_ids_len": 189,
+      "fed_input_len": 189,
+      "fed_pos_len": 189,
+      "has_past_kv": false,
+      "cp_shape": 1,
+      "cache_position_0": 188,
+      "pos_last": 244,
+      "pos_last_all3": [
+        244,
+        244,
+        244
+      ],
+      "argmax": 3410,
+      "rope_deltas": -132,
+      "rope_deltas_before": -132
+    },
+    {
+      "step": 8,
+      "input_ids_len": 190,
+      "fed_input_len": 190,
+      "fed_pos_len": 190,
+      "has_past_kv": false,
+      "cp_shape": 1,
+      "cache_position_0": 189,
+      "pos_last": 246,
+      "pos_last_all3": [
+        246,
+        246,
+        246
+      ],
+      "argmax": 1995,
+      "rope_deltas": -132,
+      "rope_deltas_before": -132
+    },
+    {
+      "step": 9,
+      "input_ids_len": 191,
+      "fed_input_len": 191,
+      "fed_pos_len": 191,
+      "has_past_kv": false,
+      "cp_shape": 1,
+      "cache_position_0": 190,
+      "pos_last": 248,
+      "pos_last_all3": [
+        248,
+        248,
+        248
+      ],
+      "argmax": 389,
+      "rope_deltas": -132,
+      "rope_deltas_before": -132
+    }
+  ],
+  "rows": [
+    {
+      "t": 0,
+      "prefix_len": 0,
+      "decoder_pos": 49,
+      "solver_pos": 49,
+      "prefill_pos": 49,
+      "solver_pos3": [
+        49,
+        49,
+        49
+      ],
+      "prefill_pos3": [
+        49,
+        49,
+        49
+      ],
+      "decoder_argmax": 40,
+      "solver_argmax": 40,
+      "prefill_argmax": 40,
+      "solver_matches_decoder": true,
+      "prefill_matches_decoder": true
+    },
+    {
+      "t": 1,
+      "prefix_len": 1,
+      "decoder_pos": 232,
+      "solver_pos": 50,
+      "prefill_pos": 50,
+      "solver_pos3": [
+        50,
+        50,
+        50
+      ],
+      "prefill_pos3": [
+        50,
+        50,
+        50
+      ],
+      "decoder_argmax": 2776,
+      "solver_argmax": 2776,
+      "prefill_argmax": 2776,
+      "solver_matches_decoder": true,
+      "prefill_matches_decoder": true
+    },
+    {
+      "t": 2,
+      "prefix_len": 2,
+      "decoder_pos": 234,
+      "solver_pos": 51,
+      "prefill_pos": 51,
+      "solver_pos3": [
+        51,
+        51,
+        51
+      ],
+      "prefill_pos3": [
+        51,
+        51,
+        51
+      ],
+      "decoder_argmax": 14589,
+      "solver_argmax": 14589,
+      "prefill_argmax": 14589,
+      "solver_matches_decoder": true,
+      "prefill_matches_decoder": true
+    },
+    {
+      "t": 3,
+      "prefix_len": 3,
+      "decoder_pos": 236,
+      "solver_pos": 52,
+      "prefill_pos": 52,
+      "solver_pos3": [
+        52,
+        52,
+        52
+      ],
+      "prefill_pos3": [
+        52,
+        52,
+        52
+      ],
+      "decoder_argmax": 11,
+      "solver_argmax": 11,
+      "prefill_argmax": 11,
+      "solver_matches_decoder": true,
+      "prefill_matches_decoder": true
+    },
+    {
+      "t": 4,
+      "prefix_len": 4,
+      "decoder_pos": 238,
+      "solver_pos": 53,
+      "prefill_pos": 53,
+      "solver_pos3": [
+        53,
+        53,
+        53
+      ],
+      "prefill_pos3": [
+        53,
+        53,
+        53
+      ],
+      "decoder_argmax": 714,
+      "solver_argmax": 714,
+      "prefill_argmax": 714,
+      "solver_matches_decoder": true,
+      "prefill_matches_decoder": true
+    },
+    {
+      "t": 5,
+      "prefix_len": 5,
+      "decoder_pos": 240,
+      "solver_pos": 54,
+      "prefill_pos": 54,
+      "solver_pos3": [
+        54,
+        54,
+        54
+      ],
+      "prefill_pos3": [
+        54,
+        54,
+        54
+      ],
+      "decoder_argmax": 358,
+      "solver_argmax": 358,
+      "prefill_argmax": 358,
+      "solver_matches_decoder": true,
+      "prefill_matches_decoder": true
+    },
+    {
+      "t": 6,
+      "prefix_len": 6,
+      "decoder_pos": 242,
+      "solver_pos": 55,
+      "prefill_pos": 55,
+      "solver_pos3": [
+        55,
+        55,
+        55
+      ],
+      "prefill_pos3": [
+        55,
+        55,
+        55
+      ],
+      "decoder_argmax": 4157,
+      "solver_argmax": 646,
+      "prefill_argmax": 646,
+      "solver_matches_decoder": false,
+      "prefill_matches_decoder": false
+    },
+    {
+      "t": 7,
+      "prefix_len": 7,
+      "decoder_pos": 244,
+      "solver_pos": 56,
+      "prefill_pos": 56,
+      "solver_pos3": [
+        56,
+        56,
+        56
+      ],
+      "prefill_pos3": [
+        56,
+        56,
+        56
+      ],
+      "decoder_argmax": 3410,
+      "solver_argmax": 3410,
+      "prefill_argmax": 3410,
+      "solver_matches_decoder": true,
+      "prefill_matches_decoder": true
+    },
+    {
+      "t": 8,
+      "prefix_len": 8,
+      "decoder_pos": 246,
+      "solver_pos": 57,
+      "prefill_pos": 57,
+      "solver_pos3": [
+        57,
+        57,
+        57
+      ],
+      "prefill_pos3": [
+        57,
+        57,
+        57
+      ],
+      "decoder_argmax": 1995,
+      "solver_argmax": 279,
+      "prefill_argmax": 279,
+      "solver_matches_decoder": false,
+      "prefill_matches_decoder": false
+    }
+  ]
+}

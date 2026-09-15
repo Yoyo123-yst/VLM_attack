@@ -1,0 +1,101 @@
+{
+  "full": {
+    "name": "full",
+    "features": [
+      "refusal_margin",
+      "logit_max",
+      "frac",
+      "prefix_word_count",
+      "full_word_count",
+      "token_count",
+      "stage_early",
+      "stage_mid",
+      "stage_late",
+      "stage_pre_eos"
+    ],
+    "coef": {
+      "refusal_margin": -1.1796207307602302,
+      "logit_max": -0.2771957106111323,
+      "frac": -0.4764334521706465,
+      "prefix_word_count": 0.25214269037154297,
+      "full_word_count": 0.48525667351245116,
+      "token_count": 0.48525667351245116,
+      "stage_early": -0.15889425600709473,
+      "stage_mid": -0.05054125426267587,
+      "stage_late": 0.05516359781418105,
+      "stage_pre_eos": 0.15427191245558955
+    },
+    "intercept": -0.5863677501433411,
+    "train": {
+      "n": 192,
+      "n_pos": 52,
+      "prevalence": 0.2708333333333333,
+      "auroc": 0.8078296703296703,
+      "brier": 0.18233351830319133,
+      "brier_prevalence": 0.19748263888888892
+    },
+    "val": {
+      "n": 128,
+      "n_pos": 56,
+      "prevalence": 0.4375,
+      "auroc": 0.75,
+      "brier": 0.18288348149988132,
+      "brier_prevalence": 0.24609375
+    },
+    "val_auroc_by_stage": {
+      "early": 0.7261904761904762,
+      "mid": 0.75,
+      "late": 0.75,
+      "pre_eos": 0.7579365079365079
+    },
+    "better_than_random": true,
+    "brier_beats_prevalence": true,
+    "not_only_eos": true,
+    "advisory_auroc_070": true,
+    "gate": "GO"
+  },
+  "refusal_margin": {
+    "name": "refusal_margin",
+    "features": [
+      "refusal_margin"
+    ],
+    "coef": {
+      "refusal_margin": -0.940769689186803
+    },
+    "intercept": -0.1931011847384517,
+    "train": {
+      "n": 192,
+      "n_pos": 52,
+      "prevalence": 0.2708333333333333,
+      "auroc": 0.653846153846154,
+      "brier": 0.22198569176033808,
+      "brier_prevalence": 0.19748263888888892
+    },
+    "val": {
+      "n": 128,
+      "n_pos": 56,
+      "prevalence": 0.4375,
+      "auroc": 0.7063492063492064,
+      "brier": 0.21299844848189534,
+      "brier_prevalence": 0.24609375
+    },
+    "val_auroc_by_stage": {
+      "early": 0.7063492063492064,
+      "mid": 0.7063492063492064,
+      "late": 0.7063492063492064,
+      "pre_eos": 0.7063492063492064
+    },
+    "better_than_random": true,
+    "brier_beats_prevalence": true,
+    "not_only_eos": true,
+    "advisory_auroc_070": true,
+    "gate": "GO"
+  },
+  "full_not_better_than_margin": false,
+  "gate": "GO",
+  "note": "full features are not last-layer prefix hidden; Stage 1 uses cheap first-token margin + length + stage indicators.",
+  "written": "2026-09-14T22:21:35+08:00",
+  "n_prefix": 320,
+  "n_traj": 80,
+  "collect_gate": "GO"
+}

@@ -1,0 +1,337 @@
+{
+  "annotators": 1,
+  "method": "interval_rule_relabel",
+  "n_sample": 10,
+  "frac": 0.2,
+  "agreement": {
+    "safety": 1.0,
+    "response_mode": 1.0,
+    "grounding": 1.0,
+    "quality": 1.0
+  },
+  "dispute_rule": "rule-based four_axes is source of truth; keep after-label on disagreement",
+  "pair_ids": [
+    "h02:c02",
+    "h17:c04",
+    "h54:c03",
+    "h19:c02",
+    "h68:c03",
+    "h29:c02",
+    "h17:c02",
+    "h18:c04",
+    "h37:c01",
+    "h28:c01"
+  ],
+  "before_after": [
+    {
+      "pair_id": "h02:c02",
+      "before": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      },
+      "after": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      }
+    },
+    {
+      "pair_id": "h17:c04",
+      "before": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      },
+      "after": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      }
+    },
+    {
+      "pair_id": "h54:c03",
+      "before": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      },
+      "after": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      }
+    },
+    {
+      "pair_id": "h19:c02",
+      "before": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      },
+      "after": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      }
+    },
+    {
+      "pair_id": "h68:c03",
+      "before": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      },
+      "after": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      }
+    },
+    {
+      "pair_id": "h29:c02",
+      "before": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      },
+      "after": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      }
+    },
+    {
+      "pair_id": "h17:c02",
+      "before": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      },
+      "after": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      }
+    },
+    {
+      "pair_id": "h18:c04",
+      "before": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      },
+      "after": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      }
+    },
+    {
+      "pair_id": "h37:c01",
+      "before": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      },
+      "after": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      }
+    },
+    {
+      "pair_id": "h28:c01",
+      "before": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      },
+      "after": {
+        "rhc": {
+          "safety": "RHC",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        },
+        "safe": {
+          "safety": "SAFE",
+          "response_mode": "ANSWER",
+          "grounding": "GROUNDED",
+          "quality": "FLUENT"
+        }
+      }
+    }
+  ]
+}

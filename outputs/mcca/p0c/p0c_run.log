@@ -1,0 +1,224 @@
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:04,  1.15s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:03,  1.14s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:03<00:02,  1.13s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:04<00:01,  1.13s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:04<00:00,  1.18it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:04<00:00,  1.03it/s]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+{'static': 'h49:c07:e16:r6', 'progress': '1/68', 'L_c1': 3.7596330642700195, 'L_c2': 0.4525538682937622}
+{'static': 'h49:c07:e16:r7', 'progress': '2/68', 'L_c1': 3.8135812282562256, 'L_c2': 0.45978063344955444}
+{'static': 'h49:c08:e16:r1', 'progress': '3/68', 'L_c1': 3.803234815597534, 'L_c2': 0.47069594264030457}
+{'static': 'h49:c08:e16:r2', 'progress': '4/68', 'L_c1': 3.9528071880340576, 'L_c2': 0.5063973665237427}
+{'static': 'h49:c08:e16:r4', 'progress': '5/68', 'L_c1': 3.9634199142456055, 'L_c2': 0.49855953454971313}
+{'static': 'h53:c08:e16:r0', 'progress': '6/68', 'L_c1': 5.243653297424316, 'L_c2': 0.7568763494491577}
+{'static': 'h53:c08:e16:r4', 'progress': '7/68', 'L_c1': 5.144886016845703, 'L_c2': 0.7452656030654907}
+{'static': 'h53:c08:e16:r6', 'progress': '8/68', 'L_c1': 5.2531890869140625, 'L_c2': 0.7200724482536316}
+{'static': 'h56:c07:e16:r0', 'progress': '9/68', 'L_c1': 4.3350067138671875, 'L_c2': 0.624262809753418}
+{'static': 'h56:c07:e16:r1', 'progress': '10/68', 'L_c1': 4.361634731292725, 'L_c2': 0.6574859619140625}
+{'static': 'h56:c07:e16:r2', 'progress': '11/68', 'L_c1': 4.425565242767334, 'L_c2': 0.7114896178245544}
+{'static': 'h56:c07:e16:r3', 'progress': '12/68', 'L_c1': 4.368711471557617, 'L_c2': 0.7147632241249084}
+{'static': 'h56:c07:e16:r4', 'progress': '13/68', 'L_c1': 4.367427349090576, 'L_c2': 0.6484725475311279}
+{'static': 'h56:c07:e16:r5', 'progress': '14/68', 'L_c1': 4.401638984680176, 'L_c2': 0.7216970920562744}
+{'static': 'h56:c08:e16:r1', 'progress': '15/68', 'L_c1': 4.294451713562012, 'L_c2': 0.6754387617111206}
+{'static': 'h56:c08:e16:r3', 'progress': '16/68', 'L_c1': 4.368958950042725, 'L_c2': 0.6918007731437683}
+{'static': 'h56:c08:e16:r4', 'progress': '17/68', 'L_c1': 4.408515930175781, 'L_c2': 0.674591064453125}
+{'static': 'h56:c08:e16:r5', 'progress': '18/68', 'L_c1': 4.391606330871582, 'L_c2': 0.7317582368850708}
+{'static': 'h56:c08:e16:r6', 'progress': '19/68', 'L_c1': 4.275298118591309, 'L_c2': 0.6773417592048645}
+{'static': 'h56:c08:e16:r7', 'progress': '20/68', 'L_c1': 4.238645553588867, 'L_c2': 0.6327459216117859}
+{'static': 'h61:c07:e16:r6', 'progress': '21/68', 'L_c1': 4.568426132202148, 'L_c2': 0.1615491509437561}
+{'static': 'h64:c07:e16:r1', 'progress': '22/68', 'L_c1': 4.8752121925354, 'L_c2': 0.39578425884246826}
+{'static': 'h64:c07:e16:r2', 'progress': '23/68', 'L_c1': 4.896211624145508, 'L_c2': 0.38814201951026917}
+{'static': 'h64:c07:e16:r3', 'progress': '24/68', 'L_c1': 4.951194763183594, 'L_c2': 0.3716798722743988}
+{'static': 'h64:c07:e16:r4', 'progress': '25/68', 'L_c1': 4.845296859741211, 'L_c2': 0.3660588264465332}
+{'static': 'h64:c07:e16:r5', 'progress': '26/68', 'L_c1': 4.737391471862793, 'L_c2': 0.35531046986579895}
+{'static': 'h64:c07:e16:r7', 'progress': '27/68', 'L_c1': 4.807117462158203, 'L_c2': 0.35918140411376953}
+{'static': 'h64:c08:e16:r3', 'progress': '28/68', 'L_c1': 4.717223167419434, 'L_c2': 0.34351077675819397}
+{'static': 'h64:c08:e16:r6', 'progress': '29/68', 'L_c1': 4.696245193481445, 'L_c2': 0.3322213292121887}
+{'static': 'h64:c08:e16:r7', 'progress': '30/68', 'L_c1': 4.831708908081055, 'L_c2': 0.3855923116207123}
+{'static': 'h66:c07:e16:r0', 'progress': '31/68', 'L_c1': 3.8433845043182373, 'L_c2': 0.3271476626396179}
+{'static': 'h66:c07:e16:r2', 'progress': '32/68', 'L_c1': 3.731459379196167, 'L_c2': 0.30794867873191833}
+{'static': 'h66:c07:e16:r3', 'progress': '33/68', 'L_c1': 3.6556079387664795, 'L_c2': 0.2904014587402344}
+{'static': 'h66:c07:e16:r4', 'progress': '34/68', 'L_c1': 3.7980170249938965, 'L_c2': 0.31511828303337097}
+{'static': 'h66:c07:e16:r5', 'progress': '35/68', 'L_c1': 3.7754898071289062, 'L_c2': 0.32919302582740784}
+{'static': 'h66:c07:e16:r7', 'progress': '36/68', 'L_c1': 3.732405424118042, 'L_c2': 0.3080308437347412}
+{'static': 'h66:c08:e16:r1', 'progress': '37/68', 'L_c1': 3.872420072555542, 'L_c2': 0.30372709035873413}
+{'static': 'h66:c08:e16:r2', 'progress': '38/68', 'L_c1': 3.8561205863952637, 'L_c2': 0.31099244952201843}
+{'static': 'h66:c08:e16:r3', 'progress': '39/68', 'L_c1': 3.95514178276062, 'L_c2': 0.33318859338760376}
+{'static': 'h66:c08:e16:r4', 'progress': '40/68', 'L_c1': 3.8497581481933594, 'L_c2': 0.31273961067199707}
+{'static': 'h66:c08:e16:r5', 'progress': '41/68', 'L_c1': 3.8895206451416016, 'L_c2': 0.3227906823158264}
+{'static': 'h66:c08:e16:r6', 'progress': '42/68', 'L_c1': 3.872971534729004, 'L_c2': 0.3147152066230774}
+{'static': 'h66:c08:e16:r7', 'progress': '43/68', 'L_c1': 3.8328864574432373, 'L_c2': 0.3105590343475342}
+{'static': 'h68:c07:e16:r2', 'progress': '44/68', 'L_c1': 4.089445114135742, 'L_c2': 0.22420340776443481}
+{'static': 'h68:c07:e16:r5', 'progress': '45/68', 'L_c1': 4.03630256652832, 'L_c2': 0.30121657252311707}
+{'static': 'h68:c08:e16:r0', 'progress': '46/68', 'L_c1': 4.091985702514648, 'L_c2': 0.29908525943756104}
+{'static': 'h68:c08:e16:r1', 'progress': '47/68', 'L_c1': 4.105984687805176, 'L_c2': 0.38739970326423645}
+{'static': 'h68:c08:e16:r2', 'progress': '48/68', 'L_c1': 4.165952682495117, 'L_c2': 0.3614249527454376}
+{'static': 'h68:c08:e16:r3', 'progress': '49/68', 'L_c1': 4.108174800872803, 'L_c2': 0.28844740986824036}
+{'static': 'h68:c08:e16:r6', 'progress': '50/68', 'L_c1': 4.083837509155273, 'L_c2': 0.3486096262931824}
+{'static': 'h68:c08:e16:r7', 'progress': '51/68', 'L_c1': 4.233436107635498, 'L_c2': 0.33117181062698364}
+{'static': 'h72:c07:e16:r0', 'progress': '52/68', 'L_c1': 4.536683559417725, 'L_c2': 1.0250437259674072}
+{'static': 'h72:c07:e16:r3', 'progress': '53/68', 'L_c1': 4.427550792694092, 'L_c2': 0.9983986616134644}
+{'static': 'h72:c07:e16:r4', 'progress': '54/68', 'L_c1': 4.513988018035889, 'L_c2': 1.0714064836502075}
+{'static': 'h72:c07:e16:r5', 'progress': '55/68', 'L_c1': 4.508559226989746, 'L_c2': 1.0524009466171265}
+{'static': 'h72:c07:e16:r7', 'progress': '56/68', 'L_c1': 4.413244247436523, 'L_c2': 1.0217540264129639}
+{'static': 'h72:c08:e16:r0', 'progress': '57/68', 'L_c1': 4.56097412109375, 'L_c2': 1.0917062759399414}
+{'static': 'h72:c08:e16:r2', 'progress': '58/68', 'L_c1': 4.34164571762085, 'L_c2': 0.9332213401794434}
+{'static': 'h72:c08:e16:r6', 'progress': '59/68', 'L_c1': 4.547021865844727, 'L_c2': 1.1031529903411865}
+{'static': 'h74:c07:e16:r0', 'progress': '60/68', 'L_c1': 4.356767177581787, 'L_c2': 0.6847141981124878}
+{'static': 'h74:c07:e16:r4', 'progress': '61/68', 'L_c1': 4.448331356048584, 'L_c2': 0.7139730453491211}
+{'static': 'h74:c08:e16:r3', 'progress': '62/68', 'L_c1': 4.3134660720825195, 'L_c2': 0.6603034138679504}
+{'static': 'h74:c08:e16:r7', 'progress': '63/68', 'L_c1': 4.354952812194824, 'L_c2': 0.659982442855835}
+{'static': 'h80:c07:e16:r0', 'progress': '64/68', 'L_c1': 4.152877330780029, 'L_c2': 0.6528648138046265}
+{'static': 'h80:c07:e16:r4', 'progress': '65/68', 'L_c1': 4.346592903137207, 'L_c2': 0.6548607349395752}
+{'static': 'h80:c08:e16:r0', 'progress': '66/68', 'L_c1': 4.261202812194824, 'L_c2': 0.6373673677444458}
+{'static': 'h80:c08:e16:r5', 'progress': '67/68', 'L_c1': 4.225094318389893, 'L_c2': 0.633623480796814}
+{'static': 'h80:c08:e16:r6', 'progress': '68/68', 'L_c1': 4.218389987945557, 'L_c2': 0.6735712885856628}
+{'actuator': 'h53:c08:e16:r0', 'branch': 'B0', 'progress': '1/150'}
+{'actuator': 'h53:c08:e16:r0', 'branch': 'B1', 'progress': '2/150'}
+{'actuator': 'h53:c08:e16:r0', 'branch': 'B2', 'progress': '3/150'}
+{'actuator': 'h53:c08:e16:r0', 'branch': 'B3', 'progress': '4/150'}
+{'actuator': 'h53:c08:e16:r0', 'branch': 'B4', 'progress': '5/150'}
+{'actuator': 'h53:c08:e16:r4', 'branch': 'B0', 'progress': '6/150'}
+{'actuator': 'h53:c08:e16:r4', 'branch': 'B1', 'progress': '7/150'}
+{'actuator': 'h53:c08:e16:r4', 'branch': 'B2', 'progress': '8/150'}
+{'actuator': 'h53:c08:e16:r4', 'branch': 'B3', 'progress': '9/150'}
+{'actuator': 'h53:c08:e16:r4', 'branch': 'B4', 'progress': '10/150'}
+{'actuator': 'h53:c08:e16:r6', 'branch': 'B0', 'progress': '11/150'}
+{'actuator': 'h53:c08:e16:r6', 'branch': 'B1', 'progress': '12/150'}
+{'actuator': 'h53:c08:e16:r6', 'branch': 'B2', 'progress': '13/150'}
+{'actuator': 'h53:c08:e16:r6', 'branch': 'B3', 'progress': '14/150'}
+{'actuator': 'h53:c08:e16:r6', 'branch': 'B4', 'progress': '15/150'}
+{'actuator': 'h56:c08:e16:r3', 'branch': 'B0', 'progress': '16/150'}
+{'actuator': 'h56:c08:e16:r3', 'branch': 'B1', 'progress': '17/150'}
+{'actuator': 'h56:c08:e16:r3', 'branch': 'B2', 'progress': '18/150'}
+{'actuator': 'h56:c08:e16:r3', 'branch': 'B3', 'progress': '19/150'}
+{'actuator': 'h56:c08:e16:r3', 'branch': 'B4', 'progress': '20/150'}
+{'actuator': 'h56:c08:e16:r5', 'branch': 'B0', 'progress': '21/150'}
+{'actuator': 'h56:c08:e16:r5', 'branch': 'B1', 'progress': '22/150'}
+{'actuator': 'h56:c08:e16:r5', 'branch': 'B2', 'progress': '23/150'}
+{'actuator': 'h56:c08:e16:r5', 'branch': 'B3', 'progress': '24/150'}
+{'actuator': 'h56:c08:e16:r5', 'branch': 'B4', 'progress': '25/150'}
+{'actuator': 'h64:c08:e16:r6', 'branch': 'B0', 'progress': '26/150'}
+{'actuator': 'h64:c08:e16:r6', 'branch': 'B1', 'progress': '27/150'}
+{'actuator': 'h64:c08:e16:r6', 'branch': 'B2', 'progress': '28/150'}
+{'actuator': 'h64:c08:e16:r6', 'branch': 'B3', 'progress': '29/150'}
+{'actuator': 'h64:c08:e16:r6', 'branch': 'B4', 'progress': '30/150'}
+{'actuator': 'h66:c07:e16:r3', 'branch': 'B0', 'progress': '31/150'}
+{'actuator': 'h66:c07:e16:r3', 'branch': 'B1', 'progress': '32/150'}
+{'actuator': 'h66:c07:e16:r3', 'branch': 'B2', 'progress': '33/150'}
+{'actuator': 'h66:c07:e16:r3', 'branch': 'B3', 'progress': '34/150'}
+{'actuator': 'h66:c07:e16:r3', 'branch': 'B4', 'progress': '35/150'}
+{'actuator': 'h66:c08:e16:r5', 'branch': 'B0', 'progress': '36/150'}
+{'actuator': 'h66:c08:e16:r5', 'branch': 'B1', 'progress': '37/150'}
+{'actuator': 'h66:c08:e16:r5', 'branch': 'B2', 'progress': '38/150'}
+{'actuator': 'h66:c08:e16:r5', 'branch': 'B3', 'progress': '39/150'}
+{'actuator': 'h66:c08:e16:r5', 'branch': 'B4', 'progress': '40/150'}
+{'actuator': 'h72:c07:e16:r0', 'branch': 'B0', 'progress': '41/150'}
+{'actuator': 'h72:c07:e16:r0', 'branch': 'B1', 'progress': '42/150'}
+{'actuator': 'h72:c07:e16:r0', 'branch': 'B2', 'progress': '43/150'}
+{'actuator': 'h72:c07:e16:r0', 'branch': 'B3', 'progress': '44/150'}
+{'actuator': 'h72:c07:e16:r0', 'branch': 'B4', 'progress': '45/150'}
+{'actuator': 'h72:c07:e16:r3', 'branch': 'B0', 'progress': '46/150'}
+{'actuator': 'h72:c07:e16:r3', 'branch': 'B1', 'progress': '47/150'}
+{'actuator': 'h72:c07:e16:r3', 'branch': 'B2', 'progress': '48/150'}
+{'actuator': 'h72:c07:e16:r3', 'branch': 'B3', 'progress': '49/150'}
+{'actuator': 'h72:c07:e16:r3', 'branch': 'B4', 'progress': '50/150'}
+{'actuator': 'h72:c07:e16:r4', 'branch': 'B0', 'progress': '51/150'}
+{'actuator': 'h72:c07:e16:r4', 'branch': 'B1', 'progress': '52/150'}
+{'actuator': 'h72:c07:e16:r4', 'branch': 'B2', 'progress': '53/150'}
+{'actuator': 'h72:c07:e16:r4', 'branch': 'B3', 'progress': '54/150'}
+{'actuator': 'h72:c07:e16:r4', 'branch': 'B4', 'progress': '55/150'}
+{'actuator': 'h72:c07:e16:r7', 'branch': 'B0', 'progress': '56/150'}
+{'actuator': 'h72:c07:e16:r7', 'branch': 'B1', 'progress': '57/150'}
+{'actuator': 'h72:c07:e16:r7', 'branch': 'B2', 'progress': '58/150'}
+{'actuator': 'h72:c07:e16:r7', 'branch': 'B3', 'progress': '59/150'}
+{'actuator': 'h72:c07:e16:r7', 'branch': 'B4', 'progress': '60/150'}
+{'actuator': 'h72:c08:e16:r0', 'branch': 'B0', 'progress': '61/150'}
+{'actuator': 'h72:c08:e16:r0', 'branch': 'B1', 'progress': '62/150'}
+{'actuator': 'h72:c08:e16:r0', 'branch': 'B2', 'progress': '63/150'}
+{'actuator': 'h72:c08:e16:r0', 'branch': 'B3', 'progress': '64/150'}
+{'actuator': 'h72:c08:e16:r0', 'branch': 'B4', 'progress': '65/150'}
+{'actuator': 'h74:c07:e16:r0', 'branch': 'B0', 'progress': '66/150'}
+{'actuator': 'h74:c07:e16:r0', 'branch': 'B1', 'progress': '67/150'}
+{'actuator': 'h74:c07:e16:r0', 'branch': 'B2', 'progress': '68/150'}
+{'actuator': 'h74:c07:e16:r0', 'branch': 'B3', 'progress': '69/150'}
+{'actuator': 'h74:c07:e16:r0', 'branch': 'B4', 'progress': '70/150'}
+{'actuator': 'h74:c08:e16:r3', 'branch': 'B0', 'progress': '71/150'}
+{'actuator': 'h74:c08:e16:r3', 'branch': 'B1', 'progress': '72/150'}
+{'actuator': 'h74:c08:e16:r3', 'branch': 'B2', 'progress': '73/150'}
+{'actuator': 'h74:c08:e16:r3', 'branch': 'B3', 'progress': '74/150'}
+{'actuator': 'h74:c08:e16:r3', 'branch': 'B4', 'progress': '75/150'}
+{'actuator': 'h68:c08:e16:r0', 'branch': 'B0', 'progress': '76/150'}
+{'actuator': 'h68:c08:e16:r0', 'branch': 'B1', 'progress': '77/150'}
+{'actuator': 'h68:c08:e16:r0', 'branch': 'B2', 'progress': '78/150'}
+{'actuator': 'h68:c08:e16:r0', 'branch': 'B3', 'progress': '79/150'}
+{'actuator': 'h68:c08:e16:r0', 'branch': 'B4', 'progress': '80/150'}
+{'actuator': 'h49:c08:e16:r4', 'branch': 'B0', 'progress': '81/150'}
+{'actuator': 'h49:c08:e16:r4', 'branch': 'B1', 'progress': '82/150'}
+{'actuator': 'h49:c08:e16:r4', 'branch': 'B2', 'progress': '83/150'}
+{'actuator': 'h49:c08:e16:r4', 'branch': 'B3', 'progress': '84/150'}
+{'actuator': 'h49:c08:e16:r4', 'branch': 'B4', 'progress': '85/150'}
+{'actuator': 'h68:c08:e16:r6', 'branch': 'B0', 'progress': '86/150'}
+{'actuator': 'h68:c08:e16:r6', 'branch': 'B1', 'progress': '87/150'}
+{'actuator': 'h68:c08:e16:r6', 'branch': 'B2', 'progress': '88/150'}
+{'actuator': 'h68:c08:e16:r6', 'branch': 'B3', 'progress': '89/150'}
+{'actuator': 'h68:c08:e16:r6', 'branch': 'B4', 'progress': '90/150'}
+{'actuator': 'h56:c08:e16:r4', 'branch': 'B0', 'progress': '91/150'}
+{'actuator': 'h56:c08:e16:r4', 'branch': 'B1', 'progress': '92/150'}
+{'actuator': 'h56:c08:e16:r4', 'branch': 'B2', 'progress': '93/150'}
+{'actuator': 'h56:c08:e16:r4', 'branch': 'B3', 'progress': '94/150'}
+{'actuator': 'h56:c08:e16:r4', 'branch': 'B4', 'progress': '95/150'}
+{'actuator': 'h56:c08:e16:r6', 'branch': 'B0', 'progress': '96/150'}
+{'actuator': 'h56:c08:e16:r6', 'branch': 'B1', 'progress': '97/150'}
+{'actuator': 'h56:c08:e16:r6', 'branch': 'B2', 'progress': '98/150'}
+{'actuator': 'h56:c08:e16:r6', 'branch': 'B3', 'progress': '99/150'}
+{'actuator': 'h56:c08:e16:r6', 'branch': 'B4', 'progress': '100/150'}
+{'actuator': 'h64:c08:e16:r7', 'branch': 'B0', 'progress': '101/150'}
+{'actuator': 'h64:c08:e16:r7', 'branch': 'B1', 'progress': '102/150'}
+{'actuator': 'h64:c08:e16:r7', 'branch': 'B2', 'progress': '103/150'}
+{'actuator': 'h64:c08:e16:r7', 'branch': 'B3', 'progress': '104/150'}
+{'actuator': 'h64:c08:e16:r7', 'branch': 'B4', 'progress': '105/150'}
+{'actuator': 'h66:c07:e16:r2', 'branch': 'B0', 'progress': '106/150'}
+{'actuator': 'h66:c07:e16:r2', 'branch': 'B1', 'progress': '107/150'}
+{'actuator': 'h66:c07:e16:r2', 'branch': 'B2', 'progress': '108/150'}
+{'actuator': 'h66:c07:e16:r2', 'branch': 'B3', 'progress': '109/150'}
+{'actuator': 'h66:c07:e16:r2', 'branch': 'B4', 'progress': '110/150'}
+{'actuator': 'h66:c08:e16:r6', 'branch': 'B0', 'progress': '111/150'}
+{'actuator': 'h66:c08:e16:r6', 'branch': 'B1', 'progress': '112/150'}
+{'actuator': 'h66:c08:e16:r6', 'branch': 'B2', 'progress': '113/150'}
+{'actuator': 'h66:c08:e16:r6', 'branch': 'B3', 'progress': '114/150'}
+{'actuator': 'h66:c08:e16:r6', 'branch': 'B4', 'progress': '115/150'}
+{'actuator': 'h56:c07:e16:r0', 'branch': 'B0', 'progress': '116/150'}
+{'actuator': 'h56:c07:e16:r0', 'branch': 'B1', 'progress': '117/150'}
+{'actuator': 'h56:c07:e16:r0', 'branch': 'B2', 'progress': '118/150'}
+{'actuator': 'h56:c07:e16:r0', 'branch': 'B3', 'progress': '119/150'}
+{'actuator': 'h56:c07:e16:r0', 'branch': 'B4', 'progress': '120/150'}
+{'actuator': 'h56:c07:e16:r3', 'branch': 'B0', 'progress': '121/150'}
+{'actuator': 'h56:c07:e16:r3', 'branch': 'B1', 'progress': '122/150'}
+{'actuator': 'h56:c07:e16:r3', 'branch': 'B2', 'progress': '123/150'}
+{'actuator': 'h56:c07:e16:r3', 'branch': 'B3', 'progress': '124/150'}
+{'actuator': 'h56:c07:e16:r3', 'branch': 'B4', 'progress': '125/150'}
+{'actuator': 'h72:c07:e16:r5', 'branch': 'B0', 'progress': '126/150'}
+{'actuator': 'h72:c07:e16:r5', 'branch': 'B1', 'progress': '127/150'}
+{'actuator': 'h72:c07:e16:r5', 'branch': 'B2', 'progress': '128/150'}
+{'actuator': 'h72:c07:e16:r5', 'branch': 'B3', 'progress': '129/150'}
+{'actuator': 'h72:c07:e16:r5', 'branch': 'B4', 'progress': '130/150'}
+{'actuator': 'h72:c08:e16:r6', 'branch': 'B0', 'progress': '131/150'}
+{'actuator': 'h72:c08:e16:r6', 'branch': 'B1', 'progress': '132/150'}
+{'actuator': 'h72:c08:e16:r6', 'branch': 'B2', 'progress': '133/150'}
+{'actuator': 'h72:c08:e16:r6', 'branch': 'B3', 'progress': '134/150'}
+{'actuator': 'h72:c08:e16:r6', 'branch': 'B4', 'progress': '135/150'}
+{'actuator': 'h72:c08:e16:r2', 'branch': 'B0', 'progress': '136/150'}
+{'actuator': 'h72:c08:e16:r2', 'branch': 'B1', 'progress': '137/150'}
+{'actuator': 'h72:c08:e16:r2', 'branch': 'B2', 'progress': '138/150'}
+{'actuator': 'h72:c08:e16:r2', 'branch': 'B3', 'progress': '139/150'}
+{'actuator': 'h72:c08:e16:r2', 'branch': 'B4', 'progress': '140/150'}
+{'actuator': 'h74:c07:e16:r4', 'branch': 'B0', 'progress': '141/150'}
+{'actuator': 'h74:c07:e16:r4', 'branch': 'B1', 'progress': '142/150'}
+{'actuator': 'h74:c07:e16:r4', 'branch': 'B2', 'progress': '143/150'}
+{'actuator': 'h74:c07:e16:r4', 'branch': 'B3', 'progress': '144/150'}
+{'actuator': 'h74:c07:e16:r4', 'branch': 'B4', 'progress': '145/150'}
+{'actuator': 'h74:c08:e16:r7', 'branch': 'B0', 'progress': '146/150'}
+{'actuator': 'h74:c08:e16:r7', 'branch': 'B1', 'progress': '147/150'}
+{'actuator': 'h74:c08:e16:r7', 'branch': 'B2', 'progress': '148/150'}
+{'actuator': 'h74:c08:e16:r7', 'branch': 'B3', 'progress': '149/150'}
+{'actuator': 'h74:c08:e16:r7', 'branch': 'B4', 'progress': '150/150'}
+{'route': 'D', 'p0c_unlock_p1': False, 'cells': {'C0': {'static': 'FAIL', 'actuator': 'FAIL', 'cell': 'FAIL_FAIL'}, 'C3': {'static': 'FAIL', 'actuator': 'FAIL', 'cell': 'FAIL_FAIL'}, 'C2': {'static': 'FAIL', 'actuator': 'FAIL', 'cell': 'FAIL_FAIL'}, 'C1': {'static': 'FAIL', 'actuator': 'n/a', 'cell': 'FAIL_FAIL', 'note': 'C1 is a scorer ablation; no dedicated actuator branch'}}}

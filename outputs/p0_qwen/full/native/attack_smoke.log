@@ -1,0 +1,60 @@
+stage=attack scale=full out=/root/autodl-tmp/multimodal_attack_project/outputs/p0_qwen/full smoke_one=True
+cuda free=7.01GB (need >=6.5GB to keep 4-bit LLM on GPU at 336px)
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=7.01GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:02<00:08,  2.10s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:04<00:06,  2.04s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:06<00:04,  2.04s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:08<00:02,  2.00s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:08<00:00,  1.49s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:08<00:00,  1.73s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+reuse calibrate native
+=== setting=native out=/root/autodl-tmp/multimodal_attack_project/outputs/p0_qwen/full/native ===
+refusal_margin_pgd eps=8/255:   0%|          | 0/1 [00:00<?, ?it/s]refusal_margin_pgd eps=8/255:   0%|          | 0/1 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/root/autodl-tmp/multimodal_attack_project/scripts/run_p0_qwen.py", line 808, in <module>
+    main()
+  File "/root/autodl-tmp/multimodal_attack_project/scripts/run_p0_qwen.py", line 804, in main
+    run_setting_pipeline(cfg, out, wrapper, calibrate, args.stage, smoke_one=args.smoke_one)
+  File "/root/autodl-tmp/multimodal_attack_project/scripts/run_p0_qwen.py", line 720, in run_setting_pipeline
+    run_attack(wrapper, cfg, out, traces, probe, sub, causal, smoke_one=smoke_one)
+  File "/root/autodl-tmp/multimodal_attack_project/scripts/run_p0_qwen.py", line 586, in run_attack
+    blob = run_per_sample(
+  File "/root/autodl-tmp/multimodal_attack_project/src/p0_qwen/attacks.py", line 157, in run_per_sample
+    delta = pgd_one(wrapper, img, q["query"], steps, eps, alpha, fn, tvw, eot)
+  File "/root/autodl-tmp/multimodal_attack_project/src/p0_qwen/attacks.py", line 47, in pgd_one
+    loss = loss_fn(pv, ids, attn, grid) + tv_weight * tv_loss(x)
+  File "/root/autodl-tmp/multimodal_attack_project/src/p0_qwen/attacks.py", line 70, in fn
+    logits = wrapper.first_token_logits(pv, ids, attn, grid)
+  File "/root/autodl-tmp/multimodal_attack_project/src/p0_qwen/model.py", line 425, in first_token_logits
+    out = self.model(**kwargs)
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/models/qwen2_vl/modeling_qwen2_vl.py", line 1686, in forward
+    image_embeds = self.visual(pixel_values, grid_thw=image_grid_thw)
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/models/qwen2_vl/modeling_qwen2_vl.py", line 1049, in forward
+    hidden_states = blk(hidden_states, cu_seqlens=cu_seqlens, rotary_pos_emb=rotary_pos_emb)
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/models/qwen2_vl/modeling_qwen2_vl.py", line 431, in forward
+    hidden_states = hidden_states + self.attn(
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/root/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/models/qwen2_vl/modeling_qwen2_vl.py", line 352, in forward
+    attn_weights = nn.functional.softmax(attn_weights, dim=-1, dtype=torch.float32).to(q.dtype)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 12.00 MiB. GPU 0 has a total capacity of 11.63 GiB of which 10.19 MiB is free. Including non-PyTorch memory, this process has 7.24 GiB memory in use. Of the allocated memory 6.90 GiB is allocated by PyTorch, and 35.16 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

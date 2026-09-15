@@ -1,0 +1,18 @@
+t3prime_running_or_done
+
+{
+  "stage": "T3prime",
+  "t1_still_failed": true,
+  "t2_write_only_pass": true,
+  "t3prime": {
+    "dev_pass": false,
+    "taxonomy": "few_switches",
+    "r1_run": true,
+    "holdout_run": false,
+    "method_alive": false,
+    "r1_pass": false,
+    "decision": "FAIL_AFTER_R1",
+    "next": "stop; reachable-Open+Write not a method on this cell"
+  },
+  "report": "/root/autodl-tmp/multimodal_attack_project/outputs/otw/innovation/t3prime_margin_open_write/T3PRIME_REPORT.md"
+}

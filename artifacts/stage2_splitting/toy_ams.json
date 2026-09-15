@@ -1,0 +1,58 @@
+{
+  "n_rep": 80,
+  "methods": {
+    "naive": {
+      "unique_mean": 1.55,
+      "unique_std": 1.301411113398049,
+      "hit_particles_mean": 1.55,
+      "tokens_mean": 1072.15,
+      "clone_hits_mean": 0.0
+    },
+    "bon": {
+      "unique_mean": 1.5375,
+      "unique_std": 1.2215755545372697,
+      "hit_particles_mean": 1.5375,
+      "tokens_mean": 1072.15,
+      "clone_hits_mean": 0.0
+    },
+    "ams_full": {
+      "unique_mean": 2.9,
+      "unique_std": 1.489201638122703,
+      "hit_particles_mean": 3.4625,
+      "tokens_mean": 1072.15,
+      "clone_hits_mean": 0.5625
+    },
+    "ams_refusal": {
+      "unique_mean": 1.3375,
+      "unique_std": 1.0426809407981896,
+      "hit_particles_mean": 1.3375,
+      "tokens_mean": 830.425,
+      "clone_hits_mean": 0.0
+    },
+    "ams_random": {
+      "unique_mean": 2.125,
+      "unique_std": 1.1066542117137572,
+      "hit_particles_mean": 9.2,
+      "tokens_mean": 1349.5125,
+      "clone_hits_mean": 7.075
+    }
+  },
+  "gate": "GO",
+  "beats_random": true,
+  "beats_naive": true,
+  "beats_refusal": true,
+  "only_beats_random_not_refusal": false,
+  "note": "Metric is unique lineages, not cloned particles. Toy GO if AMS-full beats naive and random. VLM Stage 2 STOP if committor beats random but not refusal-score.",
+  "seed": 20260,
+  "kwargs": {
+    "H": 8,
+    "T": 40,
+    "p_up": 0.48,
+    "p_decoy": 0.75,
+    "n_particles": 24,
+    "n_levels": 5
+  },
+  "stage": "2-toy",
+  "written": "2026-09-14T22:40:14+08:00",
+  "no_vlm": true
+}

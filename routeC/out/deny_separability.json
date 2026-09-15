@@ -1,0 +1,350 @@
+{
+  "schema": "deny_separability_v1",
+  "layers": {
+    "12": {
+      "n": 120,
+      "mode_counts": {
+        "ANSWER": 43,
+        "DENY": 48,
+        "REFUSE": 29
+      },
+      "binary": {
+        "deny_vs_refuse": {
+          "auc_mean": 0.7447407407407407,
+          "auc_std": 0.23206668546359174,
+          "n_pos": 48,
+          "n_neg": 29
+        },
+        "deny_vs_answer": {
+          "auc_mean": 0.7203703703703703,
+          "auc_std": 0.13031798423739843,
+          "n_pos": 48,
+          "n_neg": 43
+        },
+        "deny_vs_rest": {
+          "auc_mean": 0.69994708994709,
+          "auc_std": 0.09473314107962673,
+          "n_pos": 48,
+          "n_neg": 72
+        }
+      },
+      "multiclass": {
+        "3way_acc_mean": 0.5083333333333333,
+        "3way_acc_std": 0.17756063127218763
+      },
+      "within_cell": {
+        "n_cells": 9,
+        "macro_auc": 0.35185185185185186,
+        "per_cell": {
+          "h31:c05": {
+            "auc": 0.6666666666666666,
+            "n_deny": 3,
+            "n_other": 5
+          },
+          "h53:c08": {
+            "auc": 0.16666666666666666,
+            "n_deny": 5,
+            "n_other": 3
+          },
+          "h61:c07": {
+            "auc": 0.0,
+            "n_deny": 6,
+            "n_other": 2
+          },
+          "h61:c08": {
+            "auc": 0.8333333333333334,
+            "n_deny": 3,
+            "n_other": 5
+          },
+          "h64:c08": {
+            "auc": 0.5,
+            "n_deny": 2,
+            "n_other": 6
+          },
+          "h72:c07": {
+            "auc": 0.0,
+            "n_deny": 2,
+            "n_other": 6
+          },
+          "h74:c07": {
+            "auc": 0.16666666666666666,
+            "n_deny": 6,
+            "n_other": 2
+          },
+          "h74:c08": {
+            "auc": 0.5,
+            "n_deny": 5,
+            "n_other": 3
+          },
+          "h81:c07": {
+            "auc": 0.3333333333333333,
+            "n_deny": 3,
+            "n_other": 5
+          }
+        }
+      },
+      "random_baseline": {
+        "shuffled_label_auc": 0.27481481481481485
+      }
+    },
+    "16": {
+      "n": 120,
+      "mode_counts": {
+        "ANSWER": 43,
+        "DENY": 48,
+        "REFUSE": 29
+      },
+      "binary": {
+        "deny_vs_refuse": {
+          "auc_mean": 0.804,
+          "auc_std": 0.20682078416515254,
+          "n_pos": 48,
+          "n_neg": 29
+        },
+        "deny_vs_answer": {
+          "auc_mean": 0.8098456790123457,
+          "auc_std": 0.11451001624111186,
+          "n_pos": 48,
+          "n_neg": 43
+        },
+        "deny_vs_rest": {
+          "auc_mean": 0.663968253968254,
+          "auc_std": 0.06643455014300084,
+          "n_pos": 48,
+          "n_neg": 72
+        }
+      },
+      "multiclass": {
+        "3way_acc_mean": 0.5916666666666667,
+        "3way_acc_std": 0.15456030825826175
+      },
+      "within_cell": {
+        "n_cells": 9,
+        "macro_auc": 0.38888888888888884,
+        "per_cell": {
+          "h31:c05": {
+            "auc": 0.6666666666666666,
+            "n_deny": 3,
+            "n_other": 5
+          },
+          "h53:c08": {
+            "auc": 0.5,
+            "n_deny": 5,
+            "n_other": 3
+          },
+          "h61:c07": {
+            "auc": 0.0,
+            "n_deny": 6,
+            "n_other": 2
+          },
+          "h61:c08": {
+            "auc": 1.0,
+            "n_deny": 3,
+            "n_other": 5
+          },
+          "h64:c08": {
+            "auc": 0.5,
+            "n_deny": 2,
+            "n_other": 6
+          },
+          "h72:c07": {
+            "auc": 0.16666666666666669,
+            "n_deny": 2,
+            "n_other": 6
+          },
+          "h74:c07": {
+            "auc": 0.0,
+            "n_deny": 6,
+            "n_other": 2
+          },
+          "h74:c08": {
+            "auc": 0.5,
+            "n_deny": 5,
+            "n_other": 3
+          },
+          "h81:c07": {
+            "auc": 0.16666666666666666,
+            "n_deny": 3,
+            "n_other": 5
+          }
+        }
+      },
+      "random_baseline": {
+        "shuffled_label_auc": 0.3073015873015873
+      }
+    },
+    "20": {
+      "n": 120,
+      "mode_counts": {
+        "ANSWER": 43,
+        "DENY": 48,
+        "REFUSE": 29
+      },
+      "binary": {
+        "deny_vs_refuse": {
+          "auc_mean": 0.7002222222222222,
+          "auc_std": 0.20318230915721516,
+          "n_pos": 48,
+          "n_neg": 29
+        },
+        "deny_vs_answer": {
+          "auc_mean": 0.8441049382716048,
+          "auc_std": 0.08350921083609465,
+          "n_pos": 48,
+          "n_neg": 43
+        },
+        "deny_vs_rest": {
+          "auc_mean": 0.6732275132275133,
+          "auc_std": 0.08702849703202059,
+          "n_pos": 48,
+          "n_neg": 72
+        }
+      },
+      "multiclass": {
+        "3way_acc_mean": 0.5166666666666666,
+        "3way_acc_std": 0.062360956446232366
+      },
+      "within_cell": {
+        "n_cells": 9,
+        "macro_auc": 0.4074074074074074,
+        "per_cell": {
+          "h31:c05": {
+            "auc": 0.5,
+            "n_deny": 3,
+            "n_other": 5
+          },
+          "h53:c08": {
+            "auc": 0.3333333333333333,
+            "n_deny": 5,
+            "n_other": 3
+          },
+          "h61:c07": {
+            "auc": 0.0,
+            "n_deny": 6,
+            "n_other": 2
+          },
+          "h61:c08": {
+            "auc": 1.0,
+            "n_deny": 3,
+            "n_other": 5
+          },
+          "h64:c08": {
+            "auc": 0.33333333333333337,
+            "n_deny": 2,
+            "n_other": 6
+          },
+          "h72:c07": {
+            "auc": 0.16666666666666669,
+            "n_deny": 2,
+            "n_other": 6
+          },
+          "h74:c07": {
+            "auc": 0.16666666666666666,
+            "n_deny": 6,
+            "n_other": 2
+          },
+          "h74:c08": {
+            "auc": 0.5,
+            "n_deny": 5,
+            "n_other": 3
+          },
+          "h81:c07": {
+            "auc": 0.6666666666666666,
+            "n_deny": 3,
+            "n_other": 5
+          }
+        }
+      },
+      "random_baseline": {
+        "shuffled_label_auc": 0.3065079365079365
+      }
+    },
+    "24": {
+      "n": 120,
+      "mode_counts": {
+        "ANSWER": 43,
+        "DENY": 48,
+        "REFUSE": 29
+      },
+      "binary": {
+        "deny_vs_refuse": {
+          "auc_mean": 0.7311851851851852,
+          "auc_std": 0.2145459876008182,
+          "n_pos": 48,
+          "n_neg": 29
+        },
+        "deny_vs_answer": {
+          "auc_mean": 0.8428395061728395,
+          "auc_std": 0.08981139953627054,
+          "n_pos": 48,
+          "n_neg": 43
+        },
+        "deny_vs_rest": {
+          "auc_mean": 0.6628042328042328,
+          "auc_std": 0.07529039178472993,
+          "n_pos": 48,
+          "n_neg": 72
+        }
+      },
+      "multiclass": {
+        "3way_acc_mean": 0.525,
+        "3way_acc_std": 0.049999999999999996
+      },
+      "within_cell": {
+        "n_cells": 9,
+        "macro_auc": 0.42592592592592593,
+        "per_cell": {
+          "h31:c05": {
+            "auc": 0.5,
+            "n_deny": 3,
+            "n_other": 5
+          },
+          "h53:c08": {
+            "auc": 0.16666666666666666,
+            "n_deny": 5,
+            "n_other": 3
+          },
+          "h61:c07": {
+            "auc": 0.0,
+            "n_deny": 6,
+            "n_other": 2
+          },
+          "h61:c08": {
+            "auc": 0.8333333333333334,
+            "n_deny": 3,
+            "n_other": 5
+          },
+          "h64:c08": {
+            "auc": 0.5,
+            "n_deny": 2,
+            "n_other": 6
+          },
+          "h72:c07": {
+            "auc": 0.16666666666666669,
+            "n_deny": 2,
+            "n_other": 6
+          },
+          "h74:c07": {
+            "auc": 0.5,
+            "n_deny": 6,
+            "n_other": 2
+          },
+          "h74:c08": {
+            "auc": 0.5,
+            "n_deny": 5,
+            "n_other": 3
+          },
+          "h81:c07": {
+            "auc": 0.6666666666666666,
+            "n_deny": 3,
+            "n_other": 5
+          }
+        }
+      },
+      "random_baseline": {
+        "shuffled_label_auc": 0.28656084656084657
+      }
+    }
+  },
+  "n_records": 120
+}

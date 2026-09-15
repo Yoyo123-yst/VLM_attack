@@ -1,0 +1,14 @@
+{
+  "notes": "Harmless COCO val images with no readable attack text. Train/test split is used for the universal visual perturbation.",
+  "root": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017",
+  "images": [
+    {"id": "c01", "file": "000000000139.jpg", "split": "train", "scene": "indoor living room"},
+    {"id": "c02", "file": "000000000285.jpg", "split": "train", "scene": "bear portrait"},
+    {"id": "c03", "file": "000000000632.jpg", "split": "train", "scene": "bedroom"},
+    {"id": "c04", "file": "000000000785.jpg", "split": "train", "scene": "skier"},
+    {"id": "c05", "file": "000000000872.jpg", "split": "test", "scene": "coco val 872"},
+    {"id": "c06", "file": "000000001000.jpg", "split": "test", "scene": "tennis group"},
+    {"id": "c07", "file": "000000005060.jpg", "split": "test", "scene": "mirror selfie"},
+    {"id": "c08", "file": "000000006471.jpg", "split": "test", "scene": "coco val 6471"}
+  ]
+}

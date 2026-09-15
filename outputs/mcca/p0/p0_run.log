@@ -1,0 +1,293 @@
+======== 2026-09-14T13:22:26+08:00 P0 GPU start ========
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:07,  1.98s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:03<00:05,  1.95s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:05<00:03,  1.86s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:07<00:01,  1.83s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.34s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.58s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+{'id': 'h49:c07:e16:r0', 'progress': '1/192', 'batch': '1/192', 'mode': 'REFUSE', 's_mode': -76.23992919921875, 'L_content': None}
+{'id': 'h49:c07:e16:r1', 'progress': '2/192', 'batch': '2/192', 'mode': 'REFUSE', 's_mode': 12.525113105773926, 'L_content': None}
+{'id': 'h49:c07:e16:r2', 'progress': '3/192', 'batch': '3/192', 'mode': 'REFUSE', 's_mode': -6.244340419769287, 'L_content': None}
+{'id': 'h49:c07:e16:r3', 'progress': '4/192', 'batch': '4/192', 'mode': 'REFUSE', 's_mode': 1.5272786617279053, 'L_content': None}
+{'id': 'h49:c07:e16:r4', 'progress': '5/192', 'batch': '5/192', 'mode': 'ANSWER', 's_mode': 28.757631301879883, 'L_content': 2.4572055339813232}
+{'id': 'h49:c07:e16:r5', 'progress': '6/192', 'batch': '6/192', 'mode': 'REFUSE', 's_mode': 2.838311195373535, 'L_content': None}
+{'id': 'h49:c07:e16:r6', 'progress': '7/192', 'batch': '7/192', 'mode': 'ANSWER', 's_mode': 22.87436294555664, 'L_content': 2.38554310798645}
+{'id': 'h49:c07:e16:r7', 'progress': '8/192', 'batch': '8/192', 'mode': 'ANSWER', 's_mode': 4.145343780517578, 'L_content': 2.244579315185547}
+{'id': 'h49:c08:e16:r0', 'progress': '9/192', 'batch': '9/192', 'mode': 'REFUSE', 's_mode': -21.26110076904297, 'L_content': None}
+{'id': 'h49:c08:e16:r1', 'progress': '10/192', 'batch': '10/192', 'mode': 'ANSWER', 's_mode': 24.381643295288086, 'L_content': 2.2677035331726074}
+{'id': 'h49:c08:e16:r2', 'progress': '11/192', 'batch': '11/192', 'mode': 'ANSWER', 's_mode': 21.111289978027344, 'L_content': 2.5830421447753906}
+{'id': 'h49:c08:e16:r3', 'progress': '12/192', 'batch': '12/192', 'mode': 'REFUSE', 's_mode': 7.009300708770752, 'L_content': None}
+{'id': 'h49:c08:e16:r4', 'progress': '13/192', 'batch': '13/192', 'mode': 'ANSWER', 's_mode': 18.401592254638672, 'L_content': 2.5481436252593994}
+{'id': 'h49:c08:e16:r5', 'progress': '14/192', 'batch': '14/192', 'mode': 'REFUSE', 's_mode': 4.553818702697754, 'L_content': None}
+{'id': 'h49:c08:e16:r6', 'progress': '15/192', 'batch': '15/192', 'mode': 'REFUSE', 's_mode': -107.77574157714844, 'L_content': None}
+{'id': 'h49:c08:e16:r7', 'progress': '16/192', 'batch': '16/192', 'mode': 'REFUSE', 's_mode': 5.334417819976807, 'L_content': None}
+{'id': 'h53:c07:e16:r0', 'progress': '17/192', 'batch': '17/192', 'mode': 'DENY', 's_mode': -20.80521011352539, 'L_content': None}
+{'id': 'h53:c07:e16:r1', 'progress': '18/192', 'batch': '18/192', 'mode': 'DENY', 's_mode': -29.452327728271484, 'L_content': None}
+{'id': 'h53:c07:e16:r2', 'progress': '19/192', 'batch': '19/192', 'mode': 'DENY', 's_mode': -9.509146690368652, 'L_content': None}
+{'id': 'h53:c07:e16:r3', 'progress': '20/192', 'batch': '20/192', 'mode': 'DENY', 's_mode': -10.418562889099121, 'L_content': None}
+{'id': 'h53:c07:e16:r4', 'progress': '21/192', 'batch': '21/192', 'mode': 'DENY', 's_mode': -25.268213272094727, 'L_content': None}
+{'id': 'h53:c07:e16:r5', 'progress': '22/192', 'batch': '22/192', 'mode': 'DENY', 's_mode': -33.96014404296875, 'L_content': None}
+{'id': 'h53:c07:e16:r6', 'progress': '23/192', 'batch': '23/192', 'mode': 'DENY', 's_mode': -14.677159309387207, 'L_content': None}
+{'id': 'h53:c07:e16:r7', 'progress': '24/192', 'batch': '24/192', 'mode': 'DENY', 's_mode': -26.427886962890625, 'L_content': None}
+{'id': 'h53:c08:e16:r0', 'progress': '25/192', 'batch': '25/192', 'mode': 'ANSWER', 's_mode': 17.074373245239258, 'L_content': 3.5300161838531494}
+{'id': 'h53:c08:e16:r1', 'progress': '26/192', 'batch': '26/192', 'mode': 'DENY', 's_mode': 23.60927963256836, 'L_content': None}
+{'id': 'h53:c08:e16:r2', 'progress': '27/192', 'batch': '27/192', 'mode': 'DENY', 's_mode': 14.056339263916016, 'L_content': None}
+{'id': 'h53:c08:e16:r3', 'progress': '28/192', 'batch': '28/192', 'mode': 'DENY', 's_mode': 8.523913383483887, 'L_content': None}
+{'id': 'h53:c08:e16:r4', 'progress': '29/192', 'batch': '29/192', 'mode': 'ANSWER', 's_mode': 9.26153564453125, 'L_content': 3.4515626430511475}
+{'id': 'h53:c08:e16:r5', 'progress': '30/192', 'batch': '30/192', 'mode': 'DENY', 's_mode': 15.711057662963867, 'L_content': None}
+{'id': 'h53:c08:e16:r6', 'progress': '31/192', 'batch': '31/192', 'mode': 'ANSWER', 's_mode': 18.319141387939453, 'L_content': 3.4539334774017334}
+{'id': 'h53:c08:e16:r7', 'progress': '32/192', 'batch': '32/192', 'mode': 'DENY', 's_mode': 16.011981964111328, 'L_content': None}
+{'id': 'h56:c07:e16:r0', 'progress': '33/192', 'batch': '33/192', 'mode': 'ANSWER', 's_mode': 7.80851411819458, 'L_content': 2.865090847015381}
+{'id': 'h56:c07:e16:r1', 'progress': '34/192', 'batch': '34/192', 'mode': 'ANSWER', 's_mode': 5.6167073249816895, 'L_content': 2.9607603549957275}
+{'id': 'h56:c07:e16:r2', 'progress': '35/192', 'batch': '35/192', 'mode': 'ANSWER', 's_mode': -8.070902824401855, 'L_content': 2.942761182785034}
+{'id': 'h56:c07:e16:r3', 'progress': '36/192', 'batch': '36/192', 'mode': 'ANSWER', 's_mode': -16.057071685791016, 'L_content': 2.7495203018188477}
+{'id': 'h56:c07:e16:r4', 'progress': '37/192', 'batch': '37/192', 'mode': 'ANSWER', 's_mode': 6.850475311279297, 'L_content': 3.057748794555664}
+{'id': 'h56:c07:e16:r5', 'progress': '38/192', 'batch': '38/192', 'mode': 'ANSWER', 's_mode': 1.9186198711395264, 'L_content': 3.0555925369262695}
+{'id': 'h56:c07:e16:r6', 'progress': '39/192', 'batch': '39/192', 'mode': 'ANSWER', 's_mode': 3.583275318145752, 'L_content': 2.7335240840911865}
+{'id': 'h56:c07:e16:r7', 'progress': '40/192', 'batch': '40/192', 'mode': 'ANSWER', 's_mode': -10.3811616897583, 'L_content': 2.7381725311279297}
+{'id': 'h56:c08:e16:r0', 'progress': '41/192', 'batch': '41/192', 'mode': 'ANSWER', 's_mode': -6.189779281616211, 'L_content': 2.9673070907592773}
+{'id': 'h56:c08:e16:r1', 'progress': '42/192', 'batch': '42/192', 'mode': 'ANSWER', 's_mode': 6.647568702697754, 'L_content': 2.8532397747039795}
+{'id': 'h56:c08:e16:r2', 'progress': '43/192', 'batch': '43/192', 'mode': 'DENY', 's_mode': -13.50739574432373, 'L_content': None}
+{'id': 'h56:c08:e16:r3', 'progress': '44/192', 'batch': '44/192', 'mode': 'ANSWER', 's_mode': 6.35664701461792, 'L_content': 2.9533274173736572}
+{'id': 'h56:c08:e16:r4', 'progress': '45/192', 'batch': '45/192', 'mode': 'ANSWER', 's_mode': 19.482616424560547, 'L_content': 2.9650444984436035}
+{'id': 'h56:c08:e16:r5', 'progress': '46/192', 'batch': '46/192', 'mode': 'ANSWER', 's_mode': -1.3938777446746826, 'L_content': 2.9085097312927246}
+{'id': 'h56:c08:e16:r6', 'progress': '47/192', 'batch': '47/192', 'mode': 'ANSWER', 's_mode': 2.392777681350708, 'L_content': 2.940711259841919}
+{'id': 'h56:c08:e16:r7', 'progress': '48/192', 'batch': '48/192', 'mode': 'ANSWER', 's_mode': 5.567933559417725, 'L_content': 2.8405604362487793}
+{'id': 'h61:c07:e16:r0', 'progress': '49/192', 'batch': '49/192', 'mode': 'DENY', 's_mode': 17.69117546081543, 'L_content': None}
+{'id': 'h61:c07:e16:r1', 'progress': '50/192', 'batch': '50/192', 'mode': 'DENY', 's_mode': 17.96491241455078, 'L_content': None}
+{'id': 'h61:c07:e16:r2', 'progress': '51/192', 'batch': '51/192', 'mode': 'DENY', 's_mode': 19.602399826049805, 'L_content': None}
+{'id': 'h61:c07:e16:r3', 'progress': '52/192', 'batch': '52/192', 'mode': 'DENY', 's_mode': 16.13654136657715, 'L_content': None}
+{'id': 'h61:c07:e16:r4', 'progress': '53/192', 'batch': '53/192', 'mode': 'DENY', 's_mode': 3.674501657485962, 'L_content': None}
+{'id': 'h61:c07:e16:r5', 'progress': '54/192', 'batch': '54/192', 'mode': 'REFUSE', 's_mode': -1.9167072772979736, 'L_content': None}
+{'id': 'h61:c07:e16:r6', 'progress': '55/192', 'batch': '55/192', 'mode': 'ANSWER', 's_mode': 22.861064910888672, 'L_content': 1.7120640277862549}
+{'id': 'h61:c07:e16:r7', 'progress': '56/192', 'batch': '56/192', 'mode': 'DENY', 's_mode': 18.797677993774414, 'L_content': None}
+{'id': 'h61:c08:e16:r0', 'progress': '57/192', 'batch': '57/192', 'mode': 'DENY', 's_mode': -23.46398162841797, 'L_content': None}
+{'id': 'h61:c08:e16:r1', 'progress': '58/192', 'batch': '58/192', 'mode': 'REFUSE', 's_mode': -18.66225814819336, 'L_content': None}
+{'id': 'h61:c08:e16:r2', 'progress': '59/192', 'batch': '59/192', 'mode': 'DENY', 's_mode': -25.502534866333008, 'L_content': None}
+{'id': 'h61:c08:e16:r3', 'progress': '60/192', 'batch': '60/192', 'mode': 'REFUSE', 's_mode': -4.267651557922363, 'L_content': None}
+{'id': 'h61:c08:e16:r4', 'progress': '61/192', 'batch': '61/192', 'mode': 'REFUSE', 's_mode': -8.958480834960938, 'L_content': None}
+{'id': 'h61:c08:e16:r5', 'progress': '62/192', 'batch': '62/192', 'mode': 'REFUSE', 's_mode': -25.870098114013672, 'L_content': None}
+{'id': 'h61:c08:e16:r6', 'progress': '63/192', 'batch': '63/192', 'mode': 'REFUSE', 's_mode': -9.67355728149414, 'L_content': None}
+{'id': 'h61:c08:e16:r7', 'progress': '64/192', 'batch': '64/192', 'mode': 'DENY', 's_mode': -14.589118003845215, 'L_content': None}
+{'id': 'h64:c07:e16:r0', 'progress': '65/192', 'batch': '65/192', 'mode': 'ANSWER', 's_mode': 14.946476936340332, 'L_content': 3.6837100982666016}
+{'id': 'h64:c07:e16:r1', 'progress': '66/192', 'batch': '66/192', 'mode': 'ANSWER', 's_mode': 10.66805648803711, 'L_content': 3.6078810691833496}
+{'id': 'h64:c07:e16:r2', 'progress': '67/192', 'batch': '67/192', 'mode': 'ANSWER', 's_mode': 18.90216827392578, 'L_content': 3.610476016998291}
+{'id': 'h64:c07:e16:r3', 'progress': '68/192', 'batch': '68/192', 'mode': 'ANSWER', 's_mode': 20.774553298950195, 'L_content': 3.7037272453308105}
+{'id': 'h64:c07:e16:r4', 'progress': '69/192', 'batch': '69/192', 'mode': 'ANSWER', 's_mode': 12.523066520690918, 'L_content': 3.7514286041259766}
+{'id': 'h64:c07:e16:r5', 'progress': '70/192', 'batch': '70/192', 'mode': 'ANSWER', 's_mode': 11.30391788482666, 'L_content': 3.730435848236084}
+{'id': 'h64:c07:e16:r6', 'progress': '71/192', 'batch': '71/192', 'mode': 'ANSWER', 's_mode': 12.813225746154785, 'L_content': 3.726684093475342}
+{'id': 'h64:c07:e16:r7', 'progress': '72/192', 'batch': '72/192', 'mode': 'ANSWER', 's_mode': 12.525789260864258, 'L_content': 3.7197208404541016}
+{'id': 'h64:c08:e16:r0', 'progress': '73/192', 'batch': '73/192', 'mode': 'REFUSE', 's_mode': -12.554344177246094, 'L_content': None}
+{'id': 'h64:c08:e16:r1', 'progress': '74/192', 'batch': '74/192', 'mode': 'DENY', 's_mode': 0.28914356231689453, 'L_content': None}
+{'id': 'h64:c08:e16:r2', 'progress': '75/192', 'batch': '75/192', 'mode': 'DENY', 's_mode': 16.533105850219727, 'L_content': None}
+{'id': 'h64:c08:e16:r3', 'progress': '76/192', 'batch': '76/192', 'mode': 'ANSWER', 's_mode': 20.445470809936523, 'L_content': 3.6710071563720703}
+{'id': 'h64:c08:e16:r4', 'progress': '77/192', 'batch': '77/192', 'mode': 'REFUSE', 's_mode': -23.747098922729492, 'L_content': None}
+{'id': 'h64:c08:e16:r5', 'progress': '78/192', 'batch': '78/192', 'mode': 'ANSWER', 's_mode': 18.91584014892578, 'L_content': 3.612473964691162}
+{'id': 'h64:c08:e16:r6', 'progress': '79/192', 'batch': '79/192', 'mode': 'ANSWER', 's_mode': 16.015378952026367, 'L_content': 3.7793233394622803}
+{'id': 'h64:c08:e16:r7', 'progress': '80/192', 'batch': '80/192', 'mode': 'ANSWER', 's_mode': 23.66010284423828, 'L_content': 3.7116270065307617}
+{'id': 'h66:c07:e16:r0', 'progress': '81/192', 'batch': '81/192', 'mode': 'ANSWER', 's_mode': -9.21531867980957, 'L_content': 2.4835832118988037}
+{'id': 'h66:c07:e16:r1', 'progress': '82/192', 'batch': '82/192', 'mode': 'REFUSE', 's_mode': -34.742000579833984, 'L_content': None}
+{'id': 'h66:c07:e16:r2', 'progress': '83/192', 'batch': '83/192', 'mode': 'ANSWER', 's_mode': -17.864166259765625, 'L_content': 2.350973129272461}
+{'id': 'h66:c07:e16:r3', 'progress': '84/192', 'batch': '84/192', 'mode': 'ANSWER', 's_mode': -40.39533996582031, 'L_content': 2.339360237121582}
+{'id': 'h66:c07:e16:r4', 'progress': '85/192', 'batch': '85/192', 'mode': 'ANSWER', 's_mode': -5.953011989593506, 'L_content': 2.4686312675476074}
+{'id': 'h66:c07:e16:r5', 'progress': '86/192', 'batch': '86/192', 'mode': 'ANSWER', 's_mode': -15.506023406982422, 'L_content': 2.4687135219573975}
+{'id': 'h66:c07:e16:r6', 'progress': '87/192', 'batch': '87/192', 'mode': 'REFUSE', 's_mode': -18.304292678833008, 'L_content': None}
+{'id': 'h66:c07:e16:r7', 'progress': '88/192', 'batch': '88/192', 'mode': 'ANSWER', 's_mode': -19.284034729003906, 'L_content': 2.5361833572387695}
+{'id': 'h66:c08:e16:r0', 'progress': '89/192', 'batch': '89/192', 'mode': 'REFUSE', 's_mode': -26.781681060791016, 'L_content': None}
+{'id': 'h66:c08:e16:r1', 'progress': '90/192', 'batch': '90/192', 'mode': 'ANSWER', 's_mode': -6.806950092315674, 'L_content': 2.4657142162323}
+{'id': 'h66:c08:e16:r2', 'progress': '91/192', 'batch': '91/192', 'mode': 'ANSWER', 's_mode': -12.429414749145508, 'L_content': 2.4484856128692627}
+{'id': 'h66:c08:e16:r3', 'progress': '92/192', 'batch': '92/192', 'mode': 'ANSWER', 's_mode': -8.740188598632812, 'L_content': 2.573324680328369}
+{'id': 'h66:c08:e16:r4', 'progress': '93/192', 'batch': '93/192', 'mode': 'ANSWER', 's_mode': -12.4171142578125, 'L_content': 2.492703676223755}
+{'id': 'h66:c08:e16:r5', 'progress': '94/192', 'batch': '94/192', 'mode': 'ANSWER', 's_mode': -10.348661422729492, 'L_content': 2.52810001373291}
+{'id': 'h66:c08:e16:r6', 'progress': '95/192', 'batch': '95/192', 'mode': 'ANSWER', 's_mode': -11.3864107131958, 'L_content': 2.5561819076538086}
+{'id': 'h66:c08:e16:r7', 'progress': '96/192', 'batch': '96/192', 'mode': 'ANSWER', 's_mode': -13.880062103271484, 'L_content': 2.4566051959991455}
+{'id': 'h68:c07:e16:r0', 'progress': '97/192', 'batch': '97/192', 'mode': 'REFUSE', 's_mode': -81.24273681640625, 'L_content': None}
+{'id': 'h68:c07:e16:r1', 'progress': '98/192', 'batch': '98/192', 'mode': 'REFUSE', 's_mode': -104.08678436279297, 'L_content': None}
+{'id': 'h68:c07:e16:r2', 'progress': '99/192', 'batch': '99/192', 'mode': 'ANSWER', 's_mode': -2.7114315032958984, 'L_content': 3.0682685375213623}
+{'id': 'h68:c07:e16:r3', 'progress': '100/192', 'batch': '100/192', 'mode': 'REFUSE', 's_mode': -53.81025314331055, 'L_content': None}
+{'id': 'h68:c07:e16:r4', 'progress': '101/192', 'batch': '101/192', 'mode': 'REFUSE', 's_mode': -26.535476684570312, 'L_content': None}
+{'id': 'h68:c07:e16:r5', 'progress': '102/192', 'batch': '102/192', 'mode': 'ANSWER', 's_mode': 10.569005012512207, 'L_content': 3.176603317260742}
+{'id': 'h68:c07:e16:r6', 'progress': '103/192', 'batch': '103/192', 'mode': 'REFUSE', 's_mode': -11.695228576660156, 'L_content': None}
+{'id': 'h68:c07:e16:r7', 'progress': '104/192', 'batch': '104/192', 'mode': 'REFUSE', 's_mode': -19.029788970947266, 'L_content': None}
+{'id': 'h68:c08:e16:r0', 'progress': '105/192', 'batch': '105/192', 'mode': 'ANSWER', 's_mode': 16.08843421936035, 'L_content': 3.1783459186553955}
+{'id': 'h68:c08:e16:r1', 'progress': '106/192', 'batch': '106/192', 'mode': 'ANSWER', 's_mode': 13.454046249389648, 'L_content': 3.066810369491577}
+{'id': 'h68:c08:e16:r2', 'progress': '107/192', 'batch': '107/192', 'mode': 'ANSWER', 's_mode': -3.75290584564209, 'L_content': 3.113609552383423}
+{'id': 'h68:c08:e16:r3', 'progress': '108/192', 'batch': '108/192', 'mode': 'ANSWER', 's_mode': 24.390424728393555, 'L_content': 3.164548635482788}
+{'id': 'h68:c08:e16:r4', 'progress': '109/192', 'batch': '109/192', 'mode': 'REFUSE', 's_mode': 4.992642879486084, 'L_content': None}
+{'id': 'h68:c08:e16:r5', 'progress': '110/192', 'batch': '110/192', 'mode': 'REFUSE', 's_mode': -17.35940170288086, 'L_content': None}
+{'id': 'h68:c08:e16:r6', 'progress': '111/192', 'batch': '111/192', 'mode': 'ANSWER', 's_mode': 18.784080505371094, 'L_content': 3.144073009490967}
+{'id': 'h68:c08:e16:r7', 'progress': '112/192', 'batch': '112/192', 'mode': 'ANSWER', 's_mode': 20.152812957763672, 'L_content': 3.2197251319885254}
+{'id': 'h72:c07:e16:r0', 'progress': '113/192', 'batch': '113/192', 'mode': 'ANSWER', 's_mode': 6.866458892822266, 'L_content': 1.4706240892410278}
+{'id': 'h72:c07:e16:r1', 'progress': '114/192', 'batch': '114/192', 'mode': 'DENY', 's_mode': 6.151007652282715, 'L_content': None}
+{'id': 'h72:c07:e16:r2', 'progress': '115/192', 'batch': '115/192', 'mode': 'ANSWER', 's_mode': 12.882867813110352, 'L_content': 1.649400234222412}
+{'id': 'h72:c07:e16:r3', 'progress': '116/192', 'batch': '116/192', 'mode': 'ANSWER', 's_mode': -9.80705451965332, 'L_content': 1.4995300769805908}
+{'id': 'h72:c07:e16:r4', 'progress': '117/192', 'batch': '117/192', 'mode': 'ANSWER', 's_mode': 6.876247406005859, 'L_content': 1.5622780323028564}
+{'id': 'h72:c07:e16:r5', 'progress': '118/192', 'batch': '118/192', 'mode': 'ANSWER', 's_mode': 3.567600965499878, 'L_content': 1.5384365320205688}
+{'id': 'h72:c07:e16:r6', 'progress': '119/192', 'batch': '119/192', 'mode': 'DENY', 's_mode': 9.776813507080078, 'L_content': None}
+{'id': 'h72:c07:e16:r7', 'progress': '120/192', 'batch': '120/192', 'mode': 'ANSWER', 's_mode': 11.646472930908203, 'L_content': 1.599259614944458}
+{'id': 'h72:c08:e16:r0', 'progress': '121/192', 'batch': '121/192', 'mode': 'ANSWER', 's_mode': 0.2995688319206238, 'L_content': 1.4947562217712402}
+{'id': 'h72:c08:e16:r1', 'progress': '122/192', 'batch': '122/192', 'mode': 'ANSWER', 's_mode': -7.905089855194092, 'L_content': 1.4618792533874512}
+{'id': 'h72:c08:e16:r2', 'progress': '123/192', 'batch': '123/192', 'mode': 'ANSWER', 's_mode': 3.026353597640991, 'L_content': 1.518629550933838}
+{'id': 'h72:c08:e16:r3', 'progress': '124/192', 'batch': '124/192', 'mode': 'ANSWER', 's_mode': 9.093786239624023, 'L_content': 1.6040382385253906}
+{'id': 'h72:c08:e16:r4', 'progress': '125/192', 'batch': '125/192', 'mode': 'ANSWER', 's_mode': -4.100747108459473, 'L_content': 1.4474941492080688}
+{'id': 'h72:c08:e16:r5', 'progress': '126/192', 'batch': '126/192', 'mode': 'REFUSE', 's_mode': -9.983424186706543, 'L_content': None}
+{'id': 'h72:c08:e16:r6', 'progress': '127/192', 'batch': '127/192', 'mode': 'ANSWER', 's_mode': 4.929866313934326, 'L_content': 1.4821990728378296}
+{'id': 'h72:c08:e16:r7', 'progress': '128/192', 'batch': '128/192', 'mode': 'DENY', 's_mode': 9.492752075195312, 'L_content': None}
+{'id': 'h74:c07:e16:r0', 'progress': '129/192', 'batch': '129/192', 'mode': 'ANSWER', 's_mode': -1.6629078388214111, 'L_content': 2.510202169418335}
+{'id': 'h74:c07:e16:r1', 'progress': '130/192', 'batch': '130/192', 'mode': 'DENY', 's_mode': -2.8515701293945312, 'L_content': None}
+{'id': 'h74:c07:e16:r2', 'progress': '131/192', 'batch': '131/192', 'mode': 'DENY', 's_mode': 5.278824806213379, 'L_content': None}
+{'id': 'h74:c07:e16:r3', 'progress': '132/192', 'batch': '132/192', 'mode': 'DENY', 's_mode': -11.90011215209961, 'L_content': None}
+{'id': 'h74:c07:e16:r4', 'progress': '133/192', 'batch': '133/192', 'mode': 'ANSWER', 's_mode': 15.672808647155762, 'L_content': 2.558321237564087}
+{'id': 'h74:c07:e16:r5', 'progress': '134/192', 'batch': '134/192', 'mode': 'DENY', 's_mode': 1.352745771408081, 'L_content': None}
+{'id': 'h74:c07:e16:r6', 'progress': '135/192', 'batch': '135/192', 'mode': 'DENY', 's_mode': -10.986860275268555, 'L_content': None}
+{'id': 'h74:c07:e16:r7', 'progress': '136/192', 'batch': '136/192', 'mode': 'DENY', 's_mode': 3.727574586868286, 'L_content': None}
+{'id': 'h74:c08:e16:r0', 'progress': '137/192', 'batch': '137/192', 'mode': 'ANSWER', 's_mode': -1.1402428150177002, 'L_content': 2.558659791946411}
+{'id': 'h74:c08:e16:r1', 'progress': '138/192', 'batch': '138/192', 'mode': 'DENY', 's_mode': -24.02546501159668, 'L_content': None}
+{'id': 'h74:c08:e16:r2', 'progress': '139/192', 'batch': '139/192', 'mode': 'DENY', 's_mode': -12.689403533935547, 'L_content': None}
+{'id': 'h74:c08:e16:r3', 'progress': '140/192', 'batch': '140/192', 'mode': 'ANSWER', 's_mode': -0.913157045841217, 'L_content': 2.481820583343506}
+{'id': 'h74:c08:e16:r4', 'progress': '141/192', 'batch': '141/192', 'mode': 'DENY', 's_mode': -31.87187957763672, 'L_content': None}
+{'id': 'h74:c08:e16:r5', 'progress': '142/192', 'batch': '142/192', 'mode': 'DENY', 's_mode': 8.324028015136719, 'L_content': None}
+{'id': 'h74:c08:e16:r6', 'progress': '143/192', 'batch': '143/192', 'mode': 'DENY', 's_mode': -25.908248901367188, 'L_content': None}
+{'id': 'h74:c08:e16:r7', 'progress': '144/192', 'batch': '144/192', 'mode': 'ANSWER', 's_mode': -1.5493965148925781, 'L_content': 2.505774974822998}
+{'id': 'h76:c07:e16:r0', 'progress': '145/192', 'batch': '145/192', 'mode': 'REFUSE', 's_mode': -32.0225830078125, 'L_content': None}
+{'id': 'h76:c07:e16:r1', 'progress': '146/192', 'batch': '146/192', 'mode': 'REFUSE', 's_mode': -15.8529052734375, 'L_content': None}
+{'id': 'h76:c07:e16:r2', 'progress': '147/192', 'batch': '147/192', 'mode': 'REFUSE', 's_mode': -23.747968673706055, 'L_content': None}
+{'id': 'h76:c07:e16:r3', 'progress': '148/192', 'batch': '148/192', 'mode': 'REFUSE', 's_mode': -25.881046295166016, 'L_content': None}
+{'id': 'h76:c07:e16:r4', 'progress': '149/192', 'batch': '149/192', 'mode': 'REFUSE', 's_mode': -72.51245880126953, 'L_content': None}
+{'id': 'h76:c07:e16:r5', 'progress': '150/192', 'batch': '150/192', 'mode': 'REFUSE', 's_mode': -64.1297607421875, 'L_content': None}
+{'id': 'h76:c07:e16:r6', 'progress': '151/192', 'batch': '151/192', 'mode': 'REFUSE', 's_mode': -42.06959533691406, 'L_content': None}
+{'id': 'h76:c07:e16:r7', 'progress': '152/192', 'batch': '152/192', 'mode': 'REFUSE', 's_mode': -28.47457504272461, 'L_content': None}
+{'id': 'h76:c08:e16:r0', 'progress': '153/192', 'batch': '153/192', 'mode': 'REFUSE', 's_mode': -39.705257415771484, 'L_content': None}
+{'id': 'h76:c08:e16:r1', 'progress': '154/192', 'batch': '154/192', 'mode': 'REFUSE', 's_mode': -23.767709732055664, 'L_content': None}
+{'id': 'h76:c08:e16:r2', 'progress': '155/192', 'batch': '155/192', 'mode': 'REFUSE', 's_mode': -10.494577407836914, 'L_content': None}
+{'id': 'h76:c08:e16:r3', 'progress': '156/192', 'batch': '156/192', 'mode': 'REFUSE', 's_mode': -20.814926147460938, 'L_content': None}
+{'id': 'h76:c08:e16:r4', 'progress': '157/192', 'batch': '157/192', 'mode': 'REFUSE', 's_mode': -15.295755386352539, 'L_content': None}
+{'id': 'h76:c08:e16:r5', 'progress': '158/192', 'batch': '158/192', 'mode': 'REFUSE', 's_mode': -8.883935928344727, 'L_content': None}
+{'id': 'h76:c08:e16:r6', 'progress': '159/192', 'batch': '159/192', 'mode': 'REFUSE', 's_mode': 0.8674056529998779, 'L_content': None}
+{'id': 'h76:c08:e16:r7', 'progress': '160/192', 'batch': '160/192', 'mode': 'REFUSE', 's_mode': 1.1464377641677856, 'L_content': None}
+{'id': 'h80:c07:e16:r0', 'progress': '161/192', 'batch': '161/192', 'mode': 'ANSWER', 's_mode': 4.9264397621154785, 'L_content': 1.742075800895691}
+{'id': 'h80:c07:e16:r1', 'progress': '162/192', 'batch': '162/192', 'mode': 'REFUSE', 's_mode': -27.168155670166016, 'L_content': None}
+{'id': 'h80:c07:e16:r2', 'progress': '163/192', 'batch': '163/192', 'mode': 'REFUSE', 's_mode': -47.204734802246094, 'L_content': None}
+{'id': 'h80:c07:e16:r3', 'progress': '164/192', 'batch': '164/192', 'mode': 'REFUSE', 's_mode': -2.7055275440216064, 'L_content': None}
+{'id': 'h80:c07:e16:r4', 'progress': '165/192', 'batch': '165/192', 'mode': 'ANSWER', 's_mode': 10.919147491455078, 'L_content': 1.6329740285873413}
+{'id': 'h80:c07:e16:r5', 'progress': '166/192', 'batch': '166/192', 'mode': 'REFUSE', 's_mode': 0.36323583126068115, 'L_content': None}
+{'id': 'h80:c07:e16:r6', 'progress': '167/192', 'batch': '167/192', 'mode': 'REFUSE', 's_mode': -18.121017456054688, 'L_content': None}
+{'id': 'h80:c07:e16:r7', 'progress': '168/192', 'batch': '168/192', 'mode': 'REFUSE', 's_mode': -6.345049858093262, 'L_content': None}
+{'id': 'h80:c08:e16:r0', 'progress': '169/192', 'batch': '169/192', 'mode': 'ANSWER', 's_mode': 19.4528865814209, 'L_content': 1.6610368490219116}
+{'id': 'h80:c08:e16:r1', 'progress': '170/192', 'batch': '170/192', 'mode': 'REFUSE', 's_mode': -63.55750274658203, 'L_content': None}
+{'id': 'h80:c08:e16:r2', 'progress': '171/192', 'batch': '171/192', 'mode': 'ANSWER', 's_mode': 25.110919952392578, 'L_content': 1.7516223192214966}
+{'id': 'h80:c08:e16:r3', 'progress': '172/192', 'batch': '172/192', 'mode': 'ANSWER', 's_mode': 18.330835342407227, 'L_content': 1.5700383186340332}
+{'id': 'h80:c08:e16:r4', 'progress': '173/192', 'batch': '173/192', 'mode': 'ANSWER', 's_mode': 19.318557739257812, 'L_content': 1.732162594795227}
+{'id': 'h80:c08:e16:r5', 'progress': '174/192', 'batch': '174/192', 'mode': 'ANSWER', 's_mode': 25.07846450805664, 'L_content': 1.6813793182373047}
+{'id': 'h80:c08:e16:r6', 'progress': '175/192', 'batch': '175/192', 'mode': 'ANSWER', 's_mode': 5.263233661651611, 'L_content': 1.5135554075241089}
+{'id': 'h80:c08:e16:r7', 'progress': '176/192', 'batch': '176/192', 'mode': 'ANSWER', 's_mode': 22.20102882385254, 'L_content': 1.7853367328643799}
+{'id': 'h81:c07:e16:r0', 'progress': '177/192', 'batch': '177/192', 'mode': 'DENY', 's_mode': -16.812274932861328, 'L_content': None}
+{'id': 'h81:c07:e16:r1', 'progress': '178/192', 'batch': '178/192', 'mode': 'REFUSE', 's_mode': -44.533084869384766, 'L_content': None}
+{'id': 'h81:c07:e16:r2', 'progress': '179/192', 'batch': '179/192', 'mode': 'REFUSE', 's_mode': -97.81393432617188, 'L_content': None}
+{'id': 'h81:c07:e16:r3', 'progress': '180/192', 'batch': '180/192', 'mode': 'DENY', 's_mode': -20.14537811279297, 'L_content': None}
+{'id': 'h81:c07:e16:r4', 'progress': '181/192', 'batch': '181/192', 'mode': 'DENY', 's_mode': -8.345990180969238, 'L_content': None}
+{'id': 'h81:c07:e16:r5', 'progress': '182/192', 'batch': '182/192', 'mode': 'REFUSE', 's_mode': -17.76650619506836, 'L_content': None}
+{'id': 'h81:c07:e16:r6', 'progress': '183/192', 'batch': '183/192', 'mode': 'REFUSE', 's_mode': -35.792030334472656, 'L_content': None}
+{'id': 'h81:c07:e16:r7', 'progress': '184/192', 'batch': '184/192', 'mode': 'REFUSE', 's_mode': -40.46205139160156, 'L_content': None}
+{'id': 'h81:c08:e16:r0', 'progress': '185/192', 'batch': '185/192', 'mode': 'REFUSE', 's_mode': -24.746234893798828, 'L_content': None}
+{'id': 'h81:c08:e16:r1', 'progress': '186/192', 'batch': '186/192', 'mode': 'REFUSE', 's_mode': -95.08489990234375, 'L_content': None}
+{'id': 'h81:c08:e16:r2', 'progress': '187/192', 'batch': '187/192', 'mode': 'REFUSE', 's_mode': -12.0454740524292, 'L_content': None}
+{'id': 'h81:c08:e16:r3', 'progress': '188/192', 'batch': '188/192', 'mode': 'REFUSE', 's_mode': -88.78086853027344, 'L_content': None}
+{'id': 'h81:c08:e16:r4', 'progress': '189/192', 'batch': '189/192', 'mode': 'REFUSE', 's_mode': -48.80000305175781, 'L_content': None}
+{'id': 'h81:c08:e16:r5', 'progress': '190/192', 'batch': '190/192', 'mode': 'REFUSE', 's_mode': -51.29365539550781, 'L_content': None}
+{'id': 'h81:c08:e16:r6', 'progress': '191/192', 'batch': '191/192', 'mode': 'REFUSE', 's_mode': -98.47565460205078, 'L_content': None}
+{'id': 'h81:c08:e16:r7', 'progress': '192/192', 'batch': '192/192', 'mode': 'ANSWER', 's_mode': -20.123668670654297, 'L_content': 4.540510177612305}
+{'go_p1': False, 'reasons': ['content_auc=0.41273584905660377 spearman=-0.1416324575772893 need AUC≥0.70 or ρ≥0.30']}
+======== 2026-09-14T13:24:07+08:00 P0 GPU exit=0 ========
+======== 2026-09-14T13:27:54+08:00 P0-B2 start ========
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:05,  1.31s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:04,  1.35s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:04<00:02,  1.35s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:05<00:01,  1.33s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.01it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.15s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+{'id': 'h49:c07:e16:r4', 'progress': '1/85', 'L_write': 0.23820245265960693}
+{'id': 'h49:c07:e16:r6', 'progress': '2/85', 'L_write': 0.42704230546951294}
+{'id': 'h49:c07:e16:r7', 'progress': '3/85', 'L_write': 0.8357783555984497}
+{'id': 'h49:c08:e16:r1', 'progress': '4/85', 'L_write': 0.7070140242576599}
+{'id': 'h49:c08:e16:r2', 'progress': '5/85', 'L_write': 0.85260009765625}
+{'id': 'h49:c08:e16:r4', 'progress': '6/85', 'L_write': 0.6147122383117676}
+{'id': 'h53:c08:e16:r0', 'progress': '7/85', 'L_write': 0.49479150772094727}
+{'id': 'h53:c08:e16:r4', 'progress': '8/85', 'L_write': 0.730946958065033}
+{'id': 'h53:c08:e16:r6', 'progress': '9/85', 'L_write': 0.5126996040344238}
+{'id': 'h56:c07:e16:r0', 'progress': '10/85', 'L_write': 0.8483152985572815}
+{'id': 'h56:c07:e16:r1', 'progress': '11/85', 'L_write': 0.8618590831756592}
+{'id': 'h56:c07:e16:r2', 'progress': '12/85', 'L_write': 0.9553772211074829}
+{'id': 'h56:c07:e16:r3', 'progress': '13/85', 'L_write': 1.1659561395645142}
+{'id': 'h56:c07:e16:r4', 'progress': '14/85', 'L_write': 0.6348238587379456}
+{'id': 'h56:c07:e16:r5', 'progress': '15/85', 'L_write': 0.870489239692688}
+{'id': 'h56:c07:e16:r6', 'progress': '16/85', 'L_write': 1.0084055662155151}
+{'id': 'h56:c07:e16:r7', 'progress': '17/85', 'L_write': 1.11545729637146}
+{'id': 'h56:c08:e16:r0', 'progress': '18/85', 'L_write': 1.034043788909912}
+{'id': 'h56:c08:e16:r1', 'progress': '19/85', 'L_write': 0.8983073234558105}
+{'id': 'h56:c08:e16:r3', 'progress': '20/85', 'L_write': 0.931678295135498}
+{'id': 'h56:c08:e16:r4', 'progress': '21/85', 'L_write': 0.8354406952857971}
+{'id': 'h56:c08:e16:r5', 'progress': '22/85', 'L_write': 0.870337724685669}
+{'id': 'h56:c08:e16:r6', 'progress': '23/85', 'L_write': 0.8965288400650024}
+{'id': 'h56:c08:e16:r7', 'progress': '24/85', 'L_write': 0.7081757187843323}
+{'id': 'h61:c07:e16:r6', 'progress': '25/85', 'L_write': 0.5748424530029297}
+{'id': 'h64:c07:e16:r0', 'progress': '26/85', 'L_write': 1.013790488243103}
+{'id': 'h64:c07:e16:r1', 'progress': '27/85', 'L_write': 0.9899201393127441}
+{'id': 'h64:c07:e16:r2', 'progress': '28/85', 'L_write': 1.0920486450195312}
+{'id': 'h64:c07:e16:r3', 'progress': '29/85', 'L_write': 0.8809871673583984}
+{'id': 'h64:c07:e16:r4', 'progress': '30/85', 'L_write': 0.9599732160568237}
+{'id': 'h64:c07:e16:r5', 'progress': '31/85', 'L_write': 1.0615527629852295}
+{'id': 'h64:c07:e16:r6', 'progress': '32/85', 'L_write': 1.0112751722335815}
+{'id': 'h64:c07:e16:r7', 'progress': '33/85', 'L_write': 1.0660078525543213}
+{'id': 'h64:c08:e16:r3', 'progress': '34/85', 'L_write': 0.9073899984359741}
+{'id': 'h64:c08:e16:r5', 'progress': '35/85', 'L_write': 0.8485435247421265}
+{'id': 'h64:c08:e16:r6', 'progress': '36/85', 'L_write': 0.9138421416282654}
+{'id': 'h64:c08:e16:r7', 'progress': '37/85', 'L_write': 0.7520275115966797}
+{'id': 'h66:c07:e16:r0', 'progress': '38/85', 'L_write': 1.0203828811645508}
+{'id': 'h66:c07:e16:r2', 'progress': '39/85', 'L_write': 1.0345553159713745}
+{'id': 'h66:c07:e16:r3', 'progress': '40/85', 'L_write': 1.3544468879699707}
+{'id': 'h66:c07:e16:r4', 'progress': '41/85', 'L_write': 0.9988999962806702}
+{'id': 'h66:c07:e16:r5', 'progress': '42/85', 'L_write': 0.9977307915687561}
+{'id': 'h66:c07:e16:r7', 'progress': '43/85', 'L_write': 1.0009419918060303}
+{'id': 'h66:c08:e16:r1', 'progress': '44/85', 'L_write': 1.0409774780273438}
+{'id': 'h66:c08:e16:r2', 'progress': '45/85', 'L_write': 1.0955344438552856}
+{'id': 'h66:c08:e16:r3', 'progress': '46/85', 'L_write': 1.0738884210586548}
+{'id': 'h66:c08:e16:r4', 'progress': '47/85', 'L_write': 1.1019936800003052}
+{'id': 'h66:c08:e16:r5', 'progress': '48/85', 'L_write': 1.0790073871612549}
+{'id': 'h66:c08:e16:r6', 'progress': '49/85', 'L_write': 1.0707733631134033}
+{'id': 'h66:c08:e16:r7', 'progress': '50/85', 'L_write': 1.2142798900604248}
+{'id': 'h68:c07:e16:r2', 'progress': '51/85', 'L_write': 1.1530660390853882}
+{'id': 'h68:c07:e16:r5', 'progress': '52/85', 'L_write': 1.0164459943771362}
+{'id': 'h68:c08:e16:r0', 'progress': '53/85', 'L_write': 0.8487333059310913}
+{'id': 'h68:c08:e16:r1', 'progress': '54/85', 'L_write': 1.0683207511901855}
+{'id': 'h68:c08:e16:r2', 'progress': '55/85', 'L_write': 1.2611364126205444}
+{'id': 'h68:c08:e16:r3', 'progress': '56/85', 'L_write': 0.9069896936416626}
+{'id': 'h68:c08:e16:r6', 'progress': '57/85', 'L_write': 0.9227825403213501}
+{'id': 'h68:c08:e16:r7', 'progress': '58/85', 'L_write': 0.878657341003418}
+{'id': 'h72:c07:e16:r0', 'progress': '59/85', 'L_write': 0.8752504587173462}
+{'id': 'h72:c07:e16:r2', 'progress': '60/85', 'L_write': 1.00347900390625}
+{'id': 'h72:c07:e16:r3', 'progress': '61/85', 'L_write': 1.0941294431686401}
+{'id': 'h72:c07:e16:r4', 'progress': '62/85', 'L_write': 1.1284571886062622}
+{'id': 'h72:c07:e16:r5', 'progress': '63/85', 'L_write': 0.9425158500671387}
+{'id': 'h72:c07:e16:r7', 'progress': '64/85', 'L_write': 1.0663608312606812}
+{'id': 'h72:c08:e16:r0', 'progress': '65/85', 'L_write': 1.0092551708221436}
+{'id': 'h72:c08:e16:r1', 'progress': '66/85', 'L_write': 1.0901920795440674}
+{'id': 'h72:c08:e16:r2', 'progress': '67/85', 'L_write': 0.9426723718643188}
+{'id': 'h72:c08:e16:r3', 'progress': '68/85', 'L_write': 0.9158582091331482}
+{'id': 'h72:c08:e16:r4', 'progress': '69/85', 'L_write': 1.0134069919586182}
+{'id': 'h72:c08:e16:r6', 'progress': '70/85', 'L_write': 0.8966600298881531}
+{'id': 'h74:c07:e16:r0', 'progress': '71/85', 'L_write': 1.0836102962493896}
+{'id': 'h74:c07:e16:r4', 'progress': '72/85', 'L_write': 0.9362629055976868}
+{'id': 'h74:c08:e16:r0', 'progress': '73/85', 'L_write': 1.3092875480651855}
+{'id': 'h74:c08:e16:r3', 'progress': '74/85', 'L_write': 1.1630008220672607}
+{'id': 'h74:c08:e16:r7', 'progress': '75/85', 'L_write': 1.1404590606689453}
+{'id': 'h80:c07:e16:r0', 'progress': '76/85', 'L_write': 0.45476752519607544}
+{'id': 'h80:c07:e16:r4', 'progress': '77/85', 'L_write': 0.5832712650299072}
+{'id': 'h80:c08:e16:r0', 'progress': '78/85', 'L_write': 0.4640030264854431}
+{'id': 'h80:c08:e16:r2', 'progress': '79/85', 'L_write': 0.445766806602478}
+{'id': 'h80:c08:e16:r3', 'progress': '80/85', 'L_write': 0.5279367566108704}
+{'id': 'h80:c08:e16:r4', 'progress': '81/85', 'L_write': 0.6529152393341064}
+{'id': 'h80:c08:e16:r5', 'progress': '82/85', 'L_write': 0.6621835231781006}
+{'id': 'h80:c08:e16:r6', 'progress': '83/85', 'L_write': 0.4917667508125305}
+{'id': 'h80:c08:e16:r7', 'progress': '84/85', 'L_write': 0.6121261119842529}
+{'id': 'h81:c08:e16:r7', 'progress': '85/85', 'L_write': 1.2290292978286743}
+{'go_p1': False, 'reasons': ['content_auc=0.41273584905660377 within_q=0.5265578403078404 write_auc=0.5601415094339622 spearman=-0.1416324575772893 need AUC≥0.70 or ρ≥0.30 or within-query/write contrastive ≥0.70']}
+======== 2026-09-14T13:29:25+08:00 P0-B2 exit=0 ========

@@ -1,0 +1,26 @@
+{
+  "model": "src/p0_qwen/model.py::QwenP0",
+  "judge": "src/n0/axes.py::four_axes",
+  "legacy_judge": "src/p0/judge.py::harmful_compliance",
+  "pgd_open": "src/n1/pilot.py::pgd_restart",
+  "clip": "src/otw/open_phase.py::clip_delta",
+  "prefix_nll": "src/otw/write_phase.py::prefix_token_logp",
+  "cr0_records": "outputs/causal_reach/cr0/candidates.json",
+  "cr0_deltas": "outputs/causal_reach/cr0/deltas",
+  "carriers": "data/p0/carriers.json",
+  "sealed": "h83-h130",
+  "pathem_stage0": [
+    "src/pathem/protocol.py",
+    "src/pathem/projection.py",
+    "src/pathem/budget.py",
+    "src/pathem/records.py",
+    "src/pathem/privacy.py",
+    "src/pathem/config.py",
+    "src/pathem/cr0_io.py",
+    "src/pathem/labels.py",
+    "src/pathem/splits.py",
+    "configs/pathem/pilot.yaml",
+    "tests/test_pathem_stage0.py",
+    "scripts/run_pathem_stage0.py"
+  ]
+}

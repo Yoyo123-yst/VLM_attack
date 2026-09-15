@@ -1,0 +1,3 @@
+FAIL content_gate n_content=9 n_mode=21 mode=PASS reasons=['n_pairs 9 < 12'] 2026-09-14T10:49:48+08:00
+Stop content-path CausalReach. Do not start CR-1.
+CPU pair-loss audit: outputs/causal_reach/cr0/CR0_PAIR_LOSS_AUDIT.md (descriptive only; not a re-gate).

@@ -1,0 +1,48 @@
+{
+  "schema": "routec_frozen_v1",
+  "frozen_at": "2026-09-14T13:30:00+08:00",
+  "frozen_before_any_routec_gpu": true,
+  "stage": "Phase-0-A (CPU audit)",
+  "question": "Can a causal cross-modal (DENY) representation-guided attack survive label correction, length gating, and delta-geometry checks on CR-0 + n1r_fast evidence?",
+  "sealed_untouched": ["h83-h90", "h91-h130"],
+  "inputs": {
+    "cr0_candidates": "outputs/causal_reach/cr0/candidates.json",
+    "cr0_pairs": "outputs/causal_reach/cr0/pairs.json",
+    "cr0_deltas": "outputs/causal_reach/cr0/deltas",
+    "n1r_fast_candidates": "outputs/n1r_fast/candidates.json",
+    "n1r_fast_deltas": "outputs/n1r_fast/hidden"
+  },
+  "label_fixes": {
+    "finding1_caption_degenerate": {
+      "regex": "\\(\\d{1,4},\\d{1,4}\\)",
+      "or_core_safe_answer_and_chars_lt": 120,
+      "action": "force core_safe_answer=false for pairing"
+    },
+    "finding2_repeat_garbage": {
+      "repeat_ratio_range": [0.40, 0.55],
+      "and_is_operational": true,
+      "action": "force core_rhc=false for pairing"
+    }
+  },
+  "gates": {
+    "G0a_degenerate_fraction": {
+      "threshold_continue": "<=1/9 content pairs degenerate",
+      "threshold_rebuild": ">=2/9 content pairs degenerate",
+      "note": "finding1 already triggered >=2/9 on raw CR-0; re-evaluate AFTER correction"
+    },
+    "G0b_corrected_pairs": {
+      "min_pairs": 8,
+      "min_queries": 4,
+      "note": "corrected n_pairs>=8 AND n_queries>=4 -> continue; else downgrade Route C"
+    }
+  },
+  "later_gates": {
+    "G0c_hidden_separability": "belongs to P0.4 (GPU, NOT run in A段)",
+    "G0d_midgen_patch_tool": "belongs to P0.5 (new src/routec/patch_mid.py, NOT run in A段)"
+  },
+  "length_gate": {
+    "lo": 0.33,
+    "hi": 3.0,
+    "fn": "n0.axes.length_matched"
+  }
+}

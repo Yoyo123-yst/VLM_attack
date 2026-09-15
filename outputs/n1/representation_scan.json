@@ -1,0 +1,29 @@
+{
+  "status": "skipped_preflight_fail",
+  "preflight_pass": false,
+  "discover_only": true,
+  "reason": "identical_pregeneration_inputs_sampling_only",
+  "layers": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    27
+  ],
+  "ranks": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "token_positions": [
+    "last_prompt",
+    "assistant_start",
+    "first_generated",
+    "semantic_divergence"
+  ],
+  "note": "Scan not run. Stored last-prompt hidden cannot separate SAFE/RHC on identical pre-generation inputs."
+}

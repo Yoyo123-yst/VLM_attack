@@ -1,0 +1,50 @@
+{
+  "schema": "craa_stage0_summary_v1",
+  "generated_at": "2026-09-14T16:42:54+08:00",
+  "n_samples": 8,
+  "u_refusal_R_inf": {
+    "n": 8,
+    "mean": 111847.64575195312,
+    "std": 118994.10917006597,
+    "median": 60171.625
+  },
+  "u_refusal_R_2": {
+    "n": 8,
+    "mean": 454.04837226867676,
+    "std": 450.8625388716522,
+    "median": 200.67079162597656
+  },
+  "neg_u_refusal_R_inf": {
+    "n": 8,
+    "mean": 111847.64575195312,
+    "std": 118994.10917006597,
+    "median": 60171.625
+  },
+  "R_inf_sign_symmetry_max_abs_err": 0.0,
+  "random_R_inf": {
+    "n": 320,
+    "mean": 8674.948041534424,
+    "std": 4403.810029105283,
+    "median": 7272.598876953125
+  },
+  "random_R_inf_by_kind": {
+    "gaussian_unit": {
+      "n": 160,
+      "mean": 8503.375187683105,
+      "std": 4347.7167662613465,
+      "median": 7093.4208984375
+    },
+    "random_orthogonal": {
+      "n": 160,
+      "mean": 8846.520895385742,
+      "std": 4452.591377715809,
+      "median": 7823.399658203125
+    }
+  },
+  "gate": {
+    "u_median_R_inf": 60171.625,
+    "random_mean_R_inf": 8674.948041534424,
+    "fraction_random_below_u_median": 1.0,
+    "pass_candidate": false
+  }
+}

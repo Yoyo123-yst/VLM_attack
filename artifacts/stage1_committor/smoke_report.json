@@ -1,0 +1,35 @@
+{
+  "stage": "1-smoke",
+  "written": "2026-09-14T21:53:57+08:00",
+  "cell": "h56:c07:e16:r0",
+  "query_id": "h56",
+  "carrier_id": "c07",
+  "seeds": [
+    20260,
+    20261
+  ],
+  "n_traj": 2,
+  "n_prefix": 8,
+  "n_core_rhc": 2,
+  "terminal_labels": [
+    "RHC",
+    "RHC"
+  ],
+  "modes": [
+    "ANSWER",
+    "ANSWER"
+  ],
+  "same_seed_would_need_rerun": true,
+  "budget": {
+    "victim_generations": 2,
+    "generated_tokens": 143,
+    "forward_passes": 2,
+    "backward_passes": 0,
+    "judge_calls": 2,
+    "wall_clock_seconds": 8.076153039932251,
+    "peak_gpu_memory": 0.0
+  },
+  "store_raw_outputs": false,
+  "note": "Smoke only. No committor fit. No empirical PathEM claim.",
+  "gate": "GO"
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "otw_run_manifest_v1",
+  "written_at": "2026-09-14T00:45:50+08:00",
+  "owner": "overnight_otw",
+  "frozen_config": "/root/autodl-tmp/multimodal_attack_project/outputs/otw/OTW_FROZEN_CONFIG.json",
+  "frozen_config_existed_before_gpu": true,
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 4080 SUPER",
+    "memory_total_mib": 32760,
+    "memory_free_mib": 32230,
+    "driver": "595.71.05",
+    "cuda_smi": "13.2",
+    "compute_apps_at_start": []
+  },
+  "python": "/root/autodl-tmp/conda/envs/vattack/bin/python",
+  "env": {
+    "HF_HOME": "/root/autodl-tmp/huggingface",
+    "TRANSFORMERS_OFFLINE": "1",
+    "HF_HUB_OFFLINE": "1",
+    "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True",
+    "PYTHONUNBUFFERED": "1",
+    "P0_QWEN_FORCE_GPU": "1"
+  },
+  "git": {
+    "repo": false,
+    "note": "workspace is not a git repository; hashes recorded in OTW_FROZEN_CONFIG.json"
+  },
+  "existing_otw_python_gpu": false,
+  "checkpoint_policy": "resume last complete stage; do not overwrite valid results; save after every stage",
+  "status_enum": [
+    "feasibility_passed_and_integrated",
+    "stopped_at_Tx_scientific_failure",
+    "blocked_by_external_condition"
+  ]
+}
