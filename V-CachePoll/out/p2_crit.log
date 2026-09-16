@@ -1,0 +1,68 @@
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:04,  1.16s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:03,  1.09s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:03<00:02,  1.09s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:04<00:01,  1.08s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:04<00:00,  1.21it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:04<00:00,  1.06it/s]
+== p2 crit c000 (1/32) ==
+p2 crit c000 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c003 (2/32) ==
+p2 crit c003 localized=False u_src=top_frac n_u=7 drop_top=True drop_bot=True loo=0
+== p2 crit c004 (3/32) ==
+p2 crit c004 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c005 (4/32) ==
+p2 crit c005 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=False loo=0
+== p2 crit c006 (5/32) ==
+p2 crit c006 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c007 (6/32) ==
+p2 crit c007 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c008 (7/32) ==
+p2 crit c008 localized=False u_src=top_frac n_u=5 drop_top=True drop_bot=True loo=0
+== p2 crit c009 (8/32) ==
+p2 crit c009 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=False loo=0
+== p2 crit c011 (9/32) ==
+p2 crit c011 localized=False u_src=top_frac n_u=7 drop_top=True drop_bot=True loo=0
+== p2 crit c012 (10/32) ==
+p2 crit c012 localized=False u_src=top_frac n_u=7 drop_top=True drop_bot=True loo=0
+== p2 crit c013 (11/32) ==
+p2 crit c013 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c015 (12/32) ==
+p2 crit c015 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c016 (13/32) ==
+p2 crit c016 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c018 (14/32) ==
+p2 crit c018 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c020 (15/32) ==
+p2 crit c020 localized=True u_src=loo n_u=2 drop_top=True drop_bot=False loo=2
+== p2 crit c021 (16/32) ==
+p2 crit c021 localized=False u_src=top_frac n_u=5 drop_top=True drop_bot=True loo=0
+== p2 crit c022 (17/32) ==
+p2 crit c022 localized=False u_src=top_frac n_u=5 drop_top=True drop_bot=False loo=0
+== p2 crit c023 (18/32) ==
+p2 crit c023 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c025 (19/32) ==
+p2 crit c025 localized=False u_src=top_frac n_u=7 drop_top=True drop_bot=True loo=0
+== p2 crit c026 (20/32) ==
+p2 crit c026 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c028 (21/32) ==
+p2 crit c028 localized=False u_src=top_frac n_u=7 drop_top=True drop_bot=True loo=0
+== p2 crit c029 (22/32) ==
+p2 crit c029 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c030 (23/32) ==
+p2 crit c030 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=False loo=0
+== p2 crit c031 (24/32) ==
+p2 crit c031 localized=True u_src=drop_top n_u=10 drop_top=False drop_bot=False loo=0
+== p2 crit c032 (25/32) ==
+p2 crit c032 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=False loo=0
+== p2 crit c033 (26/32) ==
+p2 crit c033 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c034 (27/32) ==
+p2 crit c034 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c035 (28/32) ==
+p2 crit c035 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c036 (29/32) ==
+p2 crit c036 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c037 (30/32) ==
+p2 crit c037 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c038 (31/32) ==
+p2 crit c038 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c039 (32/32) ==
+p2 crit c039 localized=False u_src=top_frac n_u=6 drop_top=True drop_bot=True loo=0
+{'n': 32, 'n_localized': 2, 'path': '/root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/p2_crit.json'}

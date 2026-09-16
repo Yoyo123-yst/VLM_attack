@@ -1,0 +1,99 @@
+{
+  "verdict": "STOP",
+  "summary": {
+    "refusal_margin": {
+      "n_rhc": 7,
+      "n": 8,
+      "recurrence_rate": 0.625,
+      "n_recurrence_rounds": 5,
+      "n_fail_rounds": 8,
+      "garbage_fail_cells": 0,
+      "rescued": [
+        "h53:c08",
+        "h64:c07",
+        "h64:c08",
+        "h66:c07",
+        "h66:c08",
+        "h72:c07",
+        "h72:c08"
+      ]
+    },
+    "last_certificate": {
+      "n_rhc": 3,
+      "n": 8,
+      "recurrence_rate": 0.2962962962962963,
+      "n_recurrence_rounds": 8,
+      "n_fail_rounds": 27,
+      "garbage_fail_cells": 0,
+      "rescued": [
+        "h64:c07",
+        "h64:c08",
+        "h66:c07"
+      ]
+    },
+    "targeted_prefix_earlystop": {
+      "n_rhc": 8,
+      "n": 8,
+      "recurrence_rate": 0.4444444444444444,
+      "n_recurrence_rounds": 4,
+      "n_fail_rounds": 9,
+      "garbage_fail_cells": 0,
+      "rescued": [
+        "h53:c07",
+        "h53:c08",
+        "h64:c07",
+        "h64:c08",
+        "h66:c07",
+        "h66:c08",
+        "h72:c07",
+        "h72:c08"
+      ]
+    },
+    "gateflip_fair": {
+      "n_rhc": 6,
+      "n": 8,
+      "recurrence_rate": 0.75,
+      "n_recurrence_rounds": 9,
+      "n_fail_rounds": 12,
+      "garbage_fail_cells": 0,
+      "rescued": [
+        "h64:c07",
+        "h64:c08",
+        "h66:c07",
+        "h66:c08",
+        "h72:c07",
+        "h72:c08"
+      ]
+    },
+    "accumulated_certificate": {
+      "n_rhc": 4,
+      "n": 8,
+      "recurrence_rate": 0.5833333333333334,
+      "n_recurrence_rounds": 14,
+      "n_fail_rounds": 24,
+      "garbage_fail_cells": 0,
+      "rescued": [
+        "h53:c08",
+        "h64:c07",
+        "h64:c08",
+        "h72:c08"
+      ]
+    },
+    "accumulated_exact_only": {
+      "n_rhc": 1,
+      "n": 8,
+      "recurrence_rate": 0.6857142857142857,
+      "n_recurrence_rounds": 24,
+      "n_fail_rounds": 35,
+      "garbage_fail_cells": 0,
+      "rescued": [
+        "h64:c08"
+      ]
+    }
+  },
+  "n_accumulated": 4,
+  "n_last": 3,
+  "beat_last": 1,
+  "recurrence_drop": -0.9687500000000002,
+  "note": "6/8 is CONDITIONAL at most; GO requires 7/8 and +1 vs last_certificate."
+}

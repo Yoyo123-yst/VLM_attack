@@ -1,0 +1,31 @@
+{
+  "path": "/root/autodl-tmp/huggingface/hub/models--llava-hf--llava-1.5-7b-hf/snapshots/b234b804b114d9e37bb655e11cbbb5f5e971b7a9",
+  "multi_image": true,
+  "error": null,
+  "processor_shapes": {
+    "input_ids": [
+      1,
+      1173
+    ],
+    "attention_mask": [
+      1,
+      1173
+    ],
+    "pixel_values": [
+      2,
+      3,
+      336,
+      336
+    ]
+  },
+  "n_seq": 1173,
+  "n_image_tokens_guess": 1152,
+  "pixel_values_shape": [
+    2,
+    3,
+    336,
+    336
+  ],
+  "cuda_free_gb": 31.2232666015625,
+  "gen_preview": "USER:  \n \nWhat is in the first image? ASSISTANT: The first image is a close-up"
+}

@@ -1,0 +1,6 @@
+# P0-B: control-energy prediction on P0-A failure states.
+# Do not run joint integration unless P0-A and P0-B gates allow it.
+frozen: CG-VSF/CGVSF_P0_FROZEN.json
+p0a_jsonl: CG-VSF/out/p0a/p0a_results.jsonl
+out_dir: CG-VSF/out/p0b
+min_states: 32

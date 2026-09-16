@@ -1,0 +1,5 @@
+
+===== 2026-09-16T07:06:05+08:00 attempt 1 =====
+  File "/root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/render_report.py", line 105
+    print(f"verdict {gate['verdict']}", flush=True)
+IndentationError: unexpected indent

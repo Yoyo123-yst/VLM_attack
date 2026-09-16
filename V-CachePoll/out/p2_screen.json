@@ -1,0 +1,1655 @@
+{
+  "n_kept": 32,
+  "n_rejected": 3,
+  "kept": [
+    {
+      "pair_id": "c000",
+      "a_file": "000000000285.jpg",
+      "b_file": "000000018519.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000000285.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000018519.jpg",
+      "source": "Grizzly bear",
+      "question": "What is the large creature that occupies most of the frame?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large creature that occupies most of the frame?",
+      "ans_a_only": "The large creature that occupies most of the frame is a bear.",
+      "screen": {
+        "pair_id": "c000",
+        "source": "Grizzly bear",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The large creature that occupies most of the frame is a bear.",
+        "ans_full": "The large creature that occupies most of the frame is a brown bear.",
+        "ans_avtp": "The large creature that occupies most of the frame is a bear.",
+        "r": [
+          0.4738377332687378,
+          0.5261622667312622
+        ],
+        "kept": [
+          63,
+          68
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The large creature that occupies most of the frame is a bear.",
+        "r": [
+          0.17377649247646332,
+          0.22622349858283997
+        ],
+        "k": [
+          23,
+          29
+        ]
+      },
+      "u_idx": [
+        78,
+        102,
+        74,
+        120,
+        131,
+        79
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c003",
+      "a_file": "000000001584.jpg",
+      "b_file": "000000229849.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000001584.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000229849.jpg",
+      "source": "Double-decker bus",
+      "question": "What is the object that is positioned on the road and has two levels for passengers?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that is positioned on the road and has two levels for passengers?",
+      "ans_a_only": "The object is a red double-decker bus.",
+      "screen": {
+        "pair_id": "c003",
+        "source": "Double-decker bus",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object is a red double-decker bus.",
+        "ans_full": "The object is a red double-decker bus.",
+        "ans_avtp": "The object is a double-decker bus.",
+        "r": [
+          0.48850053548812866,
+          0.5114995241165161
+        ],
+        "kept": [
+          70,
+          64
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object is a double-decker bus.",
+        "r": [
+          0.18816624581813812,
+          0.21183374524116516
+        ],
+        "k": [
+          27,
+          27
+        ]
+      },
+      "u_idx": [
+        124,
+        112,
+        74,
+        40,
+        11,
+        114,
+        66
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c004",
+      "a_file": "000000001675.jpg",
+      "b_file": "000000032887.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000001675.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000032887.jpg",
+      "source": "Black cat",
+      "question": "What is the dark object that seems to be partially obscuring the typing surface?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the dark object that seems to be partially obscuring the typing surface?",
+      "ans_a_only": "The dark object that seems to be partially obscuring the typing surface is a cat.",
+      "screen": {
+        "pair_id": "c004",
+        "source": "Black cat",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The dark object that seems to be partially obscuring the typing surface is a cat.",
+        "ans_full": "The dark object that seems to be partially obscuring the typing surface is a cat.",
+        "ans_avtp": "The dark object that seems to be partially obscuring the typing surface is a cat.",
+        "r": [
+          0.5012832283973694,
+          0.4987167716026306
+        ],
+        "kept": [
+          65,
+          65
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The dark object that seems to be partially obscuring the typing surface is a cat.",
+        "r": [
+          0.20078714191913605,
+          0.19921286404132843
+        ],
+        "k": [
+          26,
+          26
+        ]
+      },
+      "u_idx": [
+        58,
+        44,
+        129,
+        11,
+        99,
+        106
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c005",
+      "a_file": "000000001993.jpg",
+      "b_file": "000000076547.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000001993.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000076547.jpg",
+      "source": "Bed",
+      "question": "What is the object that occupies the space near the window, taking up a significant portion of the room?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that occupies the space near the window, taking up a significant portion of the room?",
+      "ans_a_only": "The object that occupies the space near the window, taking up a significant portion of the room, is a bed.",
+      "screen": {
+        "pair_id": "c005",
+        "source": "Bed",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object that occupies the space near the window, taking up a significant portion of the room, is a bed.",
+        "ans_full": "There is a bed in the room near the window.",
+        "ans_avtp": "The object that occupies the space near the window, taking up a significant portion of the room, is a bed.",
+        "r": [
+          0.48176711797714233,
+          0.5182329416275024
+        ],
+        "kept": [
+          61,
+          67
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object that occupies the space near the window, taking up a significant portion of the room, is a bed.",
+        "r": [
+          0.1814001351594925,
+          0.21859987080097198
+        ],
+        "k": [
+          23,
+          28
+        ]
+      },
+      "u_idx": [
+        21,
+        8,
+        31,
+        98,
+        29,
+        103,
+        122,
+        115,
+        102,
+        12
+      ],
+      "u_src": "drop_bot"
+    },
+    {
+      "pair_id": "c006",
+      "a_file": "000000002006.jpg",
+      "b_file": "000000010764.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000002006.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000010764.jpg",
+      "source": "Bus",
+      "question": "What is the large vehicle that is positioned near the curb?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large vehicle that is positioned near the curb?",
+      "ans_a_only": "The large vehicle near the curb is a bus.",
+      "screen": {
+        "pair_id": "c006",
+        "source": "Bus",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The large vehicle near the curb is a bus.",
+        "ans_full": "The large vehicle near the curb is a purple bus.",
+        "ans_avtp": "The large vehicle near the curb is a bus.",
+        "r": [
+          0.49102312326431274,
+          0.5089768767356873
+        ],
+        "kept": [
+          64,
+          64
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The large vehicle near the curb is a bus.",
+        "r": [
+          0.19185887277126312,
+          0.20814113318920135
+        ],
+        "k": [
+          25,
+          26
+        ]
+      },
+      "u_idx": [
+        25,
+        22,
+        60,
+        99,
+        71,
+        113
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c007",
+      "a_file": "000000002149.jpg",
+      "b_file": "000000431848.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000002149.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000431848.jpg",
+      "source": "Green apple",
+      "question": "What is the object that the white dish is containing?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that the white dish is containing?",
+      "ans_a_only": "The white dish is containing green apples.",
+      "screen": {
+        "pair_id": "c007",
+        "source": "Green apple",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The white dish is containing green apples.",
+        "ans_full": "The object in the white dish is a pile of green apples.",
+        "ans_avtp": "The white dish is containing green apples.",
+        "r": [
+          0.49390709400177,
+          0.50609290599823
+        ],
+        "kept": [
+          62,
+          68
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The white dish is containing green apples.",
+        "r": [
+          0.19398342072963715,
+          0.20601658523082733
+        ],
+        "k": [
+          24,
+          28
+        ]
+      },
+      "u_idx": [
+        9,
+        94,
+        27,
+        56,
+        87,
+        78
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c008",
+      "a_file": "000000002157.jpg",
+      "b_file": "000000511760.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000002157.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000511760.jpg",
+      "source": "Berry cake",
+      "question": "What is the object that the white frosting is covering?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that the white frosting is covering?",
+      "ans_a_only": "The object that the white frosting is covering is a cake.",
+      "screen": {
+        "pair_id": "c008",
+        "source": "Berry cake",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object that the white frosting is covering is a cake.",
+        "ans_full": "The object that the white frosting is covering is a cake.",
+        "ans_avtp": "The object that the white frosting is covering is a cake.",
+        "r": [
+          0.4495231509208679,
+          0.5504768490791321
+        ],
+        "kept": [
+          57,
+          75
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object that the white frosting is covering is a cake.",
+        "r": [
+          0.14939451217651367,
+          0.2506054937839508
+        ],
+        "k": [
+          19,
+          34
+        ]
+      },
+      "u_idx": [
+        29,
+        84,
+        16,
+        125,
+        85
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c009",
+      "a_file": "000000002587.jpg",
+      "b_file": "000000127476.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000002587.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000127476.jpg",
+      "source": "Banana",
+      "question": "What is the elongated, yellow object that is positioned next to the round item?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the elongated, yellow object that is positioned next to the round item?",
+      "ans_a_only": "The elongated, yellow object next to the round item is a banana.",
+      "screen": {
+        "pair_id": "c009",
+        "source": "Banana",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The elongated, yellow object next to the round item is a banana.",
+        "ans_full": "The elongated, yellow object next to the round item is a banana.",
+        "ans_avtp": "The elongated, yellow object next to the round item is a banana.",
+        "r": [
+          0.4923091530799866,
+          0.5076909065246582
+        ],
+        "kept": [
+          64,
+          66
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The elongated, yellow object next to the round item is a banana.",
+        "r": [
+          0.192666158080101,
+          0.20733384788036346
+        ],
+        "k": [
+          25,
+          27
+        ]
+      },
+      "u_idx": [
+        25,
+        128,
+        118,
+        10,
+        22,
+        44,
+        109,
+        65,
+        12,
+        129
+      ],
+      "u_src": "drop_bot"
+    },
+    {
+      "pair_id": "c011",
+      "a_file": "000000003501.jpg",
+      "b_file": "000000041488.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000003501.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000041488.jpg",
+      "source": "Chili",
+      "question": "What is the object that adds a spicy kick to the dish?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that adds a spicy kick to the dish?",
+      "ans_a_only": "The object that adds a spicy kick to the dish is chili.",
+      "screen": {
+        "pair_id": "c011",
+        "source": "Chili",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object that adds a spicy kick to the dish is chili.",
+        "ans_full": "The object that adds a spicy kick to the dish is the chili pepper.",
+        "ans_avtp": "The object that adds a spicy kick to the dish is chili.",
+        "r": [
+          0.4852050542831421,
+          0.5147950053215027
+        ],
+        "kept": [
+          70,
+          69
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object that adds a spicy kick to the dish is the chili pepper.",
+        "r": [
+          0.18481901288032532,
+          0.21518097817897797
+        ],
+        "k": [
+          27,
+          29
+        ]
+      },
+      "u_idx": [
+        116,
+        40,
+        32,
+        49,
+        142,
+        31,
+        106
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c012",
+      "a_file": "000000003661.jpg",
+      "b_file": "000000376478.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000003661.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000376478.jpg",
+      "source": "Bananas",
+      "question": "What object is casting a shadow on the wooden surface?",
+      "prompt": "Look at the first image only. Ignore the second image. What object is casting a shadow on the wooden surface?",
+      "ans_a_only": "The bananas are casting a shadow on the wooden surface.",
+      "screen": {
+        "pair_id": "c012",
+        "source": "Bananas",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The bananas are casting a shadow on the wooden surface.",
+        "ans_full": "The bananas are casting a shadow on the wooden surface.",
+        "ans_avtp": "The bananas are casting a shadow on the wooden surface.",
+        "r": [
+          0.4985429048538208,
+          0.5014570951461792
+        ],
+        "kept": [
+          67,
+          65
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The bananas are casting a shadow on the wooden surface.",
+        "r": [
+          0.1981736272573471,
+          0.20182637870311737
+        ],
+        "k": [
+          27,
+          26
+        ]
+      },
+      "u_idx": [
+        109,
+        113,
+        10,
+        50,
+        128,
+        123,
+        131
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c013",
+      "a_file": "000000003845.jpg",
+      "b_file": "000000083531.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000003845.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000083531.jpg",
+      "source": "Plate",
+      "question": "What is the object that the colorful food items are arranged upon?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that the colorful food items are arranged upon?",
+      "ans_a_only": "The colorful food items are arranged upon a plate.",
+      "screen": {
+        "pair_id": "c013",
+        "source": "Plate",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The colorful food items are arranged upon a plate.",
+        "ans_full": "The colorful food items are arranged upon a plate.",
+        "ans_avtp": "The colorful food items are arranged upon a plate.",
+        "r": [
+          0.48045992851257324,
+          0.5195401310920715
+        ],
+        "kept": [
+          62,
+          67
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The colorful food items are arranged upon a plate.",
+        "r": [
+          0.1803213208913803,
+          0.21967867016792297
+        ],
+        "k": [
+          23,
+          28
+        ]
+      },
+      "u_idx": [
+        76,
+        52,
+        105,
+        92,
+        90,
+        12
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c015",
+      "a_file": "000000005037.jpg",
+      "b_file": "000000433134.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000005037.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000433134.jpg",
+      "source": "Bus",
+      "question": "What is the large vehicle that is positioned near the curb?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large vehicle that is positioned near the curb?",
+      "ans_a_only": "The large vehicle near the curb is a bus.",
+      "screen": {
+        "pair_id": "c015",
+        "source": "Bus",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The large vehicle near the curb is a bus.",
+        "ans_full": "The large vehicle near the curb is a bus.",
+        "ans_avtp": "The large vehicle near the curb is a bus.",
+        "r": [
+          0.47459274530410767,
+          0.5254073143005371
+        ],
+        "kept": [
+          60,
+          68
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The large vehicle near the curb is a bus.",
+        "r": [
+          0.17328615486621857,
+          0.2267138510942459
+        ],
+        "k": [
+          22,
+          29
+        ]
+      },
+      "u_idx": [
+        12,
+        27,
+        75,
+        46,
+        84,
+        124
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c016",
+      "a_file": "000000005477.jpg",
+      "b_file": "000000429718.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000005477.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000429718.jpg",
+      "source": "Airplane",
+      "question": "What is the large object that is positioned on the runway, ready for takeoff or having just landed?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large object that is positioned on the runway, ready for takeoff or having just landed?",
+      "ans_a_only": "The large object positioned on the runway, ready for takeoff or having just landed, is an airplane.",
+      "screen": {
+        "pair_id": "c016",
+        "source": "Airplane",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The large object positioned on the runway, ready for takeoff or having just landed, is an airplane.",
+        "ans_full": "The large object is an airplane, specifically a LOT Polish Airlines Boeing 737, positioned on the runway, ready for takeoff or having just landed.",
+        "ans_avtp": "The large object on the runway is an airplane, specifically a Boeing 737, which is ready for takeoff or has just landed.",
+        "r": [
+          0.48439842462539673,
+          0.515601634979248
+        ],
+        "kept": [
+          62,
+          74
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The large object on the runway is an airplane.",
+        "r": [
+          0.18431904911994934,
+          0.21568094193935394
+        ],
+        "k": [
+          24,
+          31
+        ]
+      },
+      "u_idx": [
+        42,
+        25,
+        116,
+        31,
+        91,
+        95
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c018",
+      "a_file": "000000005992.jpg",
+      "b_file": "000000477955.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000005992.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000477955.jpg",
+      "source": "Sheep",
+      "question": "What is the object that is standing closest to the brick wall?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that is standing closest to the brick wall?",
+      "ans_a_only": "The object standing closest to the brick wall in the first image is a sheep.",
+      "screen": {
+        "pair_id": "c018",
+        "source": "Sheep",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object standing closest to the brick wall in the first image is a sheep.",
+        "ans_full": "The object standing closest to the brick wall is a sheep.",
+        "ans_avtp": "The object standing closest to the brick wall is a sheep.",
+        "r": [
+          0.472695529460907,
+          0.527304470539093
+        ],
+        "kept": [
+          60,
+          69
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object standing closest to the brick wall in the first image is a sheep.",
+        "r": [
+          0.174728661775589,
+          0.2252713292837143
+        ],
+        "k": [
+          22,
+          29
+        ]
+      },
+      "u_idx": [
+        10,
+        81,
+        32,
+        86,
+        84,
+        63
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c020",
+      "a_file": "000000006040.jpg",
+      "b_file": "000000506310.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000006040.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000506310.jpg",
+      "source": "Train",
+      "question": "What is the large vehicle that runs on tracks and is powered by overhead wires?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large vehicle that runs on tracks and is powered by overhead wires?",
+      "ans_a_only": "The large vehicle that runs on tracks and is powered by overhead wires is a tram.",
+      "screen": {
+        "pair_id": "c020",
+        "source": "Train",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The large vehicle that runs on tracks and is powered by overhead wires is a tram.",
+        "ans_full": "The large vehicle that runs on tracks and is powered by overhead wires is a tram.",
+        "ans_avtp": "The large vehicle that runs on tracks and is powered by overhead wires is a tram.",
+        "r": [
+          0.4914836287498474,
+          0.5085163712501526
+        ],
+        "kept": [
+          63,
+          64
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The large vehicle that runs on tracks and is powered by overhead wires is a tram.",
+        "r": [
+          0.18910296261310577,
+          0.2108970433473587
+        ],
+        "k": [
+          24,
+          27
+        ]
+      },
+      "u_idx": [
+        34,
+        120
+      ],
+      "u_src": "loo"
+    },
+    {
+      "pair_id": "c021",
+      "a_file": "000000007108.jpg",
+      "b_file": "000000523229.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000007108.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000523229.jpg",
+      "source": "Elephant",
+      "question": "What is the object that appears to be leading the group near the water?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that appears to be leading the group near the water?",
+      "ans_a_only": "The object that appears to be leading the group near the water is an elephant.",
+      "screen": {
+        "pair_id": "c021",
+        "source": "Elephant",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object that appears to be leading the group near the water is an elephant.",
+        "ans_full": "In the first image, the object that appears to be leading the group near the water is an elephant.",
+        "ans_avtp": "The object that appears to be leading the group near the water is an elephant.",
+        "r": [
+          0.47057080268859863,
+          0.5294291973114014
+        ],
+        "kept": [
+          59,
+          69
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object that appears to be leading the group near the water is an elephant.",
+        "r": [
+          0.17042186856269836,
+          0.22957812249660492
+        ],
+        "k": [
+          21,
+          30
+        ]
+      },
+      "u_idx": [
+        35,
+        34,
+        13,
+        53,
+        119
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c022",
+      "a_file": "000000007386.jpg",
+      "b_file": "000000190923.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000007386.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000190923.jpg",
+      "source": "Trike",
+      "question": "What is the object that the large wheels are supporting?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that the large wheels are supporting?",
+      "ans_a_only": "The large wheels are supporting a custom-built motorcycle with a sidecar.",
+      "screen": {
+        "pair_id": "c022",
+        "source": "Trike",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The large wheels are supporting a custom-built motorcycle with a sidecar.",
+        "ans_full": "The object that the large wheels are supporting is a custom-built motorcycle with a sidecar.",
+        "ans_avtp": "The large wheels are supporting a motorcycle.",
+        "r": [
+          0.46260493993759155,
+          0.5373951196670532
+        ],
+        "kept": [
+          58,
+          70
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The large wheels are supporting a motorcycle.",
+        "r": [
+          0.16229704022407532,
+          0.23770296573638916
+        ],
+        "k": [
+          20,
+          31
+        ]
+      },
+      "u_idx": [
+        48,
+        118,
+        97,
+        102,
+        111,
+        34,
+        29,
+        61,
+        32,
+        125
+      ],
+      "u_src": "drop_bot"
+    },
+    {
+      "pair_id": "c023",
+      "a_file": "000000007784.jpg",
+      "b_file": "000000162035.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000007784.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000162035.jpg",
+      "source": "Kite",
+      "question": "What is the object that is soaring high against the clear backdrop?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that is soaring high against the clear backdrop?",
+      "ans_a_only": "The object soaring high against the clear backdrop is a kite.",
+      "screen": {
+        "pair_id": "c023",
+        "source": "Kite",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object soaring high against the clear backdrop is a kite.",
+        "ans_full": "The object soaring high against the clear backdrop is a kite.",
+        "ans_avtp": "The object soaring high against the clear backdrop is a kite.",
+        "r": [
+          0.48717308044433594,
+          0.5128269195556641
+        ],
+        "kept": [
+          63,
+          67
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object soaring high against the clear backdrop is a kite.",
+        "r": [
+          0.18687938153743744,
+          0.21312060952186584
+        ],
+        "k": [
+          24,
+          28
+        ]
+      },
+      "u_idx": [
+        40,
+        105,
+        102,
+        124,
+        103,
+        45
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c025",
+      "a_file": "000000008277.jpg",
+      "b_file": "000000512330.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000008277.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000512330.jpg",
+      "source": "Shredded chicken",
+      "question": "What is the object that occupies a larger area on the plate compared to the broccoli dish?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that occupies a larger area on the plate compared to the broccoli dish?",
+      "ans_a_only": "The object that occupies a larger area on the plate compared to the broccoli dish is the shredded chicken.",
+      "screen": {
+        "pair_id": "c025",
+        "source": "Shredded chicken",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object that occupies a larger area on the plate compared to the broccoli dish is the shredded chicken.",
+        "ans_full": "The object that occupies a larger area on the plate compared to the broccoli dish is the shredded chicken.",
+        "ans_avtp": "The object that occupies a larger area on the plate compared to the broccoli dish is the shredded chicken.",
+        "r": [
+          0.490383505821228,
+          0.5096165537834167
+        ],
+        "kept": [
+          71,
+          64
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object that occupies a larger area on the plate compared to the broccoli dish is the shredded chicken.",
+        "r": [
+          0.19107185304164886,
+          0.20892813801765442
+        ],
+        "k": [
+          28,
+          26
+        ]
+      },
+      "u_idx": [
+        91,
+        24,
+        62,
+        123,
+        37,
+        33,
+        131
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c026",
+      "a_file": "000000009769.jpg",
+      "b_file": "000000392481.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000009769.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000392481.jpg",
+      "source": "Red pickup truck",
+      "question": "What object is positioned in front of the vehicle, aiding in snow removal?",
+      "prompt": "Look at the first image only. Ignore the second image. What object is positioned in front of the vehicle, aiding in snow removal?",
+      "ans_a_only": "The object positioned in front of the vehicle, aiding in snow removal, is a snow plow.",
+      "screen": {
+        "pair_id": "c026",
+        "source": "Red pickup truck",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object positioned in front of the vehicle, aiding in snow removal, is a snow plow.",
+        "ans_full": "The object positioned in front of the vehicle, aiding in snow removal, is a snow plow.",
+        "ans_avtp": "The object positioned in front of the vehicle, aiding in snow removal, is a snow plow.",
+        "r": [
+          0.4770895838737488,
+          0.5229104161262512
+        ],
+        "kept": [
+          62,
+          66
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object positioned in front of the vehicle, aiding in snow removal, is a snow plow.",
+        "r": [
+          0.1765322983264923,
+          0.22346769273281097
+        ],
+        "k": [
+          23,
+          28
+        ]
+      },
+      "u_idx": [
+        36,
+        93,
+        88,
+        101,
+        120,
+        65
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c028",
+      "a_file": "000000010363.jpg",
+      "b_file": "000000245173.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000010363.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000245173.jpg",
+      "source": "Cat",
+      "question": "What is the object that is perched on the shiny, curved surface in the garage?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that is perched on the shiny, curved surface in the garage?",
+      "ans_a_only": "In the garage, there is a cat perched on the shiny, curved surface of a car.",
+      "screen": {
+        "pair_id": "c028",
+        "source": "Cat",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "In the garage, there is a cat perched on the shiny, curved surface of a car.",
+        "ans_full": "The object perched on the shiny, curved surface in the garage is a cat.",
+        "ans_avtp": "The object perched on the shiny, curved surface in the garage is a cat.",
+        "r": [
+          0.5049580335617065,
+          0.49504196643829346
+        ],
+        "kept": [
+          68,
+          64
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object perched on the shiny, curved surface in the garage is a cat.",
+        "r": [
+          0.205280140042305,
+          0.19471986591815948
+        ],
+        "k": [
+          28,
+          25
+        ]
+      },
+      "u_idx": [
+        78,
+        90,
+        130,
+        124,
+        131,
+        14,
+        117
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c029",
+      "a_file": "000000010583.jpg",
+      "b_file": "000000575500.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000010583.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000575500.jpg",
+      "source": "Burger",
+      "question": "What is the object that the sauce is generously poured over?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that the sauce is generously poured over?",
+      "ans_a_only": "The object that the sauce is generously poured over is a sandwich.",
+      "screen": {
+        "pair_id": "c029",
+        "source": "Burger",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object that the sauce is generously poured over is a sandwich.",
+        "ans_full": "The object that the sauce is generously poured over is a sandwich.",
+        "ans_avtp": "The object that the sauce is generously poured over is a sandwich.",
+        "r": [
+          0.4649529457092285,
+          0.5350471138954163
+        ],
+        "kept": [
+          67,
+          67
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object that the sauce is generously poured over is a sandwich.",
+        "r": [
+          0.16489781439304352,
+          0.23510219156742096
+        ],
+        "k": [
+          24,
+          30
+        ]
+      },
+      "u_idx": [
+        119,
+        122,
+        74,
+        111,
+        102,
+        40
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c030",
+      "a_file": "000000010995.jpg",
+      "b_file": "000000433103.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000010995.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000433103.jpg",
+      "source": "Bed",
+      "question": "What object in the room is positioned against the wall and takes up the most space?",
+      "prompt": "Look at the first image only. Ignore the second image. What object in the room is positioned against the wall and takes up the most space?",
+      "ans_a_only": "The object in the room that is positioned against the wall and takes up the most space is the bed.",
+      "screen": {
+        "pair_id": "c030",
+        "source": "Bed",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object in the room that is positioned against the wall and takes up the most space is the bed.",
+        "ans_full": "The bed is positioned against the wall and takes up the most space in the room.",
+        "ans_avtp": "The bed is positioned against the wall and takes up the most space in the room.",
+        "r": [
+          0.49423062801361084,
+          0.5057693719863892
+        ],
+        "kept": [
+          64,
+          64
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The bed is positioned against the wall and takes up the most space in the room.",
+        "r": [
+          0.19403906166553497,
+          0.2059609442949295
+        ],
+        "k": [
+          25,
+          26
+        ]
+      },
+      "u_idx": [
+        48,
+        108,
+        53,
+        41,
+        86,
+        71,
+        107,
+        11,
+        110,
+        120
+      ],
+      "u_src": "drop_bot"
+    },
+    {
+      "pair_id": "c031",
+      "a_file": "000000012062.jpg",
+      "b_file": "000000454750.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000012062.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000454750.jpg",
+      "source": "Sheep",
+      "question": "What is the fluffy object that seems to be interacting with the pile of wool?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the fluffy object that seems to be interacting with the pile of wool?",
+      "ans_a_only": "The fluffy object that seems to be interacting with the pile of wool is a sheep.",
+      "screen": {
+        "pair_id": "c031",
+        "source": "Sheep",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The fluffy object that seems to be interacting with the pile of wool is a sheep.",
+        "ans_full": "The fluffy object that seems to be interacting with the pile of wool is a sheep.",
+        "ans_avtp": "The fluffy object that seems to be interacting with the pile of wool is a sheep.",
+        "r": [
+          0.47582435607910156,
+          0.5241757035255432
+        ],
+        "kept": [
+          60,
+          66
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The fluffy object that seems to be interacting with the pile of wool is a sheep.",
+        "r": [
+          0.176417738199234,
+          0.22358225286006927
+        ],
+        "k": [
+          22,
+          28
+        ]
+      },
+      "u_idx": [
+        41,
+        103,
+        92,
+        87,
+        11,
+        86,
+        63,
+        24,
+        33,
+        102
+      ],
+      "u_src": "drop_top"
+    },
+    {
+      "pair_id": "c032",
+      "a_file": "000000012667.jpg",
+      "b_file": "000000274219.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000012667.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000274219.jpg",
+      "source": "Banana",
+      "question": "What is the object that is leaning against the electronic device?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that is leaning against the electronic device?",
+      "ans_a_only": "The object leaning against the electronic device is a banana.",
+      "screen": {
+        "pair_id": "c032",
+        "source": "Banana",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object leaning against the electronic device is a banana.",
+        "ans_full": "The object leaning against the electronic device is a banana.",
+        "ans_avtp": "The object leaning against the electronic device is a banana.",
+        "r": [
+          0.48020464181900024,
+          0.5197954177856445
+        ],
+        "kept": [
+          62,
+          73
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object leaning against the electronic device is a banana.",
+        "r": [
+          0.18013647198677063,
+          0.21986351907253265
+        ],
+        "k": [
+          23,
+          31
+        ]
+      },
+      "u_idx": [
+        65,
+        61,
+        44,
+        85,
+        116,
+        98,
+        25,
+        80,
+        66,
+        6
+      ],
+      "u_src": "drop_bot"
+    },
+    {
+      "pair_id": "c033",
+      "a_file": "000000013004.jpg",
+      "b_file": "000000258883.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000013004.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000258883.jpg",
+      "source": "Banana",
+      "question": "What is the elongated object resting beside the creamy substance on the plate?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the elongated object resting beside the creamy substance on the plate?",
+      "ans_a_only": "The elongated object resting beside the creamy substance on the plate is a banana.",
+      "screen": {
+        "pair_id": "c033",
+        "source": "Banana",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The elongated object resting beside the creamy substance on the plate is a banana.",
+        "ans_full": "The elongated object resting beside the creamy substance on the plate is a banana.",
+        "ans_avtp": "The elongated object resting beside the creamy substance on the plate is a banana.",
+        "r": [
+          0.4909648895263672,
+          0.5090351700782776
+        ],
+        "kept": [
+          64,
+          64
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The elongated object resting beside the creamy substance on the plate is a banana.",
+        "r": [
+          0.19154320657253265,
+          0.20845678448677063
+        ],
+        "k": [
+          25,
+          26
+        ]
+      },
+      "u_idx": [
+        113,
+        95,
+        25,
+        70,
+        34,
+        105
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c034",
+      "a_file": "000000013348.jpg",
+      "b_file": "000000113354.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000013348.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000113354.jpg",
+      "source": "Airplane",
+      "question": "What is the large object that is parked on the tarmac and appears ready for boarding?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large object that is parked on the tarmac and appears ready for boarding?",
+      "ans_a_only": "The large object that is parked on the tarmac and appears ready for boarding is an airplane.",
+      "screen": {
+        "pair_id": "c034",
+        "source": "Airplane",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The large object that is parked on the tarmac and appears ready for boarding is an airplane.",
+        "ans_full": "The large object that is parked on the tarmac and appears ready for boarding is an airplane.",
+        "ans_avtp": "The large object that is parked on the tarmac and appears ready for boarding is an airplane.",
+        "r": [
+          0.48909491300582886,
+          0.5109051465988159
+        ],
+        "kept": [
+          62,
+          66
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The large object that is parked on the tarmac and appears ready for boarding is an airplane.",
+        "r": [
+          0.18653364479541779,
+          0.2134663611650467
+        ],
+        "k": [
+          24,
+          28
+        ]
+      },
+      "u_idx": [
+        62,
+        28,
+        120,
+        25,
+        73,
+        32
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c035",
+      "a_file": "000000013597.jpg",
+      "b_file": "000000171788.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000013597.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000171788.jpg",
+      "source": "Chocolate cake",
+      "question": "What is the object that the decorative plate is holding?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that the decorative plate is holding?",
+      "ans_a_only": "The object on the decorative plate is a slice of chocolate cake.",
+      "screen": {
+        "pair_id": "c035",
+        "source": "Chocolate cake",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object on the decorative plate is a slice of chocolate cake.",
+        "ans_full": "The decorative plate is holding a slice of chocolate cake.",
+        "ans_avtp": "The decorative plate is holding a slice of chocolate cake.",
+        "r": [
+          0.47777676582336426,
+          0.5222232341766357
+        ],
+        "kept": [
+          60,
+          66
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The decorative plate is holding a slice of chocolate cake.",
+        "r": [
+          0.1771491914987564,
+          0.22285081446170807
+        ],
+        "k": [
+          22,
+          28
+        ]
+      },
+      "u_idx": [
+        89,
+        125,
+        31,
+        60,
+        111,
+        64
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c036",
+      "a_file": "000000014439.jpg",
+      "b_file": "000000122046.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000014439.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000122046.jpg",
+      "source": "Kite",
+      "question": "What is the object that is being held aloft by the string in the park?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that is being held aloft by the string in the park?",
+      "ans_a_only": "The object being held aloft by the string in the park is a kite.",
+      "screen": {
+        "pair_id": "c036",
+        "source": "Kite",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object being held aloft by the string in the park is a kite.",
+        "ans_full": "The object being held aloft by the string in the park is a kite.",
+        "ans_avtp": "The object being held aloft by the string in the park is a kite.",
+        "r": [
+          0.4757422208786011,
+          0.5242578387260437
+        ],
+        "kept": [
+          64,
+          66
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object being held aloft by the string in the park is a kite.",
+        "r": [
+          0.17555387318134308,
+          0.2244461327791214
+        ],
+        "k": [
+          24,
+          28
+        ]
+      },
+      "u_idx": [
+        60,
+        29,
+        53,
+        75,
+        119,
+        83
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c037",
+      "a_file": "000000014473.jpg",
+      "b_file": "000000491090.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000014473.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000491090.jpg",
+      "source": "Train",
+      "question": "What is the object that is running parallel to the overhead lines?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that is running parallel to the overhead lines?",
+      "ans_a_only": "The object running parallel to the overhead lines in the image is a model train.",
+      "screen": {
+        "pair_id": "c037",
+        "source": "Train",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object running parallel to the overhead lines in the image is a model train.",
+        "ans_full": "The object running parallel to the overhead lines in the first image is a model train.",
+        "ans_avtp": "The object running parallel to the overhead lines in the first image is a train.",
+        "r": [
+          0.4863218665122986,
+          0.5136781334877014
+        ],
+        "kept": [
+          61,
+          67
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object running parallel to the overhead lines in the first image is a train.",
+        "r": [
+          0.18732000887393951,
+          0.21267999708652496
+        ],
+        "k": [
+          24,
+          28
+        ]
+      },
+      "u_idx": [
+        87,
+        18,
+        94,
+        84,
+        31,
+        107
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c038",
+      "a_file": "000000015079.jpg",
+      "b_file": "000000221213.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000015079.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000221213.jpg",
+      "source": "Sandwich",
+      "question": "What is the object that is cut in half and placed on the ornate plate?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that is cut in half and placed on the ornate plate?",
+      "ans_a_only": "The object that is cut in half and placed on the ornate plate is a sandwich.",
+      "screen": {
+        "pair_id": "c038",
+        "source": "Sandwich",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object that is cut in half and placed on the ornate plate is a sandwich.",
+        "ans_full": "The object that is cut in half and placed on the ornate plate is a sandwich.",
+        "ans_avtp": "The object that is cut in half and placed on the ornate plate is a sandwich.",
+        "r": [
+          0.4816734194755554,
+          0.5183266401290894
+        ],
+        "kept": [
+          61,
+          67
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object that is cut in half and placed on the ornate plate is a sandwich.",
+        "r": [
+          0.180604949593544,
+          0.21939505636692047
+        ],
+        "k": [
+          23,
+          29
+        ]
+      },
+      "u_idx": [
+        97,
+        45,
+        87,
+        10,
+        21,
+        18
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c039",
+      "a_file": "000000015278.jpg",
+      "b_file": "000000355817.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000015278.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000355817.jpg",
+      "source": "Broccoli",
+      "question": "What is the green vegetable that occupies most of the plate?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the green vegetable that occupies most of the plate?",
+      "ans_a_only": "The green vegetable that occupies most of the plate is broccoli.",
+      "screen": {
+        "pair_id": "c039",
+        "source": "Broccoli",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The green vegetable that occupies most of the plate is broccoli.",
+        "ans_full": "The green vegetable that occupies most of the plate is broccoli.",
+        "ans_avtp": "The green vegetable that occupies most of the plate is broccoli.",
+        "r": [
+          0.4742656946182251,
+          0.5257343649864197
+        ],
+        "kept": [
+          62,
+          68
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The green vegetable that occupies most of the plate is broccoli.",
+        "r": [
+          0.17388521134853363,
+          0.22611477971076965
+        ],
+        "k": [
+          23,
+          29
+        ]
+      },
+      "u_idx": [
+        80,
+        46,
+        94,
+        12,
+        22,
+        19
+      ],
+      "u_src": "bot_frac"
+    }
+  ],
+  "rejected": [
+    {
+      "pair_id": "c002",
+      "ans": "The object that has been partially consumed and placed on the flat, round surface is a piece of bread.",
+      "k": [
+        22,
+        32
+      ]
+    },
+    {
+      "pair_id": "c010",
+      "ans": "The object positioned to the left of the sharp tool is a black handle.",
+      "k": [
+        23,
+        30
+      ]
+    },
+    {
+      "pair_id": "c027",
+      "ans": "The object that is partially covered by a sesame seed bun is a sandwich.",
+      "k": [
+        26,
+        26
+      ]
+    }
+  ]
+}

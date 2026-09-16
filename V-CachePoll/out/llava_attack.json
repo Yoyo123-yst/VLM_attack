@@ -1,0 +1,302 @@
+{
+  "n": 6,
+  "summary": {
+    "n": 6,
+    "frac_full_hold": 1.0,
+    "frac_comp_only_fail": 0.0,
+    "mean_u_evict_rate": 0.4800474908233529,
+    "mean_a_out": 13.0,
+    "path": "/root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/llava_attack.json"
+  },
+  "rows": [
+    {
+      "pair_id": "c000",
+      "steps": 40,
+      "eval": {
+        "ans_full": "The large creature occupying most of the frame is a brown bear.",
+        "ans_avtp": "The large creature occupying most of the frame is a brown bear.",
+        "ans_isolated": "The large creature occupying most of the frame is a brown bear.",
+        "ans_restore_a": "The large creature occupying most of the frame is a brown bear.",
+        "full_ok": true,
+        "avtp_ok": true,
+        "isolated_ok": true,
+        "restore_a_ok": true,
+        "avtp": {
+          "r": [
+            0.14610323309898376,
+            0.2538968026638031
+          ],
+          "k": [
+            84,
+            146
+          ],
+          "i_bar": [
+            7.246736526489258,
+            8.0723876953125
+          ],
+          "kept": [
+            84,
+            146
+          ],
+          "events": {
+            "a_out": 13,
+            "a_in": 0,
+            "b_in": 99,
+            "b_out": 87,
+            "a_kept_clean": 97,
+            "a_overlap": 84,
+            "swap_ba": 1
+          }
+        },
+        "linf": 0.0627451241016388,
+        "comp_only_fail": false,
+        "n_u": 24,
+        "u_out": 13,
+        "u_evict_rate": 0.5416666666666666
+      },
+      "error": null,
+      "elapsed_s": 34.135990619659424
+    },
+    {
+      "pair_id": "c003",
+      "steps": 40,
+      "eval": {
+        "ans_full": "The object positioned on the road and having two levels for passengers is a double-decker bus.",
+        "ans_avtp": "The object positioned on the road and having two levels for passengers is a double-decker bus.",
+        "ans_isolated": "The object positioned on the road and having two levels for passengers is a double-decker bus.",
+        "ans_restore_a": "The object positioned on the road and having two levels for passengers is a double-decker bus.",
+        "full_ok": true,
+        "avtp_ok": true,
+        "isolated_ok": true,
+        "restore_a_ok": true,
+        "avtp": {
+          "r": [
+            0.1603788435459137,
+            0.2396211475133896
+          ],
+          "k": [
+            92,
+            138
+          ],
+          "i_bar": [
+            7.4472222328186035,
+            8.0617036819458
+          ],
+          "kept": [
+            92,
+            138
+          ],
+          "events": {
+            "a_out": 14,
+            "a_in": 0,
+            "b_in": 71,
+            "b_out": 58,
+            "a_kept_clean": 106,
+            "a_overlap": 92,
+            "swap_ba": 1
+          }
+        },
+        "linf": 0.0627451241016388,
+        "comp_only_fail": false,
+        "n_u": 26,
+        "u_out": 14,
+        "u_evict_rate": 0.5384615384615384
+      },
+      "error": null,
+      "elapsed_s": 68.90268206596375
+    },
+    {
+      "pair_id": "c006",
+      "steps": 40,
+      "eval": {
+        "ans_full": "The large vehicle positioned near the curb is a bus.",
+        "ans_avtp": "The large vehicle positioned near the curb is a purple bus.",
+        "ans_isolated": "The large vehicle positioned near the curb is a purple bus.",
+        "ans_restore_a": "The large vehicle positioned near the curb is a purple bus.",
+        "full_ok": true,
+        "avtp_ok": true,
+        "isolated_ok": true,
+        "restore_a_ok": true,
+        "avtp": {
+          "r": [
+            0.1792333871126175,
+            0.22076661884784698
+          ],
+          "k": [
+            103,
+            127
+          ],
+          "i_bar": [
+            7.451098918914795,
+            7.767130374908447
+          ],
+          "kept": [
+            103,
+            127
+          ],
+          "events": {
+            "a_out": 12,
+            "a_in": 0,
+            "b_in": 85,
+            "b_out": 73,
+            "a_kept_clean": 115,
+            "a_overlap": 103,
+            "swap_ba": 1
+          }
+        },
+        "linf": 0.0627451241016388,
+        "comp_only_fail": false,
+        "n_u": 29,
+        "u_out": 12,
+        "u_evict_rate": 0.41379310344827586
+      },
+      "error": null,
+      "elapsed_s": 101.3524489402771
+    },
+    {
+      "pair_id": "c007",
+      "steps": 40,
+      "eval": {
+        "ans_full": "The white dish is containing a bowl of apples.",
+        "ans_avtp": "The white dish is containing a bowl of apples.",
+        "ans_isolated": "The white dish is containing a bowl of apples.",
+        "ans_restore_a": "The white dish is containing a bowl of apples.",
+        "full_ok": true,
+        "avtp_ok": true,
+        "isolated_ok": true,
+        "restore_a_ok": true,
+        "avtp": {
+          "r": [
+            0.15270502865314484,
+            0.24729497730731964
+          ],
+          "k": [
+            88,
+            142
+          ],
+          "i_bar": [
+            7.258780002593994,
+            7.979472637176514
+          ],
+          "kept": [
+            88,
+            142
+          ],
+          "events": {
+            "a_out": 6,
+            "a_in": 0,
+            "b_in": 64,
+            "b_out": 59,
+            "a_kept_clean": 94,
+            "a_overlap": 88,
+            "swap_ba": 1
+          }
+        },
+        "linf": 0.0627451241016388,
+        "comp_only_fail": false,
+        "n_u": 24,
+        "u_out": 6,
+        "u_evict_rate": 0.25
+      },
+      "error": null,
+      "elapsed_s": 133.61335134506226
+    },
+    {
+      "pair_id": "c008",
+      "steps": 40,
+      "eval": {
+        "ans_full": "The white frosting is covering a cake.",
+        "ans_avtp": "The object that the white frosting is covering is a cake.",
+        "ans_isolated": "The object that the white frosting is covering is a cake.",
+        "ans_restore_a": "The object that the white frosting is covering is a cake.",
+        "full_ok": true,
+        "avtp_ok": true,
+        "isolated_ok": true,
+        "restore_a_ok": true,
+        "avtp": {
+          "r": [
+            0.19481907784938812,
+            0.20518092811107635
+          ],
+          "k": [
+            112,
+            118
+          ],
+          "i_bar": [
+            7.778963088989258,
+            7.859987735748291
+          ],
+          "kept": [
+            112,
+            118
+          ],
+          "events": {
+            "a_out": 21,
+            "a_in": 0,
+            "b_in": 79,
+            "b_out": 58,
+            "a_kept_clean": 133,
+            "a_overlap": 112,
+            "swap_ba": 1
+          }
+        },
+        "linf": 0.0627451241016388,
+        "comp_only_fail": false,
+        "n_u": 33,
+        "u_out": 21,
+        "u_evict_rate": 0.6363636363636364
+      },
+      "error": null,
+      "elapsed_s": 166.0032253265381
+    },
+    {
+      "pair_id": "c009",
+      "steps": 40,
+      "eval": {
+        "ans_full": "The elongated, yellow object positioned next to the round item is a banana.",
+        "ans_avtp": "The elongated, yellow object positioned next to the round item is a banana.",
+        "ans_isolated": "The elongated, yellow object positioned next to the round item is a banana.",
+        "ans_restore_a": "The elongated, yellow object positioned next to the round item is a banana.",
+        "full_ok": true,
+        "avtp_ok": true,
+        "isolated_ok": true,
+        "restore_a_ok": true,
+        "avtp": {
+          "r": [
+            0.14489921927452087,
+            0.255100816488266
+          ],
+          "k": [
+            83,
+            147
+          ],
+          "i_bar": [
+            7.330153465270996,
+            8.185053825378418
+          ],
+          "kept": [
+            83,
+            147
+          ],
+          "events": {
+            "a_out": 12,
+            "a_in": 0,
+            "b_in": 80,
+            "b_out": 68,
+            "a_kept_clean": 95,
+            "a_overlap": 83,
+            "swap_ba": 1
+          }
+        },
+        "linf": 0.0627451241016388,
+        "comp_only_fail": false,
+        "n_u": 24,
+        "u_out": 12,
+        "u_evict_rate": 0.5
+      },
+      "error": null,
+      "elapsed_s": 200.34565019607544
+    }
+  ],
+  "elapsed_s": 200.47153115272522
+}

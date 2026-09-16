@@ -1,0 +1,7 @@
+# P0-A: counterexample accumulation on the frozen hard 8-cell set.
+# Thresholds live in CGVSF_P0_FROZEN.json and must not change after launch.
+frozen: CG-VSF/CGVSF_P0_FROZEN.json
+out_dir: CG-VSF/out/p0a
+scale: mini
+setting: native
+resume: true

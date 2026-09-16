@@ -53,5 +53,33 @@ python scripts/run_p1.py --stage attack
 python scripts/run_p1.py --stage report
 ```
 
-Resume is automatic from `out/p1_attack.json`. Live status: `out/p1_progress.json`.
+## P2 — tight budget + critical tokens
+
+Same 35 pairs. \(r_{base}=0.2\). Identify A tokens whose removal changes the answer, then evict those.
+
+```bash
+python tests/test_p1_cpu.py
+python scripts/run_p2.py --stage screen
+python scripts/run_p2.py --stage crit
+python scripts/run_p2.py --stage smoke
+python scripts/run_p2.py --stage attack
+python scripts/run_p2.py --stage report
+```
+
+Live status: `out/p2_progress.json`.
+
+## P3 — same-protocol baselines
+
+Same 32 P2 pairs, \(r_{base}=0.2\), \(\epsilon=16/255\), 40 steps.
+
+Order: Random → Task-PGD → CAA-B-only → Rank-PGD. V-CachePoll is the existing `out/p2_attack.json`.
+
+```bash
+python tests/test_p1_cpu.py
+python scripts/run_p3.py --stage all
+python scripts/run_p3.py --stage report
+```
+
+Live status: `out/p3_random_progress.json`, `out/p3_task_progress.json`, `out/p3_caa_progress.json`, `out/p3_rank_progress.json`, `out/NIGHT_STATUS.md`.
+
 

@@ -1,0 +1,21 @@
+{
+  "n_ok": 35,
+  "n_error": 0,
+  "mean_abs_drA": 0.05611493417194911,
+  "frac_quota_shift": 0.8857142857142857,
+  "frac_a_out": 1.0,
+  "mean_a_out": 7.3428571428571425,
+  "mean_p0_a_out": 0.4,
+  "frac_swap_avtp": 1.0,
+  "frac_swap_global": 1.0,
+  "frac_full_hold": 1.0,
+  "frac_comp_only_fail": 0.0,
+  "frac_isolated_ok": 1.0,
+  "frac_restore_a_ok": 1.0,
+  "decision": "CONTINUE",
+  "reason": "quota/eviction beat P0 random while full-token holds",
+  "dataset": "coco300_standin",
+  "model": "Qwen2-VL-7B-Instruct",
+  "eps": 0.06274509803921569,
+  "steps": 40
+}

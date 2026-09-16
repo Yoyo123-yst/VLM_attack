@@ -1,0 +1,17 @@
+{
+  "verdict": "STOP",
+  "n_states": 83,
+  "min_states": 32,
+  "auroc": {
+    "-E_joint": NaN,
+    "-E_single": NaN,
+    "grad_norm": NaN,
+    "certificate_margin": NaN,
+    "refusal_margin": NaN
+  },
+  "spearman_E_vs_steps": 0.5548265502377153,
+  "top_quartile_lift": 1.0,
+  "best_simple": "grad_norm",
+  "delta_vs_simple": NaN,
+  "note": "QP is not inserted into the attacker until P0-B GO."
+}

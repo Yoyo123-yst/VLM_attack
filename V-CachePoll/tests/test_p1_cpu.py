@@ -12,7 +12,7 @@ ROOT = Path("/root/autodl-tmp/multimodal_attack_project/V-CachePoll")
 sys.path.insert(0, str(ROOT / "src"))
 
 from vcachepoll.compressor import image_quotas, mean_importance_per_image  # noqa: E402
-from vcachepoll.losses import combined_loss, eviction_loss, quota_loss, value_loss  # noqa: E402
+from vcachepoll.losses import caa_b_loss, combined_loss, eviction_loss, quota_loss, threshold_evict_loss, value_loss  # noqa: E402
 from vcachepoll.vision import clip_delta, patchify_x01, pixel_rows_from_grid, tv_loss  # noqa: E402
 
 
@@ -60,6 +60,24 @@ class TestEvictLoss(unittest.TestCase):
         loss.backward()
         self.assertIsNotNone(scores.grad)
         self.assertTrue(float(aux["L_value"]) < 1e-5)
+
+    def test_threshold_evict_pushes_u_down(self):
+        owner = torch.tensor([0, 0, 0, 1])
+        u = torch.tensor([True, False, False, False])
+        high = torch.tensor([5.0, 1.0, 0.5, 2.0], requires_grad=True)
+        low = torch.tensor([0.2, 1.0, 0.5, 2.0])
+        lh = threshold_evict_loss(high, owner, u, k_a=2)
+        ll = threshold_evict_loss(low, owner, u, k_a=2)
+        self.assertGreater(float(lh), float(ll))
+        lh.backward()
+        self.assertGreater(float(high.grad[0]), 0.0)
+
+    def test_caa_b_raises_low_b(self):
+        owner = torch.tensor([0, 0, 1, 1, 1])
+        keep = torch.tensor([True, True, True, False, False])
+        low_b = torch.tensor([2.0, 2.0, 1.5, 0.1, 0.1])
+        high_b = torch.tensor([2.0, 2.0, 1.5, 3.0, 3.0])
+        self.assertLess(float(caa_b_loss(high_b, owner, keep)), float(caa_b_loss(low_b, owner, keep)))
 
 
 class TestVision(unittest.TestCase):

@@ -1,0 +1,168 @@
+{
+  "n": 8,
+  "supported": true,
+  "elapsed_s": 21.37366223335266,
+  "rows": [
+    {
+      "pair_id": "c000",
+      "k_total": 52,
+      "kept": [
+        48,
+        4
+      ],
+      "events_vs_avtp": {
+        "a_out": 14,
+        "a_in": 39,
+        "b_in": 4,
+        "b_out": 29,
+        "a_kept_clean": 23,
+        "a_overlap": 9,
+        "swap_ba": 1
+      },
+      "ans_fastv": "The large creature that occupies most of the frame is a bear.",
+      "fastv_ok": true,
+      "avtp_ok": true
+    },
+    {
+      "pair_id": "c003",
+      "k_total": 54,
+      "kept": [
+        51,
+        3
+      ],
+      "events_vs_avtp": {
+        "a_out": 16,
+        "a_in": 40,
+        "b_in": 3,
+        "b_out": 27,
+        "a_kept_clean": 27,
+        "a_overlap": 11,
+        "swap_ba": 1
+      },
+      "ans_fastv": "The is a red double-decker bus on the road.",
+      "fastv_ok": true,
+      "avtp_ok": true
+    },
+    {
+      "pair_id": "c004",
+      "k_total": 52,
+      "kept": [
+        49,
+        3
+      ],
+      "events_vs_avtp": {
+        "a_out": 16,
+        "a_in": 39,
+        "b_in": 2,
+        "b_out": 25,
+        "a_kept_clean": 26,
+        "a_overlap": 10,
+        "swap_ba": 1
+      },
+      "ans_fastv": "The dark object that seems to be partially obscuring the typing surface is a cat.",
+      "fastv_ok": true,
+      "avtp_ok": true
+    },
+    {
+      "pair_id": "c005",
+      "k_total": 51,
+      "kept": [
+        49,
+        2
+      ],
+      "events_vs_avtp": {
+        "a_out": 11,
+        "a_in": 37,
+        "b_in": 2,
+        "b_out": 28,
+        "a_kept_clean": 23,
+        "a_overlap": 12,
+        "swap_ba": 1
+      },
+      "ans_fastv": "The object occupying the space near the window and taking up a significant portion of the room is a bed.",
+      "fastv_ok": true,
+      "avtp_ok": true
+    },
+    {
+      "pair_id": "c006",
+      "k_total": 51,
+      "kept": [
+        47,
+        4
+      ],
+      "events_vs_avtp": {
+        "a_out": 19,
+        "a_in": 41,
+        "b_in": 4,
+        "b_out": 26,
+        "a_kept_clean": 25,
+        "a_overlap": 6,
+        "swap_ba": 1
+      },
+      "ans_fastv": "The is a large purple bus positioned near the curb.",
+      "fastv_ok": true,
+      "avtp_ok": true
+    },
+    {
+      "pair_id": "c007",
+      "k_total": 53,
+      "kept": [
+        50,
+        3
+      ],
+      "events_vs_avtp": {
+        "a_out": 17,
+        "a_in": 42,
+        "b_in": 3,
+        "b_out": 28,
+        "a_kept_clean": 25,
+        "a_overlap": 8,
+        "swap_ba": 1
+      },
+      "ans_fastv": "The white dish is containinging green apples.",
+      "fastv_ok": true,
+      "avtp_ok": true
+    },
+    {
+      "pair_id": "c008",
+      "k_total": 53,
+      "kept": [
+        51,
+        2
+      ],
+      "events_vs_avtp": {
+        "a_out": 3,
+        "a_in": 35,
+        "b_in": 2,
+        "b_out": 34,
+        "a_kept_clean": 19,
+        "a_overlap": 16,
+        "swap_ba": 1
+      },
+      "ans_fastv": "The white frosting is covering a cake.",
+      "fastv_ok": true,
+      "avtp_ok": true
+    },
+    {
+      "pair_id": "c009",
+      "k_total": 52,
+      "kept": [
+        48,
+        4
+      ],
+      "events_vs_avtp": {
+        "a_out": 15,
+        "a_in": 38,
+        "b_in": 2,
+        "b_out": 25,
+        "a_kept_clean": 25,
+        "a_overlap": 10,
+        "swap_ba": 1
+      },
+      "ans_fastv": "The elongated, yellow object is a banana.",
+      "fastv_ok": true,
+      "avtp_ok": true
+    }
+  ],
+  "note": "FastV last-token attention Top-K vs AVTP at the same K. Not an attack."
+}

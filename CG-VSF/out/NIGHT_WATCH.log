@@ -1,0 +1,228 @@
+[2026-09-16T01:46:39+08:00] night_watch start
+[2026-09-16T01:46:39+08:00] night_watch start
+[2026-09-16T01:46:39+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python /root/autodl-tmp/multimodal_attack_project/CG-VSF/tests/test_cgvsf_cpu.py attempt=1
+[2026-09-16T01:46:39+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python /root/autodl-tmp/multimodal_attack_project/CG-VSF/tests/test_cgvsf_cpu.py attempt=1
+[2026-09-16T01:46:42+08:00] exit 0 for /root/autodl-tmp/multimodal_attack_project/CG-VSF/tests/test_cgvsf_cpu.py
+[2026-09-16T01:46:42+08:00] exit 0 for /root/autodl-tmp/multimodal_attack_project/CG-VSF/tests/test_cgvsf_cpu.py
+[2026-09-16T01:46:42+08:00] waiting for GPU (V-CachePoll holds the lock)
+[2026-09-16T01:46:42+08:00] waiting for GPU (V-CachePoll holds the lock)
+[2026-09-16T01:46:42+08:00] GPU busy mem=20095MiB vcache={'pid': '23717', 'stage': 'p3-all', 'updated': '2026-09-16T01:39:41+08:00'}
+[2026-09-16T01:46:42+08:00] GPU busy mem=20095MiB vcache={'pid': '23717', 'stage': 'p3-all', 'updated': '2026-09-16T01:39:41+08:00'}
+[2026-09-16T01:47:27+08:00] GPU busy mem=0MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'}
+[2026-09-16T01:47:27+08:00] GPU busy mem=0MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'}
+[2026-09-16T01:48:08+08:00] night_watch start
+[2026-09-16T01:48:08+08:00] night_watch start
+[2026-09-16T01:48:08+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python /root/autodl-tmp/multimodal_attack_project/CG-VSF/tests/test_cgvsf_cpu.py attempt=1
+[2026-09-16T01:48:08+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python /root/autodl-tmp/multimodal_attack_project/CG-VSF/tests/test_cgvsf_cpu.py attempt=1
+[2026-09-16T01:48:11+08:00] exit 0 for /root/autodl-tmp/multimodal_attack_project/CG-VSF/tests/test_cgvsf_cpu.py
+[2026-09-16T01:48:11+08:00] exit 0 for /root/autodl-tmp/multimodal_attack_project/CG-VSF/tests/test_cgvsf_cpu.py
+[2026-09-16T01:48:11+08:00] waiting for GPU (V-CachePoll holds the lock)
+[2026-09-16T01:48:11+08:00] waiting for GPU (V-CachePoll holds the lock)
+[2026-09-16T01:48:11+08:00] GPU busy mem=19601MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 1/32 eta=559.4912731647491
+[2026-09-16T01:48:11+08:00] GPU busy mem=19601MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 1/32 eta=559.4912731647491
+[2026-09-16T01:48:56+08:00] GPU busy mem=19165MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 3/32 eta=575.7354686260223
+[2026-09-16T01:48:56+08:00] GPU busy mem=19165MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 3/32 eta=575.7354686260223
+[2026-09-16T01:49:41+08:00] GPU busy mem=21399MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 5/32 eta=553.1403332551321
+[2026-09-16T01:49:41+08:00] GPU busy mem=21399MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 5/32 eta=553.1403332551321
+[2026-09-16T01:50:26+08:00] GPU busy mem=16491MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 6/32 eta=610.1037647042956
+[2026-09-16T01:50:26+08:00] GPU busy mem=16491MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 6/32 eta=610.1037647042956
+[2026-09-16T01:51:11+08:00] GPU busy mem=21921MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 8/32 eta=555.62160926395
+[2026-09-16T01:51:11+08:00] GPU busy mem=21921MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 8/32 eta=555.62160926395
+[2026-09-16T01:51:57+08:00] GPU busy mem=19759MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 10/32 eta=501.8305209549991
+[2026-09-16T01:51:57+08:00] GPU busy mem=19759MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 10/32 eta=501.8305209549991
+[2026-09-16T01:52:42+08:00] GPU busy mem=21781MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 12/32 eta=449.7346906478589
+[2026-09-16T01:52:42+08:00] GPU busy mem=21781MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 12/32 eta=449.7346906478589
+[2026-09-16T01:53:27+08:00] GPU busy mem=20857MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 14/32 eta=400.19319332440693
+[2026-09-16T01:53:27+08:00] GPU busy mem=20857MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 14/32 eta=400.19319332440693
+[2026-09-16T01:54:12+08:00] GPU busy mem=21317MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 16/32 eta=351.05432889040776
+[2026-09-16T01:54:12+08:00] GPU busy mem=21317MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 16/32 eta=351.05432889040776
+[2026-09-16T01:54:57+08:00] GPU busy mem=16491MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 17/32 eta=343.4758509000143
+[2026-09-16T01:54:57+08:00] GPU busy mem=16491MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 17/32 eta=343.4758509000143
+[2026-09-16T01:55:42+08:00] GPU busy mem=21337MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 19/32 eta=292.9454197883606
+[2026-09-16T01:55:42+08:00] GPU busy mem=21337MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 19/32 eta=292.9454197883606
+[2026-09-16T01:56:27+08:00] GPU busy mem=21299MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 21/32 eta=242.51338850368154
+[2026-09-16T01:56:27+08:00] GPU busy mem=21299MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 21/32 eta=242.51338850368154
+[2026-09-16T01:57:13+08:00] GPU busy mem=21197MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 23/32 eta=192.99425570170084
+[2026-09-16T01:57:13+08:00] GPU busy mem=21197MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 23/32 eta=192.99425570170084
+[2026-09-16T01:57:58+08:00] GPU busy mem=21337MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 25/32 eta=144.0065385378324
+[2026-09-16T01:57:58+08:00] GPU busy mem=21337MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 25/32 eta=144.0065385378324
+[2026-09-16T01:58:43+08:00] GPU busy mem=21177MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 27/32 eta=95.59889721870422
+[2026-09-16T01:58:43+08:00] GPU busy mem=21177MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 27/32 eta=95.59889721870422
+[2026-09-16T01:59:28+08:00] GPU busy mem=19019MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 29/32 eta=47.61311734517415
+[2026-09-16T01:59:28+08:00] GPU busy mem=19019MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 29/32 eta=47.61311734517415
+[2026-09-16T02:00:13+08:00] GPU busy mem=20017MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 31/32 eta=0.0
+[2026-09-16T02:00:13+08:00] GPU busy mem=20017MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 31/32 eta=0.0
+[2026-09-16T02:00:58+08:00] GPU busy mem=17041MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 1/32 eta=629.6262180805206
+[2026-09-16T02:00:58+08:00] GPU busy mem=17041MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 1/32 eta=629.6262180805206
+[2026-09-16T02:01:43+08:00] GPU busy mem=21219MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 3/32 eta=611.3459782600403
+[2026-09-16T02:01:43+08:00] GPU busy mem=21219MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 3/32 eta=611.3459782600403
+[2026-09-16T02:02:28+08:00] GPU busy mem=21281MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 5/32 eta=574.5700879096985
+[2026-09-16T02:02:28+08:00] GPU busy mem=21281MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 5/32 eta=574.5700879096985
+[2026-09-16T02:03:14+08:00] GPU busy mem=21281MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 7/32 eta=533.318793296814
+[2026-09-16T02:03:14+08:00] GPU busy mem=21281MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 7/32 eta=533.318793296814
+[2026-09-16T02:03:59+08:00] GPU busy mem=18317MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 9/32 eta=489.8896649837494
+[2026-09-16T02:03:59+08:00] GPU busy mem=18317MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 9/32 eta=489.8896649837494
+[2026-09-16T02:04:44+08:00] GPU busy mem=21179MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 11/32 eta=446.11892898877466
+[2026-09-16T02:04:44+08:00] GPU busy mem=21179MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 11/32 eta=446.11892898877466
+[2026-09-16T02:05:29+08:00] GPU busy mem=21179MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 13/32 eta=402.62313273974826
+[2026-09-16T02:05:29+08:00] GPU busy mem=21179MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 13/32 eta=402.62313273974826
+[2026-09-16T02:06:14+08:00] GPU busy mem=16979MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 15/32 eta=358.080867767334
+[2026-09-16T02:06:14+08:00] GPU busy mem=16979MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 15/32 eta=358.080867767334
+[2026-09-16T02:07:00+08:00] GPU busy mem=21261MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 17/32 eta=313.7465699248844
+[2026-09-16T02:07:00+08:00] GPU busy mem=21261MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 17/32 eta=313.7465699248844
+[2026-09-16T02:07:45+08:00] GPU busy mem=20759MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 19/32 eta=269.161376953125
+[2026-09-16T02:07:45+08:00] GPU busy mem=20759MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 19/32 eta=269.161376953125
+[2026-09-16T02:08:30+08:00] GPU busy mem=19529MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 21/32 eta=224.35296188701284
+[2026-09-16T02:08:30+08:00] GPU busy mem=19529MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 21/32 eta=224.35296188701284
+[2026-09-16T02:09:15+08:00] GPU busy mem=16495MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 23/32 eta=179.60251005490622
+[2026-09-16T02:09:15+08:00] GPU busy mem=16495MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 23/32 eta=179.60251005490622
+[2026-09-16T02:10:00+08:00] GPU busy mem=19579MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 25/32 eta=134.78511203252353
+[2026-09-16T02:10:00+08:00] GPU busy mem=19579MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 25/32 eta=134.78511203252353
+[2026-09-16T02:10:45+08:00] GPU busy mem=18339MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 27/32 eta=89.88858846255711
+[2026-09-16T02:10:45+08:00] GPU busy mem=18339MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 27/32 eta=89.88858846255711
+[2026-09-16T02:11:30+08:00] GPU busy mem=21179MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 29/32 eta=44.93844861984253
+[2026-09-16T02:11:30+08:00] GPU busy mem=21179MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 29/32 eta=44.93844861984253
+[2026-09-16T02:12:16+08:00] GPU busy mem=20479MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 31/32 eta=0.0
+[2026-09-16T02:12:16+08:00] GPU busy mem=20479MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 31/32 eta=0.0
+[2026-09-16T02:13:01+08:00] GPU busy mem=21543MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 1/32 eta=507.16259837150574
+[2026-09-16T02:13:01+08:00] GPU busy mem=21543MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 1/32 eta=507.16259837150574
+[2026-09-16T02:13:46+08:00] GPU busy mem=21219MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 3/32 eta=550.1141595840454
+[2026-09-16T02:13:46+08:00] GPU busy mem=21219MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 3/32 eta=550.1141595840454
+[2026-09-16T02:14:31+08:00] GPU busy mem=16737MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 5/32 eta=537.5247517426809
+[2026-09-16T02:14:31+08:00] GPU busy mem=16737MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 5/32 eta=537.5247517426809
+[2026-09-16T02:15:16+08:00] GPU busy mem=21081MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 7/32 eta=507.40680742263794
+[2026-09-16T02:15:16+08:00] GPU busy mem=21081MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 7/32 eta=507.40680742263794
+[2026-09-16T02:16:02+08:00] GPU busy mem=21401MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 9/32 eta=471.28352169990535
+[2026-09-16T02:16:02+08:00] GPU busy mem=21401MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 9/32 eta=471.28352169990535
+[2026-09-16T02:16:47+08:00] GPU busy mem=19855MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 11/32 eta=432.5680148601532
+[2026-09-16T02:16:47+08:00] GPU busy mem=19855MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 11/32 eta=432.5680148601532
+[2026-09-16T02:17:32+08:00] GPU busy mem=19879MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 13/32 eta=392.0189504282815
+[2026-09-16T02:17:32+08:00] GPU busy mem=19879MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 13/32 eta=392.0189504282815
+[2026-09-16T02:18:17+08:00] GPU busy mem=21179MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 15/32 eta=396.3017038504282
+[2026-09-16T02:18:17+08:00] GPU busy mem=21179MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 15/32 eta=396.3017038504282
+[2026-09-16T02:19:02+08:00] GPU busy mem=16493MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 16/32 eta=347.87150165613957
+[2026-09-16T02:19:02+08:00] GPU busy mem=16493MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 16/32 eta=347.87150165613957
+[2026-09-16T02:19:48+08:00] GPU busy mem=16243MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 18/32 eta=301.3748082487207
+[2026-09-16T02:19:48+08:00] GPU busy mem=16243MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 18/32 eta=301.3748082487207
+[2026-09-16T02:20:33+08:00] GPU busy mem=21441MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 20/32 eta=254.49150357927593
+[2026-09-16T02:20:33+08:00] GPU busy mem=21441MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 20/32 eta=254.49150357927593
+[2026-09-16T02:21:18+08:00] GPU busy mem=21199MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 22/32 eta=207.78363502543905
+[2026-09-16T02:21:18+08:00] GPU busy mem=21199MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 22/32 eta=207.78363502543905
+[2026-09-16T02:22:03+08:00] GPU busy mem=21523MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 24/32 eta=161.37048825263977
+[2026-09-16T02:22:03+08:00] GPU busy mem=21523MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 24/32 eta=161.37048825263977
+[2026-09-16T02:22:48+08:00] GPU busy mem=21219MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 26/32 eta=115.08744716644287
+[2026-09-16T02:22:48+08:00] GPU busy mem=21219MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 26/32 eta=115.08744716644287
+[2026-09-16T02:23:34+08:00] GPU busy mem=20739MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 28/32 eta=68.93975694426175
+[2026-09-16T02:23:34+08:00] GPU busy mem=20739MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 28/32 eta=68.93975694426175
+[2026-09-16T02:24:19+08:00] GPU busy mem=17719MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 30/32 eta=22.961241475997433
+[2026-09-16T02:24:19+08:00] GPU busy mem=17719MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 30/32 eta=22.961241475997433
+[2026-09-16T02:25:04+08:00] GPU busy mem=16493MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 31/32 eta=0.0
+[2026-09-16T02:25:04+08:00] GPU busy mem=16493MiB vcache={'pid': '25197', 'stage': 'p3-all', 'updated': '2026-09-16T01:47:22+08:00'} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 31/32 eta=0.0
+[2026-09-16T02:25:49+08:00] GPU free mem=0MiB
+[2026-09-16T02:25:49+08:00] GPU free mem=0MiB
+[2026-09-16T02:25:49+08:00] archived invalid P0-A jsonl -> p0a_results_garbage_tagger_022549.jsonl
+[2026-09-16T02:25:49+08:00] archived invalid P0-A jsonl -> p0a_results_garbage_tagger_022549.jsonl
+[2026-09-16T02:25:49+08:00] P0-A pid=30416
+[2026-09-16T02:25:49+08:00] P0-A pid=30416
+[2026-09-16T02:26:49+08:00] sanity after 6 jsonl lines: ok modes=['DENY', 'OTHER', 'OTHER', 'OTHER', 'OTHER'] after=['DENY', 'INVALID', 'INVALID', 'INVALID', 'INVALID']
+[2026-09-16T02:26:49+08:00] sanity after 6 jsonl lines: ok modes=['DENY', 'OTHER', 'OTHER', 'OTHER', 'OTHER'] after=['DENY', 'INVALID', 'INVALID', 'INVALID', 'INVALID']
+[2026-09-16T02:32:27+08:00] P0-A finished rc=-15
+[2026-09-16T02:32:27+08:00] P0-A finished rc=-15
+[2026-09-16T02:32:27+08:00] P0-A crashed; retry --resume once
+[2026-09-16T02:32:27+08:00] P0-A crashed; retry --resume once
+[2026-09-16T02:32:27+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py --resume attempt=1
+[2026-09-16T02:32:27+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py --resume attempt=1
+[2026-09-16T03:19:44+08:00] night_watch start
+[2026-09-16T03:19:44+08:00] night_watch start
+[2026-09-16T03:19:44+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python /root/autodl-tmp/multimodal_attack_project/CG-VSF/tests/test_cgvsf_cpu.py attempt=1
+[2026-09-16T03:19:44+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python /root/autodl-tmp/multimodal_attack_project/CG-VSF/tests/test_cgvsf_cpu.py attempt=1
+[2026-09-16T03:19:47+08:00] exit 0 for /root/autodl-tmp/multimodal_attack_project/CG-VSF/tests/test_cgvsf_cpu.py
+[2026-09-16T03:19:47+08:00] exit 0 for /root/autodl-tmp/multimodal_attack_project/CG-VSF/tests/test_cgvsf_cpu.py
+[2026-09-16T03:19:47+08:00] waiting for GPU (V-CachePoll holds the lock)
+[2026-09-16T03:19:47+08:00] waiting for GPU (V-CachePoll holds the lock)
+[2026-09-16T03:19:47+08:00] GPU busy mem=21139MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 14/32 eta=392.4568254788717
+[2026-09-16T03:19:47+08:00] GPU busy mem=21139MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 14/32 eta=392.4568254788717
+[2026-09-16T03:20:32+08:00] GPU busy mem=20035MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 16/32 eta=345.29989705366245
+[2026-09-16T03:20:32+08:00] GPU busy mem=20035MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 16/32 eta=345.29989705366245
+[2026-09-16T03:21:18+08:00] GPU busy mem=16513MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 17/32 eta=338.00657407442725
+[2026-09-16T03:21:18+08:00] GPU busy mem=16513MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 17/32 eta=338.00657407442725
+[2026-09-16T03:22:03+08:00] GPU busy mem=18641MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 19/32 eta=289.2499976634979
+[2026-09-16T03:22:03+08:00] GPU busy mem=18641MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 19/32 eta=289.2499976634979
+[2026-09-16T03:22:48+08:00] GPU busy mem=16309MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 21/32 eta=239.75167545405301
+[2026-09-16T03:22:48+08:00] GPU busy mem=16309MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 21/32 eta=239.75167545405301
+[2026-09-16T03:23:34+08:00] GPU busy mem=16355MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 23/32 eta=190.9083768526713
+[2026-09-16T03:23:34+08:00] GPU busy mem=16355MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 23/32 eta=190.9083768526713
+[2026-09-16T03:24:19+08:00] GPU busy mem=21179MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 25/32 eta=142.57681092849145
+[2026-09-16T03:24:19+08:00] GPU busy mem=21179MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 25/32 eta=142.57681092849145
+[2026-09-16T03:25:04+08:00] GPU busy mem=21059MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 27/32 eta=94.75251841545105
+[2026-09-16T03:25:04+08:00] GPU busy mem=21059MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 27/32 eta=94.75251841545105
+[2026-09-16T03:25:50+08:00] GPU busy mem=21099MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 29/32 eta=47.258514658610025
+[2026-09-16T03:25:50+08:00] GPU busy mem=21099MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 29/32 eta=47.258514658610025
+[2026-09-16T03:26:35+08:00] GPU busy mem=21261MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 31/32 eta=0.0
+[2026-09-16T03:26:35+08:00] GPU busy mem=21261MiB vcache={} p3=random 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; attack 32/32 eta=0.0; cage 31/32 eta=0.0
+[2026-09-16T03:27:20+08:00] GPU free mem=0MiB
+[2026-09-16T03:27:20+08:00] GPU free mem=0MiB
+[2026-09-16T03:27:20+08:00] keeping P0-A jsonl (12 rows, modes=['DENY', 'OTHER', 'REFUSE'])
+[2026-09-16T03:27:20+08:00] keeping P0-A jsonl (12 rows, modes=['DENY', 'OTHER', 'REFUSE'])
+[2026-09-16T03:27:20+08:00] resuming P0-A from existing jsonl
+[2026-09-16T03:27:20+08:00] resuming P0-A from existing jsonl
+[2026-09-16T03:27:20+08:00] P0-A pid=38019
+[2026-09-16T03:27:20+08:00] P0-A pid=38019
+[2026-09-16T03:27:50+08:00] sanity after 12 jsonl lines: ok modes=['DENY', 'OTHER', 'OTHER', 'OTHER', 'OTHER', 'DENY', 'REFUSE', 'DENY'] after=['DENY', 'INVALID', 'INVALID', 'INVALID', 'INVALID', 'DENY', 'INVALID', 'DENY']
+[2026-09-16T03:27:50+08:00] sanity after 12 jsonl lines: ok modes=['DENY', 'OTHER', 'OTHER', 'OTHER', 'OTHER', 'DENY', 'REFUSE', 'DENY'] after=['DENY', 'INVALID', 'INVALID', 'INVALID', 'INVALID', 'DENY', 'INVALID', 'DENY']
+[2026-09-16T03:36:06+08:00] P0-A finished rc=-15
+[2026-09-16T03:36:06+08:00] P0-A finished rc=-15
+[2026-09-16T03:36:06+08:00] P0-A crashed; wait for GPU then --resume
+[2026-09-16T03:36:06+08:00] P0-A crashed; wait for GPU then --resume
+[2026-09-16T03:36:06+08:00] waiting for GPU (V-CachePoll holds the lock)
+[2026-09-16T03:36:06+08:00] waiting for GPU (V-CachePoll holds the lock)
+[2026-09-16T03:36:07+08:00] GPU free mem=0MiB
+[2026-09-16T03:36:07+08:00] GPU free mem=0MiB
+[2026-09-16T03:36:07+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py --resume attempt=1
+[2026-09-16T03:36:07+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py --resume attempt=1
+[2026-09-16T03:46:35+08:00] exit -15 for --resume
+[2026-09-16T03:46:35+08:00] exit -15 for --resume
+[2026-09-16T03:46:55+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py --resume attempt=2
+[2026-09-16T03:46:55+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py --resume attempt=2
+[2026-09-16T03:51:24+08:00] exit -15 for --resume
+[2026-09-16T03:51:24+08:00] exit -15 for --resume
+[2026-09-16T03:51:44+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py --resume attempt=3
+[2026-09-16T03:51:44+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py --resume attempt=3
+[2026-09-16T04:41:54+08:00] exit -15 for --resume
+[2026-09-16T04:41:54+08:00] exit -15 for --resume
+[2026-09-16T04:42:14+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py --resume attempt=4
+[2026-09-16T04:42:14+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py --resume attempt=4
+[2026-09-16T04:42:28+08:00] exit 1 for --resume
+[2026-09-16T04:42:28+08:00] exit 1 for --resume
+[2026-09-16T04:42:48+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py --resume attempt=5
+[2026-09-16T04:42:48+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py --resume attempt=5
+[2026-09-16T04:43:04+08:00] exit 1 for --resume
+[2026-09-16T04:43:04+08:00] exit 1 for --resume
+[2026-09-16T04:43:24+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py --resume attempt=6
+[2026-09-16T04:43:24+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py --resume attempt=6
+[2026-09-16T07:06:05+08:00] exit 0 for --resume
+[2026-09-16T07:06:05+08:00] exit 0 for --resume
+[2026-09-16T07:06:05+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/render_report.py --stage p0a attempt=1
+[2026-09-16T07:06:05+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/render_report.py --stage p0a attempt=1
+[2026-09-16T07:06:05+08:00] exit 1 for p0a
+[2026-09-16T07:06:05+08:00] exit 1 for p0a
+[2026-09-16T07:06:25+08:00] P0-A verdict=STOP acc=4 last=3
+[2026-09-16T07:06:25+08:00] P0-A verdict=STOP acc=4 last=3
+[2026-09-16T07:06:25+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0b.py attempt=1
+[2026-09-16T07:06:25+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0b.py attempt=1
+[2026-09-16T07:28:08+08:00] exit -15 for /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0b.py
+[2026-09-16T07:28:08+08:00] exit -15 for /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0b.py
+[2026-09-16T07:28:28+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0b.py attempt=2
+[2026-09-16T07:28:28+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0b.py attempt=2
+[2026-09-16T07:58:09+08:00] exit 0 for /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0b.py
+[2026-09-16T07:58:09+08:00] exit 0 for /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0b.py
+[2026-09-16T07:58:09+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/render_report.py --stage p0b attempt=1
+[2026-09-16T07:58:09+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/render_report.py --stage p0b attempt=1
+[2026-09-16T07:58:09+08:00] exit 0 for p0b
+[2026-09-16T07:58:09+08:00] exit 0 for p0b
+[2026-09-16T07:58:09+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/advance_stage.py --require-preregistered-gate attempt=1
+[2026-09-16T07:58:09+08:00] run /root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/advance_stage.py --require-preregistered-gate attempt=1
+[2026-09-16T07:58:09+08:00] exit 0 for --require-preregistered-gate
+[2026-09-16T07:58:09+08:00] exit 0 for --require-preregistered-gate
+[2026-09-16T07:58:09+08:00] night_watch done p0a=0 p0b=0
+[2026-09-16T07:58:09+08:00] night_watch done p0a=0 p0b=0

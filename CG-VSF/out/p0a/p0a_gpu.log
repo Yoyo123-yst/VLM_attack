@@ -1,0 +1,1146 @@
+
+===== night_watch P0-A 2026-09-16T02:25:49+08:00 =====
+{"run": "p0a", "n_cells": 8, "n_jobs": 48, "methods": ["refusal_margin", "last_certificate", "accumulated_certificate", "accumulated_exact_only", "targeted_prefix_earlystop", "gateflip_fair"], "frozen_sha": "42c9c9fa564d4a5ed73b7c5dfac399b64df18db3b2440cdfacfc3b13452c2a33"}
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:05,  1.46s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:04,  1.45s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:04<00:02,  1.43s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:05<00:01,  1.42s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.07s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.23s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+
+===== 2026-09-16T02:32:27+08:00 attempt 1 =====
+{"run": "p0a", "n_cells": 8, "n_jobs": 48, "methods": ["refusal_margin", "last_certificate", "accumulated_certificate", "accumulated_exact_only", "targeted_prefix_earlystop", "gateflip_fair"], "frozen_sha": "42c9c9fa564d4a5ed73b7c5dfac399b64df18db3b2440cdfacfc3b13452c2a33"}
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:06,  1.59s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:03<00:04,  1.59s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:04<00:02,  1.48s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:05<00:01,  1.44s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.08s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.27s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+
+===== night_watch P0-A 2026-09-16T03:27:20+08:00 =====
+{"run": "p0a", "n_cells": 8, "n_jobs": 48, "methods": ["refusal_margin", "last_certificate", "accumulated_certificate", "accumulated_exact_only", "targeted_prefix_earlystop", "gateflip_fair"], "frozen_sha": "42c9c9fa564d4a5ed73b7c5dfac399b64df18db3b2440cdfacfc3b13452c2a33"}
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:05,  1.27s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:03,  1.28s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:03<00:02,  1.27s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:05<00:01,  1.25s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.06it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.09s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+
+===== 2026-09-16T03:36:07+08:00 attempt 1 =====
+{"run": "p0a", "n_cells": 8, "n_jobs": 48, "methods": ["refusal_margin", "last_certificate", "accumulated_certificate", "accumulated_exact_only", "targeted_prefix_earlystop", "gateflip_fair"], "frozen_sha": "42c9c9fa564d4a5ed73b7c5dfac399b64df18db3b2440cdfacfc3b13452c2a33"}
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:06,  1.62s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:03<00:04,  1.57s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:04<00:03,  1.57s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:06<00:01,  1.59s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.18s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.36s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+
+===== 2026-09-16T03:46:55+08:00 attempt 2 =====
+{"run": "p0a", "n_cells": 8, "n_jobs": 48, "methods": ["refusal_margin", "last_certificate", "accumulated_certificate", "accumulated_exact_only", "targeted_prefix_earlystop", "gateflip_fair"], "frozen_sha": "42c9c9fa564d4a5ed73b7c5dfac399b64df18db3b2440cdfacfc3b13452c2a33"}
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:05,  1.47s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:04,  1.41s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:04<00:02,  1.40s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:05<00:01,  1.38s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.04s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.20s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+lse_step 1/24 n_certs=3 dt=4.86s
+lse_step 2/24 n_certs=3 dt=4.89s
+lse_step 3/24 n_certs=3 dt=6.02s
+lse_step 4/24 n_certs=3 dt=5.56s
+lse_step 5/24 n_certs=3 dt=6.00s
+lse_step 6/24 n_certs=3 dt=5.50s
+lse_step 7/24 n_certs=3 dt=5.17s
+lse_step 8/24 n_certs=3 dt=4.95s
+lse_step 9/24 n_certs=3 dt=6.23s
+lse_step 10/24 n_certs=3 dt=5.99s
+lse_step 11/24 n_certs=3 dt=5.49s
+lse_step 12/24 n_certs=3 dt=4.90s
+lse_step 13/24 n_certs=3 dt=4.86s
+lse_step 14/24 n_certs=3 dt=5.04s
+lse_step 15/24 n_certs=3 dt=5.16s
+lse_step 16/24 n_certs=3 dt=5.26s
+lse_step 17/24 n_certs=3 dt=5.01s
+lse_step 18/24 n_certs=3 dt=4.99s
+lse_step 19/24 n_certs=3 dt=5.00s
+lse_step 20/24 n_certs=3 dt=5.45s
+lse_step 21/24 n_certs=3 dt=5.35s
+lse_step 22/24 n_certs=3 dt=5.12s
+lse_step 23/24 n_certs=3 dt=5.20s
+lse_step 24/24 n_certs=3 dt=4.93s
+lse_step 1/24 n_certs=4 dt=7.10s
+lse_step 2/24 n_certs=4 dt=7.10s
+lse_step 3/24 n_certs=4 dt=7.34s
+lse_step 4/24 n_certs=4 dt=7.16s
+lse_step 5/24 n_certs=4 dt=7.28s
+lse_step 6/24 n_certs=4 dt=7.03s
+lse_step 7/24 n_certs=4 dt=7.69s
+
+===== 2026-09-16T03:51:44+08:00 attempt 3 =====
+{"run": "p0a", "n_cells": 8, "n_jobs": 48, "methods": ["targeted_prefix_earlystop", "gateflip_fair", "refusal_margin", "last_certificate", "accumulated_certificate", "accumulated_exact_only"], "frozen_sha": "42c9c9fa564d4a5ed73b7c5dfac399b64df18db3b2440cdfacfc3b13452c2a33"}
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:06,  1.61s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:03<00:04,  1.66s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:04<00:03,  1.63s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:06<00:01,  1.57s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.16s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.36s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+lse_step 1/24 n_certs=3 dt=4.88s
+lse_step 2/24 n_certs=3 dt=4.70s
+lse_step 3/24 n_certs=3 dt=4.23s
+lse_step 4/24 n_certs=3 dt=4.20s
+lse_step 5/24 n_certs=3 dt=4.05s
+lse_step 6/24 n_certs=3 dt=5.15s
+lse_step 7/24 n_certs=3 dt=5.96s
+lse_step 8/24 n_certs=3 dt=5.64s
+lse_step 9/24 n_certs=3 dt=5.33s
+lse_step 10/24 n_certs=3 dt=4.81s
+lse_step 11/24 n_certs=3 dt=4.66s
+lse_step 12/24 n_certs=3 dt=5.64s
+lse_step 13/24 n_certs=3 dt=5.94s
+lse_step 14/24 n_certs=3 dt=5.94s
+lse_step 15/24 n_certs=3 dt=5.99s
+lse_step 16/24 n_certs=3 dt=6.03s
+lse_step 17/24 n_certs=3 dt=6.09s
+lse_step 18/24 n_certs=3 dt=6.01s
+lse_step 19/24 n_certs=3 dt=5.92s
+lse_step 20/24 n_certs=3 dt=5.96s
+lse_step 21/24 n_certs=3 dt=6.01s
+lse_step 22/24 n_certs=3 dt=6.12s
+lse_step 23/24 n_certs=3 dt=5.97s
+lse_step 24/24 n_certs=3 dt=6.22s
+lse_step 1/24 n_certs=4 dt=7.97s
+lse_step 2/24 n_certs=4 dt=8.39s
+lse_step 3/24 n_certs=4 dt=6.79s
+lse_step 4/24 n_certs=4 dt=5.82s
+lse_step 5/24 n_certs=4 dt=5.79s
+lse_step 6/24 n_certs=4 dt=5.82s
+lse_step 7/24 n_certs=4 dt=8.61s
+lse_step 8/24 n_certs=4 dt=8.71s
+lse_step 9/24 n_certs=4 dt=8.46s
+lse_step 10/24 n_certs=4 dt=8.50s
+lse_step 11/24 n_certs=4 dt=7.09s
+lse_step 12/24 n_certs=4 dt=6.63s
+lse_step 13/24 n_certs=4 dt=6.48s
+lse_step 14/24 n_certs=4 dt=6.59s
+lse_step 15/24 n_certs=4 dt=6.98s
+lse_step 16/24 n_certs=4 dt=6.73s
+lse_step 17/24 n_certs=4 dt=7.17s
+lse_step 18/24 n_certs=4 dt=7.66s
+lse_step 19/24 n_certs=4 dt=6.30s
+lse_step 20/24 n_certs=4 dt=6.10s
+lse_step 21/24 n_certs=4 dt=6.10s
+lse_step 22/24 n_certs=4 dt=5.78s
+lse_step 23/24 n_certs=4 dt=5.68s
+lse_step 24/24 n_certs=4 dt=5.79s
+lse_step 1/24 n_certs=5 dt=7.20s
+lse_step 2/24 n_certs=5 dt=7.58s
+lse_step 3/24 n_certs=5 dt=7.61s
+lse_step 4/24 n_certs=5 dt=7.32s
+lse_step 5/24 n_certs=5 dt=7.35s
+lse_step 6/24 n_certs=5 dt=7.39s
+lse_step 7/24 n_certs=5 dt=7.60s
+lse_step 8/24 n_certs=5 dt=8.04s
+lse_step 9/24 n_certs=5 dt=7.46s
+lse_step 10/24 n_certs=5 dt=7.54s
+
+===== 2026-09-16T04:42:14+08:00 attempt 4 =====
+{"run": "p0a", "n_cells": 8, "n_jobs": 48, "methods": ["targeted_prefix_earlystop", "gateflip_fair", "refusal_margin", "last_certificate", "accumulated_certificate", "accumulated_exact_only"], "frozen_sha": "42c9c9fa564d4a5ed73b7c5dfac399b64df18db3b2440cdfacfc3b13452c2a33"}
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:05,  1.39s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:03,  1.32s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:04<00:02,  1.33s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:05<00:01,  1.33s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.00s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.15s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+Traceback (most recent call last):
+  File "/root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py", line 267, in <module>
+    raise SystemExit(main())
+  File "/root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py", line 151, in main
+    rec = run_cell_method(
+  File "/root/autodl-tmp/multimodal_attack_project/CG-VSF/src/cgvsf/p0a.py", line 138, in run_cell_method
+    json.dumps(
+NameError: name 'json' is not defined
+
+===== 2026-09-16T04:42:48+08:00 attempt 5 =====
+{"run": "p0a", "n_cells": 8, "n_jobs": 48, "methods": ["targeted_prefix_earlystop", "gateflip_fair", "refusal_margin", "last_certificate", "accumulated_certificate", "accumulated_exact_only"], "frozen_sha": "42c9c9fa564d4a5ed73b7c5dfac399b64df18db3b2440cdfacfc3b13452c2a33"}
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:06,  1.50s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:04,  1.45s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:04<00:02,  1.40s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:05<00:01,  1.38s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.04s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:06<00:00,  1.21s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+Traceback (most recent call last):
+  File "/root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py", line 267, in <module>
+    raise SystemExit(main())
+  File "/root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0a.py", line 151, in main
+    rec = run_cell_method(
+  File "/root/autodl-tmp/multimodal_attack_project/CG-VSF/src/cgvsf/p0a.py", line 138, in run_cell_method
+    json.dumps(
+NameError: name 'json' is not defined
+
+===== 2026-09-16T04:43:24+08:00 attempt 6 =====
+{"run": "p0a", "n_cells": 8, "n_jobs": 48, "methods": ["targeted_prefix_earlystop", "gateflip_fair", "refusal_margin", "last_certificate", "accumulated_certificate", "accumulated_exact_only"], "frozen_sha": "42c9c9fa564d4a5ed73b7c5dfac399b64df18db3b2440cdfacfc3b13452c2a33"}
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:05,  1.39s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:03,  1.32s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:03<00:02,  1.31s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:05<00:01,  1.33s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.01s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.15s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+{"opt_start": "accumulated_certificate", "round": 0, "n_certs": 1, "cert_lens": [4], "steps": 24}
+{"opt_done": "accumulated_certificate", "round": 0, "n_backward": 24, "opt_s": 22.16}
+{"opt_start": "accumulated_certificate", "round": 1, "n_certs": 2, "cert_lens": [4, 5], "steps": 24}
+{"opt_done": "accumulated_certificate", "round": 1, "n_backward": 24, "opt_s": 50.12}
+{"opt_start": "accumulated_certificate", "round": 2, "n_certs": 3, "cert_lens": [4, 5, 8], "steps": 24}
+lse_step 1/24 n_certs=3 dt=4.79s
+lse_step 2/24 n_certs=3 dt=5.07s
+lse_step 3/24 n_certs=3 dt=5.49s
+lse_step 4/24 n_certs=3 dt=5.50s
+lse_step 5/24 n_certs=3 dt=5.01s
+lse_step 6/24 n_certs=3 dt=5.42s
+lse_step 7/24 n_certs=3 dt=4.69s
+lse_step 8/24 n_certs=3 dt=4.72s
+lse_step 9/24 n_certs=3 dt=4.84s
+lse_step 10/24 n_certs=3 dt=4.94s
+lse_step 11/24 n_certs=3 dt=4.83s
+lse_step 12/24 n_certs=3 dt=4.64s
+lse_step 13/24 n_certs=3 dt=4.58s
+lse_step 14/24 n_certs=3 dt=4.57s
+lse_step 15/24 n_certs=3 dt=4.63s
+lse_step 16/24 n_certs=3 dt=4.75s
+lse_step 17/24 n_certs=3 dt=4.54s
+lse_step 18/24 n_certs=3 dt=4.64s
+lse_step 19/24 n_certs=3 dt=4.88s
+lse_step 20/24 n_certs=3 dt=4.84s
+lse_step 21/24 n_certs=3 dt=4.59s
+lse_step 22/24 n_certs=3 dt=4.60s
+lse_step 23/24 n_certs=3 dt=4.77s
+lse_step 24/24 n_certs=3 dt=4.61s
+{"opt_done": "accumulated_certificate", "round": 2, "n_backward": 24, "opt_s": 116.15}
+{"opt_start": "accumulated_certificate", "round": 3, "n_certs": 4, "cert_lens": [4, 5, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=4 dt=6.59s
+lse_step 2/24 n_certs=4 dt=6.84s
+lse_step 3/24 n_certs=4 dt=7.05s
+lse_step 4/24 n_certs=4 dt=6.62s
+lse_step 5/24 n_certs=4 dt=6.72s
+lse_step 6/24 n_certs=4 dt=6.80s
+lse_step 7/24 n_certs=4 dt=6.74s
+lse_step 8/24 n_certs=4 dt=7.19s
+lse_step 9/24 n_certs=4 dt=7.13s
+lse_step 10/24 n_certs=4 dt=6.75s
+lse_step 11/24 n_certs=4 dt=6.86s
+lse_step 12/24 n_certs=4 dt=6.81s
+lse_step 13/24 n_certs=4 dt=6.75s
+lse_step 14/24 n_certs=4 dt=6.94s
+lse_step 15/24 n_certs=4 dt=7.04s
+lse_step 16/24 n_certs=4 dt=6.59s
+lse_step 17/24 n_certs=4 dt=6.72s
+lse_step 18/24 n_certs=4 dt=6.60s
+lse_step 19/24 n_certs=4 dt=6.67s
+lse_step 20/24 n_certs=4 dt=7.30s
+lse_step 21/24 n_certs=4 dt=7.28s
+lse_step 22/24 n_certs=4 dt=7.26s
+lse_step 23/24 n_certs=4 dt=6.77s
+lse_step 24/24 n_certs=4 dt=6.67s
+{"opt_done": "accumulated_certificate", "round": 3, "n_backward": 24, "opt_s": 164.8}
+{"opt_start": "accumulated_certificate", "round": 4, "n_certs": 5, "cert_lens": [4, 5, 8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=5 dt=8.85s
+lse_step 2/24 n_certs=5 dt=8.77s
+lse_step 3/24 n_certs=5 dt=8.83s
+lse_step 4/24 n_certs=5 dt=8.83s
+lse_step 5/24 n_certs=5 dt=8.87s
+lse_step 6/24 n_certs=5 dt=9.52s
+lse_step 7/24 n_certs=5 dt=8.96s
+lse_step 8/24 n_certs=5 dt=8.92s
+lse_step 9/24 n_certs=5 dt=9.08s
+lse_step 10/24 n_certs=5 dt=9.05s
+lse_step 11/24 n_certs=5 dt=8.76s
+lse_step 12/24 n_certs=5 dt=8.75s
+lse_step 13/24 n_certs=5 dt=8.60s
+lse_step 14/24 n_certs=5 dt=8.53s
+lse_step 15/24 n_certs=5 dt=8.98s
+lse_step 16/24 n_certs=5 dt=9.01s
+lse_step 17/24 n_certs=5 dt=9.34s
+lse_step 18/24 n_certs=5 dt=8.90s
+lse_step 19/24 n_certs=5 dt=8.94s
+lse_step 20/24 n_certs=5 dt=9.17s
+lse_step 21/24 n_certs=5 dt=9.17s
+lse_step 22/24 n_certs=5 dt=9.32s
+lse_step 23/24 n_certs=5 dt=9.06s
+lse_step 24/24 n_certs=5 dt=9.34s
+{"opt_done": "accumulated_certificate", "round": 4, "n_backward": 24, "opt_s": 215.65}
+{"opt_start": "accumulated_certificate", "round": 0, "n_certs": 1, "cert_lens": [4], "steps": 24}
+{"opt_done": "accumulated_certificate", "round": 0, "n_backward": 24, "opt_s": 22.23}
+{"opt_start": "accumulated_certificate", "round": 1, "n_certs": 2, "cert_lens": [4, 5], "steps": 24}
+{"opt_done": "accumulated_certificate", "round": 1, "n_backward": 24, "opt_s": 47.34}
+{"opt_start": "accumulated_certificate", "round": 2, "n_certs": 3, "cert_lens": [4, 5, 8], "steps": 24}
+lse_step 1/24 n_certs=3 dt=5.24s
+lse_step 2/24 n_certs=3 dt=5.36s
+lse_step 3/24 n_certs=3 dt=4.77s
+lse_step 4/24 n_certs=3 dt=4.66s
+lse_step 5/24 n_certs=3 dt=4.69s
+lse_step 6/24 n_certs=3 dt=4.74s
+lse_step 7/24 n_certs=3 dt=4.66s
+lse_step 8/24 n_certs=3 dt=4.81s
+lse_step 9/24 n_certs=3 dt=4.92s
+lse_step 10/24 n_certs=3 dt=4.79s
+lse_step 11/24 n_certs=3 dt=4.79s
+lse_step 12/24 n_certs=3 dt=4.70s
+lse_step 13/24 n_certs=3 dt=4.76s
+lse_step 14/24 n_certs=3 dt=4.87s
+lse_step 15/24 n_certs=3 dt=5.28s
+lse_step 16/24 n_certs=3 dt=5.25s
+lse_step 17/24 n_certs=3 dt=5.52s
+lse_step 18/24 n_certs=3 dt=4.95s
+lse_step 19/24 n_certs=3 dt=4.90s
+lse_step 20/24 n_certs=3 dt=4.77s
+lse_step 21/24 n_certs=3 dt=4.68s
+lse_step 22/24 n_certs=3 dt=4.75s
+lse_step 23/24 n_certs=3 dt=4.73s
+lse_step 24/24 n_certs=3 dt=4.61s
+{"opt_done": "accumulated_certificate", "round": 2, "n_backward": 24, "opt_s": 117.38}
+{"opt_start": "accumulated_certificate", "round": 0, "n_certs": 1, "cert_lens": [4], "steps": 24}
+{"opt_done": "accumulated_certificate", "round": 0, "n_backward": 24, "opt_s": 21.87}
+{"opt_start": "accumulated_certificate", "round": 0, "n_certs": 1, "cert_lens": [4], "steps": 24}
+{"opt_done": "accumulated_certificate", "round": 0, "n_backward": 24, "opt_s": 21.97}
+{"opt_start": "accumulated_certificate", "round": 0, "n_certs": 1, "cert_lens": [4], "steps": 24}
+{"opt_done": "accumulated_certificate", "round": 0, "n_backward": 24, "opt_s": 24.18}
+{"opt_start": "accumulated_certificate", "round": 1, "n_certs": 2, "cert_lens": [4, 8], "steps": 24}
+{"opt_done": "accumulated_certificate", "round": 1, "n_backward": 24, "opt_s": 59.95}
+{"opt_start": "accumulated_certificate", "round": 2, "n_certs": 3, "cert_lens": [4, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=3 dt=5.22s
+lse_step 2/24 n_certs=3 dt=5.30s
+lse_step 3/24 n_certs=3 dt=5.33s
+lse_step 4/24 n_certs=3 dt=5.77s
+lse_step 5/24 n_certs=3 dt=5.25s
+lse_step 6/24 n_certs=3 dt=5.71s
+lse_step 7/24 n_certs=3 dt=5.38s
+lse_step 8/24 n_certs=3 dt=5.89s
+lse_step 9/24 n_certs=3 dt=5.89s
+lse_step 10/24 n_certs=3 dt=5.21s
+lse_step 11/24 n_certs=3 dt=5.28s
+lse_step 12/24 n_certs=3 dt=5.24s
+lse_step 13/24 n_certs=3 dt=5.50s
+lse_step 14/24 n_certs=3 dt=5.59s
+lse_step 15/24 n_certs=3 dt=5.34s
+lse_step 16/24 n_certs=3 dt=5.43s
+lse_step 17/24 n_certs=3 dt=5.33s
+lse_step 18/24 n_certs=3 dt=5.37s
+lse_step 19/24 n_certs=3 dt=4.98s
+lse_step 20/24 n_certs=3 dt=5.37s
+lse_step 21/24 n_certs=3 dt=5.70s
+lse_step 22/24 n_certs=3 dt=5.51s
+lse_step 23/24 n_certs=3 dt=5.28s
+lse_step 24/24 n_certs=3 dt=5.29s
+{"opt_done": "accumulated_certificate", "round": 2, "n_backward": 24, "opt_s": 130.34}
+{"opt_start": "accumulated_certificate", "round": 3, "n_certs": 4, "cert_lens": [4, 8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=4 dt=7.49s
+lse_step 2/24 n_certs=4 dt=7.26s
+lse_step 3/24 n_certs=4 dt=7.73s
+lse_step 4/24 n_certs=4 dt=7.61s
+lse_step 5/24 n_certs=4 dt=7.48s
+lse_step 6/24 n_certs=4 dt=7.22s
+lse_step 7/24 n_certs=4 dt=7.22s
+lse_step 8/24 n_certs=4 dt=7.39s
+lse_step 9/24 n_certs=4 dt=7.94s
+lse_step 10/24 n_certs=4 dt=7.59s
+lse_step 11/24 n_certs=4 dt=7.63s
+lse_step 12/24 n_certs=4 dt=8.00s
+lse_step 13/24 n_certs=4 dt=8.31s
+lse_step 14/24 n_certs=4 dt=8.06s
+lse_step 15/24 n_certs=4 dt=8.47s
+lse_step 16/24 n_certs=4 dt=8.17s
+lse_step 17/24 n_certs=4 dt=7.46s
+lse_step 18/24 n_certs=4 dt=7.48s
+lse_step 19/24 n_certs=4 dt=8.19s
+lse_step 20/24 n_certs=4 dt=7.94s
+lse_step 21/24 n_certs=4 dt=7.35s
+lse_step 22/24 n_certs=4 dt=7.31s
+lse_step 23/24 n_certs=4 dt=7.42s
+lse_step 24/24 n_certs=4 dt=7.29s
+{"opt_done": "accumulated_certificate", "round": 3, "n_backward": 24, "opt_s": 184.15}
+{"opt_start": "accumulated_certificate", "round": 4, "n_certs": 5, "cert_lens": [4, 8, 8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=5 dt=9.83s
+lse_step 2/24 n_certs=5 dt=9.52s
+lse_step 3/24 n_certs=5 dt=10.14s
+lse_step 4/24 n_certs=5 dt=9.69s
+lse_step 5/24 n_certs=5 dt=10.08s
+lse_step 6/24 n_certs=5 dt=9.31s
+lse_step 7/24 n_certs=5 dt=9.62s
+lse_step 8/24 n_certs=5 dt=9.69s
+lse_step 9/24 n_certs=5 dt=10.01s
+lse_step 10/24 n_certs=5 dt=9.71s
+lse_step 11/24 n_certs=5 dt=9.59s
+lse_step 12/24 n_certs=5 dt=9.60s
+lse_step 13/24 n_certs=5 dt=10.12s
+lse_step 14/24 n_certs=5 dt=9.48s
+lse_step 15/24 n_certs=5 dt=10.02s
+lse_step 16/24 n_certs=5 dt=9.27s
+lse_step 17/24 n_certs=5 dt=9.69s
+lse_step 18/24 n_certs=5 dt=9.61s
+lse_step 19/24 n_certs=5 dt=9.45s
+lse_step 20/24 n_certs=5 dt=9.26s
+lse_step 21/24 n_certs=5 dt=9.69s
+lse_step 22/24 n_certs=5 dt=9.77s
+lse_step 23/24 n_certs=5 dt=9.69s
+lse_step 24/24 n_certs=5 dt=12.07s
+{"opt_done": "accumulated_certificate", "round": 4, "n_backward": 24, "opt_s": 235.03}
+{"opt_start": "accumulated_certificate", "round": 0, "n_certs": 1, "cert_lens": [4], "steps": 24}
+{"opt_done": "accumulated_certificate", "round": 0, "n_backward": 24, "opt_s": 25.98}
+{"opt_start": "accumulated_certificate", "round": 1, "n_certs": 2, "cert_lens": [4, 8], "steps": 24}
+{"opt_done": "accumulated_certificate", "round": 1, "n_backward": 24, "opt_s": 63.86}
+{"opt_start": "accumulated_certificate", "round": 2, "n_certs": 3, "cert_lens": [4, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=3 dt=6.24s
+lse_step 2/24 n_certs=3 dt=6.14s
+lse_step 3/24 n_certs=3 dt=5.99s
+lse_step 4/24 n_certs=3 dt=6.84s
+lse_step 5/24 n_certs=3 dt=6.15s
+lse_step 6/24 n_certs=3 dt=7.01s
+lse_step 7/24 n_certs=3 dt=6.23s
+lse_step 8/24 n_certs=3 dt=5.51s
+lse_step 9/24 n_certs=3 dt=5.66s
+lse_step 10/24 n_certs=3 dt=5.65s
+lse_step 11/24 n_certs=3 dt=6.07s
+lse_step 12/24 n_certs=3 dt=5.60s
+lse_step 13/24 n_certs=3 dt=5.87s
+lse_step 14/24 n_certs=3 dt=6.78s
+lse_step 15/24 n_certs=3 dt=6.78s
+lse_step 16/24 n_certs=3 dt=6.26s
+lse_step 17/24 n_certs=3 dt=5.57s
+lse_step 18/24 n_certs=3 dt=5.70s
+lse_step 19/24 n_certs=3 dt=5.48s
+lse_step 20/24 n_certs=3 dt=5.40s
+lse_step 21/24 n_certs=3 dt=5.49s
+lse_step 22/24 n_certs=3 dt=5.40s
+lse_step 23/24 n_certs=3 dt=5.58s
+lse_step 24/24 n_certs=3 dt=5.39s
+{"opt_done": "accumulated_certificate", "round": 2, "n_backward": 24, "opt_s": 142.96}
+{"opt_start": "accumulated_certificate", "round": 3, "n_certs": 4, "cert_lens": [4, 8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=4 dt=7.96s
+lse_step 2/24 n_certs=4 dt=7.42s
+lse_step 3/24 n_certs=4 dt=7.54s
+lse_step 4/24 n_certs=4 dt=7.46s
+lse_step 5/24 n_certs=4 dt=7.78s
+lse_step 6/24 n_certs=4 dt=8.54s
+lse_step 7/24 n_certs=4 dt=8.62s
+lse_step 8/24 n_certs=4 dt=8.55s
+lse_step 9/24 n_certs=4 dt=7.82s
+lse_step 10/24 n_certs=4 dt=8.07s
+lse_step 11/24 n_certs=4 dt=9.52s
+lse_step 12/24 n_certs=4 dt=8.73s
+lse_step 13/24 n_certs=4 dt=7.99s
+lse_step 14/24 n_certs=4 dt=8.40s
+lse_step 15/24 n_certs=4 dt=9.36s
+lse_step 16/24 n_certs=4 dt=9.59s
+lse_step 17/24 n_certs=4 dt=8.19s
+lse_step 18/24 n_certs=4 dt=7.56s
+lse_step 19/24 n_certs=4 dt=9.46s
+lse_step 20/24 n_certs=4 dt=8.33s
+lse_step 21/24 n_certs=4 dt=8.27s
+lse_step 22/24 n_certs=4 dt=8.25s
+lse_step 23/24 n_certs=4 dt=7.53s
+lse_step 24/24 n_certs=4 dt=7.38s
+{"opt_done": "accumulated_certificate", "round": 3, "n_backward": 24, "opt_s": 198.45}
+{"opt_start": "accumulated_certificate", "round": 4, "n_certs": 5, "cert_lens": [4, 8, 8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=5 dt=10.33s
+lse_step 2/24 n_certs=5 dt=9.90s
+lse_step 3/24 n_certs=5 dt=9.66s
+lse_step 4/24 n_certs=5 dt=11.07s
+lse_step 5/24 n_certs=5 dt=10.69s
+lse_step 6/24 n_certs=5 dt=9.84s
+lse_step 7/24 n_certs=5 dt=10.00s
+lse_step 8/24 n_certs=5 dt=9.95s
+lse_step 9/24 n_certs=5 dt=10.19s
+lse_step 10/24 n_certs=5 dt=9.93s
+lse_step 11/24 n_certs=5 dt=10.78s
+lse_step 12/24 n_certs=5 dt=10.74s
+lse_step 13/24 n_certs=5 dt=9.86s
+lse_step 14/24 n_certs=5 dt=9.78s
+lse_step 15/24 n_certs=5 dt=11.51s
+lse_step 16/24 n_certs=5 dt=12.27s
+lse_step 17/24 n_certs=5 dt=10.56s
+lse_step 18/24 n_certs=5 dt=10.87s
+lse_step 19/24 n_certs=5 dt=10.52s
+lse_step 20/24 n_certs=5 dt=10.40s
+lse_step 21/24 n_certs=5 dt=9.95s
+lse_step 22/24 n_certs=5 dt=9.96s
+lse_step 23/24 n_certs=5 dt=9.64s
+lse_step 24/24 n_certs=5 dt=10.18s
+{"opt_done": "accumulated_certificate", "round": 4, "n_backward": 24, "opt_s": 248.7}
+{"opt_start": "accumulated_certificate", "round": 0, "n_certs": 1, "cert_lens": [4], "steps": 24}
+{"opt_done": "accumulated_certificate", "round": 0, "n_backward": 24, "opt_s": 22.68}
+{"opt_start": "accumulated_certificate", "round": 1, "n_certs": 2, "cert_lens": [4, 5], "steps": 24}
+{"opt_done": "accumulated_certificate", "round": 1, "n_backward": 24, "opt_s": 50.59}
+{"opt_start": "accumulated_certificate", "round": 2, "n_certs": 3, "cert_lens": [4, 5, 8], "steps": 24}
+lse_step 1/24 n_certs=3 dt=5.16s
+lse_step 2/24 n_certs=3 dt=4.94s
+lse_step 3/24 n_certs=3 dt=5.05s
+lse_step 4/24 n_certs=3 dt=4.84s
+lse_step 5/24 n_certs=3 dt=5.15s
+lse_step 6/24 n_certs=3 dt=6.04s
+lse_step 7/24 n_certs=3 dt=6.04s
+lse_step 8/24 n_certs=3 dt=6.22s
+lse_step 9/24 n_certs=3 dt=5.97s
+lse_step 10/24 n_certs=3 dt=6.04s
+lse_step 11/24 n_certs=3 dt=5.34s
+lse_step 12/24 n_certs=3 dt=4.75s
+lse_step 13/24 n_certs=3 dt=4.85s
+lse_step 14/24 n_certs=3 dt=4.93s
+lse_step 15/24 n_certs=3 dt=5.98s
+lse_step 16/24 n_certs=3 dt=5.36s
+lse_step 17/24 n_certs=3 dt=5.33s
+lse_step 18/24 n_certs=3 dt=5.98s
+lse_step 19/24 n_certs=3 dt=6.17s
+lse_step 20/24 n_certs=3 dt=5.40s
+lse_step 21/24 n_certs=3 dt=4.92s
+lse_step 22/24 n_certs=3 dt=4.94s
+lse_step 23/24 n_certs=3 dt=4.89s
+lse_step 24/24 n_certs=3 dt=4.91s
+{"opt_done": "accumulated_certificate", "round": 2, "n_backward": 24, "opt_s": 129.4}
+{"opt_start": "accumulated_certificate", "round": 3, "n_certs": 4, "cert_lens": [4, 5, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=4 dt=7.21s
+lse_step 2/24 n_certs=4 dt=7.03s
+lse_step 3/24 n_certs=4 dt=7.13s
+lse_step 4/24 n_certs=4 dt=7.40s
+lse_step 5/24 n_certs=4 dt=7.35s
+lse_step 6/24 n_certs=4 dt=7.58s
+lse_step 7/24 n_certs=4 dt=7.84s
+lse_step 8/24 n_certs=4 dt=7.22s
+lse_step 9/24 n_certs=4 dt=7.26s
+lse_step 10/24 n_certs=4 dt=7.54s
+lse_step 11/24 n_certs=4 dt=7.08s
+lse_step 12/24 n_certs=4 dt=7.03s
+lse_step 13/24 n_certs=4 dt=6.89s
+lse_step 14/24 n_certs=4 dt=7.04s
+lse_step 15/24 n_certs=4 dt=7.16s
+lse_step 16/24 n_certs=4 dt=7.04s
+lse_step 17/24 n_certs=4 dt=7.01s
+lse_step 18/24 n_certs=4 dt=8.70s
+lse_step 19/24 n_certs=4 dt=7.60s
+lse_step 20/24 n_certs=4 dt=7.08s
+lse_step 21/24 n_certs=4 dt=7.44s
+lse_step 22/24 n_certs=4 dt=8.55s
+lse_step 23/24 n_certs=4 dt=7.54s
+lse_step 24/24 n_certs=4 dt=7.20s
+{"opt_done": "accumulated_certificate", "round": 3, "n_backward": 24, "opt_s": 177.02}
+{"opt_start": "accumulated_certificate", "round": 4, "n_certs": 5, "cert_lens": [4, 5, 8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=5 dt=9.55s
+lse_step 2/24 n_certs=5 dt=10.97s
+lse_step 3/24 n_certs=5 dt=10.76s
+lse_step 4/24 n_certs=5 dt=11.15s
+lse_step 5/24 n_certs=5 dt=11.42s
+lse_step 6/24 n_certs=5 dt=10.18s
+lse_step 7/24 n_certs=5 dt=9.64s
+lse_step 8/24 n_certs=5 dt=9.36s
+lse_step 9/24 n_certs=5 dt=10.20s
+lse_step 10/24 n_certs=5 dt=10.06s
+lse_step 11/24 n_certs=5 dt=9.26s
+lse_step 12/24 n_certs=5 dt=10.03s
+lse_step 13/24 n_certs=5 dt=9.38s
+lse_step 14/24 n_certs=5 dt=9.41s
+lse_step 15/24 n_certs=5 dt=9.44s
+lse_step 16/24 n_certs=5 dt=11.37s
+lse_step 17/24 n_certs=5 dt=11.38s
+lse_step 18/24 n_certs=5 dt=10.30s
+lse_step 19/24 n_certs=5 dt=9.36s
+lse_step 20/24 n_certs=5 dt=9.51s
+lse_step 21/24 n_certs=5 dt=9.46s
+lse_step 22/24 n_certs=5 dt=10.17s
+lse_step 23/24 n_certs=5 dt=10.17s
+lse_step 24/24 n_certs=5 dt=9.40s
+{"opt_done": "accumulated_certificate", "round": 4, "n_backward": 24, "opt_s": 242.04}
+{"opt_start": "accumulated_certificate", "round": 0, "n_certs": 1, "cert_lens": [4], "steps": 24}
+{"opt_done": "accumulated_certificate", "round": 0, "n_backward": 24, "opt_s": 26.31}
+{"opt_start": "accumulated_certificate", "round": 1, "n_certs": 2, "cert_lens": [4, 5], "steps": 24}
+{"opt_done": "accumulated_certificate", "round": 1, "n_backward": 24, "opt_s": 49.92}
+{"opt_start": "accumulated_certificate", "round": 2, "n_certs": 3, "cert_lens": [4, 5, 8], "steps": 24}
+lse_step 1/24 n_certs=3 dt=5.03s
+lse_step 2/24 n_certs=3 dt=5.19s
+lse_step 3/24 n_certs=3 dt=5.36s
+lse_step 4/24 n_certs=3 dt=5.05s
+lse_step 5/24 n_certs=3 dt=5.07s
+lse_step 6/24 n_certs=3 dt=5.40s
+lse_step 7/24 n_certs=3 dt=5.26s
+lse_step 8/24 n_certs=3 dt=4.99s
+lse_step 9/24 n_certs=3 dt=5.08s
+lse_step 10/24 n_certs=3 dt=5.24s
+lse_step 11/24 n_certs=3 dt=5.21s
+lse_step 12/24 n_certs=3 dt=6.08s
+lse_step 13/24 n_certs=3 dt=6.19s
+lse_step 14/24 n_certs=3 dt=6.02s
+lse_step 15/24 n_certs=3 dt=5.51s
+lse_step 16/24 n_certs=3 dt=5.06s
+lse_step 17/24 n_certs=3 dt=5.13s
+lse_step 18/24 n_certs=3 dt=5.23s
+lse_step 19/24 n_certs=3 dt=5.18s
+lse_step 20/24 n_certs=3 dt=4.85s
+lse_step 21/24 n_certs=3 dt=4.90s
+lse_step 22/24 n_certs=3 dt=4.87s
+lse_step 23/24 n_certs=3 dt=4.98s
+lse_step 24/24 n_certs=3 dt=4.81s
+{"opt_done": "accumulated_certificate", "round": 2, "n_backward": 24, "opt_s": 125.88}
+{"opt_start": "accumulated_exact_only", "round": 0, "n_certs": 1, "cert_lens": [8], "steps": 24}
+{"opt_done": "accumulated_exact_only", "round": 0, "n_backward": 24, "opt_s": 39.93}
+{"opt_start": "accumulated_exact_only", "round": 1, "n_certs": 2, "cert_lens": [8, 8], "steps": 24}
+{"opt_done": "accumulated_exact_only", "round": 1, "n_backward": 24, "opt_s": 83.7}
+{"opt_start": "accumulated_exact_only", "round": 2, "n_certs": 3, "cert_lens": [8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=3 dt=6.95s
+lse_step 2/24 n_certs=3 dt=7.27s
+lse_step 3/24 n_certs=3 dt=6.39s
+lse_step 4/24 n_certs=3 dt=6.34s
+lse_step 5/24 n_certs=3 dt=6.85s
+lse_step 6/24 n_certs=3 dt=6.51s
+lse_step 7/24 n_certs=3 dt=6.35s
+lse_step 8/24 n_certs=3 dt=6.50s
+lse_step 9/24 n_certs=3 dt=6.67s
+lse_step 10/24 n_certs=3 dt=6.60s
+lse_step 11/24 n_certs=3 dt=6.83s
+lse_step 12/24 n_certs=3 dt=6.69s
+lse_step 13/24 n_certs=3 dt=6.66s
+lse_step 14/24 n_certs=3 dt=6.63s
+lse_step 15/24 n_certs=3 dt=6.59s
+lse_step 16/24 n_certs=3 dt=7.19s
+lse_step 17/24 n_certs=3 dt=7.63s
+lse_step 18/24 n_certs=3 dt=7.91s
+lse_step 19/24 n_certs=3 dt=6.98s
+lse_step 20/24 n_certs=3 dt=6.52s
+lse_step 21/24 n_certs=3 dt=6.66s
+lse_step 22/24 n_certs=3 dt=6.37s
+lse_step 23/24 n_certs=3 dt=6.78s
+lse_step 24/24 n_certs=3 dt=6.68s
+{"opt_done": "accumulated_exact_only", "round": 2, "n_backward": 24, "opt_s": 162.75}
+{"opt_start": "accumulated_exact_only", "round": 3, "n_certs": 4, "cert_lens": [8, 8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=4 dt=8.71s
+lse_step 2/24 n_certs=4 dt=8.62s
+lse_step 3/24 n_certs=4 dt=8.74s
+lse_step 4/24 n_certs=4 dt=10.62s
+lse_step 5/24 n_certs=4 dt=9.57s
+lse_step 6/24 n_certs=4 dt=9.66s
+lse_step 7/24 n_certs=4 dt=9.41s
+lse_step 8/24 n_certs=4 dt=9.71s
+lse_step 9/24 n_certs=4 dt=9.73s
+lse_step 10/24 n_certs=4 dt=8.80s
+lse_step 11/24 n_certs=4 dt=9.86s
+lse_step 12/24 n_certs=4 dt=9.94s
+lse_step 13/24 n_certs=4 dt=9.48s
+lse_step 14/24 n_certs=4 dt=8.73s
+lse_step 15/24 n_certs=4 dt=10.17s
+lse_step 16/24 n_certs=4 dt=9.19s
+lse_step 17/24 n_certs=4 dt=9.18s
+lse_step 18/24 n_certs=4 dt=8.65s
+lse_step 19/24 n_certs=4 dt=8.60s
+lse_step 20/24 n_certs=4 dt=9.16s
+lse_step 21/24 n_certs=4 dt=8.95s
+lse_step 22/24 n_certs=4 dt=8.80s
+lse_step 23/24 n_certs=4 dt=8.98s
+lse_step 24/24 n_certs=4 dt=8.95s
+{"opt_done": "accumulated_exact_only", "round": 3, "n_backward": 24, "opt_s": 222.33}
+{"opt_start": "accumulated_exact_only", "round": 4, "n_certs": 5, "cert_lens": [8, 8, 8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=5 dt=11.77s
+lse_step 2/24 n_certs=5 dt=11.89s
+lse_step 3/24 n_certs=5 dt=11.54s
+lse_step 4/24 n_certs=5 dt=13.44s
+lse_step 5/24 n_certs=5 dt=12.58s
+lse_step 6/24 n_certs=5 dt=12.26s
+lse_step 7/24 n_certs=5 dt=11.60s
+lse_step 8/24 n_certs=5 dt=11.69s
+lse_step 9/24 n_certs=5 dt=11.89s
+lse_step 10/24 n_certs=5 dt=11.44s
+lse_step 11/24 n_certs=5 dt=10.95s
+lse_step 12/24 n_certs=5 dt=11.00s
+lse_step 13/24 n_certs=5 dt=10.43s
+lse_step 14/24 n_certs=5 dt=10.00s
+lse_step 15/24 n_certs=5 dt=9.70s
+lse_step 16/24 n_certs=5 dt=10.69s
+lse_step 17/24 n_certs=5 dt=9.59s
+lse_step 18/24 n_certs=5 dt=11.74s
+lse_step 19/24 n_certs=5 dt=12.13s
+lse_step 20/24 n_certs=5 dt=11.58s
+lse_step 21/24 n_certs=5 dt=12.48s
+lse_step 22/24 n_certs=5 dt=11.52s
+lse_step 23/24 n_certs=5 dt=13.27s
+lse_step 24/24 n_certs=5 dt=11.37s
+{"opt_done": "accumulated_exact_only", "round": 4, "n_backward": 24, "opt_s": 276.66}
+{"opt_start": "accumulated_exact_only", "round": 0, "n_certs": 1, "cert_lens": [8], "steps": 24}
+{"opt_done": "accumulated_exact_only", "round": 0, "n_backward": 24, "opt_s": 40.49}
+{"opt_start": "accumulated_exact_only", "round": 1, "n_certs": 2, "cert_lens": [8, 8], "steps": 24}
+{"opt_done": "accumulated_exact_only", "round": 1, "n_backward": 24, "opt_s": 81.65}
+{"opt_start": "accumulated_exact_only", "round": 2, "n_certs": 3, "cert_lens": [8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=3 dt=6.42s
+lse_step 2/24 n_certs=3 dt=6.67s
+lse_step 3/24 n_certs=3 dt=7.63s
+lse_step 4/24 n_certs=3 dt=7.21s
+lse_step 5/24 n_certs=3 dt=6.82s
+lse_step 6/24 n_certs=3 dt=7.88s
+lse_step 7/24 n_certs=3 dt=7.21s
+lse_step 8/24 n_certs=3 dt=7.73s
+lse_step 9/24 n_certs=3 dt=8.00s
+lse_step 10/24 n_certs=3 dt=7.43s
+lse_step 11/24 n_certs=3 dt=7.93s
+lse_step 12/24 n_certs=3 dt=7.39s
+lse_step 13/24 n_certs=3 dt=6.84s
+lse_step 14/24 n_certs=3 dt=7.96s
+lse_step 15/24 n_certs=3 dt=7.99s
+lse_step 16/24 n_certs=3 dt=7.87s
+lse_step 17/24 n_certs=3 dt=7.40s
+lse_step 18/24 n_certs=3 dt=7.06s
+lse_step 19/24 n_certs=3 dt=7.34s
+lse_step 20/24 n_certs=3 dt=6.45s
+lse_step 21/24 n_certs=3 dt=6.47s
+lse_step 22/24 n_certs=3 dt=6.47s
+lse_step 23/24 n_certs=3 dt=6.36s
+lse_step 24/24 n_certs=3 dt=6.45s
+{"opt_done": "accumulated_exact_only", "round": 2, "n_backward": 24, "opt_s": 173.16}
+{"opt_start": "accumulated_exact_only", "round": 3, "n_certs": 4, "cert_lens": [8, 8, 8, 4], "steps": 24}
+lse_step 1/24 n_certs=4 dt=8.10s
+lse_step 2/24 n_certs=4 dt=7.91s
+lse_step 3/24 n_certs=4 dt=7.81s
+lse_step 4/24 n_certs=4 dt=7.93s
+lse_step 5/24 n_certs=4 dt=7.94s
+lse_step 6/24 n_certs=4 dt=7.82s
+lse_step 7/24 n_certs=4 dt=8.02s
+lse_step 8/24 n_certs=4 dt=7.94s
+lse_step 9/24 n_certs=4 dt=7.96s
+lse_step 10/24 n_certs=4 dt=7.99s
+lse_step 11/24 n_certs=4 dt=8.04s
+lse_step 12/24 n_certs=4 dt=8.41s
+lse_step 13/24 n_certs=4 dt=9.44s
+lse_step 14/24 n_certs=4 dt=8.55s
+lse_step 15/24 n_certs=4 dt=8.02s
+lse_step 16/24 n_certs=4 dt=8.17s
+lse_step 17/24 n_certs=4 dt=7.74s
+lse_step 18/24 n_certs=4 dt=7.91s
+lse_step 19/24 n_certs=4 dt=7.62s
+lse_step 20/24 n_certs=4 dt=7.85s
+lse_step 21/24 n_certs=4 dt=7.57s
+lse_step 22/24 n_certs=4 dt=7.80s
+lse_step 23/24 n_certs=4 dt=9.46s
+lse_step 24/24 n_certs=4 dt=8.29s
+{"opt_done": "accumulated_exact_only", "round": 3, "n_backward": 24, "opt_s": 194.4}
+{"opt_start": "accumulated_exact_only", "round": 4, "n_certs": 5, "cert_lens": [8, 8, 8, 4, 8], "steps": 24}
+lse_step 1/24 n_certs=5 dt=11.18s
+lse_step 2/24 n_certs=5 dt=12.20s
+lse_step 3/24 n_certs=5 dt=11.61s
+lse_step 4/24 n_certs=5 dt=10.94s
+lse_step 5/24 n_certs=5 dt=11.78s
+lse_step 6/24 n_certs=5 dt=12.19s
+lse_step 7/24 n_certs=5 dt=10.00s
+lse_step 8/24 n_certs=5 dt=10.42s
+lse_step 9/24 n_certs=5 dt=11.26s
+lse_step 10/24 n_certs=5 dt=11.27s
+lse_step 11/24 n_certs=5 dt=9.84s
+lse_step 12/24 n_certs=5 dt=10.18s
+lse_step 13/24 n_certs=5 dt=12.27s
+lse_step 14/24 n_certs=5 dt=10.61s
+lse_step 15/24 n_certs=5 dt=10.66s
+lse_step 16/24 n_certs=5 dt=10.77s
+lse_step 17/24 n_certs=5 dt=11.77s
+lse_step 18/24 n_certs=5 dt=11.27s
+lse_step 19/24 n_certs=5 dt=10.04s
+lse_step 20/24 n_certs=5 dt=10.23s
+lse_step 21/24 n_certs=5 dt=10.83s
+lse_step 22/24 n_certs=5 dt=10.53s
+lse_step 23/24 n_certs=5 dt=10.65s
+lse_step 24/24 n_certs=5 dt=10.24s
+{"opt_done": "accumulated_exact_only", "round": 4, "n_backward": 24, "opt_s": 262.84}
+{"opt_start": "accumulated_exact_only", "round": 0, "n_certs": 1, "cert_lens": [8], "steps": 24}
+{"opt_done": "accumulated_exact_only", "round": 0, "n_backward": 24, "opt_s": 44.96}
+{"opt_start": "accumulated_exact_only", "round": 1, "n_certs": 2, "cert_lens": [8, 8], "steps": 24}
+{"opt_done": "accumulated_exact_only", "round": 1, "n_backward": 24, "opt_s": 79.63}
+{"opt_start": "accumulated_exact_only", "round": 2, "n_certs": 3, "cert_lens": [8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=3 dt=7.02s
+lse_step 2/24 n_certs=3 dt=6.48s
+lse_step 3/24 n_certs=3 dt=6.46s
+lse_step 4/24 n_certs=3 dt=6.94s
+lse_step 5/24 n_certs=3 dt=6.76s
+lse_step 6/24 n_certs=3 dt=6.48s
+lse_step 7/24 n_certs=3 dt=6.71s
+lse_step 8/24 n_certs=3 dt=7.46s
+lse_step 9/24 n_certs=3 dt=7.14s
+lse_step 10/24 n_certs=3 dt=7.38s
+lse_step 11/24 n_certs=3 dt=6.58s
+lse_step 12/24 n_certs=3 dt=6.87s
+lse_step 13/24 n_certs=3 dt=6.69s
+lse_step 14/24 n_certs=3 dt=7.32s
+lse_step 15/24 n_certs=3 dt=7.99s
+lse_step 16/24 n_certs=3 dt=8.00s
+lse_step 17/24 n_certs=3 dt=7.46s
+lse_step 18/24 n_certs=3 dt=6.84s
+lse_step 19/24 n_certs=3 dt=7.44s
+lse_step 20/24 n_certs=3 dt=6.91s
+lse_step 21/24 n_certs=3 dt=8.17s
+lse_step 22/24 n_certs=3 dt=7.93s
+lse_step 23/24 n_certs=3 dt=6.52s
+lse_step 24/24 n_certs=3 dt=5.80s
+{"opt_done": "accumulated_exact_only", "round": 2, "n_backward": 24, "opt_s": 169.54}
+{"opt_start": "accumulated_exact_only", "round": 3, "n_certs": 4, "cert_lens": [8, 8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=4 dt=7.79s
+lse_step 2/24 n_certs=4 dt=8.07s
+lse_step 3/24 n_certs=4 dt=8.52s
+lse_step 4/24 n_certs=4 dt=8.84s
+lse_step 5/24 n_certs=4 dt=8.57s
+lse_step 6/24 n_certs=4 dt=8.93s
+lse_step 7/24 n_certs=4 dt=10.24s
+lse_step 8/24 n_certs=4 dt=9.40s
+lse_step 9/24 n_certs=4 dt=10.50s
+lse_step 10/24 n_certs=4 dt=9.61s
+lse_step 11/24 n_certs=4 dt=10.05s
+lse_step 12/24 n_certs=4 dt=9.82s
+lse_step 13/24 n_certs=4 dt=9.09s
+lse_step 14/24 n_certs=4 dt=8.73s
+lse_step 15/24 n_certs=4 dt=8.84s
+lse_step 16/24 n_certs=4 dt=9.51s
+lse_step 17/24 n_certs=4 dt=9.50s
+lse_step 18/24 n_certs=4 dt=8.94s
+lse_step 19/24 n_certs=4 dt=9.39s
+lse_step 20/24 n_certs=4 dt=10.22s
+lse_step 21/24 n_certs=4 dt=9.38s
+lse_step 22/24 n_certs=4 dt=8.39s
+lse_step 23/24 n_certs=4 dt=8.50s
+lse_step 24/24 n_certs=4 dt=8.82s
+{"opt_done": "accumulated_exact_only", "round": 3, "n_backward": 24, "opt_s": 219.77}
+{"opt_start": "accumulated_exact_only", "round": 4, "n_certs": 4, "cert_lens": [8, 8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=4 dt=8.77s
+lse_step 2/24 n_certs=4 dt=8.84s
+lse_step 3/24 n_certs=4 dt=9.48s
+lse_step 4/24 n_certs=4 dt=8.85s
+lse_step 5/24 n_certs=4 dt=9.18s
+lse_step 6/24 n_certs=4 dt=8.84s
+lse_step 7/24 n_certs=4 dt=8.71s
+lse_step 8/24 n_certs=4 dt=8.71s
+lse_step 9/24 n_certs=4 dt=9.15s
+lse_step 10/24 n_certs=4 dt=9.03s
+lse_step 11/24 n_certs=4 dt=9.38s
+lse_step 12/24 n_certs=4 dt=9.07s
+lse_step 13/24 n_certs=4 dt=10.14s
+lse_step 14/24 n_certs=4 dt=9.84s
+lse_step 15/24 n_certs=4 dt=10.59s
+lse_step 16/24 n_certs=4 dt=9.23s
+lse_step 17/24 n_certs=4 dt=8.63s
+lse_step 18/24 n_certs=4 dt=9.02s
+lse_step 19/24 n_certs=4 dt=9.81s
+lse_step 20/24 n_certs=4 dt=9.86s
+lse_step 21/24 n_certs=4 dt=9.77s
+lse_step 22/24 n_certs=4 dt=9.05s
+lse_step 23/24 n_certs=4 dt=9.07s
+lse_step 24/24 n_certs=4 dt=10.72s
+{"opt_done": "accumulated_exact_only", "round": 4, "n_backward": 24, "opt_s": 223.85}
+{"opt_start": "accumulated_exact_only", "round": 0, "n_certs": 1, "cert_lens": [8], "steps": 24}
+{"opt_done": "accumulated_exact_only", "round": 0, "n_backward": 24, "opt_s": 42.77}
+{"opt_start": "accumulated_exact_only", "round": 0, "n_certs": 1, "cert_lens": [8], "steps": 24}
+{"opt_done": "accumulated_exact_only", "round": 0, "n_backward": 24, "opt_s": 39.39}
+{"opt_start": "accumulated_exact_only", "round": 1, "n_certs": 2, "cert_lens": [8, 8], "steps": 24}
+{"opt_done": "accumulated_exact_only", "round": 1, "n_backward": 24, "opt_s": 87.88}
+{"opt_start": "accumulated_exact_only", "round": 2, "n_certs": 3, "cert_lens": [8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=3 dt=6.45s
+lse_step 2/24 n_certs=3 dt=6.44s
+lse_step 3/24 n_certs=3 dt=6.36s
+lse_step 4/24 n_certs=3 dt=7.05s
+lse_step 5/24 n_certs=3 dt=7.79s
+lse_step 6/24 n_certs=3 dt=7.35s
+lse_step 7/24 n_certs=3 dt=6.67s
+lse_step 8/24 n_certs=3 dt=6.36s
+lse_step 9/24 n_certs=3 dt=6.46s
+lse_step 10/24 n_certs=3 dt=8.08s
+lse_step 11/24 n_certs=3 dt=7.19s
+lse_step 12/24 n_certs=3 dt=6.64s
+lse_step 13/24 n_certs=3 dt=6.58s
+lse_step 14/24 n_certs=3 dt=8.05s
+lse_step 15/24 n_certs=3 dt=7.64s
+lse_step 16/24 n_certs=3 dt=6.78s
+lse_step 17/24 n_certs=3 dt=6.67s
+lse_step 18/24 n_certs=3 dt=7.14s
+lse_step 19/24 n_certs=3 dt=7.54s
+lse_step 20/24 n_certs=3 dt=5.90s
+lse_step 21/24 n_certs=3 dt=6.23s
+lse_step 22/24 n_certs=3 dt=8.01s
+lse_step 23/24 n_certs=3 dt=7.04s
+lse_step 24/24 n_certs=3 dt=6.49s
+{"opt_done": "accumulated_exact_only", "round": 2, "n_backward": 24, "opt_s": 167.11}
+{"opt_start": "accumulated_exact_only", "round": 3, "n_certs": 4, "cert_lens": [8, 8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=4 dt=8.63s
+lse_step 2/24 n_certs=4 dt=10.56s
+lse_step 3/24 n_certs=4 dt=9.31s
+lse_step 4/24 n_certs=4 dt=8.59s
+lse_step 5/24 n_certs=4 dt=8.97s
+lse_step 6/24 n_certs=4 dt=10.64s
+lse_step 7/24 n_certs=4 dt=9.01s
+lse_step 8/24 n_certs=4 dt=8.65s
+lse_step 9/24 n_certs=4 dt=9.17s
+lse_step 10/24 n_certs=4 dt=9.54s
+lse_step 11/24 n_certs=4 dt=9.02s
+lse_step 12/24 n_certs=4 dt=10.62s
+lse_step 13/24 n_certs=4 dt=9.57s
+lse_step 14/24 n_certs=4 dt=9.77s
+lse_step 15/24 n_certs=4 dt=9.86s
+lse_step 16/24 n_certs=4 dt=8.50s
+lse_step 17/24 n_certs=4 dt=9.37s
+lse_step 18/24 n_certs=4 dt=9.31s
+lse_step 19/24 n_certs=4 dt=9.78s
+lse_step 20/24 n_certs=4 dt=8.70s
+lse_step 21/24 n_certs=4 dt=8.59s
+lse_step 22/24 n_certs=4 dt=8.50s
+lse_step 23/24 n_certs=4 dt=8.76s
+lse_step 24/24 n_certs=4 dt=8.84s
+{"opt_done": "accumulated_exact_only", "round": 3, "n_backward": 24, "opt_s": 222.42}
+{"opt_start": "accumulated_exact_only", "round": 4, "n_certs": 5, "cert_lens": [8, 8, 8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=5 dt=10.87s
+lse_step 2/24 n_certs=5 dt=10.98s
+lse_step 3/24 n_certs=5 dt=12.07s
+lse_step 4/24 n_certs=5 dt=12.31s
+lse_step 5/24 n_certs=5 dt=11.85s
+lse_step 6/24 n_certs=5 dt=12.26s
+lse_step 7/24 n_certs=5 dt=12.07s
+lse_step 8/24 n_certs=5 dt=11.55s
+lse_step 9/24 n_certs=5 dt=11.31s
+lse_step 10/24 n_certs=5 dt=10.85s
+lse_step 11/24 n_certs=5 dt=11.04s
+lse_step 12/24 n_certs=5 dt=13.35s
+lse_step 13/24 n_certs=5 dt=11.42s
+lse_step 14/24 n_certs=5 dt=11.26s
+lse_step 15/24 n_certs=5 dt=11.65s
+lse_step 16/24 n_certs=5 dt=13.19s
+lse_step 17/24 n_certs=5 dt=12.05s
+lse_step 18/24 n_certs=5 dt=11.70s
+lse_step 19/24 n_certs=5 dt=11.69s
+lse_step 20/24 n_certs=5 dt=10.66s
+lse_step 21/24 n_certs=5 dt=11.05s
+lse_step 22/24 n_certs=5 dt=10.50s
+lse_step 23/24 n_certs=5 dt=10.97s
+lse_step 24/24 n_certs=5 dt=11.44s
+{"opt_done": "accumulated_exact_only", "round": 4, "n_backward": 24, "opt_s": 278.21}
+{"opt_start": "accumulated_exact_only", "round": 0, "n_certs": 1, "cert_lens": [8], "steps": 24}
+{"opt_done": "accumulated_exact_only", "round": 0, "n_backward": 24, "opt_s": 39.18}
+{"opt_start": "accumulated_exact_only", "round": 1, "n_certs": 2, "cert_lens": [8, 8], "steps": 24}
+{"opt_done": "accumulated_exact_only", "round": 1, "n_backward": 24, "opt_s": 87.4}
+{"opt_start": "accumulated_exact_only", "round": 2, "n_certs": 3, "cert_lens": [8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=3 dt=6.51s
+lse_step 2/24 n_certs=3 dt=6.93s
+lse_step 3/24 n_certs=3 dt=7.17s
+lse_step 4/24 n_certs=3 dt=6.57s
+lse_step 5/24 n_certs=3 dt=6.69s
+lse_step 6/24 n_certs=3 dt=6.42s
+lse_step 7/24 n_certs=3 dt=6.33s
+lse_step 8/24 n_certs=3 dt=6.22s
+lse_step 9/24 n_certs=3 dt=7.92s
+lse_step 10/24 n_certs=3 dt=7.25s
+lse_step 11/24 n_certs=3 dt=6.53s
+lse_step 12/24 n_certs=3 dt=6.37s
+lse_step 13/24 n_certs=3 dt=6.51s
+lse_step 14/24 n_certs=3 dt=6.56s
+lse_step 15/24 n_certs=3 dt=6.67s
+lse_step 16/24 n_certs=3 dt=7.95s
+lse_step 17/24 n_certs=3 dt=7.93s
+lse_step 18/24 n_certs=3 dt=7.37s
+lse_step 19/24 n_certs=3 dt=6.46s
+lse_step 20/24 n_certs=3 dt=7.83s
+lse_step 21/24 n_certs=3 dt=7.02s
+lse_step 22/24 n_certs=3 dt=6.40s
+lse_step 23/24 n_certs=3 dt=6.24s
+lse_step 24/24 n_certs=3 dt=6.25s
+{"opt_done": "accumulated_exact_only", "round": 2, "n_backward": 24, "opt_s": 164.3}
+{"opt_start": "accumulated_exact_only", "round": 3, "n_certs": 3, "cert_lens": [8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=3 dt=6.23s
+lse_step 2/24 n_certs=3 dt=6.55s
+lse_step 3/24 n_certs=3 dt=7.36s
+lse_step 4/24 n_certs=3 dt=7.02s
+lse_step 5/24 n_certs=3 dt=6.44s
+lse_step 6/24 n_certs=3 dt=6.60s
+lse_step 7/24 n_certs=3 dt=6.27s
+lse_step 8/24 n_certs=3 dt=6.57s
+lse_step 9/24 n_certs=3 dt=7.34s
+lse_step 10/24 n_certs=3 dt=6.62s
+lse_step 11/24 n_certs=3 dt=6.79s
+lse_step 12/24 n_certs=3 dt=7.94s
+lse_step 13/24 n_certs=3 dt=7.09s
+lse_step 14/24 n_certs=3 dt=6.81s
+lse_step 15/24 n_certs=3 dt=7.57s
+lse_step 16/24 n_certs=3 dt=7.12s
+lse_step 17/24 n_certs=3 dt=6.39s
+lse_step 18/24 n_certs=3 dt=7.22s
+lse_step 19/24 n_certs=3 dt=7.19s
+lse_step 20/24 n_certs=3 dt=6.66s
+lse_step 21/24 n_certs=3 dt=6.68s
+lse_step 22/24 n_certs=3 dt=6.48s
+lse_step 23/24 n_certs=3 dt=6.30s
+lse_step 24/24 n_certs=3 dt=6.99s
+{"opt_done": "accumulated_exact_only", "round": 3, "n_backward": 24, "opt_s": 164.33}
+{"opt_start": "accumulated_exact_only", "round": 4, "n_certs": 4, "cert_lens": [8, 8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=4 dt=9.48s
+lse_step 2/24 n_certs=4 dt=9.16s
+lse_step 3/24 n_certs=4 dt=9.25s
+lse_step 4/24 n_certs=4 dt=9.96s
+lse_step 5/24 n_certs=4 dt=9.85s
+lse_step 6/24 n_certs=4 dt=9.76s
+lse_step 7/24 n_certs=4 dt=8.89s
+lse_step 8/24 n_certs=4 dt=9.29s
+lse_step 9/24 n_certs=4 dt=9.67s
+lse_step 10/24 n_certs=4 dt=9.71s
+lse_step 11/24 n_certs=4 dt=8.71s
+lse_step 12/24 n_certs=4 dt=8.56s
+lse_step 13/24 n_certs=4 dt=8.64s
+lse_step 14/24 n_certs=4 dt=8.65s
+lse_step 15/24 n_certs=4 dt=9.44s
+lse_step 16/24 n_certs=4 dt=9.28s
+lse_step 17/24 n_certs=4 dt=8.99s
+lse_step 18/24 n_certs=4 dt=9.31s
+lse_step 19/24 n_certs=4 dt=9.66s
+lse_step 20/24 n_certs=4 dt=9.08s
+lse_step 21/24 n_certs=4 dt=8.44s
+lse_step 22/24 n_certs=4 dt=8.51s
+lse_step 23/24 n_certs=4 dt=8.75s
+lse_step 24/24 n_certs=4 dt=9.87s
+{"opt_done": "accumulated_exact_only", "round": 4, "n_backward": 24, "opt_s": 221.02}
+{"opt_start": "accumulated_exact_only", "round": 0, "n_certs": 1, "cert_lens": [8], "steps": 24}
+{"opt_done": "accumulated_exact_only", "round": 0, "n_backward": 24, "opt_s": 44.42}
+{"opt_start": "accumulated_exact_only", "round": 1, "n_certs": 2, "cert_lens": [8, 8], "steps": 24}
+{"opt_done": "accumulated_exact_only", "round": 1, "n_backward": 24, "opt_s": 84.13}
+{"opt_start": "accumulated_exact_only", "round": 2, "n_certs": 3, "cert_lens": [8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=3 dt=6.41s
+lse_step 2/24 n_certs=3 dt=8.19s
+lse_step 3/24 n_certs=3 dt=7.55s
+lse_step 4/24 n_certs=3 dt=8.05s
+lse_step 5/24 n_certs=3 dt=7.51s
+lse_step 6/24 n_certs=3 dt=7.08s
+lse_step 7/24 n_certs=3 dt=7.95s
+lse_step 8/24 n_certs=3 dt=7.89s
+lse_step 9/24 n_certs=3 dt=8.05s
+lse_step 10/24 n_certs=3 dt=7.05s
+lse_step 11/24 n_certs=3 dt=6.32s
+lse_step 12/24 n_certs=3 dt=6.47s
+lse_step 13/24 n_certs=3 dt=6.57s
+lse_step 14/24 n_certs=3 dt=6.66s
+lse_step 15/24 n_certs=3 dt=6.55s
+lse_step 16/24 n_certs=3 dt=7.84s
+lse_step 17/24 n_certs=3 dt=7.56s
+lse_step 18/24 n_certs=3 dt=7.17s
+lse_step 19/24 n_certs=3 dt=6.44s
+lse_step 20/24 n_certs=3 dt=6.57s
+lse_step 21/24 n_certs=3 dt=6.44s
+lse_step 22/24 n_certs=3 dt=6.48s
+lse_step 23/24 n_certs=3 dt=6.63s
+lse_step 24/24 n_certs=3 dt=7.89s
+{"opt_done": "accumulated_exact_only", "round": 2, "n_backward": 24, "opt_s": 171.52}
+{"opt_start": "accumulated_exact_only", "round": 3, "n_certs": 4, "cert_lens": [8, 8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=4 dt=9.58s
+lse_step 2/24 n_certs=4 dt=9.76s
+lse_step 3/24 n_certs=4 dt=8.71s
+lse_step 4/24 n_certs=4 dt=9.66s
+lse_step 5/24 n_certs=4 dt=10.10s
+lse_step 6/24 n_certs=4 dt=8.60s
+lse_step 7/24 n_certs=4 dt=9.69s
+lse_step 8/24 n_certs=4 dt=8.30s
+lse_step 9/24 n_certs=4 dt=9.66s
+lse_step 10/24 n_certs=4 dt=9.43s
+lse_step 11/24 n_certs=4 dt=8.59s
+lse_step 12/24 n_certs=4 dt=8.48s
+lse_step 13/24 n_certs=4 dt=8.59s
+lse_step 14/24 n_certs=4 dt=8.59s
+lse_step 15/24 n_certs=4 dt=8.71s
+lse_step 16/24 n_certs=4 dt=8.55s
+lse_step 17/24 n_certs=4 dt=8.50s
+lse_step 18/24 n_certs=4 dt=8.56s
+lse_step 19/24 n_certs=4 dt=9.03s
+lse_step 20/24 n_certs=4 dt=8.85s
+lse_step 21/24 n_certs=4 dt=8.63s
+lse_step 22/24 n_certs=4 dt=9.78s
+lse_step 23/24 n_certs=4 dt=10.69s
+lse_step 24/24 n_certs=4 dt=10.67s
+{"opt_done": "accumulated_exact_only", "round": 3, "n_backward": 24, "opt_s": 219.79}
+{"opt_start": "accumulated_exact_only", "round": 4, "n_certs": 5, "cert_lens": [8, 8, 8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=5 dt=10.70s
+lse_step 2/24 n_certs=5 dt=12.30s
+lse_step 3/24 n_certs=5 dt=11.73s
+lse_step 4/24 n_certs=5 dt=10.57s
+lse_step 5/24 n_certs=5 dt=12.38s
+lse_step 6/24 n_certs=5 dt=11.46s
+lse_step 7/24 n_certs=5 dt=11.71s
+lse_step 8/24 n_certs=5 dt=11.85s
+lse_step 9/24 n_certs=5 dt=13.19s
+lse_step 10/24 n_certs=5 dt=13.50s
+lse_step 11/24 n_certs=5 dt=12.04s
+lse_step 12/24 n_certs=5 dt=11.57s
+lse_step 13/24 n_certs=5 dt=11.30s
+lse_step 14/24 n_certs=5 dt=10.80s
+lse_step 15/24 n_certs=5 dt=10.78s
+lse_step 16/24 n_certs=5 dt=10.72s
+lse_step 17/24 n_certs=5 dt=10.94s
+lse_step 18/24 n_certs=5 dt=10.54s
+lse_step 19/24 n_certs=5 dt=13.14s
+lse_step 20/24 n_certs=5 dt=11.73s
+lse_step 21/24 n_certs=5 dt=11.48s
+lse_step 22/24 n_certs=5 dt=10.33s
+lse_step 23/24 n_certs=5 dt=10.01s
+lse_step 24/24 n_certs=5 dt=11.21s
+{"opt_done": "accumulated_exact_only", "round": 4, "n_backward": 24, "opt_s": 276.09}
+{"opt_start": "accumulated_exact_only", "round": 0, "n_certs": 1, "cert_lens": [8], "steps": 24}
+{"opt_done": "accumulated_exact_only", "round": 0, "n_backward": 24, "opt_s": 43.88}
+{"opt_start": "accumulated_exact_only", "round": 1, "n_certs": 2, "cert_lens": [8, 8], "steps": 24}
+{"opt_done": "accumulated_exact_only", "round": 1, "n_backward": 24, "opt_s": 75.26}
+{"opt_start": "accumulated_exact_only", "round": 2, "n_certs": 3, "cert_lens": [8, 8, 8], "steps": 24}
+lse_step 1/24 n_certs=3 dt=5.73s
+lse_step 2/24 n_certs=3 dt=7.03s
+lse_step 3/24 n_certs=3 dt=7.10s
+lse_step 4/24 n_certs=3 dt=6.71s
+lse_step 5/24 n_certs=3 dt=7.95s
+lse_step 6/24 n_certs=3 dt=7.66s
+lse_step 7/24 n_certs=3 dt=6.55s
+lse_step 8/24 n_certs=3 dt=7.13s
+lse_step 9/24 n_certs=3 dt=7.95s
+lse_step 10/24 n_certs=3 dt=7.53s
+lse_step 11/24 n_certs=3 dt=7.57s
+lse_step 12/24 n_certs=3 dt=7.86s
+lse_step 13/24 n_certs=3 dt=6.98s
+lse_step 14/24 n_certs=3 dt=6.71s
+lse_step 15/24 n_certs=3 dt=7.82s
+lse_step 16/24 n_certs=3 dt=7.97s
+lse_step 17/24 n_certs=3 dt=7.20s
+lse_step 18/24 n_certs=3 dt=6.46s
+lse_step 19/24 n_certs=3 dt=6.36s
+lse_step 20/24 n_certs=3 dt=6.37s
+lse_step 21/24 n_certs=3 dt=6.35s
+lse_step 22/24 n_certs=3 dt=6.68s
+lse_step 23/24 n_certs=3 dt=6.75s
+lse_step 24/24 n_certs=3 dt=6.50s
+{"opt_done": "accumulated_exact_only", "round": 2, "n_backward": 24, "opt_s": 169.12}
+{"opt_start": "accumulated_exact_only", "round": 3, "n_certs": 4, "cert_lens": [8, 8, 8, 5], "steps": 24}
+lse_step 1/24 n_certs=4 dt=8.31s
+lse_step 2/24 n_certs=4 dt=8.00s
+lse_step 3/24 n_certs=4 dt=7.97s
+lse_step 4/24 n_certs=4 dt=8.50s
+lse_step 5/24 n_certs=4 dt=8.33s
+lse_step 6/24 n_certs=4 dt=8.01s
+lse_step 7/24 n_certs=4 dt=9.05s
+lse_step 8/24 n_certs=4 dt=9.56s
+lse_step 9/24 n_certs=4 dt=8.91s
+lse_step 10/24 n_certs=4 dt=8.85s
+lse_step 11/24 n_certs=4 dt=8.78s
+lse_step 12/24 n_certs=4 dt=7.89s
+lse_step 13/24 n_certs=4 dt=9.69s
+lse_step 14/24 n_certs=4 dt=8.60s
+lse_step 15/24 n_certs=4 dt=7.80s
+lse_step 16/24 n_certs=4 dt=8.01s
+lse_step 17/24 n_certs=4 dt=8.52s
+lse_step 18/24 n_certs=4 dt=8.75s
+lse_step 19/24 n_certs=4 dt=8.21s
+lse_step 20/24 n_certs=4 dt=8.33s
+lse_step 21/24 n_certs=4 dt=9.79s
+lse_step 22/24 n_certs=4 dt=9.92s
+lse_step 23/24 n_certs=4 dt=9.00s
+lse_step 24/24 n_certs=4 dt=8.89s
+{"opt_done": "accumulated_exact_only", "round": 3, "n_backward": 24, "opt_s": 207.78}
+{"opt_start": "accumulated_exact_only", "round": 4, "n_certs": 5, "cert_lens": [8, 8, 8, 5, 5], "steps": 24}
+lse_step 1/24 n_certs=5 dt=11.69s
+lse_step 2/24 n_certs=5 dt=11.77s
+lse_step 3/24 n_certs=5 dt=10.88s
+lse_step 4/24 n_certs=5 dt=10.14s
+lse_step 5/24 n_certs=5 dt=9.27s
+lse_step 6/24 n_certs=5 dt=9.50s
+lse_step 7/24 n_certs=5 dt=9.60s
+lse_step 8/24 n_certs=5 dt=10.58s
+lse_step 9/24 n_certs=5 dt=9.25s
+lse_step 10/24 n_certs=5 dt=9.35s
+lse_step 11/24 n_certs=5 dt=9.47s
+lse_step 12/24 n_certs=5 dt=9.96s
+lse_step 13/24 n_certs=5 dt=10.03s
+lse_step 14/24 n_certs=5 dt=10.75s
+lse_step 15/24 n_certs=5 dt=10.75s
+lse_step 16/24 n_certs=5 dt=11.71s
+lse_step 17/24 n_certs=5 dt=10.38s
+lse_step 18/24 n_certs=5 dt=9.51s
+lse_step 19/24 n_certs=5 dt=9.39s
+lse_step 20/24 n_certs=5 dt=10.02s
+lse_step 21/24 n_certs=5 dt=10.27s
+lse_step 22/24 n_certs=5 dt=11.51s
+lse_step 23/24 n_certs=5 dt=10.37s
+lse_step 24/24 n_certs=5 dt=9.41s
+{"opt_done": "accumulated_exact_only", "round": 4, "n_backward": 24, "opt_s": 245.67}
+{"verdict": "STOP", "n_acc": 4}

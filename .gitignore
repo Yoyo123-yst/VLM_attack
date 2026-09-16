@@ -5,6 +5,7 @@ __pycache__/
 .pytest_cache/
 .cursor/
 .DS_Store
+*.tmp
 
 # secrets / keys
 .env

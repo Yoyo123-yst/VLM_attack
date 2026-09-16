@@ -1,0 +1,19 @@
+
+===== 2026-09-16T07:06:25+08:00 attempt 1 =====
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:06,  1.58s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:03<00:05,  1.78s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:05<00:03,  1.82s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:07<00:01,  1.82s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.37s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.55s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+/root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0b.py:144: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  blob = torch.load(state_dir / f"{st['state_key']}.pt", map_location="cpu")
+
+===== 2026-09-16T07:28:28+08:00 attempt 2 =====
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:06,  1.64s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:03<00:05,  1.73s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:05<00:03,  1.74s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:06<00:01,  1.73s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.29s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:07<00:00,  1.48s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+/root/autodl-tmp/multimodal_attack_project/CG-VSF/scripts/run_p0b.py:144: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  blob = torch.load(state_dir / f"{st['state_key']}.pt", map_location="cpu")
+{"verdict": "STOP", "n": 83}
