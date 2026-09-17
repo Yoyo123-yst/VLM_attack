@@ -1,0 +1,8 @@
+# P0-1: switched phrase-set control vs static_joint vs refusal-margin vs targeted-prefix.
+# Thresholds live in MSC_P0_FROZEN.json and must not change after launch.
+frozen: MSC/MSC_P0_FROZEN.json
+out_dir: MSC/out/p01
+scale: mini
+setting: native
+resume: true
+p00_dir: MSC/out/p00

@@ -1,8 +1,21 @@
+# VLM attack method exploration
+
+White-box visual jailbreak probes on local LVLMs. Each subdirectory is a separate method with its own freeze, gates, and reports. Sealed queries `h83–h130` are not read. Raw harmful text is not stored.
+
+| Folder | Method | Status |
+|---|---|---|
+| [MSC](MSC/) | Mode-Switched Control: official-greedy mode → class-level phrase-set PGD | P0-1 `switched` **STOP** (skip on INVALID). P1 `switched_keep` **GO** (8/8 hard-8) |
+| [V-CachePoll](V-CachePoll/) | Visual token squatting / cache pollution | P0–P3 CONTINUE |
+| [CG-VSF](CG-VSF/) | Counterexample-guided certificate cutting | P0-A/P0-B **STOP** |
+| [TraceFlip](TraceFlip/) | Trajectory repair vs GateFlip baseline | TraceFlip claim fails; GateFlip is the engineering baseline |
+
+---
+
 # CausalBottleneck-MJ
 
 Preliminary verification of **CausalBottleneck-MJ**: whether a local residual safety subspace in a white-box LVLM is simultaneously causal, visually controllable, and selective.
 
-This repository currently implements **P0: Visual Causal-Controllability Test** only.
+Early tree also implements **P0: Visual Causal-Controllability Test**.
 
 ## Hardware adaptation (read this first)
 

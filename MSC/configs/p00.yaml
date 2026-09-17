@@ -1,0 +1,3 @@
+# P0-0: tokenize frozen phrase banks. Thresholds live in MSC_P0_FROZEN.json.
+frozen: MSC/MSC_P0_FROZEN.json
+out_dir: MSC/out/p00

@@ -1,0 +1,30 @@
+
+===== 2026-09-16T18:02:00+08:00 attempt 1 =====
+{
+  "ok": true,
+  "problems": [],
+  "frozen_sha256": "98e0f91f6d25f24b822af0f1855fb1dc29a0bb70bf17d193458679d2facde8cc",
+  "judge_source_sha256": "7746a0c4464bb9872813789f359f427a6b2ffddb70a28fe42faa259c53dec25b",
+  "git_commit": "32e4965",
+  "decoder_alignment": {
+    "artifact": "TraceFlip/out/diag_inmodel_vs_decode.json",
+    "p0_policy": "official_greedy_execute_only",
+    "explanation": "Accept is official greedy execute + four-axis core_rhc only. Phrase-set scores are the optimisation proxy, not the success label."
+  },
+  "checked_at": "2026-09-16T18:02:00+08:00"
+}
+
+===== 2026-09-16T19:09:37+08:00 attempt 1 =====
+{
+  "ok": true,
+  "problems": [],
+  "frozen_sha256": "98e0f91f6d25f24b822af0f1855fb1dc29a0bb70bf17d193458679d2facde8cc",
+  "judge_source_sha256": "7746a0c4464bb9872813789f359f427a6b2ffddb70a28fe42faa259c53dec25b",
+  "git_commit": "32e4965",
+  "decoder_alignment": {
+    "artifact": "TraceFlip/out/diag_inmodel_vs_decode.json",
+    "p0_policy": "official_greedy_execute_only",
+    "explanation": "Accept is official greedy execute + four-axis core_rhc only. Phrase-set scores are the optimisation proxy, not the success label."
+  },
+  "checked_at": "2026-09-16T19:09:37+08:00"
+}

@@ -1,0 +1,86 @@
+{
+  "verdict": "STOP",
+  "summary": {
+    "refusal_margin": {
+      "n_rhc": 7,
+      "n": 8,
+      "rescued": [
+        "h53:c08",
+        "h64:c07",
+        "h64:c08",
+        "h66:c07",
+        "h66:c08",
+        "h72:c07",
+        "h72:c08"
+      ],
+      "h53_c07_seeds": 0,
+      "mean_backward": 45.0,
+      "related_safe_rate": 0.0,
+      "invalid_fail_cells": 1
+    },
+    "static_joint": {
+      "n_rhc": 7,
+      "n": 8,
+      "rescued": [
+        "h53:c08",
+        "h64:c07",
+        "h64:c08",
+        "h66:c07",
+        "h66:c08",
+        "h72:c07",
+        "h72:c08"
+      ],
+      "h53_c07_seeds": 0,
+      "mean_backward": 57.0,
+      "related_safe_rate": 0.25,
+      "invalid_fail_cells": 1
+    },
+    "switched": {
+      "n_rhc": 6,
+      "n": 8,
+      "rescued": [
+        "h53:c08",
+        "h64:c07",
+        "h66:c07",
+        "h66:c08",
+        "h72:c07",
+        "h72:c08"
+      ],
+      "h53_c07_seeds": 0,
+      "mean_backward": 48.0,
+      "related_safe_rate": 0.11764705882352941,
+      "invalid_fail_cells": 2
+    },
+    "targeted_prefix": {
+      "n_rhc": 8,
+      "n": 8,
+      "rescued": [
+        "h53:c07",
+        "h53:c08",
+        "h64:c07",
+        "h64:c08",
+        "h66:c07",
+        "h66:c08",
+        "h72:c07",
+        "h72:c08"
+      ],
+      "h53_c07_seeds": 3,
+      "mean_backward": 51.0,
+      "related_safe_rate": 0.2222222222222222,
+      "invalid_fail_cells": 0
+    }
+  },
+  "n_switched": 6,
+  "n_static": 7,
+  "n_margin": 7,
+  "backward_drop_vs_margin": -0.06666666666666667,
+  "backward_drop_vs_static": 0.15789473684210525,
+  "reasons": [
+    "switched 6/8 vs margin 7/8 bw_drop=-0.067",
+    "h53:c07 seeds 0 < 2",
+    "a non-h53 cell lagged refusal-margin",
+    "switched 6 vs static 7 bw_drop_static=0.158",
+    "INVALID/GARBAGE increased"
+  ],
+  "note": "7/8 without a 25% backward cut is STOP. Switched==static is STOP."
+}

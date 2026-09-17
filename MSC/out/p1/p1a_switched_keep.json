@@ -1,0 +1,14 @@
+{
+  "expand": true,
+  "method": "switched_keep",
+  "rescued": [
+    "h53:c07",
+    "h64:c08"
+  ],
+  "n_rhc": 2,
+  "per_cell_seeds": {
+    "h53:c07": 3,
+    "h64:c08": 3
+  },
+  "mean_backward": 108.0
+}

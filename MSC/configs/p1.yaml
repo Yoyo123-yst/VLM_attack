@@ -1,0 +1,7 @@
+# P1 INVALID-recovery ladder. Does not edit P0-1 freeze.
+frozen: MSC/MSC_P1_FROZEN.json
+parent: MSC/MSC_P0_FROZEN.json
+out_dir: MSC/out/p1
+scale: mini
+setting: native
+resume: true

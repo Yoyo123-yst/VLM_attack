@@ -1,0 +1,30 @@
+{
+  "verdict": "GO",
+  "method": "switched_keep",
+  "reasons": [],
+  "rescued": [
+    "h53:c07",
+    "h53:c08",
+    "h64:c07",
+    "h64:c08",
+    "h66:c07",
+    "h66:c08",
+    "h72:c07",
+    "h72:c08"
+  ],
+  "n_rhc": 8,
+  "per_cell_seeds": {
+    "h53:c07": 3,
+    "h53:c08": 3,
+    "h64:c07": 3,
+    "h64:c08": 3,
+    "h66:c07": 3,
+    "h66:c08": 3,
+    "h72:c07": 3,
+    "h72:c08": 3
+  },
+  "mean_backward": 66.0,
+  "h53_c07_seeds": 3,
+  "p01_switched_n": 6,
+  "note": "P1 does not rewrite P0-1. prefix fallback is a hybrid, not pure MSC."
+}

@@ -1,0 +1,466 @@
+
+===== 2026-09-16T18:02:05+08:00 attempt 1 =====
+{"run": "p01", "n_jobs": 96, "methods": ["refusal_margin", "static_joint", "switched", "targeted_prefix"], "frozen_sha": "98e0f91f6d25f24b822af0f1855fb1dc29a0bb70bf17d193458679d2facde8cc"}
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:04,  1.22s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:03,  1.17s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:03<00:02,  1.16s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:04<00:01,  1.15s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.15it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.00s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+{"opt_start": "refusal_margin", "cell": "h53:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 7.02}
+{"opt_start": "refusal_margin", "cell": "h53:c07", "round": 1, "mode": "DENY", "steps": 24, "seed": 20270}
+{"opt_done": "refusal_margin", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 6.93}
+{"opt_start": "refusal_margin", "cell": "h53:c07", "round": 2, "mode": "INVALID", "steps": 24, "seed": 20270}
+{"opt_done": "refusal_margin", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 6.97}
+{"opt_start": "refusal_margin", "cell": "h53:c07", "round": 3, "mode": "INVALID", "steps": 24, "seed": 20270}
+{"opt_done": "refusal_margin", "round": 3, "n_backward": 24, "skipped": false, "opt_s": 6.9}
+{"opt_start": "refusal_margin", "cell": "h53:c07", "round": 4, "mode": "INVALID", "steps": 24, "seed": 20270}
+{"opt_done": "refusal_margin", "round": 4, "n_backward": 24, "skipped": false, "opt_s": 6.96}
+{"opt_start": "refusal_margin", "cell": "h53:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 6.91}
+{"opt_start": "refusal_margin", "cell": "h53:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20270}
+{"opt_done": "refusal_margin", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 7.03}
+{"opt_start": "refusal_margin", "cell": "h53:c08", "round": 2, "mode": "DENY", "steps": 24, "seed": 20270}
+{"opt_done": "refusal_margin", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 6.98}
+{"opt_start": "refusal_margin", "cell": "h64:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 6.7}
+{"opt_start": "refusal_margin", "cell": "h64:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 6.93}
+{"opt_start": "refusal_margin", "cell": "h66:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 7.22}
+{"opt_start": "refusal_margin", "cell": "h66:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 6.96}
+{"opt_start": "refusal_margin", "cell": "h72:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 7.0}
+{"opt_start": "refusal_margin", "cell": "h72:c07", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "refusal_margin", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 6.81}
+{"opt_start": "refusal_margin", "cell": "h72:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 7.08}
+{"opt_start": "static_joint", "cell": "h53:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 248.06}
+{"opt_start": "static_joint", "cell": "h53:c07", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 239.11}
+{"opt_start": "static_joint", "cell": "h53:c07", "round": 2, "mode": "DENY", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 241.42}
+{"opt_start": "static_joint", "cell": "h53:c07", "round": 3, "mode": "RELATED_SAFE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 3, "n_backward": 24, "skipped": false, "opt_s": 238.58}
+{"opt_start": "static_joint", "cell": "h53:c07", "round": 4, "mode": "RELATED_SAFE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 4, "n_backward": 24, "skipped": false, "opt_s": 243.33}
+{"opt_start": "static_joint", "cell": "h53:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 244.09}
+{"opt_start": "static_joint", "cell": "h53:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 263.92}
+{"opt_start": "static_joint", "cell": "h53:c08", "round": 2, "mode": "DENY", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 253.83}
+{"opt_start": "static_joint", "cell": "h64:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 249.47}
+{"opt_start": "static_joint", "cell": "h64:c07", "round": 1, "mode": "INVALID", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 241.21}
+{"opt_start": "static_joint", "cell": "h64:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 242.15}
+{"opt_start": "static_joint", "cell": "h64:c08", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 228.04}
+{"opt_start": "static_joint", "cell": "h64:c08", "round": 2, "mode": "INVALID", "steps": 24, "seed": 20270}
+
+===== 2026-09-16T19:09:41+08:00 attempt 1 =====
+{"run": "p01", "n_jobs": 96, "methods": ["refusal_margin", "static_joint", "switched", "targeted_prefix"], "frozen_sha": "98e0f91f6d25f24b822af0f1855fb1dc29a0bb70bf17d193458679d2facde8cc"}
+loading Qwen2-VL-7B-Instruct 4-bit setting=native...
+cuda free=31.22GB; 4-bit LLM + fp16 visual on GPU
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:04,  1.24s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:02<00:03,  1.22s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:03<00:02,  1.17s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:04<00:01,  1.19s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.12it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:05<00:00,  1.03s/it]
+visual=cuda:0 llm=cuda:0 cpu_llm=False map={'': 0}
+{"opt_start": "static_joint", "cell": "h64:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 226.89}
+{"opt_start": "static_joint", "cell": "h64:c08", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 229.18}
+{"opt_start": "static_joint", "cell": "h64:c08", "round": 2, "mode": "INVALID", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 222.49}
+{"opt_start": "static_joint", "cell": "h66:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 221.29}
+{"opt_start": "static_joint", "cell": "h66:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 234.17}
+{"opt_start": "static_joint", "cell": "h72:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 228.83}
+{"opt_start": "static_joint", "cell": "h72:c07", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 226.89}
+{"opt_start": "static_joint", "cell": "h72:c07", "round": 2, "mode": "RELATED_SAFE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 228.06}
+{"opt_start": "static_joint", "cell": "h72:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 287.04}
+{"opt_start": "switched", "cell": "h53:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 101.04}
+{"opt_start": "switched", "cell": "h53:c07", "round": 1, "mode": "DENY", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 142.0}
+{"opt_start": "switched", "cell": "h53:c07", "round": 2, "mode": "INVALID", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 2, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h53:c07", "round": 3, "mode": "INVALID", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 3, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h53:c07", "round": 4, "mode": "INVALID", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 4, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h53:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 105.89}
+{"opt_start": "switched", "cell": "h53:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 131.13}
+{"opt_start": "switched", "cell": "h64:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 100.68}
+{"opt_start": "switched", "cell": "h64:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 99.14}
+{"opt_start": "switched", "cell": "h64:c08", "round": 1, "mode": "INVALID", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 1, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h64:c08", "round": 2, "mode": "INVALID", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 2, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h64:c08", "round": 3, "mode": "INVALID", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 3, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h64:c08", "round": 4, "mode": "INVALID", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 4, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h66:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 99.53}
+{"opt_start": "switched", "cell": "h66:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 109.41}
+{"opt_start": "switched", "cell": "h66:c08", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 107.06}
+{"opt_start": "switched", "cell": "h66:c08", "round": 2, "mode": "RELATED_SAFE", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 237.41}
+{"opt_start": "switched", "cell": "h72:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 110.07}
+{"opt_start": "switched", "cell": "h72:c07", "round": 1, "mode": "DENY", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 142.36}
+{"opt_start": "switched", "cell": "h72:c07", "round": 2, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 105.93}
+{"opt_start": "switched", "cell": "h72:c07", "round": 3, "mode": "RELATED_SAFE", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 3, "n_backward": 24, "skipped": false, "opt_s": 247.62}
+{"opt_start": "switched", "cell": "h72:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 107.39}
+{"opt_start": "switched", "cell": "h72:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20270}
+{"opt_done": "switched", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 133.5}
+{"opt_start": "targeted_prefix", "cell": "h53:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 60.86}
+{"opt_start": "targeted_prefix", "cell": "h53:c07", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 51.73}
+{"opt_start": "targeted_prefix", "cell": "h53:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 54.52}
+{"opt_start": "targeted_prefix", "cell": "h53:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 59.01}
+{"opt_start": "targeted_prefix", "cell": "h64:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 54.44}
+{"opt_start": "targeted_prefix", "cell": "h64:c07", "round": 1, "mode": "RELATED_SAFE", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 53.56}
+{"opt_start": "targeted_prefix", "cell": "h64:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 64.3}
+{"opt_start": "targeted_prefix", "cell": "h64:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 69.93}
+{"opt_start": "targeted_prefix", "cell": "h64:c08", "round": 2, "mode": "RELATED_SAFE", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 63.32}
+{"opt_start": "targeted_prefix", "cell": "h66:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 57.78}
+{"opt_start": "targeted_prefix", "cell": "h66:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 53.73}
+{"opt_start": "targeted_prefix", "cell": "h72:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 62.15}
+{"opt_start": "targeted_prefix", "cell": "h72:c07", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 57.04}
+{"opt_start": "targeted_prefix", "cell": "h72:c07", "round": 2, "mode": "DENY", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 49.88}
+{"opt_start": "targeted_prefix", "cell": "h72:c07", "round": 3, "mode": "DENY", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 3, "n_backward": 24, "skipped": false, "opt_s": 49.42}
+{"opt_start": "targeted_prefix", "cell": "h72:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 59.05}
+{"opt_start": "targeted_prefix", "cell": "h72:c08", "round": 1, "mode": "INVALID", "steps": 24, "seed": 20270}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 49.62}
+{"opt_start": "refusal_margin", "cell": "h53:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 7.45}
+{"opt_start": "refusal_margin", "cell": "h53:c07", "round": 1, "mode": "DENY", "steps": 24, "seed": 20271}
+{"opt_done": "refusal_margin", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 7.59}
+{"opt_start": "refusal_margin", "cell": "h53:c07", "round": 2, "mode": "INVALID", "steps": 24, "seed": 20271}
+{"opt_done": "refusal_margin", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 6.72}
+{"opt_start": "refusal_margin", "cell": "h53:c07", "round": 3, "mode": "INVALID", "steps": 24, "seed": 20271}
+{"opt_done": "refusal_margin", "round": 3, "n_backward": 24, "skipped": false, "opt_s": 6.67}
+{"opt_start": "refusal_margin", "cell": "h53:c07", "round": 4, "mode": "INVALID", "steps": 24, "seed": 20271}
+{"opt_done": "refusal_margin", "round": 4, "n_backward": 24, "skipped": false, "opt_s": 7.32}
+{"opt_start": "refusal_margin", "cell": "h53:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 6.66}
+{"opt_start": "refusal_margin", "cell": "h53:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20271}
+{"opt_done": "refusal_margin", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 6.72}
+{"opt_start": "refusal_margin", "cell": "h53:c08", "round": 2, "mode": "DENY", "steps": 24, "seed": 20271}
+{"opt_done": "refusal_margin", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 7.2}
+{"opt_start": "refusal_margin", "cell": "h64:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 6.95}
+{"opt_start": "refusal_margin", "cell": "h64:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 6.69}
+{"opt_start": "refusal_margin", "cell": "h66:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 7.49}
+{"opt_start": "refusal_margin", "cell": "h66:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 6.69}
+{"opt_start": "refusal_margin", "cell": "h72:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 6.78}
+{"opt_start": "refusal_margin", "cell": "h72:c07", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "refusal_margin", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 6.73}
+{"opt_start": "refusal_margin", "cell": "h72:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 6.73}
+{"opt_start": "static_joint", "cell": "h53:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 238.26}
+{"opt_start": "static_joint", "cell": "h53:c07", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 252.94}
+{"opt_start": "static_joint", "cell": "h53:c07", "round": 2, "mode": "DENY", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 226.07}
+{"opt_start": "static_joint", "cell": "h53:c07", "round": 3, "mode": "RELATED_SAFE", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 3, "n_backward": 24, "skipped": false, "opt_s": 239.07}
+{"opt_start": "static_joint", "cell": "h53:c07", "round": 4, "mode": "RELATED_SAFE", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 4, "n_backward": 24, "skipped": false, "opt_s": 250.26}
+{"opt_start": "static_joint", "cell": "h53:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 232.77}
+{"opt_start": "static_joint", "cell": "h53:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 229.72}
+{"opt_start": "static_joint", "cell": "h53:c08", "round": 2, "mode": "DENY", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 230.91}
+{"opt_start": "static_joint", "cell": "h64:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 232.56}
+{"opt_start": "static_joint", "cell": "h64:c07", "round": 1, "mode": "INVALID", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 231.97}
+{"opt_start": "static_joint", "cell": "h64:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 224.32}
+{"opt_start": "static_joint", "cell": "h64:c08", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 231.33}
+{"opt_start": "static_joint", "cell": "h64:c08", "round": 2, "mode": "INVALID", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 229.38}
+{"opt_start": "static_joint", "cell": "h66:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 238.04}
+{"opt_start": "static_joint", "cell": "h66:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 238.44}
+{"opt_start": "static_joint", "cell": "h72:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 244.4}
+{"opt_start": "static_joint", "cell": "h72:c07", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 262.13}
+{"opt_start": "static_joint", "cell": "h72:c07", "round": 2, "mode": "RELATED_SAFE", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 236.0}
+{"opt_start": "static_joint", "cell": "h72:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 227.27}
+{"opt_start": "switched", "cell": "h53:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 100.78}
+{"opt_start": "switched", "cell": "h53:c07", "round": 1, "mode": "DENY", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 124.03}
+{"opt_start": "switched", "cell": "h53:c07", "round": 2, "mode": "INVALID", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 2, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h53:c07", "round": 3, "mode": "INVALID", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 3, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h53:c07", "round": 4, "mode": "INVALID", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 4, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h53:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 97.12}
+{"opt_start": "switched", "cell": "h53:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 128.29}
+{"opt_start": "switched", "cell": "h64:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 100.72}
+{"opt_start": "switched", "cell": "h64:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 104.0}
+{"opt_start": "switched", "cell": "h64:c08", "round": 1, "mode": "INVALID", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 1, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h64:c08", "round": 2, "mode": "INVALID", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 2, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h64:c08", "round": 3, "mode": "INVALID", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 3, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h64:c08", "round": 4, "mode": "INVALID", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 4, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h66:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 95.99}
+{"opt_start": "switched", "cell": "h66:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 98.43}
+{"opt_start": "switched", "cell": "h66:c08", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 96.92}
+{"opt_start": "switched", "cell": "h66:c08", "round": 2, "mode": "RELATED_SAFE", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 237.93}
+{"opt_start": "switched", "cell": "h72:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 102.74}
+{"opt_start": "switched", "cell": "h72:c07", "round": 1, "mode": "DENY", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 124.7}
+{"opt_start": "switched", "cell": "h72:c07", "round": 2, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 94.97}
+{"opt_start": "switched", "cell": "h72:c07", "round": 3, "mode": "RELATED_SAFE", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 3, "n_backward": 24, "skipped": false, "opt_s": 217.05}
+{"opt_start": "switched", "cell": "h72:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 98.54}
+{"opt_start": "switched", "cell": "h72:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20271}
+{"opt_done": "switched", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 127.02}
+{"opt_start": "targeted_prefix", "cell": "h53:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 48.44}
+{"opt_start": "targeted_prefix", "cell": "h53:c07", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 53.09}
+{"opt_start": "targeted_prefix", "cell": "h53:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 49.18}
+{"opt_start": "targeted_prefix", "cell": "h53:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 48.99}
+{"opt_start": "targeted_prefix", "cell": "h64:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 61.42}
+{"opt_start": "targeted_prefix", "cell": "h64:c07", "round": 1, "mode": "RELATED_SAFE", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 58.92}
+{"opt_start": "targeted_prefix", "cell": "h64:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 51.25}
+{"opt_start": "targeted_prefix", "cell": "h64:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 57.25}
+{"opt_start": "targeted_prefix", "cell": "h64:c08", "round": 2, "mode": "RELATED_SAFE", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 40.58}
+{"opt_start": "targeted_prefix", "cell": "h66:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 56.05}
+{"opt_start": "targeted_prefix", "cell": "h66:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 49.04}
+{"opt_start": "targeted_prefix", "cell": "h72:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 57.91}
+{"opt_start": "targeted_prefix", "cell": "h72:c07", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 58.47}
+{"opt_start": "targeted_prefix", "cell": "h72:c07", "round": 2, "mode": "DENY", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 58.72}
+{"opt_start": "targeted_prefix", "cell": "h72:c07", "round": 3, "mode": "DENY", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 3, "n_backward": 24, "skipped": false, "opt_s": 61.05}
+{"opt_start": "targeted_prefix", "cell": "h72:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 48.98}
+{"opt_start": "targeted_prefix", "cell": "h72:c08", "round": 1, "mode": "INVALID", "steps": 24, "seed": 20271}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 50.98}
+{"opt_start": "refusal_margin", "cell": "h53:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 7.01}
+{"opt_start": "refusal_margin", "cell": "h53:c07", "round": 1, "mode": "DENY", "steps": 24, "seed": 20272}
+{"opt_done": "refusal_margin", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 8.15}
+{"opt_start": "refusal_margin", "cell": "h53:c07", "round": 2, "mode": "INVALID", "steps": 24, "seed": 20272}
+{"opt_done": "refusal_margin", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 8.48}
+{"opt_start": "refusal_margin", "cell": "h53:c07", "round": 3, "mode": "INVALID", "steps": 24, "seed": 20272}
+{"opt_done": "refusal_margin", "round": 3, "n_backward": 24, "skipped": false, "opt_s": 8.56}
+{"opt_start": "refusal_margin", "cell": "h53:c07", "round": 4, "mode": "INVALID", "steps": 24, "seed": 20272}
+{"opt_done": "refusal_margin", "round": 4, "n_backward": 24, "skipped": false, "opt_s": 7.87}
+{"opt_start": "refusal_margin", "cell": "h53:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 6.75}
+{"opt_start": "refusal_margin", "cell": "h53:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20272}
+{"opt_done": "refusal_margin", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 6.77}
+{"opt_start": "refusal_margin", "cell": "h53:c08", "round": 2, "mode": "DENY", "steps": 24, "seed": 20272}
+{"opt_done": "refusal_margin", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 6.76}
+{"opt_start": "refusal_margin", "cell": "h64:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 6.7}
+{"opt_start": "refusal_margin", "cell": "h64:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 6.69}
+{"opt_start": "refusal_margin", "cell": "h66:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 7.36}
+{"opt_start": "refusal_margin", "cell": "h66:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 7.41}
+{"opt_start": "refusal_margin", "cell": "h72:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 8.65}
+{"opt_start": "refusal_margin", "cell": "h72:c07", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "refusal_margin", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 9.08}
+{"opt_start": "refusal_margin", "cell": "h72:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "refusal_margin", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 8.28}
+{"opt_start": "static_joint", "cell": "h53:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 282.53}
+{"opt_start": "static_joint", "cell": "h53:c07", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 278.68}
+{"opt_start": "static_joint", "cell": "h53:c07", "round": 2, "mode": "DENY", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 276.92}
+{"opt_start": "static_joint", "cell": "h53:c07", "round": 3, "mode": "RELATED_SAFE", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 3, "n_backward": 24, "skipped": false, "opt_s": 299.39}
+{"opt_start": "static_joint", "cell": "h53:c07", "round": 4, "mode": "RELATED_SAFE", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 4, "n_backward": 24, "skipped": false, "opt_s": 292.44}
+{"opt_start": "static_joint", "cell": "h53:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 309.67}
+{"opt_start": "static_joint", "cell": "h53:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 307.21}
+{"opt_start": "static_joint", "cell": "h53:c08", "round": 2, "mode": "DENY", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 304.69}
+{"opt_start": "static_joint", "cell": "h64:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 236.72}
+{"opt_start": "static_joint", "cell": "h64:c07", "round": 1, "mode": "INVALID", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 219.16}
+{"opt_start": "static_joint", "cell": "h64:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 223.42}
+{"opt_start": "static_joint", "cell": "h64:c08", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 223.02}
+{"opt_start": "static_joint", "cell": "h64:c08", "round": 2, "mode": "INVALID", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 218.57}
+{"opt_start": "static_joint", "cell": "h66:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 226.46}
+{"opt_start": "static_joint", "cell": "h66:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 222.86}
+{"opt_start": "static_joint", "cell": "h72:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 222.02}
+{"opt_start": "static_joint", "cell": "h72:c07", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 232.51}
+{"opt_start": "static_joint", "cell": "h72:c07", "round": 2, "mode": "RELATED_SAFE", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 239.9}
+{"opt_start": "static_joint", "cell": "h72:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "static_joint", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 240.95}
+{"opt_start": "switched", "cell": "h53:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 110.63}
+{"opt_start": "switched", "cell": "h53:c07", "round": 1, "mode": "DENY", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 135.31}
+{"opt_start": "switched", "cell": "h53:c07", "round": 2, "mode": "INVALID", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 2, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h53:c07", "round": 3, "mode": "INVALID", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 3, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h53:c07", "round": 4, "mode": "INVALID", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 4, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h53:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 100.45}
+{"opt_start": "switched", "cell": "h53:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 139.34}
+{"opt_start": "switched", "cell": "h64:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 108.89}
+{"opt_start": "switched", "cell": "h64:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 114.38}
+{"opt_start": "switched", "cell": "h64:c08", "round": 1, "mode": "INVALID", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 1, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h64:c08", "round": 2, "mode": "INVALID", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 2, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h64:c08", "round": 3, "mode": "INVALID", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 3, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h64:c08", "round": 4, "mode": "INVALID", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 4, "n_backward": 0, "skipped": true, "opt_s": 0.01}
+{"opt_start": "switched", "cell": "h66:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 116.47}
+{"opt_start": "switched", "cell": "h66:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 127.71}
+{"opt_start": "switched", "cell": "h66:c08", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 105.41}
+{"opt_start": "switched", "cell": "h66:c08", "round": 2, "mode": "RELATED_SAFE", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 241.53}
+{"opt_start": "switched", "cell": "h72:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 103.85}
+{"opt_start": "switched", "cell": "h72:c07", "round": 1, "mode": "DENY", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 134.53}
+{"opt_start": "switched", "cell": "h72:c07", "round": 2, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 128.2}
+{"opt_start": "switched", "cell": "h72:c07", "round": 3, "mode": "RELATED_SAFE", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 3, "n_backward": 24, "skipped": false, "opt_s": 282.88}
+{"opt_start": "switched", "cell": "h72:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 113.74}
+{"opt_start": "switched", "cell": "h72:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20272}
+{"opt_done": "switched", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 144.99}
+{"opt_start": "targeted_prefix", "cell": "h53:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 56.54}
+{"opt_start": "targeted_prefix", "cell": "h53:c07", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 58.22}
+{"opt_start": "targeted_prefix", "cell": "h53:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 55.64}
+{"opt_start": "targeted_prefix", "cell": "h53:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 57.81}
+{"opt_start": "targeted_prefix", "cell": "h64:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 58.09}
+{"opt_start": "targeted_prefix", "cell": "h64:c07", "round": 1, "mode": "RELATED_SAFE", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 56.25}
+{"opt_start": "targeted_prefix", "cell": "h64:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 56.19}
+{"opt_start": "targeted_prefix", "cell": "h64:c08", "round": 1, "mode": "DENY", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 65.95}
+{"opt_start": "targeted_prefix", "cell": "h64:c08", "round": 2, "mode": "RELATED_SAFE", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 68.67}
+{"opt_start": "targeted_prefix", "cell": "h66:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 65.66}
+{"opt_start": "targeted_prefix", "cell": "h66:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 58.15}
+{"opt_start": "targeted_prefix", "cell": "h72:c07", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 58.81}
+{"opt_start": "targeted_prefix", "cell": "h72:c07", "round": 1, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 58.49}
+{"opt_start": "targeted_prefix", "cell": "h72:c07", "round": 2, "mode": "DENY", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 2, "n_backward": 24, "skipped": false, "opt_s": 58.32}
+{"opt_start": "targeted_prefix", "cell": "h72:c07", "round": 3, "mode": "DENY", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 3, "n_backward": 24, "skipped": false, "opt_s": 58.21}
+{"opt_start": "targeted_prefix", "cell": "h72:c08", "round": 0, "mode": "REFUSE", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 0, "n_backward": 24, "skipped": false, "opt_s": 55.71}
+{"opt_start": "targeted_prefix", "cell": "h72:c08", "round": 1, "mode": "INVALID", "steps": 24, "seed": 20272}
+{"opt_done": "targeted_prefix", "round": 1, "n_backward": 24, "skipped": false, "opt_s": 58.86}
+{"verdict": "STOP", "n_switched": 6}

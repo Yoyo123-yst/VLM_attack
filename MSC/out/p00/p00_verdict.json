@@ -1,0 +1,16 @@
+{
+  "verdict": "GO",
+  "jaccard": {
+    "refuse_follow": 0.0,
+    "deny_follow": 0.0,
+    "related_safe_follow": 0.0
+  },
+  "n_phrases": {
+    "REFUSE": 9,
+    "DENY": 8,
+    "RELATED_SAFE": 7,
+    "FOLLOW": 10
+  },
+  "reasons": [],
+  "note": "Do not edit phrase_banks after seeing P0-1."
+}
