@@ -1,0 +1,9 @@
+{
+  "n": 32,
+  "n_U_LOO": 1,
+  "n_U_drop_bot": 5,
+  "n_U_drop_top": 1,
+  "n_U_bot_frac": 25,
+  "note": "U_score is compressor Top-K; U_LOO is leave-one-out answer change; U_grad needs a GPU CE backward. Restore-U recovery is logged in new evaluate_final runs as restore_u_ok.",
+  "gpu_restore_u": "queued"
+}

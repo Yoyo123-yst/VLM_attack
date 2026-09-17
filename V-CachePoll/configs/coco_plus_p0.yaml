@@ -1,0 +1,32 @@
+seed: 2026
+output_dir: /root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/coco_plus
+
+data:
+  dataset: coco300_plus20
+  coco_root: /root/autodl-tmp/V-Attack-main/datasets/coco300/val2017
+  vqa_json: /root/autodl-tmp/V-Attack-main/Eval/coco300_vqa_main.json
+  coco_csv: /root/autodl-tmp/V-Attack-main/datasets/coco300.csv
+  n_pairs: 20
+  n_smoke: 0
+  n_screen_max: 20
+  question_prefix: "Look at the first image only. Ignore the second image."
+
+model:
+  local_path: /root/autodl-tmp/models/Qwen2-VL-7B-Instruct
+  image_size: 336
+  max_new_tokens: 32
+  attn_implementation: sdpa
+  dtype: bfloat16
+
+compressor:
+  r_base: 0.5
+  alpha: 1.0
+  r_min: 0.1
+  r_max: 0.9
+  score_layers: [1, 14, 19]
+  spatial_merge_size: 2
+
+probe:
+  eps: 0.03137254901960784
+  noise_repeats: 1
+  min_quota_shift: 0.02

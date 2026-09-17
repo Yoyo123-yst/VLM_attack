@@ -1,0 +1,875 @@
+{
+  "n_kept": 17,
+  "n_rejected": 1,
+  "kept": [
+    {
+      "pair_id": "c040",
+      "a_file": "000000015497.jpg",
+      "b_file": "000000171788.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000015497.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000171788.jpg",
+      "source": "Cat",
+      "question": "What is the object that seems to be playfully interacting with the corded device?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that seems to be playfully interacting with the corded device?",
+      "ans_a_only": "The object that seems to be playfully interacting with the corded device is a cat.",
+      "screen": {
+        "pair_id": "c040",
+        "source": "Cat",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object that seems to be playfully interacting with the corded device is a cat.",
+        "ans_full": "The object that seems to be playfully interacting with the corded device is a cat.",
+        "ans_avtp": "The object that seems to be playfully interacting with the corded device is a cat.",
+        "r": [
+          0.47535908222198486,
+          0.5246409177780151
+        ],
+        "kept": [
+          62,
+          66
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "In the first image, a cat is playfully interacting with a corded device, which appears to be a computer mouse.",
+        "r": [
+          0.1753590852022171,
+          0.22464092075824738
+        ],
+        "k": [
+          23,
+          28
+        ]
+      },
+      "u_idx": [
+        11,
+        12,
+        106,
+        105,
+        13,
+        109
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c041",
+      "a_file": "000000015746.jpg",
+      "b_file": "000000012576.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000015746.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000012576.jpg",
+      "source": "Fire hydrant",
+      "question": "What object is standing in the grass near the house?",
+      "prompt": "Look at the first image only. Ignore the second image. What object is standing in the grass near the house?",
+      "ans_a_only": "There is a red fire hydrant standing in the grass near the house.",
+      "screen": {
+        "pair_id": "c041",
+        "source": "Fire hydrant",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "There is a red fire hydrant standing in the grass near the house.",
+        "ans_full": "There is a red fire hydrant standing in the grass near the house.",
+        "ans_avtp": "A red fire hydrant is standing in the grass near the house.",
+        "r": [
+          0.47568756341934204,
+          0.5243124961853027
+        ],
+        "kept": [
+          60,
+          68
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "There is a fire hydrant standing in the grass near the house.",
+        "r": [
+          0.1756875365972519,
+          0.2243124544620514
+        ],
+        "k": [
+          22,
+          29
+        ]
+      },
+      "u_idx": [
+        93,
+        28,
+        46,
+        115,
+        2,
+        20,
+        124,
+        122,
+        68,
+        121
+      ],
+      "u_src": "drop_bot"
+    },
+    {
+      "pair_id": "c042",
+      "a_file": "000000016228.jpg",
+      "b_file": "000000144798.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000016228.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000144798.jpg",
+      "source": "Horse",
+      "question": "What is the large animal that is pulling the vehicle?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large animal that is pulling the vehicle?",
+      "ans_a_only": "The large animal pulling the vehicle is a horse.",
+      "screen": {
+        "pair_id": "c042",
+        "source": "Horse",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The large animal pulling the vehicle is a horse.",
+        "ans_full": "The large animal pulling the vehicle is a horse.",
+        "ans_avtp": "The large animal pulling the vehicle is a horse.",
+        "r": [
+          0.4715580344200134,
+          0.5284419655799866
+        ],
+        "kept": [
+          59,
+          67
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The large animal pulling the vehicle is a horse.",
+        "r": [
+          0.17155803740024567,
+          0.2284419685602188
+        ],
+        "k": [
+          22,
+          29
+        ]
+      },
+      "u_idx": [
+        83,
+        52,
+        61,
+        92,
+        23,
+        8
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c043",
+      "a_file": "000000017029.jpg",
+      "b_file": "000000175535.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000017029.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000175535.jpg",
+      "source": "Dog",
+      "question": "What is the object that is airborne near the tree?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that is airborne near the tree?",
+      "ans_a_only": "The object that is airborne near the tree is a red frisbee.",
+      "screen": {
+        "pair_id": "c043",
+        "source": "Dog",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object that is airborne near the tree is a red frisbee.",
+        "ans_full": "The object that is airborne near the tree is a red frisbee.",
+        "ans_avtp": "The object that is airborne near the tree is a frisbee.",
+        "r": [
+          0.4760766625404358,
+          0.5239233374595642
+        ],
+        "kept": [
+          69,
+          68
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object that is airborne near the tree is a frisbee.",
+        "r": [
+          0.17607666552066803,
+          0.22392334043979645
+        ],
+        "k": [
+          25,
+          29
+        ]
+      },
+      "u_idx": [
+        8,
+        76,
+        23,
+        128,
+        79,
+        87
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c045",
+      "a_file": "000000017207.jpg",
+      "b_file": "000000545007.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000017207.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000545007.jpg",
+      "source": "Bus",
+      "question": "What is the large vehicle that is sharing the road with the smaller white car?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large vehicle that is sharing the road with the smaller white car?",
+      "ans_a_only": "The large vehicle sharing the road with the smaller white car is a bus.",
+      "screen": {
+        "pair_id": "c045",
+        "source": "Bus",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The large vehicle sharing the road with the smaller white car is a bus.",
+        "ans_full": "The large vehicle that is sharing the road with the smaller white car is a yellow and red bus.",
+        "ans_avtp": "The large vehicle that is sharing the road with the smaller white car is a bus.",
+        "r": [
+          0.4679829478263855,
+          0.5320170521736145
+        ],
+        "kept": [
+          61,
+          67
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The large vehicle that is sharing the road with the smaller white car is a bus.",
+        "r": [
+          0.16798296570777893,
+          0.23201704025268555
+        ],
+        "k": [
+          22,
+          29
+        ]
+      },
+      "u_idx": [
+        82,
+        123,
+        110,
+        47,
+        9,
+        124
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c046",
+      "a_file": "000000018737.jpg",
+      "b_file": "000000416256.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000018737.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000416256.jpg",
+      "source": "Motorcycle",
+      "question": "What object is casting a shadow on the pavement near the fence?",
+      "prompt": "Look at the first image only. Ignore the second image. What object is casting a shadow on the pavement near the fence?",
+      "ans_a_only": "The motorcycle is casting a shadow on the pavement near the fence.",
+      "screen": {
+        "pair_id": "c046",
+        "source": "Motorcycle",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The motorcycle is casting a shadow on the pavement near the fence.",
+        "ans_full": "The motorcycle is casting a shadow on the pavement near the fence.",
+        "ans_avtp": "The motorcycle is casting a shadow on the pavement near the fence.",
+        "r": [
+          0.47508782148361206,
+          0.5249122381210327
+        ],
+        "kept": [
+          60,
+          68
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object casting a shadow on the pavement near the fence is the motorcycle.",
+        "r": [
+          0.1750877946615219,
+          0.22491219639778137
+        ],
+        "k": [
+          22,
+          29
+        ]
+      },
+      "u_idx": [
+        120
+      ],
+      "u_src": "loo"
+    },
+    {
+      "pair_id": "c047",
+      "a_file": "000000018833.jpg",
+      "b_file": "000000504580.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000018833.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000504580.jpg",
+      "source": "Cat",
+      "question": "What is the object that appears to be nestled comfortably between the footwear?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that appears to be nestled comfortably between the footwear?",
+      "ans_a_only": "The object that appears to be nestled comfortably between the footwear is a cat.",
+      "screen": {
+        "pair_id": "c047",
+        "source": "Cat",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object that appears to be nestled comfortably between the footwear is a cat.",
+        "ans_full": "The object that appears to be nestled comfortably between the footwear is a cat.",
+        "ans_avtp": "The object that appears to be nestled comfortably between the footwear is a cat.",
+        "r": [
+          0.5079702138900757,
+          0.4920297861099243
+        ],
+        "kept": [
+          64,
+          62
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object that appears to be nestled comfortably between the footwear is a cat.",
+        "r": [
+          0.20797021687030792,
+          0.19202978909015656
+        ],
+        "k": [
+          26,
+          24
+        ]
+      },
+      "u_idx": [
+        86,
+        64,
+        105,
+        97,
+        100,
+        103
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c048",
+      "a_file": "000000018837.jpg",
+      "b_file": "000000356498.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000018837.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000356498.jpg",
+      "source": "Green truck",
+      "question": "What is the large object that the person is climbing onto?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large object that the person is climbing onto?",
+      "ans_a_only": "The large object that the person is climbing onto is a green truck.",
+      "screen": {
+        "pair_id": "c048",
+        "source": "Green truck",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The large object that the person is climbing onto is a green truck.",
+        "ans_full": "The large object that the person is climbing onto is a green truck.",
+        "ans_avtp": "The large object that the person is climbing onto is a green truck.",
+        "r": [
+          0.4871383309364319,
+          0.5128617286682129
+        ],
+        "kept": [
+          63,
+          72
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The large object that the person is climbing onto is a truck.",
+        "r": [
+          0.18713830411434174,
+          0.21286168694496155
+        ],
+        "k": [
+          24,
+          30
+        ]
+      },
+      "u_idx": [
+        68,
+        25,
+        92,
+        110,
+        119,
+        23,
+        80,
+        42,
+        103,
+        93
+      ],
+      "u_src": "drop_bot"
+    },
+    {
+      "pair_id": "c049",
+      "a_file": "000000019221.jpg",
+      "b_file": "000000569825.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000019221.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000569825.jpg",
+      "source": "Broccoli",
+      "question": "What is the object that the hand is holding above the countertop?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that the hand is holding above the countertop?",
+      "ans_a_only": "The hand is holding a piece of broccoli above the countertop.",
+      "screen": {
+        "pair_id": "c049",
+        "source": "Broccoli",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The hand is holding a piece of broccoli above the countertop.",
+        "ans_full": "The hand is holding a piece of broccoli above the countertop.",
+        "ans_avtp": "The hand is holding a piece of broccoli above the countertop.",
+        "r": [
+          0.4737876057624817,
+          0.5262123942375183
+        ],
+        "kept": [
+          62,
+          66
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The hand is holding a piece of broccoli above the countertop.",
+        "r": [
+          0.17378760874271393,
+          0.22621239721775055
+        ],
+        "k": [
+          23,
+          29
+        ]
+      },
+      "u_idx": [
+        111,
+        75,
+        53,
+        96,
+        105,
+        89
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c051",
+      "a_file": "000000020107.jpg",
+      "b_file": "000000079188.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000020107.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000079188.jpg",
+      "source": "Fire hydrant",
+      "question": "What object is situated near the edge of the sidewalk, adjacent to the decorative wall?",
+      "prompt": "Look at the first image only. Ignore the second image. What object is situated near the edge of the sidewalk, adjacent to the decorative wall?",
+      "ans_a_only": "There is a fire hydrant situated near the edge of the sidewalk, adjacent to the decorative wall.",
+      "screen": {
+        "pair_id": "c051",
+        "source": "Fire hydrant",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "There is a fire hydrant situated near the edge of the sidewalk, adjacent to the decorative wall.",
+        "ans_full": "A weathered fire hydrant is situated near the edge of the sidewalk, adjacent to the decorative wall.",
+        "ans_avtp": "A weathered, rusty fire hydrant is situated near the edge of the sidewalk, adjacent to the decorative wall.",
+        "r": [
+          0.47478967905044556,
+          0.5252103805541992
+        ],
+        "kept": [
+          60,
+          68
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "A fire hydrant is situated near the edge of the sidewalk, adjacent to the decorative wall.",
+        "r": [
+          0.1747896522283554,
+          0.22521033883094788
+        ],
+        "k": [
+          22,
+          29
+        ]
+      },
+      "u_idx": [
+        45,
+        100,
+        98,
+        117,
+        31,
+        110
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c052",
+      "a_file": "000000020247.jpg",
+      "b_file": "000000161044.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000020247.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000161044.jpg",
+      "source": "Grizzly bear",
+      "question": "What is the distance between the two large figures on the path?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the distance between the two large figures on the path?",
+      "ans_a_only": "The distance between the two large figures on the path is approximately 10 feet.",
+      "screen": {
+        "pair_id": "c052",
+        "source": "Grizzly bear",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The distance between the two large figures on the path is approximately 10 feet.",
+        "ans_full": "The distance between the two large figures on the path is approximately 10 feet.",
+        "ans_avtp": "The distance between the two large figures on the path is approximately 10 feet.",
+        "r": [
+          0.4644365906715393,
+          0.5355634093284607
+        ],
+        "kept": [
+          65,
+          75
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The distance between the two large figures on the path is approximately 10 feet.",
+        "r": [
+          0.16443660855293274,
+          0.23556339740753174
+        ],
+        "k": [
+          23,
+          33
+        ]
+      },
+      "u_idx": [
+        30,
+        9,
+        105,
+        36,
+        94,
+        116
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c053",
+      "a_file": "000000020553.jpg",
+      "b_file": "000000356169.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000020553.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000356169.jpg",
+      "source": "Armchair",
+      "question": "What object is surrounded by various items and appears to be the central piece of furniture in this outdoor setting?",
+      "prompt": "Look at the first image only. Ignore the second image. What object is surrounded by various items and appears to be the central piece of furniture in this outdoor setting?",
+      "ans_a_only": "The object surrounded by various items and appearing to be the central piece of furniture in this outdoor setting is a chair.",
+      "screen": {
+        "pair_id": "c053",
+        "source": "Armchair",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object surrounded by various items and appearing to be the central piece of furniture in this outdoor setting is a chair.",
+        "ans_full": "The object is a chair.",
+        "ans_avtp": "The object surrounded by various items and appearing to be the central piece of furniture in this outdoor setting is a chair.",
+        "r": [
+          0.48134922981262207,
+          0.5186507701873779
+        ],
+        "kept": [
+          63,
+          67
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object surrounded by various items and appearing to be the central piece of furniture in this outdoor setting is a couch.",
+        "r": [
+          0.1813492327928543,
+          0.21865077316761017
+        ],
+        "k": [
+          24,
+          28
+        ]
+      },
+      "u_idx": [
+        12,
+        16,
+        26,
+        99,
+        126,
+        52
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c054",
+      "a_file": "000000021903.jpg",
+      "b_file": "000000217872.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000021903.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000217872.jpg",
+      "source": "Elephant",
+      "question": "What is the large creature that the person is reaching out to interact with?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large creature that the person is reaching out to interact with?",
+      "ans_a_only": "The large creature that the person is reaching out to interact with is an elephant.",
+      "screen": {
+        "pair_id": "c054",
+        "source": "Elephant",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The large creature that the person is reaching out to interact with is an elephant.",
+        "ans_full": "The large creature that the person is reaching out to interact with is an elephant.",
+        "ans_avtp": "The large creature that the person is reaching out to interact with is an elephant.",
+        "r": [
+          0.482263445854187,
+          0.517736554145813
+        ],
+        "kept": [
+          63,
+          65
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The large creature that the person is reaching out to interact with is an elephant.",
+        "r": [
+          0.18226344883441925,
+          0.21773655712604523
+        ],
+        "k": [
+          24,
+          27
+        ]
+      },
+      "u_idx": [
+        122,
+        84,
+        25,
+        110,
+        45,
+        118
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c056",
+      "a_file": "000000024144.jpg",
+      "b_file": "000000108864.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000024144.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000108864.jpg",
+      "source": "Pizza",
+      "question": "What is the round, sliced item resting inside the open container?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the round, sliced item resting inside the open container?",
+      "ans_a_only": "The round, sliced item resting inside the open container is a pizza.",
+      "screen": {
+        "pair_id": "c056",
+        "source": "Pizza",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The round, sliced item resting inside the open container is a pizza.",
+        "ans_full": "The round, sliced item resting inside the open container is a pizza.",
+        "ans_avtp": "The round, sliced item resting inside the open container is a pizza.",
+        "r": [
+          0.5134607553482056,
+          0.48653924465179443
+        ],
+        "kept": [
+          67,
+          63
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The round, sliced item resting inside the open container is a pizza.",
+        "r": [
+          0.2134607583284378,
+          0.18653924763202667
+        ],
+        "k": [
+          28,
+          24
+        ]
+      },
+      "u_idx": [
+        90,
+        48,
+        106,
+        7,
+        54,
+        109,
+        96
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c057",
+      "a_file": "000000024919.jpg",
+      "b_file": "000000544306.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000024919.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000544306.jpg",
+      "source": "Elephant",
+      "question": "What large animals are interacting in the open field?",
+      "prompt": "Look at the first image only. Ignore the second image. What large animals are interacting in the open field?",
+      "ans_a_only": "In the open field, there are two large elephants interacting.",
+      "screen": {
+        "pair_id": "c057",
+        "source": "Elephant",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "In the open field, there are two large elephants interacting.",
+        "ans_full": "The image shows two large elephants interacting in the open field.",
+        "ans_avtp": "The large animals interacting in the open field are elephants.",
+        "r": [
+          0.4609106183052063,
+          0.5390894412994385
+        ],
+        "kept": [
+          58,
+          78
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The image shows two elephants interacting in the open field.",
+        "r": [
+          0.16091059148311615,
+          0.23908939957618713
+        ],
+        "k": [
+          20,
+          34
+        ]
+      },
+      "u_idx": [
+        9,
+        8,
+        32,
+        58,
+        74
+      ],
+      "u_src": "bot_frac"
+    },
+    {
+      "pair_id": "c058",
+      "a_file": "000000025560.jpg",
+      "b_file": "000000073946.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000025560.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000073946.jpg",
+      "source": "Cat",
+      "question": "What is the object that is perched on the edge of the wooden surface?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that is perched on the edge of the wooden surface?",
+      "ans_a_only": "The object perched on the edge of the wooden surface is a cat.",
+      "screen": {
+        "pair_id": "c058",
+        "source": "Cat",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The object perched on the edge of the wooden surface is a cat.",
+        "ans_full": "The object perched on the edge of the wooden surface is a cat.",
+        "ans_avtp": "The object perched on the edge of the wooden surface is a cat.",
+        "r": [
+          0.4869595766067505,
+          0.5130404829978943
+        ],
+        "kept": [
+          63,
+          65
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object perched on the edge of the wooden surface is a cat.",
+        "r": [
+          0.18695953488349915,
+          0.21304045617580414
+        ],
+        "k": [
+          24,
+          27
+        ]
+      },
+      "u_idx": [
+        32,
+        79,
+        6,
+        120,
+        25,
+        29,
+        46,
+        15,
+        90,
+        28
+      ],
+      "u_src": "drop_bot"
+    },
+    {
+      "pair_id": "c059",
+      "a_file": "000000026465.jpg",
+      "b_file": "000000016958.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000026465.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000016958.jpg",
+      "source": "Laptop",
+      "question": "What object is centrally positioned on the flat surface?",
+      "prompt": "Look at the first image only. Ignore the second image. What object is centrally positioned on the flat surface?",
+      "ans_a_only": "The centrally positioned object on the flat surface is a laptop.",
+      "screen": {
+        "pair_id": "c059",
+        "source": "Laptop",
+        "a_only_ok": true,
+        "full_ok": true,
+        "avtp_ok": true,
+        "ans_a_only": "The centrally positioned object on the flat surface is a laptop.",
+        "ans_full": "The centrally positioned object on the flat surface is a laptop.",
+        "ans_avtp": "The object centrally positioned on the flat surface is a laptop.",
+        "r": [
+          0.4748634696006775,
+          0.5251365303993225
+        ],
+        "kept": [
+          62,
+          66
+        ]
+      },
+      "p2_screen": {
+        "avtp_ok": true,
+        "ans": "The object centrally positioned on the flat surface is a laptop.",
+        "r": [
+          0.17486347258090973,
+          0.22513653337955475
+        ],
+        "k": [
+          23,
+          28
+        ]
+      },
+      "u_idx": [
+        7,
+        116,
+        11,
+        129,
+        12,
+        10,
+        105,
+        91
+      ],
+      "u_src": "loo"
+    }
+  ],
+  "rejected": [
+    {
+      "pair_id": "c044",
+      "ans": "The object that stands tall among the greenery is a tall, leafy tree.",
+      "k": [
+        25,
+        26
+      ]
+    }
+  ]
+}

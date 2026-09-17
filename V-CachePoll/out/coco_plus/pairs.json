@@ -1,0 +1,207 @@
+{
+  "dataset": "coco300_plus20",
+  "n": 20,
+  "note": "Increment only: c040–c059. Original c000–c039 stay in out/.",
+  "pairs": [
+    {
+      "pair_id": "c040",
+      "a_file": "000000015497.jpg",
+      "b_file": "000000171788.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000015497.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000171788.jpg",
+      "source": "Cat",
+      "question": "What is the object that seems to be playfully interacting with the corded device?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that seems to be playfully interacting with the corded device?"
+    },
+    {
+      "pair_id": "c041",
+      "a_file": "000000015746.jpg",
+      "b_file": "000000012576.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000015746.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000012576.jpg",
+      "source": "Fire hydrant",
+      "question": "What object is standing in the grass near the house?",
+      "prompt": "Look at the first image only. Ignore the second image. What object is standing in the grass near the house?"
+    },
+    {
+      "pair_id": "c042",
+      "a_file": "000000016228.jpg",
+      "b_file": "000000144798.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000016228.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000144798.jpg",
+      "source": "Horse",
+      "question": "What is the large animal that is pulling the vehicle?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large animal that is pulling the vehicle?"
+    },
+    {
+      "pair_id": "c043",
+      "a_file": "000000017029.jpg",
+      "b_file": "000000175535.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000017029.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000175535.jpg",
+      "source": "Dog",
+      "question": "What is the object that is airborne near the tree?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that is airborne near the tree?"
+    },
+    {
+      "pair_id": "c044",
+      "a_file": "000000017031.jpg",
+      "b_file": "000000130699.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000017031.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000130699.jpg",
+      "source": "Giraffe",
+      "question": "What is the object that stands tall among the greenery?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that stands tall among the greenery?"
+    },
+    {
+      "pair_id": "c045",
+      "a_file": "000000017207.jpg",
+      "b_file": "000000545007.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000017207.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000545007.jpg",
+      "source": "Bus",
+      "question": "What is the large vehicle that is sharing the road with the smaller white car?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large vehicle that is sharing the road with the smaller white car?"
+    },
+    {
+      "pair_id": "c046",
+      "a_file": "000000018737.jpg",
+      "b_file": "000000416256.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000018737.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000416256.jpg",
+      "source": "Motorcycle",
+      "question": "What object is casting a shadow on the pavement near the fence?",
+      "prompt": "Look at the first image only. Ignore the second image. What object is casting a shadow on the pavement near the fence?"
+    },
+    {
+      "pair_id": "c047",
+      "a_file": "000000018833.jpg",
+      "b_file": "000000504580.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000018833.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000504580.jpg",
+      "source": "Cat",
+      "question": "What is the object that appears to be nestled comfortably between the footwear?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that appears to be nestled comfortably between the footwear?"
+    },
+    {
+      "pair_id": "c048",
+      "a_file": "000000018837.jpg",
+      "b_file": "000000356498.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000018837.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000356498.jpg",
+      "source": "Green truck",
+      "question": "What is the large object that the person is climbing onto?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large object that the person is climbing onto?"
+    },
+    {
+      "pair_id": "c049",
+      "a_file": "000000019221.jpg",
+      "b_file": "000000569825.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000019221.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000569825.jpg",
+      "source": "Broccoli",
+      "question": "What is the object that the hand is holding above the countertop?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that the hand is holding above the countertop?"
+    },
+    {
+      "pair_id": "c050",
+      "a_file": "000000019742.jpg",
+      "b_file": "000000383289.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000019742.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000383289.jpg",
+      "source": "Red vase",
+      "question": "What is the object that stands on the reflective surface near the lit string lights?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that stands on the reflective surface near the lit string lights?"
+    },
+    {
+      "pair_id": "c051",
+      "a_file": "000000020107.jpg",
+      "b_file": "000000079188.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000020107.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000079188.jpg",
+      "source": "Fire hydrant",
+      "question": "What object is situated near the edge of the sidewalk, adjacent to the decorative wall?",
+      "prompt": "Look at the first image only. Ignore the second image. What object is situated near the edge of the sidewalk, adjacent to the decorative wall?"
+    },
+    {
+      "pair_id": "c052",
+      "a_file": "000000020247.jpg",
+      "b_file": "000000161044.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000020247.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000161044.jpg",
+      "source": "Grizzly bear",
+      "question": "What is the distance between the two large figures on the path?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the distance between the two large figures on the path?"
+    },
+    {
+      "pair_id": "c053",
+      "a_file": "000000020553.jpg",
+      "b_file": "000000356169.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000020553.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000356169.jpg",
+      "source": "Armchair",
+      "question": "What object is surrounded by various items and appears to be the central piece of furniture in this outdoor setting?",
+      "prompt": "Look at the first image only. Ignore the second image. What object is surrounded by various items and appears to be the central piece of furniture in this outdoor setting?"
+    },
+    {
+      "pair_id": "c054",
+      "a_file": "000000021903.jpg",
+      "b_file": "000000217872.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000021903.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000217872.jpg",
+      "source": "Elephant",
+      "question": "What is the large creature that the person is reaching out to interact with?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large creature that the person is reaching out to interact with?"
+    },
+    {
+      "pair_id": "c055",
+      "a_file": "000000022192.jpg",
+      "b_file": "000000045472.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000022192.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000045472.jpg",
+      "source": "Pitbull",
+      "question": "What is the object that seems to be overseeing the scattered items?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that seems to be overseeing the scattered items?"
+    },
+    {
+      "pair_id": "c056",
+      "a_file": "000000024144.jpg",
+      "b_file": "000000108864.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000024144.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000108864.jpg",
+      "source": "Pizza",
+      "question": "What is the round, sliced item resting inside the open container?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the round, sliced item resting inside the open container?"
+    },
+    {
+      "pair_id": "c057",
+      "a_file": "000000024919.jpg",
+      "b_file": "000000544306.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000024919.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000544306.jpg",
+      "source": "Elephant",
+      "question": "What large animals are interacting in the open field?",
+      "prompt": "Look at the first image only. Ignore the second image. What large animals are interacting in the open field?"
+    },
+    {
+      "pair_id": "c058",
+      "a_file": "000000025560.jpg",
+      "b_file": "000000073946.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000025560.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000073946.jpg",
+      "source": "Cat",
+      "question": "What is the object that is perched on the edge of the wooden surface?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that is perched on the edge of the wooden surface?"
+    },
+    {
+      "pair_id": "c059",
+      "a_file": "000000026465.jpg",
+      "b_file": "000000016958.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000026465.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000016958.jpg",
+      "source": "Laptop",
+      "question": "What object is centrally positioned on the flat surface?",
+      "prompt": "Look at the first image only. Ignore the second image. What object is centrally positioned on the flat surface?"
+    }
+  ]
+}

@@ -9,10 +9,14 @@ from .compressor import (
     exchange_events,
     image_quotas,
     isolated_k,
+    isolated_k_matched,
     mean_importance_per_image,
     restore_victim,
     select_global_topk,
+    select_spatial_uniform,
     select_within_image,
+    shared_k_total,
+    snap_k_to_total,
     summarize_keep,
 )
 from .config import out_dir
@@ -33,37 +37,63 @@ def _tensor_list(t: torch.Tensor) -> List[float]:
     return [float(x) for x in t.detach().cpu().flatten().tolist()]
 
 
+def _quota_shell(scores: torch.Tensor, owner: torch.Tensor, n_per, cfg: Dict[str, Any], r_base: float, alpha: Optional[float] = None):
+    i_bar = mean_importance_per_image(scores, owner, n_images=len(n_per))
+    return image_quotas(
+        i_bar,
+        n_per,
+        r_base=r_base,
+        alpha=float(cfg["compressor"]["alpha"] if alpha is None else alpha),
+        r_min=float(cfg["compressor"]["r_min"]),
+        r_max=float(cfg["compressor"]["r_max"]),
+    )
+
+
 def _select(scores: torch.Tensor, owner: torch.Tensor, n_per, cfg: Dict[str, Any], mode: str):
     r_base = float(cfg["compressor"]["r_base"])
+    match = bool(cfg.get("compressor", {}).get("match_k_total", False))
     if mode == "avtp":
-        i_bar = mean_importance_per_image(scores, owner, n_images=len(n_per))
-        quota = image_quotas(
-            i_bar,
-            n_per,
-            r_base=r_base,
-            alpha=float(cfg["compressor"]["alpha"]),
-            r_min=float(cfg["compressor"]["r_min"]),
-            r_max=float(cfg["compressor"]["r_max"]),
-        )
-        keep = select_within_image(scores, owner, quota.k)
+        quota = _quota_shell(scores, owner, n_per, cfg, r_base)
+        k = quota.k
+        if match:
+            k = snap_k_to_total(k, shared_k_total(n_per, r_base), n_per)
+            quota.k = k
+        keep = select_within_image(scores, owner, k)
         return quota, keep
     if mode == "global":
-        k_total = max(1, int(round(r_base * int(scores.numel()))))
-        dummy = mean_importance_per_image(scores, owner, n_images=len(n_per))
-        quota = image_quotas(
-            dummy,
-            n_per,
-            r_base=r_base,
-            alpha=float(cfg["compressor"]["alpha"]),
-            r_min=float(cfg["compressor"]["r_min"]),
-            r_max=float(cfg["compressor"]["r_max"]),
-        )
+        k_total = shared_k_total(n_per, r_base) if match else max(1, int(round(r_base * int(scores.numel()))))
+        quota = _quota_shell(scores, owner, n_per, cfg, r_base)
         keep = select_global_topk(scores, k_total)
+        if match:
+            quota.k = snap_k_to_total(
+                torch.tensor(summarize_keep(keep, owner, n_images=len(n_per)), device=scores.device),
+                k_total,
+                n_per,
+            )
         return quota, keep
     if mode == "isolated":
-        i_bar = mean_importance_per_image(scores, owner, n_images=len(n_per))
-        quota = image_quotas(i_bar, n_per, r_base=r_base, alpha=0.0)
-        keep = select_within_image(scores, owner, isolated_k(n_per, r_base))
+        quota = _quota_shell(scores, owner, n_per, cfg, r_base, alpha=0.0)
+        k = isolated_k_matched(n_per, r_base) if match else isolated_k(n_per, r_base)
+        if match:
+            quota.k = k.to(device=scores.device)
+        keep = select_within_image(scores, owner, k.to(device=scores.device))
+        return quota, keep
+    if mode in {"query", "query_aware"}:
+        # Caller must pass query-relevance scores. Same total K as AVTP/global.
+        k_total = shared_k_total(n_per, r_base)
+        quota = _quota_shell(scores, owner, n_per, cfg, r_base)
+        keep = select_global_topk(scores, k_total)
+        quota.k = snap_k_to_total(
+            torch.tensor(summarize_keep(keep, owner, n_images=len(n_per)), device=scores.device),
+            k_total,
+            n_per,
+        )
+        return quota, keep
+    if mode in {"feather", "spatial"}:
+        quota = _quota_shell(scores, owner, n_per, cfg, r_base, alpha=0.0)
+        k = isolated_k_matched(n_per, r_base).to(device=scores.device)
+        quota.k = k
+        keep = select_spatial_uniform(owner, k)
         return quota, keep
     raise KeyError(mode)
 

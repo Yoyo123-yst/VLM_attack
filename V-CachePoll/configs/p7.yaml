@@ -1,0 +1,58 @@
+seed: 2026
+output_dir: /root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/p7
+
+data:
+  coco_root: /root/autodl-tmp/V-Attack-main/datasets/coco300/val2017
+  vqa_json: /root/autodl-tmp/V-Attack-main/Eval/coco300_vqa_main.json
+  coco_csv: /root/autodl-tmp/V-Attack-main/datasets/coco300.csv
+  n_pairs: 8
+  n_smoke: 2
+  n_screen_max: 8
+  question_prefix: "Look at the first image only. Ignore the second image."
+
+model:
+  local_path: /root/autodl-tmp/models/Qwen2-VL-7B-Instruct
+  image_size: 336
+  max_new_tokens: 32
+  attn_implementation: sdpa
+  dtype: bfloat16
+
+compressor:
+  r_base: 0.2
+  alpha: 1.0
+  r_min: 0.05
+  r_max: 0.9
+  score_layers: [1, 14, 19]
+  spatial_merge_size: 2
+  mode: avtp
+  match_k_total: true
+  eval_family: true
+  family: [avtp, global, isolated, query, feather]
+
+probe:
+  eps: 0.03137254901960784
+  noise_repeats: 1
+  min_quota_shift: 0.02
+
+attack:
+  log_prefix: p7
+  eps: 0.06274509803921569
+  alpha: 0.00392156862745098
+  steps: 40
+  smoke_steps: 4
+  n_smoke: 2
+  search_every: 5
+  search_scales: [0.5, 0.75, 1.0, 1.25, 1.5]
+  lambda_q: 1.0
+  lambda_e: 0.5
+  lambda_c: 1.5
+  lambda_v: 0.25
+  lambda_p: 0.05
+  kappa: 0.0
+  tau: 0.15
+  perturb: single
+  progress_path: /root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/p7/p7_progress.json
+  delta_dir: /root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/p7/p7_deltas
+  screen_path: /root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/p2_screen.json
+  smoke_path: /root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/p7/p7_smoke.json
+  result_path: /root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/p7/p7_attack.json

@@ -1,7 +1,7 @@
 # V-CachePoll 进展纪要
 
-更新日期：2026-09-16  
-当前判定：**CONTINUE**（COCO 替身探针已过关，可以进入主协议数据，不要改主创新）
+更新日期：2026-09-17  
+当前判定：**CONTINUE**（P0–P3 替身过关；过夜 P4 全量 32 条 ASR 25.0%，相对 P2 的 21.9% 未崩。P5–P7 仅 smoke。P10/P11 缺权重/图。）
 
 本文汇总截至今日上午的方向、实验阶段、数字和下一步。阶段报告原文仍以 `out/P0_REPORT.md`、`out/P1_REPORT.md`、`out/P2_REPORT.md`、`out/P3_REPORT.md` 为准。
 
@@ -169,16 +169,22 @@ P3 判定：**CONTINUE**。
 
 ---
 
-## 10. 明确还没做 / 不要做
+## 10. 过夜 P4–P9（2026-09-17 05:00–05:21，不覆盖 `out/p2_*`）
 
-**还没做（等磁盘和模型，不是现在缺方法）：**
+| 阶段 | n | Acc（无剪枝） | 压缩专属失败 | restore | δ_A=0 |
+|---|---:|---:|---:|---:|---:|
+| P4 freeze 全量 | 32 | 100% | **25.0%**（P2 为 21.9%） | 87.5%（7/8） | 100% |
+| P5 smoke M_aux=1 | 2 | 100% | 0% | — | 100% |
+| P6 smoke | 1 | 100% | 0% | — | 100% |
+| P7 smoke family | 2 | 100% | 0% | — | 100% |
+| P9 LAMP-like | 8 | 100% | 25.0% | 100% | 100% |
 
-- TextVQA 作主 A（OCR 证据更脆）
-- ChartQA「文档 + 附件」
-- InternVL3.5-8B、LLaVA-OV 主迁移
-- DivPrune；MuirBench 非对称任务
-- LAMP 对照（一般跨图传播 vs 压缩资源攻击）
-- 论文级样本量（当前 32 条只是机制+同协议基线）
+P4 8 条试点曾是 2/8 ASR，全量 8/32 未塌。P10 缺新模型权重；P11 TextVQA/ChartQA 缺图；P12 `L_amp` 按文档跳过。
+
+**还没做：**
+
+- P5 `n_aux` 2/4 完整攻击；P6 budget sweep；P7 N>2
+- TextVQA 图、ChartQA、InternVL / LLaVA-OV / Qwen3-VL 权重
 
 **不要做：**
 
@@ -191,10 +197,9 @@ P3 判定：**CONTINUE**。
 
 ## 11. 建议的下一步（按优先级）
 
-1. **补数据**：TextVQA 作主 A，ChartQA 作「文档+附件」。协议、loss、筛选标准保持不变。
-2. **换模型**：有盘后上 InternVL / LLaVA-OV；LLaVA-1.5 只保留“双图可 pack、配额可抢”的附录。
-3. **补对照**：LAMP（证明不是普通 contagion）；如需要再补 DivPrune / FastV 作为**防御面或负结果**，不是主攻击。
-4. **方法微调（仅当主数据上 Rank 与 V-CachePoll 分不开）**：加强 \(L_{crit}\) / U 选择，而不是再加搜索。
+1. **P5 multi-aux**：`n_aux` 2/4，超出 smoke。
+2. **P6 budget sweep** 与 **P7 N>2**。
+3. **补数据 / 换模型**：TextVQA 图与 InternVL / LLaVA-OV 仍等磁盘；LLaVA-1.5 只保留附录。
 
 ---
 
@@ -205,9 +210,13 @@ P3 判定：**CONTINUE**。
 | 路径 | 内容 |
 |---|---|
 | `src/vcachepoll/` | 压缩器、Qwen/LLaVA wrapper、loss、P0–P3 攻击 |
-| `configs/p{0,1,2,3}.yaml` | 各阶段配置 |
+| `configs/p{0,1,2,3}.yaml`、`configs/p{4,5,6,7,9,10,11}.yaml` | 各阶段配置 |
 | `scripts/run_p{0,1,2,3}.py` | 主入口；另有 `run_cage.py`、`run_armijo.py`、`run_llava.py`、`run_fastv.py` |
-| `tests/test_p0_cpu.py`、`test_p1_cpu.py` | CPU 单测 |
+| `scripts/run_extend.py`、`scripts/night_extend.py` | P4–P11 入口与过夜链 |
+| `out/p4/` … `out/p9/` | 过夜扩展结果（json/md；扰动 `.pt` 不入库） |
+| `tests/test_p0_cpu.py`、`test_p1_cpu.py`、`test_extend_cpu.py` | CPU 单测（P0/P1 回归 + P4–P12 张量逻辑） |
+| `scripts/run_extend.py` | P4–P11 入口；GPU 占用时跳过攻击 |
+| `out/extend/STATUS.md` | P4–P11 实时状态 |
 | `out/P{0,1,2,3}_REPORT.md` | 各阶段判定报告 |
 | `out/p2_attack.json` | V-CachePoll 主结果（32 条） |
 | `out/p3_{random,task,caa,cage,rank,armijo}.json` | P3 基线 |

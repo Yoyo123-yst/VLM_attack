@@ -1,0 +1,1538 @@
+== pairs ==
+{'n': 20, 'ids': ['c040', 'c041', 'c042', 'c043', 'c044', 'c045', 'c046', 'c047', 'c048', 'c049', 'c050', 'c051', 'c052', 'c053', 'c054', 'c055', 'c056', 'c057', 'c058', 'c059'], 'path': '/root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/coco_plus/pairs.json'}
+== p0-screen ==
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.33it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.42it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.46it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:02<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.90it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.66it/s]
+screen c040 keep=True a=True full=True avtp=True
+screen c041 keep=True a=True full=True avtp=True
+screen c042 keep=True a=True full=True avtp=True
+screen c043 keep=True a=True full=True avtp=True
+screen c044 keep=True a=True full=True avtp=True
+screen c045 keep=True a=True full=True avtp=True
+screen c046 keep=True a=True full=True avtp=True
+screen c047 keep=True a=True full=True avtp=True
+screen c048 keep=True a=True full=True avtp=True
+screen c049 keep=True a=True full=True avtp=True
+screen c050 keep=False a=True full=True avtp=False
+screen c051 keep=True a=True full=True avtp=True
+screen c052 keep=True a=True full=True avtp=True
+screen c053 keep=True a=True full=True avtp=True
+screen c054 keep=True a=True full=True avtp=True
+screen c055 keep=False a=False full=False avtp=False
+screen c056 keep=True a=True full=True avtp=True
+screen c057 keep=True a=True full=True avtp=True
+screen c058 keep=True a=True full=True avtp=True
+screen c059 keep=True a=True full=True avtp=True
+{'n_kept': 18, 'n_rejected': 2}
+== p2-screen ==
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:01<00:04,  1.12s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.10it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.16it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:02<00:00,  1.63it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.67it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+p2 screen c040 ok=True k=[23, 28] r=[0.175, 0.225]
+p2 screen c041 ok=True k=[22, 29] r=[0.176, 0.224]
+p2 screen c042 ok=True k=[22, 29] r=[0.172, 0.228]
+p2 screen c043 ok=True k=[25, 29] r=[0.176, 0.224]
+p2 screen c044 ok=False k=[25, 26] r=[0.196, 0.204]
+p2 screen c045 ok=True k=[22, 29] r=[0.168, 0.232]
+p2 screen c046 ok=True k=[22, 29] r=[0.175, 0.225]
+p2 screen c047 ok=True k=[26, 24] r=[0.208, 0.192]
+p2 screen c048 ok=True k=[24, 30] r=[0.187, 0.213]
+p2 screen c049 ok=True k=[23, 29] r=[0.174, 0.226]
+p2 screen c051 ok=True k=[22, 29] r=[0.175, 0.225]
+p2 screen c052 ok=True k=[23, 33] r=[0.164, 0.236]
+p2 screen c053 ok=True k=[24, 28] r=[0.181, 0.219]
+p2 screen c054 ok=True k=[24, 27] r=[0.182, 0.218]
+p2 screen c056 ok=True k=[28, 24] r=[0.213, 0.187]
+p2 screen c057 ok=True k=[20, 34] r=[0.161, 0.239]
+p2 screen c058 ok=True k=[24, 27] r=[0.187, 0.213]
+p2 screen c059 ok=True k=[23, 28] r=[0.175, 0.225]
+{'n_kept': 17, 'n_rejected': 1, 'path': '/root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/coco_plus/p2_screen.json', 'elapsed_s': 160.89948511123657}
+== p2-crit ==
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.01it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.08it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.19it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.72it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.42it/s]
+== p2 crit c040 (1/17) ==
+p2 crit c040 localized=False u_src=bot_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c041 (2/17) ==
+p2 crit c041 localized=True u_src=drop_bot n_u=10 drop_top=True drop_bot=False loo=0
+== p2 crit c042 (3/17) ==
+p2 crit c042 localized=False u_src=bot_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c043 (4/17) ==
+p2 crit c043 localized=False u_src=bot_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c045 (5/17) ==
+p2 crit c045 localized=False u_src=bot_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c046 (6/17) ==
+p2 crit c046 localized=True u_src=loo n_u=1 drop_top=False drop_bot=True loo=1
+== p2 crit c047 (7/17) ==
+p2 crit c047 localized=False u_src=bot_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c048 (8/17) ==
+p2 crit c048 localized=True u_src=drop_bot n_u=10 drop_top=True drop_bot=False loo=0
+== p2 crit c049 (9/17) ==
+p2 crit c049 localized=False u_src=bot_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c051 (10/17) ==
+p2 crit c051 localized=False u_src=bot_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c052 (11/17) ==
+p2 crit c052 localized=False u_src=bot_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c053 (12/17) ==
+p2 crit c053 localized=False u_src=bot_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c054 (13/17) ==
+p2 crit c054 localized=False u_src=bot_frac n_u=6 drop_top=True drop_bot=True loo=0
+== p2 crit c056 (14/17) ==
+p2 crit c056 localized=False u_src=bot_frac n_u=7 drop_top=True drop_bot=True loo=0
+== p2 crit c057 (15/17) ==
+p2 crit c057 localized=False u_src=bot_frac n_u=5 drop_top=True drop_bot=True loo=0
+== p2 crit c058 (16/17) ==
+p2 crit c058 localized=True u_src=drop_bot n_u=10 drop_top=True drop_bot=False loo=0
+== p2 crit c059 (17/17) ==
+p2 crit c059 localized=True u_src=loo n_u=8 drop_top=True drop_bot=False loo=8
+{'n': 17, 'n_localized': 5, 'path': '/root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/coco_plus/p2_crit.json'}
+== p2-attack ==
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.03it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.27it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.35it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:02<00:00,  1.69it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:02<00:00,  1.82it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+== p2 attack c040 (1/17) ==
+p2 c040 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c041 (2/17) ==
+p2 c041 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c042 (3/17) ==
+p2 c042 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c043 (4/17) ==
+p2 c043 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c045 (5/17) ==
+p2 c045 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c046 (6/17) ==
+p2 c046 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c047 (7/17) ==
+p2 c047 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c048 (8/17) ==
+p2 c048 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c049 (9/17) ==
+p2 c049 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c051 (10/17) ==
+p2 c051 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c052 (11/17) ==
+p2 c052 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c053 (12/17) ==
+p2 c053 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c054 (13/17) ==
+p2 c054 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c056 (14/17) ==
+p2 c056 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c057 (15/17) ==
+p2 c057 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c058 (16/17) ==
+p2 c058 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+== p2 attack c059 (17/17) ==
+p2 c059 FAILED UnboundLocalError: local variable 'combined_loss' referenced before assignment
+{'n': 17, 'path': '/root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/coco_plus/p2_attack.json'}
+{'n_ok': 0, 'n_error': 17, 'n_screen_kept': 0, 'n_localized': 5, 'frac_localized': 0.29411764705882354, 'frac_full_hold': 0.0, 'frac_comp_only_fail': 0.0, 'frac_a_out': 0.0, 'mean_a_out': 0.0, 'mean_u_out': 0.0, 'mean_u_evict_rate': 0.0, 'frac_swap_avtp': 0.0, 'frac_isolated_ok': 0.0, 'frac_restore_a_ok': 0.0, 'frac_restore_recovers_fail': None, 'n_p1_overlap': 0, 'decision': 'STOP', 'reason': 'no successful P2 rows', 'dataset': 'coco300_standin', 'model': 'Qwen2-VL-7B-Instruct', 'r_base': 0.2, 'eps': 0.06274509803921569, 'steps': 40}
+== p3-rank ==
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.24it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.15it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.28it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.36it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.80it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.52it/s]
+==== P3 METHOD rank ====
+== p3-rank attack c040 (1/17) ==
+p3-rank c040 1/40 L=-0.149 Lq=-0.0493 Le=-0.208 rA=0.175 rB=0.225 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c040 2/40 L=-0.173 Lq=-0.0567 Le=-0.243 rA=0.172 rB=0.228 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c040 3/40 L=-0.199 Lq=-0.0695 Le=-0.268 rA=0.165 rB=0.235 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c040 4/40 L=-0.211 Lq=-0.0740 Le=-0.284 rA=0.163 rB=0.237 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c040 5/40 L=-0.214 Lq=-0.0730 Le=-0.291 rA=0.164 rB=0.236 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c040 6/40 L=-0.240 Lq=-0.0883 Le=-0.314 rA=0.156 rB=0.244 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c040 7/40 L=-0.249 Lq=-0.0912 Le=-0.324 rA=0.154 rB=0.246 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c040 8/40 L=-0.237 Lq=-0.0857 Le=-0.313 rA=0.157 rB=0.243 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c040 9/40 L=-0.250 Lq=-0.0912 Le=-0.328 rA=0.154 rB=0.246 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c040 10/40 L=-0.268 Lq=-0.1008 Le=-0.344 rA=0.150 rB=0.250 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c040 11/40 L=-0.261 Lq=-0.0997 Le=-0.333 rA=0.150 rB=0.250 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c040 12/40 L=-0.260 Lq=-0.0979 Le=-0.335 rA=0.151 rB=0.249 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c040 13/40 L=-0.273 Lq=-0.1049 Le=-0.345 rA=0.148 rB=0.252 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c040 14/40 L=-0.281 Lq=-0.1082 Le=-0.355 rA=0.146 rB=0.254 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c040 15/40 L=-0.278 Lq=-0.1063 Le=-0.353 rA=0.147 rB=0.253 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c040 16/40 L=-0.284 Lq=-0.1104 Le=-0.357 rA=0.145 rB=0.255 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c040 17/40 L=-0.221 Lq=-0.0786 Le=-0.296 rA=0.161 rB=0.239 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c040 18/40 L=-0.279 Lq=-0.1082 Le=-0.352 rA=0.146 rB=0.254 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c040 19/40 L=-0.296 Lq=-0.1179 Le=-0.367 rA=0.141 rB=0.259 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c040 20/40 L=-0.304 Lq=-0.1227 Le=-0.372 rA=0.139 rB=0.261 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c040 21/40 L=-0.295 Lq=-0.1190 Le=-0.363 rA=0.140 rB=0.260 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c040 22/40 L=-0.293 Lq=-0.1164 Le=-0.364 rA=0.142 rB=0.258 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c040 23/40 L=-0.301 Lq=-0.1233 Le=-0.366 rA=0.138 rB=0.262 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c040 24/40 L=-0.312 Lq=-0.1276 Le=-0.378 rA=0.136 rB=0.264 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c040 25/40 L=-0.314 Lq=-0.1279 Le=-0.382 rA=0.136 rB=0.264 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c040 26/40 L=-0.333 Lq=-0.1413 Le=-0.394 rA=0.129 rB=0.271 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c040 27/40 L=-0.317 Lq=-0.1306 Le=-0.382 rA=0.135 rB=0.265 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c040 28/40 L=-0.327 Lq=-0.1372 Le=-0.390 rA=0.131 rB=0.269 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c040 29/40 L=-0.333 Lq=-0.1409 Le=-0.395 rA=0.130 rB=0.270 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c040 30/40 L=-0.340 Lq=-0.1450 Le=-0.400 rA=0.128 rB=0.272 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c040 31/40 L=-0.338 Lq=-0.1447 Le=-0.398 rA=0.128 rB=0.272 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c040 32/40 L=-0.341 Lq=-0.1459 Le=-0.401 rA=0.127 rB=0.273 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c040 33/40 L=-0.347 Lq=-0.1511 Le=-0.403 rA=0.124 rB=0.276 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c040 34/40 L=-0.345 Lq=-0.1487 Le=-0.403 rA=0.126 rB=0.274 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c040 35/40 L=-0.341 Lq=-0.1461 Le=-0.400 rA=0.127 rB=0.273 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c040 36/40 L=-0.341 Lq=-0.1466 Le=-0.400 rA=0.127 rB=0.273 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c040 37/40 L=-0.330 Lq=-0.1398 Le=-0.390 rA=0.130 rB=0.270 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c040 38/40 L=-0.331 Lq=-0.1395 Le=-0.393 rA=0.130 rB=0.270 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c040 39/40 L=-0.351 Lq=-0.1521 Le=-0.409 rA=0.124 rB=0.276 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c040 40/40 L=-0.358 Lq=-0.1580 Le=-0.411 rA=0.121 rB=0.279 a_out=7 u_out=6 mem=21.00962734222412
+== p3-rank attack c041 (2/17) ==
+p3-rank c041 1/40 L=-0.130 Lq=-0.0486 Le=-0.172 rA=0.176 rB=0.224 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c041 2/40 L=-0.170 Lq=-0.0601 Le=-0.229 rA=0.170 rB=0.230 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c041 3/40 L=-0.199 Lq=-0.0737 Le=-0.260 rA=0.163 rB=0.237 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c041 4/40 L=-0.203 Lq=-0.0757 Le=-0.264 rA=0.162 rB=0.238 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c041 5/40 L=-0.222 Lq=-0.0834 Le=-0.287 rA=0.158 rB=0.242 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c041 6/40 L=-0.223 Lq=-0.0846 Le=-0.285 rA=0.158 rB=0.242 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c041 7/40 L=-0.222 Lq=-0.0855 Le=-0.282 rA=0.157 rB=0.243 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c041 8/40 L=-0.261 Lq=-0.1057 Le=-0.319 rA=0.147 rB=0.253 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c041 9/40 L=-0.263 Lq=-0.1082 Le=-0.318 rA=0.146 rB=0.254 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c041 10/40 L=-0.256 Lq=-0.1066 Le=-0.309 rA=0.147 rB=0.253 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c041 11/40 L=-0.243 Lq=-0.1004 Le=-0.296 rA=0.150 rB=0.250 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c041 12/40 L=-0.276 Lq=-0.1159 Le=-0.329 rA=0.142 rB=0.258 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c041 13/40 L=-0.302 Lq=-0.1286 Le=-0.357 rA=0.136 rB=0.264 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c041 14/40 L=-0.290 Lq=-0.1242 Le=-0.342 rA=0.138 rB=0.262 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c041 15/40 L=-0.285 Lq=-0.1199 Le=-0.340 rA=0.140 rB=0.260 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c041 16/40 L=-0.293 Lq=-0.1251 Le=-0.346 rA=0.137 rB=0.263 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c041 17/40 L=-0.291 Lq=-0.1250 Le=-0.343 rA=0.138 rB=0.262 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c041 18/40 L=-0.307 Lq=-0.1332 Le=-0.358 rA=0.133 rB=0.267 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c041 19/40 L=-0.281 Lq=-0.1191 Le=-0.334 rA=0.140 rB=0.260 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c041 20/40 L=-0.291 Lq=-0.1226 Le=-0.347 rA=0.139 rB=0.261 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c041 21/40 L=-0.307 Lq=-0.1322 Le=-0.360 rA=0.134 rB=0.266 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c041 22/40 L=-0.320 Lq=-0.1413 Le=-0.368 rA=0.129 rB=0.271 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c041 23/40 L=-0.333 Lq=-0.1492 Le=-0.378 rA=0.125 rB=0.275 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c041 24/40 L=-0.322 Lq=-0.1425 Le=-0.369 rA=0.129 rB=0.271 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c041 25/40 L=-0.326 Lq=-0.1439 Le=-0.375 rA=0.128 rB=0.272 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c041 26/40 L=-0.335 Lq=-0.1496 Le=-0.380 rA=0.125 rB=0.275 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c041 27/40 L=-0.338 Lq=-0.1525 Le=-0.381 rA=0.124 rB=0.276 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c041 28/40 L=-0.351 Lq=-0.1598 Le=-0.393 rA=0.120 rB=0.280 a_out=7 u_out=7 mem=21.00962734222412
+p3-rank c041 29/40 L=-0.365 Lq=-0.1678 Le=-0.405 rA=0.116 rB=0.284 a_out=7 u_out=7 mem=21.00962734222412
+p3-rank c041 30/40 L=-0.362 Lq=-0.1672 Le=-0.400 rA=0.116 rB=0.284 a_out=7 u_out=7 mem=21.00962734222412
+p3-rank c041 31/40 L=-0.375 Lq=-0.1744 Le=-0.412 rA=0.113 rB=0.287 a_out=8 u_out=8 mem=21.00962734222412
+p3-rank c041 32/40 L=-0.385 Lq=-0.1811 Le=-0.418 rA=0.109 rB=0.291 a_out=8 u_out=8 mem=21.00962734222412
+p3-rank c041 33/40 L=-0.383 Lq=-0.1799 Le=-0.417 rA=0.110 rB=0.290 a_out=8 u_out=8 mem=21.00962734222412
+p3-rank c041 34/40 L=-0.388 Lq=-0.1825 Le=-0.421 rA=0.109 rB=0.291 a_out=8 u_out=8 mem=21.00962734222412
+p3-rank c041 35/40 L=-0.373 Lq=-0.1738 Le=-0.409 rA=0.113 rB=0.287 a_out=8 u_out=8 mem=21.00962734222412
+p3-rank c041 36/40 L=-0.388 Lq=-0.1844 Le=-0.418 rA=0.108 rB=0.292 a_out=8 u_out=8 mem=21.00962734222412
+p3-rank c041 37/40 L=-0.391 Lq=-0.1853 Le=-0.422 rA=0.107 rB=0.293 a_out=8 u_out=8 mem=21.00962734222412
+p3-rank c041 38/40 L=-0.399 Lq=-0.1910 Le=-0.426 rA=0.105 rB=0.295 a_out=9 u_out=9 mem=21.00962734222412
+p3-rank c041 39/40 L=-0.400 Lq=-0.1925 Le=-0.427 rA=0.104 rB=0.296 a_out=9 u_out=9 mem=21.00962734222412
+p3-rank c041 40/40 L=-0.401 Lq=-0.1923 Le=-0.428 rA=0.104 rB=0.296 a_out=9 u_out=9 mem=21.00962734222412
+== p3-rank attack c042 (3/17) ==
+p3-rank c042 1/40 L=-0.116 Lq=-0.0569 Le=-0.122 rA=0.172 rB=0.228 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c042 2/40 L=-0.150 Lq=-0.0687 Le=-0.167 rA=0.166 rB=0.234 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c042 3/40 L=-0.156 Lq=-0.0710 Le=-0.176 rA=0.165 rB=0.235 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c042 4/40 L=-0.203 Lq=-0.0841 Le=-0.243 rA=0.158 rB=0.242 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c042 5/40 L=-0.208 Lq=-0.0885 Le=-0.245 rA=0.156 rB=0.244 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c042 6/40 L=-0.186 Lq=-0.0778 Le=-0.221 rA=0.161 rB=0.239 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c042 7/40 L=-0.207 Lq=-0.0881 Le=-0.244 rA=0.156 rB=0.244 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c042 8/40 L=-0.229 Lq=-0.0962 Le=-0.271 rA=0.152 rB=0.248 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c042 9/40 L=-0.231 Lq=-0.0976 Le=-0.272 rA=0.151 rB=0.249 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c042 10/40 L=-0.256 Lq=-0.1049 Le=-0.307 rA=0.148 rB=0.252 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c042 11/40 L=-0.257 Lq=-0.1106 Le=-0.299 rA=0.145 rB=0.255 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c042 12/40 L=-0.250 Lq=-0.1067 Le=-0.293 rA=0.147 rB=0.253 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c042 13/40 L=-0.244 Lq=-0.1048 Le=-0.284 rA=0.148 rB=0.252 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c042 14/40 L=-0.259 Lq=-0.1114 Le=-0.301 rA=0.144 rB=0.256 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c042 15/40 L=-0.278 Lq=-0.1242 Le=-0.315 rA=0.138 rB=0.262 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c042 16/40 L=-0.265 Lq=-0.1171 Le=-0.303 rA=0.141 rB=0.259 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c042 17/40 L=-0.274 Lq=-0.1212 Le=-0.313 rA=0.139 rB=0.261 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c042 18/40 L=-0.289 Lq=-0.1284 Le=-0.329 rA=0.136 rB=0.264 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c042 19/40 L=-0.279 Lq=-0.1217 Le=-0.323 rA=0.139 rB=0.261 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c042 20/40 L=-0.280 Lq=-0.1228 Le=-0.322 rA=0.139 rB=0.261 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c042 21/40 L=-0.296 Lq=-0.1316 Le=-0.337 rA=0.134 rB=0.266 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c042 22/40 L=-0.304 Lq=-0.1350 Le=-0.346 rA=0.132 rB=0.268 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c042 23/40 L=-0.306 Lq=-0.1361 Le=-0.348 rA=0.132 rB=0.268 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c042 24/40 L=-0.320 Lq=-0.1440 Le=-0.360 rA=0.128 rB=0.272 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c042 25/40 L=-0.307 Lq=-0.1364 Le=-0.349 rA=0.132 rB=0.268 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c042 26/40 L=-0.332 Lq=-0.1505 Le=-0.371 rA=0.125 rB=0.275 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c042 27/40 L=-0.334 Lq=-0.1521 Le=-0.371 rA=0.124 rB=0.276 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c042 28/40 L=-0.340 Lq=-0.1560 Le=-0.376 rA=0.122 rB=0.278 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c042 29/40 L=-0.326 Lq=-0.1463 Le=-0.366 rA=0.127 rB=0.273 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c042 30/40 L=-0.324 Lq=-0.1459 Le=-0.363 rA=0.127 rB=0.273 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c042 31/40 L=-0.344 Lq=-0.1570 Le=-0.382 rA=0.122 rB=0.278 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c042 32/40 L=-0.347 Lq=-0.1600 Le=-0.382 rA=0.120 rB=0.280 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c042 33/40 L=-0.327 Lq=-0.1484 Le=-0.364 rA=0.126 rB=0.274 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c042 34/40 L=-0.332 Lq=-0.1523 Le=-0.368 rA=0.124 rB=0.276 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c042 35/40 L=-0.341 Lq=-0.1550 Le=-0.379 rA=0.123 rB=0.277 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c042 36/40 L=-0.344 Lq=-0.1586 Le=-0.379 rA=0.121 rB=0.279 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c042 37/40 L=-0.358 Lq=-0.1677 Le=-0.389 rA=0.116 rB=0.284 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c042 38/40 L=-0.345 Lq=-0.1585 Le=-0.381 rA=0.121 rB=0.279 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c042 39/40 L=-0.362 Lq=-0.1702 Le=-0.392 rA=0.115 rB=0.285 a_out=8 u_out=6 mem=21.00962734222412
+p3-rank c042 40/40 L=-0.366 Lq=-0.1726 Le=-0.395 rA=0.114 rB=0.286 a_out=8 u_out=6 mem=21.00962734222412
+== p3-rank attack c043 (4/17) ==
+p3-rank c043 1/40 L=-0.114 Lq=-0.0478 Le=-0.136 rA=0.176 rB=0.224 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c043 2/40 L=-0.152 Lq=-0.0657 Le=-0.178 rA=0.167 rB=0.233 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c043 3/40 L=-0.176 Lq=-0.0769 Le=-0.204 rA=0.162 rB=0.238 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c043 4/40 L=-0.169 Lq=-0.0735 Le=-0.197 rA=0.163 rB=0.237 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c043 5/40 L=-0.172 Lq=-0.0704 Le=-0.209 rA=0.165 rB=0.235 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c043 6/40 L=-0.180 Lq=-0.0755 Le=-0.214 rA=0.162 rB=0.238 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c043 7/40 L=-0.207 Lq=-0.0796 Le=-0.262 rA=0.160 rB=0.240 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c043 8/40 L=-0.206 Lq=-0.0814 Le=-0.256 rA=0.159 rB=0.241 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c043 9/40 L=-0.235 Lq=-0.0953 Le=-0.286 rA=0.152 rB=0.248 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c043 10/40 L=-0.241 Lq=-0.0972 Le=-0.294 rA=0.151 rB=0.249 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c043 11/40 L=-0.253 Lq=-0.1037 Le=-0.306 rA=0.148 rB=0.252 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c043 12/40 L=-0.267 Lq=-0.1123 Le=-0.318 rA=0.144 rB=0.256 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c043 13/40 L=-0.254 Lq=-0.1065 Le=-0.302 rA=0.147 rB=0.253 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c043 14/40 L=-0.270 Lq=-0.1175 Le=-0.312 rA=0.141 rB=0.259 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c043 15/40 L=-0.261 Lq=-0.1115 Le=-0.307 rA=0.144 rB=0.256 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c043 16/40 L=-0.286 Lq=-0.1229 Le=-0.334 rA=0.139 rB=0.261 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c043 17/40 L=-0.279 Lq=-0.1191 Le=-0.326 rA=0.140 rB=0.260 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c043 18/40 L=-0.281 Lq=-0.1202 Le=-0.328 rA=0.140 rB=0.260 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c043 19/40 L=-0.288 Lq=-0.1290 Le=-0.325 rA=0.136 rB=0.264 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c043 20/40 L=-0.297 Lq=-0.1302 Le=-0.341 rA=0.135 rB=0.265 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c043 21/40 L=-0.317 Lq=-0.1423 Le=-0.356 rA=0.129 rB=0.271 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c043 22/40 L=-0.299 Lq=-0.1294 Le=-0.346 rA=0.135 rB=0.265 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c043 23/40 L=-0.303 Lq=-0.1346 Le=-0.345 rA=0.133 rB=0.267 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c043 24/40 L=-0.313 Lq=-0.1369 Le=-0.359 rA=0.132 rB=0.268 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c043 25/40 L=-0.322 Lq=-0.1421 Le=-0.367 rA=0.129 rB=0.271 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c043 26/40 L=-0.317 Lq=-0.1416 Le=-0.359 rA=0.129 rB=0.271 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c043 27/40 L=-0.319 Lq=-0.1426 Le=-0.361 rA=0.129 rB=0.271 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c043 28/40 L=-0.342 Lq=-0.1567 Le=-0.379 rA=0.122 rB=0.278 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c043 29/40 L=-0.348 Lq=-0.1586 Le=-0.386 rA=0.121 rB=0.279 a_out=8 u_out=6 mem=21.00962734222412
+p3-rank c043 30/40 L=-0.339 Lq=-0.1538 Le=-0.379 rA=0.123 rB=0.277 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c043 31/40 L=-0.348 Lq=-0.1610 Le=-0.382 rA=0.120 rB=0.280 a_out=8 u_out=6 mem=21.00962734222412
+p3-rank c043 32/40 L=-0.347 Lq=-0.1607 Le=-0.380 rA=0.120 rB=0.280 a_out=8 u_out=6 mem=21.00962734222412
+p3-rank c043 33/40 L=-0.357 Lq=-0.1647 Le=-0.393 rA=0.118 rB=0.282 a_out=8 u_out=6 mem=21.00962734222412
+p3-rank c043 34/40 L=-0.361 Lq=-0.1690 Le=-0.392 rA=0.116 rB=0.284 a_out=8 u_out=6 mem=21.00962734222412
+p3-rank c043 35/40 L=-0.361 Lq=-0.1682 Le=-0.395 rA=0.116 rB=0.284 a_out=8 u_out=6 mem=21.00962734222412
+p3-rank c043 36/40 L=-0.361 Lq=-0.1697 Le=-0.391 rA=0.115 rB=0.285 a_out=8 u_out=6 mem=21.00962734222412
+p3-rank c043 37/40 L=-0.375 Lq=-0.1781 Le=-0.402 rA=0.111 rB=0.289 a_out=9 u_out=6 mem=21.00962734222412
+p3-rank c043 38/40 L=-0.358 Lq=-0.1655 Le=-0.393 rA=0.117 rB=0.283 a_out=8 u_out=6 mem=21.00962734222412
+p3-rank c043 39/40 L=-0.376 Lq=-0.1799 Le=-0.401 rA=0.110 rB=0.290 a_out=9 u_out=6 mem=21.00962734222412
+p3-rank c043 40/40 L=-0.381 Lq=-0.1817 Le=-0.407 rA=0.109 rB=0.291 a_out=9 u_out=6 mem=21.00962734222412
+== p3-rank attack c045 (5/17) ==
+p3-rank c045 1/40 L=-0.159 Lq=-0.0640 Le=-0.193 rA=0.168 rB=0.232 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c045 2/40 L=-0.174 Lq=-0.0722 Le=-0.207 rA=0.164 rB=0.236 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c045 3/40 L=-0.161 Lq=-0.0680 Le=-0.189 rA=0.166 rB=0.234 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c045 4/40 L=-0.180 Lq=-0.0728 Le=-0.219 rA=0.164 rB=0.236 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c045 5/40 L=-0.205 Lq=-0.0858 Le=-0.243 rA=0.157 rB=0.243 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c045 6/40 L=-0.194 Lq=-0.0775 Le=-0.237 rA=0.161 rB=0.239 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c045 7/40 L=-0.217 Lq=-0.0904 Le=-0.258 rA=0.155 rB=0.245 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c045 8/40 L=-0.203 Lq=-0.0815 Le=-0.248 rA=0.159 rB=0.241 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c045 9/40 L=-0.220 Lq=-0.0865 Le=-0.272 rA=0.157 rB=0.243 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c045 10/40 L=-0.212 Lq=-0.0846 Le=-0.259 rA=0.158 rB=0.242 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c045 11/40 L=-0.228 Lq=-0.0931 Le=-0.274 rA=0.153 rB=0.247 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c045 12/40 L=-0.225 Lq=-0.0899 Le=-0.275 rA=0.155 rB=0.245 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c045 13/40 L=-0.216 Lq=-0.0879 Le=-0.262 rA=0.156 rB=0.244 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c045 14/40 L=-0.247 Lq=-0.1008 Le=-0.297 rA=0.150 rB=0.250 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c045 15/40 L=-0.255 Lq=-0.1047 Le=-0.306 rA=0.148 rB=0.252 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c045 16/40 L=-0.260 Lq=-0.1064 Le=-0.313 rA=0.147 rB=0.253 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c045 17/40 L=-0.247 Lq=-0.0998 Le=-0.301 rA=0.150 rB=0.250 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c045 18/40 L=-0.262 Lq=-0.1063 Le=-0.317 rA=0.147 rB=0.253 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c045 19/40 L=-0.173 Lq=-0.0739 Le=-0.207 rA=0.163 rB=0.237 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c045 20/40 L=-0.187 Lq=-0.0720 Le=-0.237 rA=0.164 rB=0.236 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c045 21/40 L=-0.167 Lq=-0.0667 Le=-0.210 rA=0.167 rB=0.233 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c045 22/40 L=-0.186 Lq=-0.0738 Le=-0.233 rA=0.163 rB=0.237 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c045 23/40 L=-0.190 Lq=-0.0804 Le=-0.227 rA=0.160 rB=0.240 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c045 24/40 L=-0.173 Lq=-0.0702 Le=-0.215 rA=0.165 rB=0.235 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c045 25/40 L=-0.219 Lq=-0.0904 Le=-0.264 rA=0.155 rB=0.245 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c045 26/40 L=-0.209 Lq=-0.0867 Le=-0.254 rA=0.157 rB=0.243 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c045 27/40 L=-0.142 Lq=-0.0640 Le=-0.165 rA=0.168 rB=0.232 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c045 28/40 L=-0.198 Lq=-0.0862 Le=-0.232 rA=0.157 rB=0.243 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c045 29/40 L=-0.230 Lq=-0.0914 Le=-0.283 rA=0.154 rB=0.246 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c045 30/40 L=-0.212 Lq=-0.0905 Le=-0.251 rA=0.155 rB=0.245 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c045 31/40 L=-0.211 Lq=-0.0882 Le=-0.252 rA=0.156 rB=0.244 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c045 32/40 L=-0.249 Lq=-0.1050 Le=-0.295 rA=0.147 rB=0.253 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c045 33/40 L=-0.251 Lq=-0.1061 Le=-0.296 rA=0.147 rB=0.253 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c045 34/40 L=-0.249 Lq=-0.1058 Le=-0.293 rA=0.147 rB=0.253 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c045 35/40 L=-0.257 Lq=-0.1086 Le=-0.304 rA=0.146 rB=0.254 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c045 36/40 L=-0.251 Lq=-0.1055 Le=-0.298 rA=0.147 rB=0.253 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c045 37/40 L=-0.247 Lq=-0.1028 Le=-0.296 rA=0.149 rB=0.251 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c045 38/40 L=-0.245 Lq=-0.1032 Le=-0.291 rA=0.148 rB=0.252 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c045 39/40 L=-0.224 Lq=-0.0881 Le=-0.278 rA=0.156 rB=0.244 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c045 40/40 L=-0.219 Lq=-0.0896 Le=-0.266 rA=0.155 rB=0.245 a_out=2 u_out=2 mem=21.00962734222412
+== p3-rank attack c046 (6/17) ==
+p3-rank c046 1/40 L=-0.080 Lq=-0.0498 Le=-0.065 rA=0.175 rB=0.225 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c046 2/40 L=-0.108 Lq=-0.0532 Le=-0.114 rA=0.173 rB=0.227 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c046 3/40 L=-0.118 Lq=-0.0573 Le=-0.128 rA=0.171 rB=0.229 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c046 4/40 L=-0.155 Lq=-0.0678 Le=-0.179 rA=0.166 rB=0.234 a_out=1 u_out=0 mem=21.00962734222412
+p3-rank c046 5/40 L=-0.168 Lq=-0.0815 Le=-0.178 rA=0.159 rB=0.241 a_out=2 u_out=0 mem=21.00962734222412
+p3-rank c046 6/40 L=-0.168 Lq=-0.0802 Le=-0.181 rA=0.160 rB=0.240 a_out=2 u_out=0 mem=21.00962734222412
+p3-rank c046 7/40 L=-0.170 Lq=-0.0756 Le=-0.195 rA=0.162 rB=0.238 a_out=2 u_out=0 mem=21.00962734222412
+p3-rank c046 8/40 L=-0.157 Lq=-0.0667 Le=-0.187 rA=0.167 rB=0.233 a_out=1 u_out=0 mem=21.00962734222412
+p3-rank c046 9/40 L=-0.163 Lq=-0.0713 Le=-0.190 rA=0.164 rB=0.236 a_out=1 u_out=0 mem=21.00962734222412
+p3-rank c046 10/40 L=-0.206 Lq=-0.0924 Le=-0.232 rA=0.154 rB=0.246 a_out=3 u_out=0 mem=21.00962734222412
+p3-rank c046 11/40 L=-0.200 Lq=-0.0886 Le=-0.229 rA=0.156 rB=0.244 a_out=2 u_out=0 mem=21.00962734222412
+p3-rank c046 12/40 L=-0.205 Lq=-0.0891 Le=-0.239 rA=0.155 rB=0.245 a_out=2 u_out=0 mem=21.00962734222412
+p3-rank c046 13/40 L=-0.221 Lq=-0.0982 Le=-0.253 rA=0.151 rB=0.249 a_out=3 u_out=0 mem=21.00962734222412
+p3-rank c046 14/40 L=-0.215 Lq=-0.0948 Le=-0.248 rA=0.153 rB=0.247 a_out=3 u_out=0 mem=21.00962734222412
+p3-rank c046 15/40 L=-0.210 Lq=-0.0972 Le=-0.232 rA=0.151 rB=0.249 a_out=3 u_out=0 mem=21.00962734222412
+p3-rank c046 16/40 L=-0.232 Lq=-0.1074 Le=-0.256 rA=0.146 rB=0.254 a_out=4 u_out=0 mem=21.00962734222412
+p3-rank c046 17/40 L=-0.248 Lq=-0.1135 Le=-0.276 rA=0.143 rB=0.257 a_out=4 u_out=0 mem=21.00962734222412
+p3-rank c046 18/40 L=-0.233 Lq=-0.1081 Le=-0.256 rA=0.146 rB=0.254 a_out=4 u_out=0 mem=21.00962734222412
+p3-rank c046 19/40 L=-0.228 Lq=-0.1015 Le=-0.261 rA=0.149 rB=0.251 a_out=3 u_out=0 mem=21.00962734222412
+p3-rank c046 20/40 L=-0.235 Lq=-0.1086 Le=-0.259 rA=0.146 rB=0.254 a_out=4 u_out=0 mem=21.00962734222412
+p3-rank c046 21/40 L=-0.217 Lq=-0.1029 Le=-0.235 rA=0.149 rB=0.251 a_out=3 u_out=0 mem=21.00962734222412
+p3-rank c046 22/40 L=-0.231 Lq=-0.1097 Le=-0.249 rA=0.145 rB=0.255 a_out=4 u_out=0 mem=21.00962734222412
+p3-rank c046 23/40 L=-0.261 Lq=-0.1214 Le=-0.287 rA=0.139 rB=0.261 a_out=4 u_out=0 mem=21.00962734222412
+p3-rank c046 24/40 L=-0.286 Lq=-0.1355 Le=-0.309 rA=0.132 rB=0.268 a_out=5 u_out=0 mem=21.00962734222412
+p3-rank c046 25/40 L=-0.267 Lq=-0.1251 Le=-0.291 rA=0.137 rB=0.263 a_out=5 u_out=0 mem=21.00962734222412
+p3-rank c046 26/40 L=-0.255 Lq=-0.1187 Le=-0.280 rA=0.141 rB=0.259 a_out=4 u_out=0 mem=21.00962734222412
+p3-rank c046 27/40 L=-0.297 Lq=-0.1424 Le=-0.317 rA=0.129 rB=0.271 a_out=6 u_out=0 mem=21.00962734222412
+p3-rank c046 28/40 L=-0.291 Lq=-0.1406 Le=-0.308 rA=0.130 rB=0.270 a_out=6 u_out=0 mem=21.00962734222412
+p3-rank c046 29/40 L=-0.306 Lq=-0.1474 Le=-0.324 rA=0.126 rB=0.274 a_out=6 u_out=0 mem=21.00962734222412
+p3-rank c046 30/40 L=-0.291 Lq=-0.1393 Le=-0.310 rA=0.130 rB=0.270 a_out=6 u_out=0 mem=21.00962734222412
+p3-rank c046 31/40 L=-0.314 Lq=-0.1517 Le=-0.333 rA=0.124 rB=0.276 a_out=6 u_out=0 mem=21.00962734222412
+p3-rank c046 32/40 L=-0.301 Lq=-0.1448 Le=-0.319 rA=0.128 rB=0.272 a_out=6 u_out=0 mem=21.00962734222412
+p3-rank c046 33/40 L=-0.319 Lq=-0.1562 Le=-0.333 rA=0.122 rB=0.278 a_out=7 u_out=0 mem=21.00962734222412
+p3-rank c046 34/40 L=-0.296 Lq=-0.1432 Le=-0.312 rA=0.128 rB=0.272 a_out=6 u_out=0 mem=21.00962734222412
+p3-rank c046 35/40 L=-0.318 Lq=-0.1533 Le=-0.337 rA=0.123 rB=0.277 a_out=6 u_out=0 mem=21.00962734222412
+p3-rank c046 36/40 L=-0.339 Lq=-0.1678 Le=-0.351 rA=0.116 rB=0.284 a_out=7 u_out=0 mem=21.00962734222412
+p3-rank c046 37/40 L=-0.319 Lq=-0.1587 Le=-0.328 rA=0.121 rB=0.279 a_out=7 u_out=0 mem=21.00962734222412
+p3-rank c046 38/40 L=-0.325 Lq=-0.1613 Le=-0.335 rA=0.119 rB=0.281 a_out=7 u_out=0 mem=21.00962734222412
+p3-rank c046 39/40 L=-0.316 Lq=-0.1535 Le=-0.333 rA=0.123 rB=0.277 a_out=6 u_out=0 mem=21.00962734222412
+p3-rank c046 40/40 L=-0.314 Lq=-0.1539 Le=-0.329 rA=0.123 rB=0.277 a_out=6 u_out=0 mem=21.00962734222412
+== p3-rank attack c047 (7/17) ==
+p3-rank c047 1/40 L=0.042 Lq=+0.0159 Le=0.045 rA=0.208 rB=0.192 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c047 2/40 L=-0.005 Lq=+0.0070 Le=-0.032 rA=0.204 rB=0.196 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c047 3/40 L=-0.003 Lq=+0.0147 Le=-0.045 rA=0.207 rB=0.193 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c047 4/40 L=-0.011 Lq=+0.0159 Le=-0.065 rA=0.208 rB=0.192 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c047 5/40 L=-0.043 Lq=+0.0041 Le=-0.106 rA=0.202 rB=0.198 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c047 6/40 L=-0.062 Lq=-0.0036 Le=-0.129 rA=0.198 rB=0.202 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c047 7/40 L=-0.063 Lq=+0.0003 Le=-0.136 rA=0.200 rB=0.200 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c047 8/40 L=-0.109 Lq=-0.0198 Le=-0.191 rA=0.190 rB=0.210 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c047 9/40 L=-0.109 Lq=-0.0300 Le=-0.170 rA=0.185 rB=0.215 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c047 10/40 L=-0.127 Lq=-0.0360 Le=-0.192 rA=0.182 rB=0.218 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c047 11/40 L=-0.106 Lq=-0.0343 Le=-0.155 rA=0.183 rB=0.217 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c047 12/40 L=-0.117 Lq=-0.0390 Le=-0.167 rA=0.181 rB=0.219 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c047 13/40 L=-0.124 Lq=-0.0408 Le=-0.177 rA=0.180 rB=0.220 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c047 14/40 L=-0.133 Lq=-0.0402 Le=-0.197 rA=0.180 rB=0.220 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c047 15/40 L=-0.120 Lq=-0.0394 Le=-0.172 rA=0.180 rB=0.220 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c047 16/40 L=-0.124 Lq=-0.0418 Le=-0.176 rA=0.179 rB=0.221 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c047 17/40 L=-0.114 Lq=-0.0310 Le=-0.176 rA=0.185 rB=0.215 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c047 18/40 L=-0.156 Lq=-0.0484 Le=-0.228 rA=0.176 rB=0.224 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c047 19/40 L=-0.158 Lq=-0.0572 Le=-0.212 rA=0.171 rB=0.229 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c047 20/40 L=-0.131 Lq=-0.0442 Le=-0.184 rA=0.178 rB=0.222 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c047 21/40 L=-0.133 Lq=-0.0353 Le=-0.207 rA=0.182 rB=0.218 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c047 22/40 L=-0.140 Lq=-0.0447 Le=-0.201 rA=0.178 rB=0.222 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c047 23/40 L=-0.144 Lq=-0.0435 Le=-0.211 rA=0.178 rB=0.222 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c047 24/40 L=-0.180 Lq=-0.0673 Le=-0.237 rA=0.166 rB=0.234 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c047 25/40 L=-0.193 Lq=-0.0662 Le=-0.265 rA=0.167 rB=0.233 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c047 26/40 L=-0.135 Lq=-0.0457 Le=-0.190 rA=0.177 rB=0.223 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c047 27/40 L=-0.093 Lq=-0.0266 Le=-0.144 rA=0.187 rB=0.213 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c047 28/40 L=-0.191 Lq=-0.0635 Le=-0.269 rA=0.168 rB=0.232 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c047 29/40 L=-0.168 Lq=-0.0548 Le=-0.240 rA=0.173 rB=0.227 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c047 30/40 L=-0.151 Lq=-0.0423 Le=-0.229 rA=0.179 rB=0.221 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c047 31/40 L=-0.148 Lq=-0.0487 Le=-0.212 rA=0.176 rB=0.224 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c047 32/40 L=-0.173 Lq=-0.0568 Le=-0.247 rA=0.172 rB=0.228 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c047 33/40 L=-0.198 Lq=-0.0669 Le=-0.275 rA=0.167 rB=0.233 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c047 34/40 L=-0.216 Lq=-0.0759 Le=-0.291 rA=0.162 rB=0.238 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c047 35/40 L=-0.206 Lq=-0.0716 Le=-0.282 rA=0.164 rB=0.236 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c047 36/40 L=-0.225 Lq=-0.0805 Le=-0.301 rA=0.160 rB=0.240 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c047 37/40 L=-0.223 Lq=-0.0794 Le=-0.299 rA=0.160 rB=0.240 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c047 38/40 L=-0.216 Lq=-0.0716 Le=-0.300 rA=0.164 rB=0.236 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c047 39/40 L=-0.160 Lq=-0.0523 Le=-0.229 rA=0.174 rB=0.226 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c047 40/40 L=-0.139 Lq=-0.0490 Le=-0.192 rA=0.176 rB=0.224 a_out=4 u_out=4 mem=21.00962734222412
+== p3-rank attack c048 (8/17) ==
+p3-rank c048 1/40 L=-0.141 Lq=-0.0257 Le=-0.238 rA=0.187 rB=0.213 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c048 2/40 L=-0.141 Lq=-0.0297 Le=-0.230 rA=0.185 rB=0.215 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c048 3/40 L=-0.153 Lq=-0.0415 Le=-0.230 rA=0.179 rB=0.221 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c048 4/40 L=-0.173 Lq=-0.0429 Le=-0.268 rA=0.179 rB=0.221 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c048 5/40 L=-0.190 Lq=-0.0511 Le=-0.286 rA=0.174 rB=0.226 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c048 6/40 L=-0.184 Lq=-0.0506 Le=-0.275 rA=0.175 rB=0.225 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c048 7/40 L=-0.199 Lq=-0.0623 Le=-0.283 rA=0.169 rB=0.231 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c048 8/40 L=-0.222 Lq=-0.0729 Le=-0.306 rA=0.164 rB=0.236 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c048 9/40 L=-0.226 Lq=-0.0725 Le=-0.315 rA=0.164 rB=0.236 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c048 10/40 L=-0.231 Lq=-0.0777 Le=-0.316 rA=0.161 rB=0.239 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c048 11/40 L=-0.225 Lq=-0.0729 Le=-0.312 rA=0.164 rB=0.236 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c048 12/40 L=-0.225 Lq=-0.0739 Le=-0.311 rA=0.163 rB=0.237 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c048 13/40 L=-0.224 Lq=-0.0769 Le=-0.303 rA=0.162 rB=0.238 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c048 14/40 L=-0.239 Lq=-0.0850 Le=-0.316 rA=0.158 rB=0.242 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c048 15/40 L=-0.243 Lq=-0.0849 Le=-0.326 rA=0.158 rB=0.242 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c048 16/40 L=-0.247 Lq=-0.0856 Le=-0.332 rA=0.157 rB=0.243 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c048 17/40 L=-0.258 Lq=-0.0915 Le=-0.342 rA=0.154 rB=0.246 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c048 18/40 L=-0.275 Lq=-0.1031 Le=-0.353 rA=0.148 rB=0.252 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c048 19/40 L=-0.247 Lq=-0.0852 Le=-0.333 rA=0.157 rB=0.243 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c048 20/40 L=-0.271 Lq=-0.1001 Le=-0.351 rA=0.150 rB=0.250 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c048 21/40 L=-0.264 Lq=-0.0962 Le=-0.344 rA=0.152 rB=0.248 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c048 22/40 L=-0.267 Lq=-0.0974 Le=-0.349 rA=0.151 rB=0.249 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c048 23/40 L=-0.276 Lq=-0.1032 Le=-0.354 rA=0.148 rB=0.252 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c048 24/40 L=-0.277 Lq=-0.1039 Le=-0.355 rA=0.148 rB=0.252 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c048 25/40 L=-0.260 Lq=-0.0973 Le=-0.335 rA=0.151 rB=0.249 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c048 26/40 L=-0.268 Lq=-0.1003 Le=-0.344 rA=0.150 rB=0.250 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c048 27/40 L=-0.284 Lq=-0.1087 Le=-0.360 rA=0.146 rB=0.254 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c048 28/40 L=-0.272 Lq=-0.1013 Le=-0.351 rA=0.149 rB=0.251 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c048 29/40 L=-0.274 Lq=-0.1021 Le=-0.353 rA=0.149 rB=0.251 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c048 30/40 L=-0.291 Lq=-0.1134 Le=-0.365 rA=0.143 rB=0.257 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c048 31/40 L=-0.276 Lq=-0.1039 Le=-0.354 rA=0.148 rB=0.252 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c048 32/40 L=-0.290 Lq=-0.1122 Le=-0.365 rA=0.144 rB=0.256 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c048 33/40 L=-0.306 Lq=-0.1206 Le=-0.381 rA=0.140 rB=0.260 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c048 34/40 L=-0.315 Lq=-0.1270 Le=-0.386 rA=0.137 rB=0.263 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c048 35/40 L=-0.312 Lq=-0.1250 Le=-0.383 rA=0.137 rB=0.263 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c048 36/40 L=-0.316 Lq=-0.1280 Le=-0.386 rA=0.136 rB=0.264 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c048 37/40 L=-0.331 Lq=-0.1360 Le=-0.400 rA=0.132 rB=0.268 a_out=7 u_out=7 mem=21.00962734222412
+p3-rank c048 38/40 L=-0.334 Lq=-0.1391 Le=-0.400 rA=0.130 rB=0.270 a_out=7 u_out=7 mem=21.00962734222412
+p3-rank c048 39/40 L=-0.307 Lq=-0.1229 Le=-0.378 rA=0.139 rB=0.261 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c048 40/40 L=-0.328 Lq=-0.1372 Le=-0.392 rA=0.131 rB=0.269 a_out=7 u_out=7 mem=21.00962734222412
+== p3-rank attack c049 (9/17) ==
+p3-rank c049 1/40 L=-0.171 Lq=-0.0524 Le=-0.243 rA=0.174 rB=0.226 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c049 2/40 L=-0.215 Lq=-0.0707 Le=-0.295 rA=0.165 rB=0.235 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c049 3/40 L=-0.210 Lq=-0.0699 Le=-0.288 rA=0.165 rB=0.235 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c049 4/40 L=-0.212 Lq=-0.0687 Le=-0.293 rA=0.166 rB=0.234 a_out=1 u_out=1 mem=21.00962734222412
+p3-rank c049 5/40 L=-0.245 Lq=-0.0868 Le=-0.323 rA=0.157 rB=0.243 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c049 6/40 L=-0.243 Lq=-0.0859 Le=-0.321 rA=0.157 rB=0.243 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c049 7/40 L=-0.251 Lq=-0.0915 Le=-0.327 rA=0.154 rB=0.246 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c049 8/40 L=-0.243 Lq=-0.0888 Le=-0.315 rA=0.156 rB=0.244 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c049 9/40 L=-0.273 Lq=-0.1054 Le=-0.343 rA=0.147 rB=0.253 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c049 10/40 L=-0.276 Lq=-0.1057 Le=-0.348 rA=0.147 rB=0.253 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c049 11/40 L=-0.247 Lq=-0.0878 Le=-0.326 rA=0.156 rB=0.244 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c049 12/40 L=-0.272 Lq=-0.1052 Le=-0.342 rA=0.147 rB=0.253 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c049 13/40 L=-0.280 Lq=-0.1086 Le=-0.350 rA=0.146 rB=0.254 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c049 14/40 L=-0.290 Lq=-0.1152 Le=-0.358 rA=0.142 rB=0.258 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c049 15/40 L=-0.279 Lq=-0.1090 Le=-0.347 rA=0.145 rB=0.255 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c049 16/40 L=-0.283 Lq=-0.1090 Le=-0.357 rA=0.145 rB=0.255 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c049 17/40 L=-0.284 Lq=-0.1108 Le=-0.354 rA=0.145 rB=0.255 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c049 18/40 L=-0.299 Lq=-0.1193 Le=-0.367 rA=0.140 rB=0.260 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c049 19/40 L=-0.305 Lq=-0.1238 Le=-0.371 rA=0.138 rB=0.262 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c049 20/40 L=-0.294 Lq=-0.1167 Le=-0.363 rA=0.142 rB=0.258 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c049 21/40 L=-0.309 Lq=-0.1286 Le=-0.368 rA=0.136 rB=0.264 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c049 22/40 L=-0.308 Lq=-0.1274 Le=-0.369 rA=0.136 rB=0.264 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c049 23/40 L=-0.312 Lq=-0.1323 Le=-0.368 rA=0.134 rB=0.266 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c049 24/40 L=-0.306 Lq=-0.1265 Le=-0.366 rA=0.137 rB=0.263 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c049 25/40 L=-0.299 Lq=-0.1214 Le=-0.363 rA=0.139 rB=0.261 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c049 26/40 L=-0.315 Lq=-0.1330 Le=-0.372 rA=0.134 rB=0.266 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c049 27/40 L=-0.325 Lq=-0.1386 Le=-0.381 rA=0.131 rB=0.269 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c049 28/40 L=-0.335 Lq=-0.1459 Le=-0.388 rA=0.127 rB=0.273 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c049 29/40 L=-0.336 Lq=-0.1472 Le=-0.386 rA=0.126 rB=0.274 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c049 30/40 L=-0.319 Lq=-0.1349 Le=-0.377 rA=0.133 rB=0.267 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c049 31/40 L=-0.336 Lq=-0.1467 Le=-0.388 rA=0.127 rB=0.273 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c049 32/40 L=-0.331 Lq=-0.1415 Le=-0.388 rA=0.129 rB=0.271 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c049 33/40 L=-0.332 Lq=-0.1430 Le=-0.387 rA=0.129 rB=0.271 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c049 34/40 L=-0.332 Lq=-0.1441 Le=-0.385 rA=0.128 rB=0.272 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c049 35/40 L=-0.324 Lq=-0.1405 Le=-0.375 rA=0.130 rB=0.270 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c049 36/40 L=-0.325 Lq=-0.1378 Le=-0.384 rA=0.131 rB=0.269 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c049 37/40 L=-0.338 Lq=-0.1467 Le=-0.392 rA=0.127 rB=0.273 a_out=7 u_out=6 mem=21.00962734222412
+p3-rank c049 38/40 L=-0.334 Lq=-0.1433 Le=-0.391 rA=0.128 rB=0.272 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c049 39/40 L=-0.328 Lq=-0.1400 Le=-0.385 rA=0.130 rB=0.270 a_out=6 u_out=6 mem=21.00962734222412
+p3-rank c049 40/40 L=-0.323 Lq=-0.1367 Le=-0.381 rA=0.132 rB=0.268 a_out=6 u_out=6 mem=21.00962734222412
+== p3-rank attack c051 (10/17) ==
+p3-rank c051 1/40 L=-0.102 Lq=-0.0504 Le=-0.110 rA=0.175 rB=0.225 a_out=0 u_out=0 mem=21.00962734222412
+p3-rank c051 2/40 L=-0.185 Lq=-0.0886 Le=-0.202 rA=0.156 rB=0.244 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c051 3/40 L=-0.188 Lq=-0.0823 Le=-0.220 rA=0.159 rB=0.241 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c051 4/40 L=-0.183 Lq=-0.0787 Le=-0.216 rA=0.161 rB=0.239 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c051 5/40 L=-0.196 Lq=-0.0816 Le=-0.238 rA=0.159 rB=0.241 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c051 6/40 L=-0.208 Lq=-0.0850 Le=-0.255 rA=0.158 rB=0.242 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c051 7/40 L=-0.208 Lq=-0.0903 Le=-0.244 rA=0.155 rB=0.245 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c051 8/40 L=-0.240 Lq=-0.1030 Le=-0.284 rA=0.149 rB=0.251 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c051 9/40 L=-0.233 Lq=-0.0992 Le=-0.277 rA=0.150 rB=0.250 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c051 10/40 L=-0.224 Lq=-0.0951 Le=-0.266 rA=0.152 rB=0.248 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c051 11/40 L=-0.249 Lq=-0.1035 Le=-0.300 rA=0.148 rB=0.252 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c051 12/40 L=-0.234 Lq=-0.0986 Le=-0.279 rA=0.151 rB=0.249 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c051 13/40 L=-0.227 Lq=-0.0962 Le=-0.271 rA=0.152 rB=0.248 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c051 14/40 L=-0.243 Lq=-0.1062 Le=-0.282 rA=0.147 rB=0.253 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c051 15/40 L=-0.235 Lq=-0.1018 Le=-0.276 rA=0.149 rB=0.251 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c051 16/40 L=-0.263 Lq=-0.1168 Le=-0.302 rA=0.142 rB=0.258 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 17/40 L=-0.265 Lq=-0.1174 Le=-0.305 rA=0.141 rB=0.259 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 18/40 L=-0.252 Lq=-0.1114 Le=-0.291 rA=0.144 rB=0.256 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 19/40 L=-0.259 Lq=-0.1146 Le=-0.298 rA=0.143 rB=0.257 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 20/40 L=-0.214 Lq=-0.0871 Le=-0.263 rA=0.156 rB=0.244 a_out=2 u_out=2 mem=21.00962734222412
+p3-rank c051 21/40 L=-0.226 Lq=-0.0923 Le=-0.277 rA=0.154 rB=0.246 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c051 22/40 L=-0.242 Lq=-0.1065 Le=-0.280 rA=0.147 rB=0.253 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 23/40 L=-0.273 Lq=-0.1217 Le=-0.313 rA=0.139 rB=0.261 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 24/40 L=-0.269 Lq=-0.1239 Le=-0.301 rA=0.138 rB=0.262 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c051 25/40 L=-0.269 Lq=-0.1164 Le=-0.316 rA=0.142 rB=0.258 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 26/40 L=-0.235 Lq=-0.1021 Le=-0.276 rA=0.149 rB=0.251 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c051 27/40 L=-0.248 Lq=-0.1084 Le=-0.290 rA=0.146 rB=0.254 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 28/40 L=-0.273 Lq=-0.1221 Le=-0.313 rA=0.139 rB=0.261 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 29/40 L=-0.269 Lq=-0.1144 Le=-0.319 rA=0.143 rB=0.257 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 30/40 L=-0.265 Lq=-0.1150 Le=-0.310 rA=0.142 rB=0.258 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 31/40 L=-0.244 Lq=-0.1027 Le=-0.292 rA=0.149 rB=0.251 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c051 32/40 L=-0.241 Lq=-0.1021 Le=-0.289 rA=0.149 rB=0.251 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c051 33/40 L=-0.237 Lq=-0.1020 Le=-0.279 rA=0.149 rB=0.251 a_out=3 u_out=3 mem=21.00962734222412
+p3-rank c051 34/40 L=-0.262 Lq=-0.1146 Le=-0.305 rA=0.143 rB=0.257 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 35/40 L=-0.261 Lq=-0.1179 Le=-0.297 rA=0.141 rB=0.259 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 36/40 L=-0.277 Lq=-0.1241 Le=-0.315 rA=0.138 rB=0.262 a_out=5 u_out=5 mem=21.00962734222412
+p3-rank c051 37/40 L=-0.261 Lq=-0.1141 Le=-0.303 rA=0.143 rB=0.257 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 38/40 L=-0.263 Lq=-0.1115 Le=-0.312 rA=0.144 rB=0.256 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 39/40 L=-0.256 Lq=-0.1106 Le=-0.302 rA=0.145 rB=0.255 a_out=4 u_out=4 mem=21.00962734222412
+p3-rank c051 40/40 L=-0.254 Lq=-0.1098 Le=-0.298 rA=0.145 rB=0.255 a_out=4 u_out=4 mem=21.00962734222412
+== p3-rank attack c052 (11/17) ==
+p3-rank c052 1/40 L=-0.195 Lq=-0.0711 Le=-0.250 rA=0.164 rB=0.236 a_out=0 u_out=0 mem=21.026111602783203
+p3-rank c052 2/40 L=-0.211 Lq=-0.0711 Le=-0.283 rA=0.164 rB=0.236 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c052 3/40 L=-0.204 Lq=-0.0643 Le=-0.282 rA=0.168 rB=0.232 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c052 4/40 L=-0.208 Lq=-0.0727 Le=-0.274 rA=0.164 rB=0.236 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c052 5/40 L=-0.226 Lq=-0.0758 Le=-0.303 rA=0.162 rB=0.238 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c052 6/40 L=-0.241 Lq=-0.0873 Le=-0.310 rA=0.156 rB=0.244 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c052 7/40 L=-0.213 Lq=-0.0748 Le=-0.281 rA=0.163 rB=0.237 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c052 8/40 L=-0.232 Lq=-0.0789 Le=-0.312 rA=0.161 rB=0.239 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c052 9/40 L=-0.233 Lq=-0.0792 Le=-0.313 rA=0.160 rB=0.240 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c052 10/40 L=-0.235 Lq=-0.0792 Le=-0.318 rA=0.160 rB=0.240 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c052 11/40 L=-0.229 Lq=-0.0778 Le=-0.309 rA=0.161 rB=0.239 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c052 12/40 L=-0.229 Lq=-0.0813 Le=-0.301 rA=0.159 rB=0.241 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c052 13/40 L=-0.260 Lq=-0.0962 Le=-0.334 rA=0.152 rB=0.248 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c052 14/40 L=-0.248 Lq=-0.0895 Le=-0.321 rA=0.155 rB=0.245 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c052 15/40 L=-0.252 Lq=-0.0916 Le=-0.326 rA=0.154 rB=0.246 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c052 16/40 L=-0.252 Lq=-0.0932 Le=-0.323 rA=0.153 rB=0.247 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c052 17/40 L=-0.201 Lq=-0.0716 Le=-0.268 rA=0.164 rB=0.236 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c052 18/40 L=-0.225 Lq=-0.0807 Le=-0.298 rA=0.160 rB=0.240 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c052 19/40 L=-0.222 Lq=-0.0801 Le=-0.292 rA=0.160 rB=0.240 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c052 20/40 L=-0.242 Lq=-0.0857 Le=-0.318 rA=0.157 rB=0.243 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c052 21/40 L=-0.233 Lq=-0.0758 Le=-0.320 rA=0.162 rB=0.238 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c052 22/40 L=-0.255 Lq=-0.0923 Le=-0.331 rA=0.154 rB=0.246 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c052 23/40 L=-0.252 Lq=-0.0898 Le=-0.332 rA=0.155 rB=0.245 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c052 24/40 L=-0.213 Lq=-0.0734 Le=-0.291 rA=0.163 rB=0.237 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c052 25/40 L=-0.257 Lq=-0.0949 Le=-0.330 rA=0.153 rB=0.247 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c052 26/40 L=-0.238 Lq=-0.0815 Le=-0.318 rA=0.159 rB=0.241 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c052 27/40 L=-0.234 Lq=-0.0806 Le=-0.313 rA=0.160 rB=0.240 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c052 28/40 L=-0.206 Lq=-0.0604 Le=-0.298 rA=0.170 rB=0.230 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c052 29/40 L=-0.272 Lq=-0.1008 Le=-0.349 rA=0.150 rB=0.250 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c052 30/40 L=-0.282 Lq=-0.1082 Le=-0.354 rA=0.146 rB=0.254 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c052 31/40 L=-0.251 Lq=-0.0873 Le=-0.336 rA=0.156 rB=0.244 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c052 32/40 L=-0.290 Lq=-0.1119 Le=-0.363 rA=0.144 rB=0.256 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c052 33/40 L=-0.280 Lq=-0.1027 Le=-0.361 rA=0.149 rB=0.251 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c052 34/40 L=-0.283 Lq=-0.1063 Le=-0.361 rA=0.147 rB=0.253 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c052 35/40 L=-0.295 Lq=-0.1139 Le=-0.370 rA=0.143 rB=0.257 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c052 36/40 L=-0.292 Lq=-0.1115 Le=-0.368 rA=0.144 rB=0.256 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c052 37/40 L=-0.302 Lq=-0.1197 Le=-0.371 rA=0.140 rB=0.260 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c052 38/40 L=-0.322 Lq=-0.1289 Le=-0.393 rA=0.136 rB=0.264 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c052 39/40 L=-0.304 Lq=-0.1193 Le=-0.379 rA=0.140 rB=0.260 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c052 40/40 L=-0.312 Lq=-0.1265 Le=-0.381 rA=0.137 rB=0.263 a_out=4 u_out=4 mem=21.03523015975952
+== p3-rank attack c053 (12/17) ==
+p3-rank c053 1/40 L=-0.137 Lq=-0.0373 Le=-0.204 rA=0.181 rB=0.219 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c053 2/40 L=-0.174 Lq=-0.0569 Le=-0.246 rA=0.172 rB=0.228 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c053 3/40 L=-0.220 Lq=-0.0766 Le=-0.299 rA=0.162 rB=0.238 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c053 4/40 L=-0.221 Lq=-0.0801 Le=-0.296 rA=0.160 rB=0.240 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c053 5/40 L=-0.228 Lq=-0.0816 Le=-0.307 rA=0.159 rB=0.241 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c053 6/40 L=-0.252 Lq=-0.0924 Le=-0.333 rA=0.154 rB=0.246 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c053 7/40 L=-0.274 Lq=-0.1039 Le=-0.352 rA=0.148 rB=0.252 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c053 8/40 L=-0.265 Lq=-0.0985 Le=-0.342 rA=0.151 rB=0.249 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c053 9/40 L=-0.294 Lq=-0.1160 Le=-0.370 rA=0.142 rB=0.258 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c053 10/40 L=-0.285 Lq=-0.1116 Le=-0.362 rA=0.144 rB=0.256 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c053 11/40 L=-0.299 Lq=-0.1196 Le=-0.370 rA=0.140 rB=0.260 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c053 12/40 L=-0.298 Lq=-0.1182 Le=-0.370 rA=0.141 rB=0.259 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c053 13/40 L=-0.313 Lq=-0.1274 Le=-0.384 rA=0.136 rB=0.264 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c053 14/40 L=-0.316 Lq=-0.1278 Le=-0.390 rA=0.136 rB=0.264 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c053 15/40 L=-0.331 Lq=-0.1367 Le=-0.398 rA=0.132 rB=0.268 a_out=7 u_out=6 mem=21.03523015975952
+p3-rank c053 16/40 L=-0.323 Lq=-0.1348 Le=-0.392 rA=0.133 rB=0.267 a_out=7 u_out=6 mem=21.03523015975952
+p3-rank c053 17/40 L=-0.333 Lq=-0.1411 Le=-0.397 rA=0.129 rB=0.271 a_out=7 u_out=6 mem=21.03523015975952
+p3-rank c053 18/40 L=-0.305 Lq=-0.1238 Le=-0.373 rA=0.138 rB=0.262 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c053 19/40 L=-0.319 Lq=-0.1316 Le=-0.387 rA=0.134 rB=0.266 a_out=7 u_out=6 mem=21.03523015975952
+p3-rank c053 20/40 L=-0.344 Lq=-0.1477 Le=-0.405 rA=0.126 rB=0.274 a_out=8 u_out=6 mem=21.03523015975952
+p3-rank c053 21/40 L=-0.348 Lq=-0.1503 Le=-0.407 rA=0.125 rB=0.275 a_out=8 u_out=6 mem=21.03523015975952
+p3-rank c053 22/40 L=-0.338 Lq=-0.1453 Le=-0.399 rA=0.127 rB=0.273 a_out=7 u_out=6 mem=21.03523015975952
+p3-rank c053 23/40 L=-0.355 Lq=-0.1550 Le=-0.413 rA=0.123 rB=0.277 a_out=8 u_out=6 mem=21.03523015975952
+p3-rank c053 24/40 L=-0.362 Lq=-0.1587 Le=-0.419 rA=0.121 rB=0.279 a_out=8 u_out=6 mem=21.03523015975952
+p3-rank c053 25/40 L=-0.350 Lq=-0.1516 Le=-0.409 rA=0.124 rB=0.276 a_out=8 u_out=6 mem=21.03523015975952
+p3-rank c053 26/40 L=-0.355 Lq=-0.1534 Le=-0.414 rA=0.123 rB=0.277 a_out=8 u_out=6 mem=21.03523015975952
+p3-rank c053 27/40 L=-0.283 Lq=-0.1092 Le=-0.357 rA=0.145 rB=0.255 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c053 28/40 L=-0.345 Lq=-0.1471 Le=-0.407 rA=0.126 rB=0.274 a_out=8 u_out=6 mem=21.03523015975952
+p3-rank c053 29/40 L=-0.348 Lq=-0.1495 Le=-0.409 rA=0.125 rB=0.275 a_out=8 u_out=6 mem=21.03523015975952
+p3-rank c053 30/40 L=-0.372 Lq=-0.1645 Le=-0.427 rA=0.118 rB=0.282 a_out=9 u_out=6 mem=21.03523015975952
+p3-rank c053 31/40 L=-0.364 Lq=-0.1590 Le=-0.423 rA=0.120 rB=0.280 a_out=8 u_out=6 mem=21.03523015975952
+p3-rank c053 32/40 L=-0.379 Lq=-0.1702 Le=-0.430 rA=0.115 rB=0.285 a_out=9 u_out=6 mem=21.03523015975952
+p3-rank c053 33/40 L=-0.356 Lq=-0.1548 Le=-0.414 rA=0.123 rB=0.277 a_out=8 u_out=6 mem=21.03523015975952
+p3-rank c053 34/40 L=-0.382 Lq=-0.1710 Le=-0.434 rA=0.114 rB=0.286 a_out=9 u_out=6 mem=21.03523015975952
+p3-rank c053 35/40 L=-0.383 Lq=-0.1726 Le=-0.433 rA=0.114 rB=0.286 a_out=9 u_out=6 mem=21.03523015975952
+p3-rank c053 36/40 L=-0.398 Lq=-0.1832 Le=-0.442 rA=0.108 rB=0.292 a_out=10 u_out=6 mem=21.03523015975952
+p3-rank c053 37/40 L=-0.404 Lq=-0.1865 Le=-0.446 rA=0.107 rB=0.293 a_out=10 u_out=6 mem=21.03523015975952
+p3-rank c053 38/40 L=-0.391 Lq=-0.1786 Le=-0.438 rA=0.111 rB=0.289 a_out=10 u_out=6 mem=21.03523015975952
+p3-rank c053 39/40 L=-0.406 Lq=-0.1888 Le=-0.448 rA=0.106 rB=0.294 a_out=10 u_out=6 mem=21.03523015975952
+p3-rank c053 40/40 L=-0.407 Lq=-0.1886 Le=-0.448 rA=0.106 rB=0.294 a_out=10 u_out=6 mem=21.03523015975952
+== p3-rank attack c054 (13/17) ==
+p3-rank c054 1/40 L=-0.123 Lq=-0.0355 Le=-0.177 rA=0.182 rB=0.218 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c054 2/40 L=-0.130 Lq=-0.0406 Le=-0.181 rA=0.180 rB=0.220 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c054 3/40 L=-0.134 Lq=-0.0453 Le=-0.181 rA=0.177 rB=0.223 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c054 4/40 L=-0.168 Lq=-0.0588 Le=-0.222 rA=0.171 rB=0.229 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c054 5/40 L=-0.177 Lq=-0.0570 Le=-0.242 rA=0.172 rB=0.228 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c054 6/40 L=-0.172 Lq=-0.0576 Le=-0.232 rA=0.171 rB=0.229 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c054 7/40 L=-0.187 Lq=-0.0620 Le=-0.253 rA=0.169 rB=0.231 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c054 8/40 L=-0.187 Lq=-0.0677 Le=-0.243 rA=0.166 rB=0.234 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c054 9/40 L=-0.203 Lq=-0.0691 Le=-0.271 rA=0.165 rB=0.235 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c054 10/40 L=-0.190 Lq=-0.0645 Le=-0.254 rA=0.168 rB=0.232 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c054 11/40 L=-0.213 Lq=-0.0762 Le=-0.277 rA=0.162 rB=0.238 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c054 12/40 L=-0.212 Lq=-0.0757 Le=-0.276 rA=0.162 rB=0.238 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c054 13/40 L=-0.232 Lq=-0.0824 Le=-0.304 rA=0.159 rB=0.241 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c054 14/40 L=-0.204 Lq=-0.0699 Le=-0.273 rA=0.165 rB=0.235 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c054 15/40 L=-0.227 Lq=-0.0824 Le=-0.293 rA=0.159 rB=0.241 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c054 16/40 L=-0.212 Lq=-0.0778 Le=-0.273 rA=0.161 rB=0.239 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c054 17/40 L=-0.231 Lq=-0.0830 Le=-0.301 rA=0.159 rB=0.241 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c054 18/40 L=-0.205 Lq=-0.0669 Le=-0.280 rA=0.167 rB=0.233 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c054 19/40 L=-0.215 Lq=-0.0745 Le=-0.286 rA=0.163 rB=0.237 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c054 20/40 L=-0.244 Lq=-0.0884 Le=-0.316 rA=0.156 rB=0.244 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c054 21/40 L=-0.244 Lq=-0.0882 Le=-0.316 rA=0.156 rB=0.244 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c054 22/40 L=-0.241 Lq=-0.0884 Le=-0.310 rA=0.156 rB=0.244 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c054 23/40 L=-0.262 Lq=-0.1007 Le=-0.327 rA=0.150 rB=0.250 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c054 24/40 L=-0.247 Lq=-0.0897 Le=-0.319 rA=0.155 rB=0.245 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c054 25/40 L=-0.231 Lq=-0.0835 Le=-0.299 rA=0.158 rB=0.242 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c054 26/40 L=-0.235 Lq=-0.0858 Le=-0.303 rA=0.157 rB=0.243 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c054 27/40 L=-0.246 Lq=-0.0920 Le=-0.313 rA=0.154 rB=0.246 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c054 28/40 L=-0.238 Lq=-0.0869 Le=-0.307 rA=0.157 rB=0.243 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c054 29/40 L=-0.252 Lq=-0.0925 Le=-0.324 rA=0.154 rB=0.246 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c054 30/40 L=-0.264 Lq=-0.0993 Le=-0.335 rA=0.150 rB=0.250 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c054 31/40 L=-0.250 Lq=-0.0925 Le=-0.320 rA=0.154 rB=0.246 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c054 32/40 L=-0.219 Lq=-0.0766 Le=-0.290 rA=0.162 rB=0.238 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c054 33/40 L=-0.229 Lq=-0.0836 Le=-0.296 rA=0.158 rB=0.242 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c054 34/40 L=-0.238 Lq=-0.0872 Le=-0.306 rA=0.156 rB=0.244 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c054 35/40 L=-0.258 Lq=-0.0957 Le=-0.330 rA=0.152 rB=0.248 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c054 36/40 L=-0.258 Lq=-0.0999 Le=-0.322 rA=0.150 rB=0.250 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c054 37/40 L=-0.270 Lq=-0.1049 Le=-0.336 rA=0.148 rB=0.252 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c054 38/40 L=-0.256 Lq=-0.0960 Le=-0.325 rA=0.152 rB=0.248 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c054 39/40 L=-0.255 Lq=-0.0972 Le=-0.321 rA=0.151 rB=0.249 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c054 40/40 L=-0.253 Lq=-0.0992 Le=-0.313 rA=0.150 rB=0.250 a_out=4 u_out=4 mem=21.03523015975952
+== p3-rank attack c056 (14/17) ==
+p3-rank c056 1/40 L=0.041 Lq=+0.0269 Le=0.024 rA=0.213 rB=0.187 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c056 2/40 L=0.012 Lq=+0.0201 Le=-0.020 rA=0.210 rB=0.190 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c056 3/40 L=-0.027 Lq=+0.0087 Le=-0.075 rA=0.204 rB=0.196 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c056 4/40 L=-0.018 Lq=+0.0063 Le=-0.053 rA=0.203 rB=0.197 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c056 5/40 L=-0.018 Lq=+0.0119 Le=-0.065 rA=0.206 rB=0.194 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c056 6/40 L=-0.061 Lq=-0.0044 Le=-0.118 rA=0.198 rB=0.202 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c056 7/40 L=-0.064 Lq=-0.0096 Le=-0.114 rA=0.195 rB=0.205 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c056 8/40 L=-0.073 Lq=-0.0100 Le=-0.132 rA=0.195 rB=0.205 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c056 9/40 L=-0.086 Lq=-0.0191 Le=-0.139 rA=0.190 rB=0.210 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c056 10/40 L=-0.108 Lq=-0.0182 Le=-0.186 rA=0.191 rB=0.209 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c056 11/40 L=-0.114 Lq=-0.0217 Le=-0.190 rA=0.189 rB=0.211 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c056 12/40 L=-0.102 Lq=-0.0227 Le=-0.163 rA=0.189 rB=0.211 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c056 13/40 L=-0.106 Lq=-0.0207 Le=-0.178 rA=0.190 rB=0.210 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c056 14/40 L=-0.121 Lq=-0.0259 Le=-0.196 rA=0.187 rB=0.213 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c056 15/40 L=-0.056 Lq=+0.0003 Le=-0.118 rA=0.200 rB=0.200 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c056 16/40 L=-0.125 Lq=-0.0304 Le=-0.196 rA=0.185 rB=0.215 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c056 17/40 L=-0.144 Lq=-0.0336 Le=-0.228 rA=0.183 rB=0.217 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c056 18/40 L=-0.126 Lq=-0.0274 Le=-0.203 rA=0.186 rB=0.214 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c056 19/40 L=-0.151 Lq=-0.0389 Le=-0.231 rA=0.181 rB=0.219 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c056 20/40 L=-0.155 Lq=-0.0383 Le=-0.239 rA=0.181 rB=0.219 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c056 21/40 L=-0.165 Lq=-0.0435 Le=-0.249 rA=0.178 rB=0.222 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c056 22/40 L=-0.087 Lq=-0.0186 Le=-0.143 rA=0.191 rB=0.209 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c056 23/40 L=-0.167 Lq=-0.0449 Le=-0.251 rA=0.178 rB=0.222 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c056 24/40 L=-0.161 Lq=-0.0447 Le=-0.239 rA=0.178 rB=0.222 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c056 25/40 L=-0.166 Lq=-0.0436 Le=-0.252 rA=0.178 rB=0.222 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c056 26/40 L=-0.144 Lq=-0.0310 Le=-0.232 rA=0.184 rB=0.216 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c056 27/40 L=-0.131 Lq=-0.0285 Le=-0.211 rA=0.186 rB=0.214 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c056 28/40 L=-0.158 Lq=-0.0400 Le=-0.243 rA=0.180 rB=0.220 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c056 29/40 L=-0.169 Lq=-0.0464 Le=-0.251 rA=0.177 rB=0.223 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c056 30/40 L=-0.190 Lq=-0.0566 Le=-0.273 rA=0.172 rB=0.228 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c056 31/40 L=-0.194 Lq=-0.0561 Le=-0.282 rA=0.172 rB=0.228 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c056 32/40 L=-0.194 Lq=-0.0567 Le=-0.281 rA=0.172 rB=0.228 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c056 33/40 L=-0.196 Lq=-0.0578 Le=-0.284 rA=0.171 rB=0.229 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c056 34/40 L=-0.207 Lq=-0.0626 Le=-0.295 rA=0.169 rB=0.231 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c056 35/40 L=-0.228 Lq=-0.0753 Le=-0.313 rA=0.162 rB=0.238 a_out=7 u_out=7 mem=21.03523015975952
+p3-rank c056 36/40 L=-0.220 Lq=-0.0722 Le=-0.302 rA=0.164 rB=0.236 a_out=7 u_out=7 mem=21.03523015975952
+p3-rank c056 37/40 L=-0.219 Lq=-0.0688 Le=-0.307 rA=0.166 rB=0.234 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c056 38/40 L=-0.231 Lq=-0.0752 Le=-0.318 rA=0.162 rB=0.238 a_out=7 u_out=7 mem=21.03523015975952
+p3-rank c056 39/40 L=-0.221 Lq=-0.0683 Le=-0.312 rA=0.166 rB=0.234 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c056 40/40 L=-0.174 Lq=-0.0514 Le=-0.252 rA=0.174 rB=0.226 a_out=5 u_out=5 mem=21.03523015975952
+== p3-rank attack c057 (15/17) ==
+p3-rank c057 1/40 L=-0.161 Lq=-0.0782 Le=-0.169 rA=0.161 rB=0.239 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 2/40 L=0.011 Lq=-0.0352 Le=0.082 rA=0.182 rB=0.218 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 3/40 L=0.010 Lq=-0.0223 Le=0.053 rA=0.189 rB=0.211 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 4/40 L=-0.069 Lq=-0.0561 Le=-0.034 rA=0.172 rB=0.228 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 5/40 L=-0.061 Lq=-0.0643 Le=0.001 rA=0.168 rB=0.232 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 6/40 L=-0.099 Lq=-0.0677 Le=-0.066 rA=0.166 rB=0.234 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 7/40 L=-0.086 Lq=-0.0709 Le=-0.036 rA=0.165 rB=0.235 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 8/40 L=-0.109 Lq=-0.0686 Le=-0.085 rA=0.166 rB=0.234 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 9/40 L=-0.119 Lq=-0.0658 Le=-0.112 rA=0.167 rB=0.233 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 10/40 L=-0.114 Lq=-0.0626 Le=-0.107 rA=0.169 rB=0.231 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 11/40 L=-0.110 Lq=-0.0715 Le=-0.083 rA=0.164 rB=0.236 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 12/40 L=-0.140 Lq=-0.0751 Le=-0.135 rA=0.162 rB=0.238 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 13/40 L=-0.172 Lq=-0.0869 Le=-0.175 rA=0.157 rB=0.243 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 14/40 L=-0.178 Lq=-0.0902 Le=-0.182 rA=0.155 rB=0.245 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 15/40 L=-0.207 Lq=-0.1007 Le=-0.219 rA=0.150 rB=0.250 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c057 16/40 L=-0.167 Lq=-0.0815 Le=-0.176 rA=0.159 rB=0.241 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 17/40 L=-0.112 Lq=-0.0711 Le=-0.088 rA=0.164 rB=0.236 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 18/40 L=-0.133 Lq=-0.0756 Le=-0.121 rA=0.162 rB=0.238 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 19/40 L=-0.097 Lq=-0.0634 Le=-0.074 rA=0.168 rB=0.232 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 20/40 L=-0.151 Lq=-0.0859 Le=-0.137 rA=0.157 rB=0.243 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 21/40 L=-0.159 Lq=-0.0881 Le=-0.149 rA=0.156 rB=0.244 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 22/40 L=-0.134 Lq=-0.0787 Le=-0.117 rA=0.161 rB=0.239 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 23/40 L=-0.098 Lq=-0.0655 Le=-0.071 rA=0.167 rB=0.233 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 24/40 L=-0.146 Lq=-0.0771 Le=-0.145 rA=0.161 rB=0.239 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 25/40 L=-0.119 Lq=-0.0712 Le=-0.102 rA=0.164 rB=0.236 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 26/40 L=-0.146 Lq=-0.0790 Le=-0.141 rA=0.160 rB=0.240 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 27/40 L=-0.139 Lq=-0.0742 Le=-0.137 rA=0.163 rB=0.237 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 28/40 L=-0.136 Lq=-0.0718 Le=-0.137 rA=0.164 rB=0.236 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 29/40 L=-0.119 Lq=-0.0688 Le=-0.107 rA=0.166 rB=0.234 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 30/40 L=-0.115 Lq=-0.0701 Le=-0.097 rA=0.165 rB=0.235 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 31/40 L=-0.149 Lq=-0.0847 Le=-0.135 rA=0.158 rB=0.242 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 32/40 L=-0.125 Lq=-0.0762 Le=-0.105 rA=0.162 rB=0.238 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 33/40 L=-0.098 Lq=-0.0688 Le=-0.066 rA=0.166 rB=0.234 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 34/40 L=-0.139 Lq=-0.0761 Le=-0.134 rA=0.162 rB=0.238 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 35/40 L=-0.151 Lq=-0.0757 Le=-0.159 rA=0.162 rB=0.238 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 36/40 L=-0.159 Lq=-0.0828 Le=-0.160 rA=0.159 rB=0.241 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 37/40 L=-0.144 Lq=-0.0780 Le=-0.139 rA=0.161 rB=0.239 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 38/40 L=-0.172 Lq=-0.0869 Le=-0.177 rA=0.157 rB=0.243 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 39/40 L=-0.181 Lq=-0.0868 Le=-0.196 rA=0.157 rB=0.243 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c057 40/40 L=-0.172 Lq=-0.0866 Le=-0.178 rA=0.157 rB=0.243 a_out=0 u_out=0 mem=21.03523015975952
+== p3-rank attack c058 (16/17) ==
+p3-rank c058 1/40 L=-0.032 Lq=-0.0261 Le=-0.017 rA=0.187 rB=0.213 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c058 2/40 L=-0.068 Lq=-0.0362 Le=-0.069 rA=0.182 rB=0.218 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c058 3/40 L=-0.091 Lq=-0.0404 Le=-0.107 rA=0.180 rB=0.220 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c058 4/40 L=-0.069 Lq=-0.0312 Le=-0.083 rA=0.184 rB=0.216 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c058 5/40 L=-0.121 Lq=-0.0412 Le=-0.166 rA=0.179 rB=0.221 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c058 6/40 L=-0.135 Lq=-0.0534 Le=-0.170 rA=0.173 rB=0.227 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c058 7/40 L=-0.140 Lq=-0.0535 Le=-0.180 rA=0.173 rB=0.227 a_out=1 u_out=1 mem=21.03523015975952
+p3-rank c058 8/40 L=-0.162 Lq=-0.0642 Le=-0.202 rA=0.168 rB=0.232 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c058 9/40 L=-0.168 Lq=-0.0659 Le=-0.211 rA=0.167 rB=0.233 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c058 10/40 L=-0.164 Lq=-0.0607 Le=-0.215 rA=0.170 rB=0.230 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c058 11/40 L=-0.172 Lq=-0.0672 Le=-0.218 rA=0.166 rB=0.234 a_out=2 u_out=2 mem=21.03523015975952
+p3-rank c058 12/40 L=-0.174 Lq=-0.0695 Le=-0.216 rA=0.165 rB=0.235 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c058 13/40 L=-0.184 Lq=-0.0719 Le=-0.232 rA=0.164 rB=0.236 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c058 14/40 L=-0.165 Lq=-0.0699 Le=-0.198 rA=0.165 rB=0.235 a_out=3 u_out=3 mem=21.03523015975952
+p3-rank c058 15/40 L=-0.213 Lq=-0.0885 Le=-0.256 rA=0.156 rB=0.244 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c058 16/40 L=-0.221 Lq=-0.0921 Le=-0.265 rA=0.154 rB=0.246 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c058 17/40 L=-0.229 Lq=-0.0952 Le=-0.274 rA=0.152 rB=0.248 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c058 18/40 L=-0.217 Lq=-0.0881 Le=-0.266 rA=0.156 rB=0.244 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c058 19/40 L=-0.253 Lq=-0.1069 Le=-0.300 rA=0.147 rB=0.253 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c058 20/40 L=-0.247 Lq=-0.1067 Le=-0.289 rA=0.147 rB=0.253 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c058 21/40 L=-0.237 Lq=-0.1004 Le=-0.281 rA=0.150 rB=0.250 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c058 22/40 L=-0.230 Lq=-0.0974 Le=-0.273 rA=0.151 rB=0.249 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c058 23/40 L=-0.229 Lq=-0.0943 Le=-0.278 rA=0.153 rB=0.247 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c058 24/40 L=-0.246 Lq=-0.1017 Le=-0.296 rA=0.149 rB=0.251 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c058 25/40 L=-0.222 Lq=-0.0925 Le=-0.267 rA=0.154 rB=0.246 a_out=4 u_out=4 mem=21.03523015975952
+p3-rank c058 26/40 L=-0.244 Lq=-0.1054 Le=-0.286 rA=0.147 rB=0.253 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c058 27/40 L=-0.260 Lq=-0.1098 Le=-0.308 rA=0.145 rB=0.255 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c058 28/40 L=-0.280 Lq=-0.1210 Le=-0.326 rA=0.140 rB=0.260 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c058 29/40 L=-0.263 Lq=-0.1121 Le=-0.312 rA=0.144 rB=0.256 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c058 30/40 L=-0.266 Lq=-0.1143 Le=-0.312 rA=0.143 rB=0.257 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c058 31/40 L=-0.255 Lq=-0.1115 Le=-0.296 rA=0.144 rB=0.256 a_out=5 u_out=5 mem=21.03523015975952
+p3-rank c058 32/40 L=-0.282 Lq=-0.1228 Le=-0.326 rA=0.139 rB=0.261 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c058 33/40 L=-0.293 Lq=-0.1272 Le=-0.339 rA=0.136 rB=0.264 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c058 34/40 L=-0.312 Lq=-0.1415 Le=-0.350 rA=0.129 rB=0.271 a_out=7 u_out=7 mem=21.03523015975952
+p3-rank c058 35/40 L=-0.311 Lq=-0.1409 Le=-0.350 rA=0.130 rB=0.270 a_out=7 u_out=7 mem=21.03523015975952
+p3-rank c058 36/40 L=-0.310 Lq=-0.1376 Le=-0.353 rA=0.131 rB=0.269 a_out=7 u_out=7 mem=21.03523015975952
+p3-rank c058 37/40 L=-0.286 Lq=-0.1230 Le=-0.335 rA=0.139 rB=0.261 a_out=6 u_out=6 mem=21.03523015975952
+p3-rank c058 38/40 L=-0.304 Lq=-0.1324 Le=-0.352 rA=0.134 rB=0.266 a_out=7 u_out=7 mem=21.03523015975952
+p3-rank c058 39/40 L=-0.296 Lq=-0.1309 Le=-0.339 rA=0.135 rB=0.265 a_out=7 u_out=7 mem=21.03523015975952
+p3-rank c058 40/40 L=-0.316 Lq=-0.1420 Le=-0.358 rA=0.129 rB=0.271 a_out=7 u_out=7 mem=21.03523015975952
+== p3-rank attack c059 (17/17) ==
+p3-rank c059 1/40 L=0.087 Lq=-0.0503 Le=0.270 rA=0.175 rB=0.225 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c059 2/40 L=0.062 Lq=-0.0516 Le=0.222 rA=0.174 rB=0.226 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c059 3/40 L=0.018 Lq=-0.0508 Le=0.133 rA=0.175 rB=0.225 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c059 4/40 L=0.093 Lq=-0.0472 Le=0.274 rA=0.176 rB=0.224 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c059 5/40 L=-0.018 Lq=-0.0583 Le=0.075 rA=0.171 rB=0.229 a_out=1 u_out=0 mem=21.03523015975952
+p3-rank c059 6/40 L=-0.031 Lq=-0.0523 Le=0.036 rA=0.174 rB=0.226 a_out=0 u_out=0 mem=21.03523015975952
+p3-rank c059 7/40 L=-0.025 Lq=-0.0649 Le=0.072 rA=0.168 rB=0.232 a_out=1 u_out=0 mem=21.03523015975952
+p3-rank c059 8/40 L=-0.104 Lq=-0.0685 Le=-0.080 rA=0.166 rB=0.234 a_out=1 u_out=0 mem=21.03523015975952
+p3-rank c059 9/40 L=-0.047 Lq=-0.0664 Le=0.032 rA=0.167 rB=0.233 a_out=1 u_out=0 mem=21.03523015975952
+p3-rank c059 10/40 L=-0.025 Lq=-0.0675 Le=0.076 rA=0.166 rB=0.234 a_out=1 u_out=0 mem=21.03523015975952
+p3-rank c059 11/40 L=-0.094 Lq=-0.0764 Le=-0.044 rA=0.162 rB=0.238 a_out=2 u_out=0 mem=21.03523015975952
+p3-rank c059 12/40 L=-0.121 Lq=-0.0762 Le=-0.098 rA=0.162 rB=0.238 a_out=2 u_out=0 mem=21.03523015975952
+p3-rank c059 13/40 L=-0.135 Lq=-0.0933 Le=-0.092 rA=0.153 rB=0.247 a_out=3 u_out=0 mem=21.03523015975952
+p3-rank c059 14/40 L=-0.020 Lq=-0.0714 Le=0.096 rA=0.164 rB=0.236 a_out=2 u_out=0 mem=21.03523015975952
+p3-rank c059 15/40 L=-0.010 Lq=-0.0721 Le=0.117 rA=0.164 rB=0.236 a_out=2 u_out=0 mem=21.03523015975952
+p3-rank c059 16/40 L=-0.107 Lq=-0.0797 Le=-0.062 rA=0.160 rB=0.240 a_out=2 u_out=0 mem=21.03523015975952
+p3-rank c059 17/40 L=-0.114 Lq=-0.0847 Le=-0.065 rA=0.158 rB=0.242 a_out=3 u_out=0 mem=21.03523015975952
+p3-rank c059 18/40 L=-0.091 Lq=-0.0756 Le=-0.040 rA=0.162 rB=0.238 a_out=2 u_out=0 mem=21.03523015975952
+p3-rank c059 19/40 L=-0.119 Lq=-0.0871 Le=-0.070 rA=0.156 rB=0.244 a_out=3 u_out=0 mem=21.03523015975952
+p3-rank c059 20/40 L=-0.130 Lq=-0.0923 Le=-0.083 rA=0.154 rB=0.246 a_out=3 u_out=0 mem=21.03523015975952
+p3-rank c059 21/40 L=-0.165 Lq=-0.1080 Le=-0.121 rA=0.146 rB=0.254 a_out=4 u_out=0 mem=21.03523015975952
+p3-rank c059 22/40 L=-0.148 Lq=-0.0929 Le=-0.118 rA=0.154 rB=0.246 a_out=3 u_out=0 mem=21.03523015975952
+p3-rank c059 23/40 L=-0.142 Lq=-0.0967 Le=-0.099 rA=0.152 rB=0.248 a_out=3 u_out=0 mem=21.03523015975952
+p3-rank c059 24/40 L=-0.137 Lq=-0.0982 Le=-0.085 rA=0.151 rB=0.249 a_out=3 u_out=0 mem=21.03523015975952
+p3-rank c059 25/40 L=-0.163 Lq=-0.1031 Le=-0.129 rA=0.148 rB=0.252 a_out=4 u_out=0 mem=21.03523015975952
+p3-rank c059 26/40 L=-0.164 Lq=-0.1024 Le=-0.132 rA=0.149 rB=0.251 a_out=4 u_out=0 mem=21.03523015975952
+p3-rank c059 27/40 L=-0.175 Lq=-0.1029 Le=-0.153 rA=0.149 rB=0.251 a_out=4 u_out=0 mem=21.03523015975952
+p3-rank c059 28/40 L=-0.170 Lq=-0.0958 Le=-0.157 rA=0.152 rB=0.248 a_out=3 u_out=0 mem=21.03523015975952
+p3-rank c059 29/40 L=-0.177 Lq=-0.1038 Le=-0.155 rA=0.148 rB=0.252 a_out=4 u_out=0 mem=21.03523015975952
+p3-rank c059 30/40 L=-0.193 Lq=-0.1105 Le=-0.174 rA=0.145 rB=0.255 a_out=4 u_out=0 mem=21.03523015975952
+p3-rank c059 31/40 L=-0.192 Lq=-0.1115 Le=-0.169 rA=0.144 rB=0.256 a_out=4 u_out=0 mem=21.03523015975952
+p3-rank c059 32/40 L=-0.194 Lq=-0.1177 Le=-0.162 rA=0.141 rB=0.259 a_out=5 u_out=0 mem=21.03523015975952
+p3-rank c059 33/40 L=-0.220 Lq=-0.1282 Le=-0.193 rA=0.136 rB=0.264 a_out=5 u_out=0 mem=21.03523015975952
+p3-rank c059 34/40 L=-0.210 Lq=-0.1248 Le=-0.180 rA=0.138 rB=0.262 a_out=5 u_out=0 mem=21.03523015975952
+p3-rank c059 35/40 L=-0.215 Lq=-0.1219 Le=-0.195 rA=0.139 rB=0.261 a_out=5 u_out=0 mem=21.03523015975952
+p3-rank c059 36/40 L=-0.197 Lq=-0.1156 Le=-0.171 rA=0.142 rB=0.258 a_out=5 u_out=0 mem=21.03523015975952
+p3-rank c059 37/40 L=-0.238 Lq=-0.1419 Le=-0.202 rA=0.129 rB=0.271 a_out=6 u_out=0 mem=21.03523015975952
+p3-rank c059 38/40 L=-0.191 Lq=-0.1181 Le=-0.153 rA=0.141 rB=0.259 a_out=5 u_out=0 mem=21.03523015975952
+p3-rank c059 39/40 L=-0.174 Lq=-0.1095 Le=-0.139 rA=0.145 rB=0.255 a_out=4 u_out=0 mem=21.03523015975952
+p3-rank c059 40/40 L=-0.112 Lq=-0.0939 Le=-0.046 rA=0.153 rB=0.247 a_out=3 u_out=0 mem=21.03523015975952
+{'rank': {'n': 17, 'path': '/root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/coco_plus/p3_rank.json'}}
+{'methods': {'random': {'n': 0}, 'task': {'n': 0}, 'caa': {'n': 0}, 'rank': {'n': 17, 'frac_full_hold': 1.0, 'frac_comp_only_fail': 0.23529411764705882, 'mean_a_out': 5.764705882352941, 'mean_u_out': 4.588235294117647, 'mean_u_evict_rate': 0.6719887955182073, 'n_cof': 4}, 'vcache': {'n': 0}}, 'decision': 'STOP', 'reason': 'V-CachePoll does not clearly beat same-protocol baselines', 'best_other_cof': 0.23529411764705882, 'best_other_u': 0.6719887955182073, 'dataset': 'coco300_standin', 'model': 'Qwen2-VL-7B-Instruct', 'r_base': 0.2, 'eps': 0.06274509803921569, 'steps': 40}
+== done ==
+== p2-attack ==
+resume 0 finished samples
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.32it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.42it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.44it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:02<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.87it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.64it/s]
+== p2 attack c040 (1/17) ==
+p2 c040 1/40 L=0.995 Lq=-0.0493 Le=-0.208 rA=0.175 rB=0.225 a_out=0 u_out=0 mem=20.417827606201172
+p2 c040 2/40 L=0.901 Lq=-0.0572 Le=-0.242 rA=0.171 rB=0.229 a_out=1 u_out=1 mem=20.43858003616333
+p2 c040 3/40 L=0.874 Lq=-0.0687 Le=-0.273 rA=0.166 rB=0.234 a_out=1 u_out=1 mem=20.43858003616333
+p2 c040 4/40 L=0.829 Lq=-0.0783 Le=-0.300 rA=0.161 rB=0.239 a_out=2 u_out=2 mem=20.43858003616333
+p2 c040 5/40 L=0.844 Lq=-0.0725 Le=-0.283 rA=0.164 rB=0.236 a_out=2 u_out=2 mem=20.43858003616333
+p2 c040 6/40 L=0.763 Lq=-0.0870 Le=-0.316 rA=0.157 rB=0.243 a_out=3 u_out=3 mem=20.43858003616333
+p2 c040 7/40 L=0.763 Lq=-0.0858 Le=-0.317 rA=0.157 rB=0.243 a_out=3 u_out=3 mem=20.43858003616333
+p2 c040 8/40 L=0.753 Lq=-0.0894 Le=-0.331 rA=0.155 rB=0.245 a_out=3 u_out=3 mem=20.43858003616333
+p2 c040 9/40 L=0.744 Lq=-0.0951 Le=-0.337 rA=0.152 rB=0.248 a_out=3 u_out=3 mem=20.43858003616333
+p2 c040 10/40 L=0.745 Lq=-0.0965 Le=-0.332 rA=0.152 rB=0.248 a_out=3 u_out=3 mem=20.43858003616333
+p2 c040 11/40 L=0.735 Lq=-0.1007 Le=-0.331 rA=0.150 rB=0.250 a_out=4 u_out=4 mem=20.43858003616333
+p2 c040 12/40 L=0.730 Lq=-0.1006 Le=-0.342 rA=0.150 rB=0.250 a_out=4 u_out=4 mem=20.43858003616333
+p2 c040 13/40 L=0.724 Lq=-0.1049 Le=-0.346 rA=0.148 rB=0.252 a_out=4 u_out=4 mem=20.43858003616333
+p2 c040 14/40 L=0.708 Lq=-0.1124 Le=-0.362 rA=0.144 rB=0.256 a_out=4 u_out=4 mem=20.43858003616333
+p2 c040 15/40 L=0.703 Lq=-0.1152 Le=-0.366 rA=0.142 rB=0.258 a_out=4 u_out=4 mem=20.43858003616333
+p2 c040 16/40 L=0.686 Lq=-0.1168 Le=-0.366 rA=0.142 rB=0.258 a_out=5 u_out=5 mem=20.43858003616333
+p2 c040 17/40 L=0.691 Lq=-0.1170 Le=-0.355 rA=0.142 rB=0.258 a_out=5 u_out=5 mem=20.43858003616333
+p2 c040 18/40 L=0.692 Lq=-0.1170 Le=-0.353 rA=0.141 rB=0.259 a_out=5 u_out=5 mem=20.43858003616333
+p2 c040 19/40 L=0.683 Lq=-0.1208 Le=-0.365 rA=0.140 rB=0.260 a_out=5 u_out=5 mem=20.43858003616333
+p2 c040 20/40 L=0.685 Lq=-0.1173 Le=-0.367 rA=0.141 rB=0.259 a_out=5 u_out=5 mem=20.43858003616333
+p2 c040 21/40 L=0.683 Lq=-0.1182 Le=-0.369 rA=0.141 rB=0.259 a_out=5 u_out=5 mem=20.43858003616333
+p2 c040 22/40 L=0.666 Lq=-0.1299 Le=-0.380 rA=0.135 rB=0.265 a_out=5 u_out=5 mem=20.43858003616333
+p2 c040 23/40 L=0.681 Lq=-0.1205 Le=-0.369 rA=0.140 rB=0.260 a_out=5 u_out=5 mem=20.43858003616333
+p2 c040 24/40 L=0.669 Lq=-0.1266 Le=-0.381 rA=0.137 rB=0.263 a_out=5 u_out=5 mem=20.43858003616333
+p2 c040 25/40 L=0.545 Lq=-0.1387 Le=-0.389 rA=0.131 rB=0.269 a_out=6 u_out=6 mem=20.43858003616333
+p2 c040 26/40 L=0.548 Lq=-0.1372 Le=-0.387 rA=0.131 rB=0.269 a_out=6 u_out=6 mem=20.43858003616333
+p2 c040 27/40 L=0.542 Lq=-0.1409 Le=-0.392 rA=0.130 rB=0.270 a_out=6 u_out=6 mem=20.43858003616333
+p2 c040 28/40 L=0.550 Lq=-0.1341 Le=-0.388 rA=0.133 rB=0.267 a_out=6 u_out=6 mem=20.43858003616333
+p2 c040 29/40 L=0.665 Lq=-0.1295 Le=-0.383 rA=0.135 rB=0.265 a_out=5 u_out=5 mem=20.43858003616333
+p2 c040 30/40 L=0.690 Lq=-0.1171 Le=-0.359 rA=0.141 rB=0.259 a_out=5 u_out=5 mem=20.43858003616333
+p2 c040 31/40 L=0.554 Lq=-0.1317 Le=-0.386 rA=0.134 rB=0.266 a_out=6 u_out=6 mem=20.43858003616333
+p2 c040 32/40 L=0.483 Lq=-0.1483 Le=-0.398 rA=0.126 rB=0.274 a_out=7 u_out=6 mem=20.43858003616333
+p2 c040 33/40 L=0.477 Lq=-0.1498 Le=-0.407 rA=0.125 rB=0.275 a_out=7 u_out=6 mem=20.43858003616333
+p2 c040 34/40 L=0.479 Lq=-0.1498 Le=-0.405 rA=0.125 rB=0.275 a_out=7 u_out=6 mem=20.43858003616333
+p2 c040 35/40 L=0.368 Lq=-0.1666 Le=-0.413 rA=0.117 rB=0.283 a_out=8 u_out=6 mem=20.43858003616333
+p2 c040 36/40 L=0.465 Lq=-0.1601 Le=-0.412 rA=0.120 rB=0.280 a_out=7 u_out=6 mem=20.43858003616333
+p2 c040 37/40 L=0.537 Lq=-0.1439 Le=-0.394 rA=0.128 rB=0.272 a_out=6 u_out=6 mem=20.43858003616333
+p2 c040 38/40 L=0.536 Lq=-0.1454 Le=-0.394 rA=0.127 rB=0.273 a_out=6 u_out=6 mem=20.43858003616333
+p2 c040 39/40 L=0.543 Lq=-0.1403 Le=-0.391 rA=0.130 rB=0.270 a_out=6 u_out=6 mem=20.43858003616333
+p2 c040 40/40 L=0.546 Lq=-0.1389 Le=-0.388 rA=0.131 rB=0.269 a_out=6 u_out=6 mem=20.43858003616333
+== p2 attack c041 (2/17) ==
+p2 c041 1/40 L=1.338 Lq=-0.0486 Le=-0.172 rA=0.176 rB=0.224 a_out=0 u_out=0 mem=20.43858003616333
+p2 c041 2/40 L=1.199 Lq=-0.0611 Le=-0.228 rA=0.169 rB=0.231 a_out=1 u_out=1 mem=20.43858003616333
+p2 c041 3/40 L=1.187 Lq=-0.0666 Le=-0.241 rA=0.167 rB=0.233 a_out=1 u_out=1 mem=20.43858003616333
+p2 c041 4/40 L=1.122 Lq=-0.0796 Le=-0.255 rA=0.160 rB=0.240 a_out=2 u_out=2 mem=20.43858003616333
+p2 c041 5/40 L=1.109 Lq=-0.0812 Le=-0.277 rA=0.159 rB=0.241 a_out=2 u_out=2 mem=20.43858003616333
+p2 c041 6/40 L=1.019 Lq=-0.0907 Le=-0.294 rA=0.155 rB=0.245 a_out=3 u_out=3 mem=20.43858003616333
+p2 c041 7/40 L=1.016 Lq=-0.0951 Le=-0.291 rA=0.152 rB=0.248 a_out=3 u_out=3 mem=20.43858003616333
+p2 c041 8/40 L=1.001 Lq=-0.1004 Le=-0.310 rA=0.150 rB=0.250 a_out=3 u_out=3 mem=20.43858003616333
+p2 c041 9/40 L=0.783 Lq=-0.1066 Le=-0.313 rA=0.147 rB=0.253 a_out=4 u_out=4 mem=20.43858003616333
+p2 c041 10/40 L=0.772 Lq=-0.1113 Le=-0.325 rA=0.144 rB=0.256 a_out=4 u_out=4 mem=20.43858003616333
+p2 c041 11/40 L=0.770 Lq=-0.1124 Le=-0.328 rA=0.144 rB=0.256 a_out=4 u_out=4 mem=20.43858003616333
+p2 c041 12/40 L=0.772 Lq=-0.1113 Le=-0.326 rA=0.144 rB=0.256 a_out=4 u_out=4 mem=20.43858003616333
+p2 c041 13/40 L=0.723 Lq=-0.1240 Le=-0.352 rA=0.138 rB=0.262 a_out=5 u_out=5 mem=20.43858003616333
+p2 c041 14/40 L=0.715 Lq=-0.1288 Le=-0.357 rA=0.136 rB=0.264 a_out=5 u_out=5 mem=20.43858003616333
+p2 c041 15/40 L=0.662 Lq=-0.1400 Le=-0.365 rA=0.130 rB=0.270 a_out=6 u_out=6 mem=20.43858003616333
+p2 c041 16/40 L=0.657 Lq=-0.1402 Le=-0.374 rA=0.130 rB=0.270 a_out=6 u_out=6 mem=20.43858003616333
+p2 c041 17/40 L=0.660 Lq=-0.1389 Le=-0.370 rA=0.131 rB=0.269 a_out=6 u_out=6 mem=20.43858003616333
+p2 c041 18/40 L=0.652 Lq=-0.1434 Le=-0.378 rA=0.128 rB=0.272 a_out=6 u_out=6 mem=20.43858003616333
+p2 c041 19/40 L=0.656 Lq=-0.1420 Le=-0.371 rA=0.129 rB=0.271 a_out=6 u_out=6 mem=20.43858003616333
+p2 c041 20/40 L=0.651 Lq=-0.1451 Le=-0.376 rA=0.127 rB=0.273 a_out=6 u_out=6 mem=20.43858003616333
+p2 c041 21/40 L=0.574 Lq=-0.1558 Le=-0.390 rA=0.122 rB=0.278 a_out=7 u_out=7 mem=20.43858003616333
+p2 c041 22/40 L=0.571 Lq=-0.1571 Le=-0.394 rA=0.121 rB=0.279 a_out=7 u_out=7 mem=20.43858003616333
+p2 c041 23/40 L=0.567 Lq=-0.1599 Le=-0.398 rA=0.120 rB=0.280 a_out=7 u_out=7 mem=20.43858003616333
+p2 c041 24/40 L=0.560 Lq=-0.1642 Le=-0.403 rA=0.118 rB=0.282 a_out=7 u_out=7 mem=20.43858003616333
+p2 c041 25/40 L=0.567 Lq=-0.1602 Le=-0.396 rA=0.120 rB=0.280 a_out=7 u_out=7 mem=20.43858003616333
+p2 c041 26/40 L=0.574 Lq=-0.1558 Le=-0.391 rA=0.122 rB=0.278 a_out=7 u_out=7 mem=20.43858003616333
+p2 c041 27/40 L=0.644 Lq=-0.1498 Le=-0.381 rA=0.125 rB=0.275 a_out=6 u_out=6 mem=20.43858003616333
+p2 c041 28/40 L=0.556 Lq=-0.1667 Le=-0.404 rA=0.117 rB=0.283 a_out=7 u_out=7 mem=20.43858003616333
+p2 c041 29/40 L=0.554 Lq=-0.1673 Le=-0.407 rA=0.116 rB=0.284 a_out=7 u_out=7 mem=20.43858003616333
+p2 c041 30/40 L=0.564 Lq=-0.1620 Le=-0.399 rA=0.119 rB=0.281 a_out=7 u_out=7 mem=20.43858003616333
+p2 c041 31/40 L=0.571 Lq=-0.1579 Le=-0.394 rA=0.121 rB=0.279 a_out=7 u_out=7 mem=20.43858003616333
+p2 c041 32/40 L=0.361 Lq=-0.1772 Le=-0.415 rA=0.111 rB=0.289 a_out=8 u_out=8 mem=20.43858003616333
+p2 c041 33/40 L=0.352 Lq=-0.1832 Le=-0.420 rA=0.108 rB=0.292 a_out=8 u_out=8 mem=20.43858003616333
+p2 c041 34/40 L=0.349 Lq=-0.1851 Le=-0.422 rA=0.107 rB=0.293 a_out=8 u_out=8 mem=20.43858003616333
+p2 c041 35/40 L=0.296 Lq=-0.1963 Le=-0.432 rA=0.102 rB=0.298 a_out=9 u_out=9 mem=20.43858003616333
+p2 c041 36/40 L=0.299 Lq=-0.1938 Le=-0.429 rA=0.103 rB=0.297 a_out=9 u_out=9 mem=20.43858003616333
+p2 c041 37/40 L=0.298 Lq=-0.1947 Le=-0.431 rA=0.103 rB=0.297 a_out=9 u_out=9 mem=20.43858003616333
+p2 c041 38/40 L=0.297 Lq=-0.1942 Le=-0.434 rA=0.103 rB=0.297 a_out=9 u_out=9 mem=20.43858003616333
+p2 c041 39/40 L=0.308 Lq=-0.1880 Le=-0.423 rA=0.106 rB=0.294 a_out=9 u_out=9 mem=20.43858003616333
+p2 c041 40/40 L=0.277 Lq=-0.2031 Le=-0.437 rA=0.098 rB=0.302 a_out=10 u_out=10 mem=20.43858003616333
+== p2 attack c042 (3/17) ==
+p2 c042 1/40 L=1.111 Lq=-0.0569 Le=-0.122 rA=0.172 rB=0.228 a_out=0 u_out=0 mem=20.43858003616333
+p2 c042 2/40 L=0.977 Lq=-0.0672 Le=-0.167 rA=0.166 rB=0.234 a_out=1 u_out=1 mem=20.43858003616333
+p2 c042 3/40 L=0.981 Lq=-0.0612 Le=-0.173 rA=0.169 rB=0.231 a_out=1 u_out=1 mem=20.43858003616333
+p2 c042 4/40 L=0.875 Lq=-0.0747 Le=-0.209 rA=0.163 rB=0.237 a_out=2 u_out=2 mem=20.43858003616333
+p2 c042 5/40 L=0.813 Lq=-0.0941 Le=-0.239 rA=0.153 rB=0.247 a_out=3 u_out=3 mem=20.43858003616333
+p2 c042 6/40 L=0.808 Lq=-0.0922 Le=-0.254 rA=0.154 rB=0.246 a_out=3 u_out=3 mem=20.43858003616333
+p2 c042 7/40 L=0.790 Lq=-0.0977 Le=-0.278 rA=0.151 rB=0.249 a_out=3 u_out=3 mem=20.43858003616333
+p2 c042 8/40 L=0.798 Lq=-0.0943 Le=-0.271 rA=0.153 rB=0.247 a_out=3 u_out=3 mem=20.43858003616333
+p2 c042 9/40 L=0.788 Lq=-0.0986 Le=-0.281 rA=0.151 rB=0.249 a_out=3 u_out=3 mem=20.43858003616333
+p2 c042 10/40 L=0.791 Lq=-0.0969 Le=-0.280 rA=0.152 rB=0.248 a_out=3 u_out=3 mem=20.43858003616333
+p2 c042 11/40 L=0.694 Lq=-0.1122 Le=-0.310 rA=0.144 rB=0.256 a_out=4 u_out=4 mem=20.43858003616333
+p2 c042 12/40 L=0.781 Lq=-0.1004 Le=-0.291 rA=0.150 rB=0.250 a_out=3 u_out=3 mem=20.43858003616333
+p2 c042 13/40 L=0.835 Lq=-0.0883 Le=-0.263 rA=0.156 rB=0.244 a_out=2 u_out=2 mem=20.43858003616333
+p2 c042 14/40 L=0.784 Lq=-0.1005 Le=-0.285 rA=0.150 rB=0.250 a_out=3 u_out=3 mem=20.43858003616333
+p2 c042 15/40 L=0.700 Lq=-0.1088 Le=-0.304 rA=0.146 rB=0.254 a_out=4 u_out=4 mem=20.43858003616333
+p2 c042 16/40 L=0.774 Lq=-0.1036 Le=-0.299 rA=0.148 rB=0.252 a_out=3 u_out=3 mem=20.43858003616333
+p2 c042 17/40 L=0.697 Lq=-0.1094 Le=-0.309 rA=0.145 rB=0.255 a_out=4 u_out=4 mem=20.43858003616333
+p2 c042 18/40 L=0.683 Lq=-0.1184 Le=-0.318 rA=0.141 rB=0.259 a_out=4 u_out=4 mem=20.43858003616333
+p2 c042 19/40 L=0.705 Lq=-0.1067 Le=-0.299 rA=0.147 rB=0.253 a_out=4 u_out=4 mem=20.43858003616333
+p2 c042 20/40 L=0.696 Lq=-0.1108 Le=-0.307 rA=0.145 rB=0.255 a_out=4 u_out=4 mem=20.43858003616333
+p2 c042 21/40 L=0.613 Lq=-0.1227 Le=-0.331 rA=0.139 rB=0.261 a_out=5 u_out=5 mem=20.43858003616333
+p2 c042 22/40 L=0.610 Lq=-0.1239 Le=-0.336 rA=0.138 rB=0.262 a_out=5 u_out=5 mem=20.43858003616333
+p2 c042 23/40 L=0.591 Lq=-0.1328 Le=-0.355 rA=0.134 rB=0.266 a_out=5 u_out=5 mem=20.43858003616333
+p2 c042 24/40 L=0.595 Lq=-0.1334 Le=-0.346 rA=0.133 rB=0.267 a_out=5 u_out=5 mem=20.43858003616333
+p2 c042 25/40 L=0.594 Lq=-0.1335 Le=-0.348 rA=0.133 rB=0.267 a_out=5 u_out=5 mem=20.43858003616333
+p2 c042 26/40 L=0.601 Lq=-0.1283 Le=-0.344 rA=0.136 rB=0.264 a_out=5 u_out=5 mem=20.43858003616333
+p2 c042 27/40 L=0.586 Lq=-0.1370 Le=-0.356 rA=0.131 rB=0.269 a_out=5 u_out=5 mem=20.43858003616333
+p2 c042 28/40 L=0.597 Lq=-0.1308 Le=-0.348 rA=0.135 rB=0.265 a_out=5 u_out=5 mem=20.43858003616333
+p2 c042 29/40 L=0.598 Lq=-0.1302 Le=-0.346 rA=0.135 rB=0.265 a_out=5 u_out=5 mem=20.43858003616333
+p2 c042 30/40 L=0.586 Lq=-0.1357 Le=-0.359 rA=0.132 rB=0.268 a_out=5 u_out=5 mem=20.43858003616333
+p2 c042 31/40 L=0.572 Lq=-0.1386 Le=-0.363 rA=0.131 rB=0.269 a_out=6 u_out=6 mem=20.43858003616333
+p2 c042 32/40 L=0.558 Lq=-0.1474 Le=-0.373 rA=0.126 rB=0.274 a_out=6 u_out=6 mem=20.43858003616333
+p2 c042 33/40 L=0.556 Lq=-0.1479 Le=-0.375 rA=0.126 rB=0.274 a_out=6 u_out=6 mem=20.43858003616333
+p2 c042 34/40 L=0.557 Lq=-0.1498 Le=-0.371 rA=0.125 rB=0.275 a_out=6 u_out=6 mem=20.43858003616333
+p2 c042 35/40 L=0.560 Lq=-0.1461 Le=-0.372 rA=0.127 rB=0.273 a_out=6 u_out=6 mem=20.43858003616333
+p2 c042 36/40 L=0.416 Lq=-0.1582 Le=-0.387 rA=0.121 rB=0.279 a_out=7 u_out=6 mem=20.43858003616333
+p2 c042 37/40 L=0.422 Lq=-0.1546 Le=-0.381 rA=0.123 rB=0.277 a_out=7 u_out=6 mem=20.43858003616333
+p2 c042 38/40 L=0.408 Lq=-0.1632 Le=-0.392 rA=0.118 rB=0.282 a_out=7 u_out=6 mem=20.43858003616333
+p2 c042 39/40 L=0.406 Lq=-0.1642 Le=-0.395 rA=0.118 rB=0.282 a_out=7 u_out=6 mem=20.43858003616333
+p2 c042 40/40 L=0.410 Lq=-0.1622 Le=-0.391 rA=0.119 rB=0.281 a_out=7 u_out=6 mem=20.43858003616333
+== p2 attack c043 (4/17) ==
+p2 c043 1/40 L=1.027 Lq=-0.0478 Le=-0.136 rA=0.176 rB=0.224 a_out=0 u_out=0 mem=20.866785049438477
+p2 c043 2/40 L=0.903 Lq=-0.0678 Le=-0.182 rA=0.166 rB=0.234 a_out=1 u_out=1 mem=20.87661123275757
+p2 c043 3/40 L=0.902 Lq=-0.0671 Le=-0.186 rA=0.166 rB=0.234 a_out=1 u_out=1 mem=20.87661123275757
+p2 c043 4/40 L=0.870 Lq=-0.0834 Le=-0.211 rA=0.158 rB=0.242 a_out=2 u_out=2 mem=20.87661123275757
+p2 c043 5/40 L=0.911 Lq=-0.0647 Le=-0.172 rA=0.168 rB=0.232 a_out=1 u_out=1 mem=20.87661123275757
+p2 c043 6/40 L=0.872 Lq=-0.0744 Le=-0.225 rA=0.163 rB=0.237 a_out=2 u_out=2 mem=20.87661123275757
+p2 c043 7/40 L=0.890 Lq=-0.0719 Le=-0.200 rA=0.164 rB=0.236 a_out=1 u_out=1 mem=20.87661123275757
+p2 c043 8/40 L=0.863 Lq=-0.0815 Le=-0.230 rA=0.159 rB=0.241 a_out=2 u_out=2 mem=20.87661123275757
+p2 c043 9/40 L=0.859 Lq=-0.0776 Le=-0.244 rA=0.161 rB=0.239 a_out=2 u_out=2 mem=20.87661123275757
+p2 c043 10/40 L=0.872 Lq=-0.0770 Le=-0.220 rA=0.162 rB=0.238 a_out=2 u_out=2 mem=20.87661123275757
+p2 c043 11/40 L=0.875 Lq=-0.0741 Le=-0.220 rA=0.163 rB=0.237 a_out=2 u_out=2 mem=20.87661123275757
+p2 c043 12/40 L=0.878 Lq=-0.0743 Le=-0.212 rA=0.163 rB=0.237 a_out=2 u_out=2 mem=20.87661123275757
+p2 c043 13/40 L=0.854 Lq=-0.0830 Le=-0.244 rA=0.158 rB=0.242 a_out=2 u_out=2 mem=20.87661123275757
+p2 c043 14/40 L=0.883 Lq=-0.0774 Le=-0.197 rA=0.161 rB=0.239 a_out=2 u_out=2 mem=20.87661123275757
+p2 c043 15/40 L=0.895 Lq=-0.0707 Le=-0.196 rA=0.165 rB=0.235 a_out=1 u_out=1 mem=20.87661123275757
+p2 c043 16/40 L=0.892 Lq=-0.0737 Le=-0.191 rA=0.163 rB=0.237 a_out=2 u_out=2 mem=20.87661123275757
+p2 c043 17/40 L=0.879 Lq=-0.0804 Le=-0.204 rA=0.160 rB=0.240 a_out=2 u_out=2 mem=20.87661123275757
+p2 c043 18/40 L=0.894 Lq=-0.0738 Le=-0.186 rA=0.163 rB=0.237 a_out=2 u_out=2 mem=20.87661123275757
+p2 c043 19/40 L=0.890 Lq=-0.0749 Le=-0.192 rA=0.163 rB=0.237 a_out=2 u_out=2 mem=20.87661123275757
+p2 c043 20/40 L=1.048 Lq=-0.0533 Le=-0.088 rA=0.173 rB=0.227 a_out=0 u_out=0 mem=20.87661123275757
+p2 c043 21/40 L=0.912 Lq=-0.0643 Le=-0.172 rA=0.168 rB=0.232 a_out=1 u_out=1 mem=20.87661123275757
+p2 c043 22/40 L=0.897 Lq=-0.0667 Le=-0.199 rA=0.167 rB=0.233 a_out=1 u_out=1 mem=20.87661123275757
+p2 c043 23/40 L=0.870 Lq=-0.0802 Le=-0.220 rA=0.160 rB=0.240 a_out=2 u_out=2 mem=20.87661123275757
+p2 c043 24/40 L=0.823 Lq=-0.0895 Le=-0.234 rA=0.155 rB=0.245 a_out=3 u_out=3 mem=20.87661123275757
+p2 c043 25/40 L=0.804 Lq=-0.0890 Le=-0.273 rA=0.156 rB=0.244 a_out=3 u_out=3 mem=20.87661123275757
+p2 c043 26/40 L=0.752 Lq=-0.1016 Le=-0.283 rA=0.149 rB=0.251 a_out=4 u_out=4 mem=20.87661123275757
+p2 c043 27/40 L=0.793 Lq=-0.0988 Le=-0.276 rA=0.151 rB=0.249 a_out=3 u_out=3 mem=20.87661123275757
+p2 c043 28/40 L=0.793 Lq=-0.0981 Le=-0.277 rA=0.151 rB=0.249 a_out=3 u_out=3 mem=20.87661123275757
+p2 c043 29/40 L=0.748 Lq=-0.1037 Le=-0.289 rA=0.148 rB=0.252 a_out=4 u_out=4 mem=20.87661123275757
+p2 c043 30/40 L=0.787 Lq=-0.0999 Le=-0.287 rA=0.150 rB=0.250 a_out=3 u_out=3 mem=20.87661123275757
+p2 c043 31/40 L=0.710 Lq=-0.1158 Le=-0.311 rA=0.142 rB=0.258 a_out=5 u_out=5 mem=20.87661123275757
+p2 c043 32/40 L=0.792 Lq=-0.0971 Le=-0.283 rA=0.151 rB=0.249 a_out=3 u_out=3 mem=20.87661123275757
+p2 c043 33/40 L=0.737 Lq=-0.1070 Le=-0.302 rA=0.146 rB=0.254 a_out=4 u_out=4 mem=20.87661123275757
+p2 c043 34/40 L=0.791 Lq=-0.0968 Le=-0.283 rA=0.152 rB=0.248 a_out=3 u_out=3 mem=20.87661123275757
+p2 c043 35/40 L=0.791 Lq=-0.0979 Le=-0.281 rA=0.151 rB=0.249 a_out=3 u_out=3 mem=20.87661123275757
+p2 c043 36/40 L=0.734 Lq=-0.1069 Le=-0.309 rA=0.147 rB=0.253 a_out=4 u_out=4 mem=20.87661123275757
+p2 c043 37/40 L=0.701 Lq=-0.1197 Le=-0.320 rA=0.140 rB=0.260 a_out=5 u_out=5 mem=20.87661123275757
+p2 c043 38/40 L=0.700 Lq=-0.1196 Le=-0.325 rA=0.140 rB=0.260 a_out=5 u_out=5 mem=20.87661123275757
+p2 c043 39/40 L=0.694 Lq=-0.1256 Le=-0.324 rA=0.137 rB=0.263 a_out=5 u_out=5 mem=20.87661123275757
+p2 c043 40/40 L=0.696 Lq=-0.1213 Le=-0.329 rA=0.139 rB=0.261 a_out=5 u_out=5 mem=20.87661123275757
+== p2 attack c045 (5/17) ==
+p2 c045 1/40 L=1.000 Lq=-0.0640 Le=-0.193 rA=0.168 rB=0.232 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 2/40 L=0.921 Lq=-0.0714 Le=-0.207 rA=0.164 rB=0.236 a_out=1 u_out=1 mem=20.87661123275757
+p2 c045 3/40 L=1.025 Lq=-0.0627 Le=-0.148 rA=0.169 rB=0.231 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 4/40 L=1.122 Lq=-0.0513 Le=-0.095 rA=0.174 rB=0.226 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 5/40 L=1.016 Lq=-0.0603 Le=-0.172 rA=0.170 rB=0.230 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 6/40 L=0.933 Lq=-0.0696 Le=-0.190 rA=0.165 rB=0.235 a_out=1 u_out=1 mem=20.87661123275757
+p2 c045 7/40 L=1.004 Lq=-0.0599 Le=-0.198 rA=0.170 rB=0.230 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 8/40 L=1.000 Lq=-0.0599 Le=-0.203 rA=0.170 rB=0.230 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 9/40 L=0.915 Lq=-0.0765 Le=-0.215 rA=0.162 rB=0.238 a_out=1 u_out=1 mem=20.87661123275757
+p2 c045 10/40 L=1.004 Lq=-0.0673 Le=-0.183 rA=0.166 rB=0.234 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 11/40 L=0.989 Lq=-0.0646 Le=-0.221 rA=0.168 rB=0.232 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 12/40 L=0.999 Lq=-0.0652 Le=-0.200 rA=0.167 rB=0.233 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 13/40 L=0.993 Lq=-0.0655 Le=-0.207 rA=0.167 rB=0.233 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 14/40 L=1.012 Lq=-0.0598 Le=-0.180 rA=0.170 rB=0.230 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 15/40 L=0.997 Lq=-0.0648 Le=-0.200 rA=0.168 rB=0.232 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 16/40 L=0.898 Lq=-0.0779 Le=-0.242 rA=0.161 rB=0.239 a_out=1 u_out=1 mem=20.87661123275757
+p2 c045 17/40 L=0.988 Lq=-0.0649 Le=-0.217 rA=0.168 rB=0.232 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 18/40 L=1.005 Lq=-0.0620 Le=-0.190 rA=0.169 rB=0.231 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 19/40 L=1.094 Lq=-0.0509 Le=-0.151 rA=0.175 rB=0.225 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 20/40 L=0.995 Lq=-0.0674 Le=-0.202 rA=0.166 rB=0.234 a_out=0 u_out=0 mem=20.87661123275757
+p2 c045 21/40 L=0.900 Lq=-0.0813 Le=-0.233 rA=0.159 rB=0.241 a_out=1 u_out=1 mem=20.87661123275757
+p2 c045 22/40 L=0.919 Lq=-0.0702 Le=-0.216 rA=0.165 rB=0.235 a_out=1 u_out=1 mem=20.87661123275757
+p2 c045 23/40 L=0.892 Lq=-0.0840 Le=-0.243 rA=0.158 rB=0.242 a_out=1 u_out=1 mem=20.87661123275757
+p2 c045 24/40 L=0.905 Lq=-0.0793 Le=-0.226 rA=0.160 rB=0.240 a_out=1 u_out=1 mem=20.87661123275757
+p2 c045 25/40 L=0.777 Lq=-0.0933 Le=-0.295 rA=0.153 rB=0.247 a_out=2 u_out=2 mem=20.87661123275757
+p2 c045 26/40 L=0.804 Lq=-0.0865 Le=-0.251 rA=0.157 rB=0.243 a_out=2 u_out=2 mem=20.87661123275757
+p2 c045 27/40 L=0.913 Lq=-0.0721 Le=-0.223 rA=0.164 rB=0.236 a_out=1 u_out=1 mem=20.87661123275757
+p2 c045 28/40 L=0.888 Lq=-0.0805 Le=-0.257 rA=0.160 rB=0.240 a_out=1 u_out=1 mem=20.87661123275757
+p2 c045 29/40 L=0.902 Lq=-0.0757 Le=-0.239 rA=0.162 rB=0.238 a_out=1 u_out=1 mem=20.87661123275757
+p2 c045 30/40 L=0.804 Lq=-0.0902 Le=-0.241 rA=0.155 rB=0.245 a_out=2 u_out=2 mem=20.87661123275757
+p2 c045 31/40 L=0.757 Lq=-0.1025 Le=-0.287 rA=0.149 rB=0.251 a_out=3 u_out=3 mem=20.87661123275757
+p2 c045 32/40 L=0.892 Lq=-0.0768 Le=-0.261 rA=0.162 rB=0.238 a_out=1 u_out=1 mem=20.87661123275757
+p2 c045 33/40 L=0.891 Lq=-0.0774 Le=-0.261 rA=0.161 rB=0.239 a_out=1 u_out=1 mem=20.87661123275757
+p2 c045 34/40 L=0.793 Lq=-0.0931 Le=-0.262 rA=0.153 rB=0.247 a_out=2 u_out=2 mem=20.87661123275757
+p2 c045 35/40 L=0.799 Lq=-0.0863 Le=-0.263 rA=0.157 rB=0.243 a_out=2 u_out=2 mem=20.87661123275757
+p2 c045 36/40 L=0.794 Lq=-0.0884 Le=-0.268 rA=0.156 rB=0.244 a_out=2 u_out=2 mem=20.87661123275757
+p2 c045 37/40 L=0.799 Lq=-0.0873 Le=-0.262 rA=0.156 rB=0.244 a_out=2 u_out=2 mem=20.87661123275757
+p2 c045 38/40 L=0.790 Lq=-0.0863 Le=-0.280 rA=0.157 rB=0.243 a_out=2 u_out=2 mem=20.87661123275757
+p2 c045 39/40 L=0.751 Lq=-0.1022 Le=-0.302 rA=0.149 rB=0.251 a_out=3 u_out=3 mem=20.87661123275757
+p2 c045 40/40 L=0.873 Lq=-0.0836 Le=-0.285 rA=0.158 rB=0.242 a_out=1 u_out=1 mem=20.87661123275757
+== p2 attack c046 (6/17) ==
+p2 c046 1/40 L=1.705 Lq=-0.0498 Le=-0.065 rA=0.175 rB=0.225 a_out=0 u_out=0 mem=20.87661123275757
+p2 c046 2/40 L=1.676 Lq=-0.0520 Le=-0.119 rA=0.174 rB=0.226 a_out=0 u_out=0 mem=20.87661123275757
+p2 c046 3/40 L=1.581 Lq=-0.0719 Le=-0.157 rA=0.164 rB=0.236 a_out=1 u_out=0 mem=20.87661123275757
+p2 c046 4/40 L=1.571 Lq=-0.0690 Le=-0.181 rA=0.166 rB=0.234 a_out=1 u_out=0 mem=20.87661123275757
+p2 c046 5/40 L=1.606 Lq=-0.0626 Le=-0.124 rA=0.169 rB=0.231 a_out=1 u_out=0 mem=20.87661123275757
+p2 c046 6/40 L=1.591 Lq=-0.0612 Le=-0.159 rA=0.169 rB=0.231 a_out=1 u_out=0 mem=20.87661123275757
+p2 c046 7/40 L=1.543 Lq=-0.0761 Le=-0.172 rA=0.162 rB=0.238 a_out=2 u_out=0 mem=20.87661123275757
+p2 c046 8/40 L=1.529 Lq=-0.0779 Le=-0.198 rA=0.161 rB=0.239 a_out=2 u_out=0 mem=20.87661123275757
+p2 c046 9/40 L=1.523 Lq=-0.0818 Le=-0.201 rA=0.159 rB=0.241 a_out=2 u_out=0 mem=20.87661123275757
+p2 c046 10/40 L=1.510 Lq=-0.0903 Le=-0.211 rA=0.155 rB=0.245 a_out=2 u_out=0 mem=20.87661123275757
+p2 c046 11/40 L=1.433 Lq=-0.0930 Le=-0.238 rA=0.154 rB=0.246 a_out=3 u_out=0 mem=20.87661123275757
+p2 c046 12/40 L=1.421 Lq=-0.0992 Le=-0.250 rA=0.150 rB=0.250 a_out=3 u_out=0 mem=20.87661123275757
+p2 c046 13/40 L=1.416 Lq=-0.1011 Le=-0.257 rA=0.149 rB=0.251 a_out=3 u_out=0 mem=20.87661123275757
+p2 c046 14/40 L=1.434 Lq=-0.0948 Le=-0.234 rA=0.153 rB=0.247 a_out=3 u_out=0 mem=20.87661123275757
+p2 c046 15/40 L=1.412 Lq=-0.1052 Le=-0.256 rA=0.147 rB=0.253 a_out=3 u_out=0 mem=20.87661123275757
+p2 c046 16/40 L=1.402 Lq=-0.1023 Le=-0.282 rA=0.149 rB=0.251 a_out=3 u_out=0 mem=20.87661123275757
+p2 c046 17/40 L=1.420 Lq=-0.0949 Le=-0.261 rA=0.153 rB=0.247 a_out=3 u_out=0 mem=20.87661123275757
+p2 c046 18/40 L=1.432 Lq=-0.1014 Le=-0.225 rA=0.149 rB=0.251 a_out=3 u_out=0 mem=20.87661123275757
+p2 c046 19/40 L=1.514 Lq=-0.0893 Le=-0.205 rA=0.155 rB=0.245 a_out=2 u_out=0 mem=20.87661123275757
+p2 c046 20/40 L=1.439 Lq=-0.0908 Le=-0.232 rA=0.155 rB=0.245 a_out=3 u_out=0 mem=20.87661123275757
+p2 c046 21/40 L=1.442 Lq=-0.0918 Le=-0.224 rA=0.154 rB=0.246 a_out=3 u_out=0 mem=20.87661123275757
+p2 c046 22/40 L=1.309 Lq=-0.1075 Le=-0.271 rA=0.146 rB=0.254 a_out=4 u_out=0 mem=20.87661123275757
+p2 c046 23/40 L=1.302 Lq=-0.1113 Le=-0.277 rA=0.144 rB=0.256 a_out=4 u_out=0 mem=20.87661123275757
+p2 c046 24/40 L=1.307 Lq=-0.1163 Le=-0.256 rA=0.142 rB=0.258 a_out=4 u_out=0 mem=20.87661123275757
+p2 c046 25/40 L=1.319 Lq=-0.1067 Le=-0.252 rA=0.147 rB=0.253 a_out=4 u_out=0 mem=20.87661123275757
+p2 c046 26/40 L=1.301 Lq=-0.1178 Le=-0.266 rA=0.141 rB=0.259 a_out=4 u_out=0 mem=20.87661123275757
+p2 c046 27/40 L=1.246 Lq=-0.1346 Le=-0.296 rA=0.133 rB=0.267 a_out=5 u_out=0 mem=20.87661123275757
+p2 c046 28/40 L=1.262 Lq=-0.1281 Le=-0.277 rA=0.136 rB=0.264 a_out=5 u_out=0 mem=20.87661123275757
+p2 c046 29/40 L=1.246 Lq=-0.1371 Le=-0.291 rA=0.131 rB=0.269 a_out=5 u_out=0 mem=20.87661123275757
+p2 c046 30/40 L=1.246 Lq=-0.1353 Le=-0.294 rA=0.132 rB=0.268 a_out=5 u_out=0 mem=20.87661123275757
+p2 c046 31/40 L=1.121 Lq=-0.1406 Le=-0.307 rA=0.130 rB=0.270 a_out=6 u_out=0 mem=20.87661123275757
+p2 c046 32/40 L=1.238 Lq=-0.1351 Le=-0.312 rA=0.132 rB=0.268 a_out=5 u_out=0 mem=20.87661123275757
+p2 c046 33/40 L=1.105 Lq=-0.1453 Le=-0.331 rA=0.127 rB=0.273 a_out=6 u_out=0 mem=20.87661123275757
+p2 c046 34/40 L=1.111 Lq=-0.1450 Le=-0.318 rA=0.128 rB=0.272 a_out=6 u_out=0 mem=20.87661123275757
+p2 c046 35/40 L=1.115 Lq=-0.1445 Le=-0.312 rA=0.128 rB=0.272 a_out=6 u_out=0 mem=20.87661123275757
+p2 c046 36/40 L=1.015 Lq=-0.1553 Le=-0.327 rA=0.122 rB=0.278 a_out=7 u_out=0 mem=20.87661123275757
+p2 c046 37/40 L=1.102 Lq=-0.1510 Le=-0.324 rA=0.124 rB=0.276 a_out=6 u_out=0 mem=20.87661123275757
+p2 c046 38/40 L=1.106 Lq=-0.1502 Le=-0.317 rA=0.125 rB=0.275 a_out=6 u_out=0 mem=20.87661123275757
+p2 c046 39/40 L=1.111 Lq=-0.1462 Le=-0.315 rA=0.127 rB=0.273 a_out=6 u_out=0 mem=20.87661123275757
+p2 c046 40/40 L=1.261 Lq=-0.1284 Le=-0.278 rA=0.136 rB=0.264 a_out=5 u_out=0 mem=20.87661123275757
+== p2 attack c047 (7/17) ==
+p2 c047 1/40 L=1.134 Lq=+0.0159 Le=0.045 rA=0.208 rB=0.192 a_out=0 u_out=0 mem=20.87661123275757
+p2 c047 2/40 L=1.089 Lq=+0.0065 Le=-0.028 rA=0.203 rB=0.197 a_out=0 u_out=0 mem=20.87661123275757
+p2 c047 3/40 L=1.087 Lq=+0.0146 Le=-0.048 rA=0.207 rB=0.193 a_out=0 u_out=0 mem=20.87661123275757
+p2 c047 4/40 L=1.011 Lq=-0.0091 Le=-0.115 rA=0.195 rB=0.205 a_out=1 u_out=1 mem=20.87661123275757
+p2 c047 5/40 L=0.864 Lq=-0.0434 Le=-0.205 rA=0.178 rB=0.222 a_out=4 u_out=4 mem=20.87661123275757
+p2 c047 6/40 L=0.849 Lq=-0.0472 Le=-0.224 rA=0.176 rB=0.224 a_out=4 u_out=4 mem=20.87661123275757
+p2 c047 7/40 L=0.841 Lq=-0.0483 Le=-0.240 rA=0.176 rB=0.224 a_out=4 u_out=4 mem=20.87661123275757
+p2 c047 8/40 L=0.928 Lq=-0.0350 Le=-0.157 rA=0.182 rB=0.218 a_out=3 u_out=3 mem=20.87661123275757
+p2 c047 9/40 L=0.853 Lq=-0.0455 Le=-0.225 rA=0.177 rB=0.223 a_out=4 u_out=4 mem=20.87661123275757
+p2 c047 10/40 L=0.900 Lq=-0.0398 Le=-0.209 rA=0.180 rB=0.220 a_out=3 u_out=3 mem=20.87661123275757
+p2 c047 11/40 L=0.909 Lq=-0.0409 Le=-0.187 rA=0.180 rB=0.220 a_out=3 u_out=3 mem=20.87661123275757
+p2 c047 12/40 L=0.915 Lq=-0.0337 Le=-0.190 rA=0.183 rB=0.217 a_out=3 u_out=3 mem=20.87661123275757
+p2 c047 13/40 L=0.917 Lq=-0.0359 Le=-0.181 rA=0.182 rB=0.218 a_out=3 u_out=3 mem=20.87661123275757
+p2 c047 14/40 L=0.930 Lq=-0.0347 Le=-0.159 rA=0.183 rB=0.217 a_out=3 u_out=3 mem=20.87661123275757
+p2 c047 15/40 L=0.906 Lq=-0.0422 Le=-0.191 rA=0.179 rB=0.221 a_out=3 u_out=3 mem=20.87661123275757
+p2 c047 16/40 L=0.858 Lq=-0.0535 Le=-0.197 rA=0.173 rB=0.227 a_out=4 u_out=4 mem=20.87661123275757
+p2 c047 17/40 L=0.911 Lq=-0.0363 Le=-0.193 rA=0.182 rB=0.218 a_out=3 u_out=3 mem=20.87661123275757
+p2 c047 18/40 L=0.843 Lq=-0.0517 Le=-0.230 rA=0.174 rB=0.226 a_out=4 u_out=4 mem=20.87661123275757
+p2 c047 19/40 L=0.816 Lq=-0.0608 Le=-0.254 rA=0.170 rB=0.230 a_out=5 u_out=5 mem=20.87661123275757
+p2 c047 20/40 L=0.809 Lq=-0.0637 Le=-0.263 rA=0.168 rB=0.232 a_out=5 u_out=5 mem=20.87661123275757
+p2 c047 21/40 L=0.820 Lq=-0.0612 Le=-0.248 rA=0.169 rB=0.231 a_out=5 u_out=5 mem=20.87661123275757
+p2 c047 22/40 L=0.797 Lq=-0.0675 Le=-0.282 rA=0.166 rB=0.234 a_out=5 u_out=5 mem=20.87661123275757
+p2 c047 23/40 L=0.733 Lq=-0.0785 Le=-0.298 rA=0.161 rB=0.239 a_out=6 u_out=6 mem=20.87661123275757
+p2 c047 24/40 L=0.781 Lq=-0.0720 Le=-0.302 rA=0.164 rB=0.236 a_out=5 u_out=5 mem=20.87661123275757
+p2 c047 25/40 L=0.797 Lq=-0.0642 Le=-0.288 rA=0.168 rB=0.232 a_out=5 u_out=5 mem=20.87661123275757
+p2 c047 26/40 L=0.796 Lq=-0.0700 Le=-0.275 rA=0.165 rB=0.235 a_out=5 u_out=5 mem=20.87661123275757
+p2 c047 27/40 L=0.794 Lq=-0.0688 Le=-0.283 rA=0.166 rB=0.234 a_out=5 u_out=5 mem=20.87661123275757
+p2 c047 28/40 L=0.804 Lq=-0.0641 Le=-0.271 rA=0.168 rB=0.232 a_out=5 u_out=5 mem=20.87661123275757
+p2 c047 29/40 L=0.792 Lq=-0.0696 Le=-0.284 rA=0.165 rB=0.235 a_out=5 u_out=5 mem=20.87661123275757
+p2 c047 30/40 L=0.738 Lq=-0.0783 Le=-0.290 rA=0.161 rB=0.239 a_out=6 u_out=6 mem=20.87661123275757
+p2 c047 31/40 L=0.791 Lq=-0.0698 Le=-0.290 rA=0.165 rB=0.235 a_out=5 u_out=5 mem=20.87661123275757
+p2 c047 32/40 L=0.728 Lq=-0.0783 Le=-0.309 rA=0.161 rB=0.239 a_out=6 u_out=6 mem=20.87661123275757
+p2 c047 33/40 L=0.718 Lq=-0.0856 Le=-0.316 rA=0.157 rB=0.243 a_out=6 u_out=6 mem=20.87661123275757
+p2 c047 34/40 L=0.783 Lq=-0.0713 Le=-0.302 rA=0.164 rB=0.236 a_out=5 u_out=5 mem=20.87661123275757
+p2 c047 35/40 L=0.808 Lq=-0.0630 Le=-0.270 rA=0.168 rB=0.232 a_out=5 u_out=5 mem=20.87661123275757
+p2 c047 36/40 L=0.796 Lq=-0.0677 Le=-0.281 rA=0.166 rB=0.234 a_out=5 u_out=5 mem=20.87661123275757
+p2 c047 37/40 L=0.823 Lq=-0.0570 Le=-0.263 rA=0.171 rB=0.229 a_out=4 u_out=4 mem=20.87661123275757
+p2 c047 38/40 L=0.799 Lq=-0.0673 Le=-0.282 rA=0.166 rB=0.234 a_out=5 u_out=5 mem=20.87661123275757
+p2 c047 39/40 L=0.739 Lq=-0.0759 Le=-0.293 rA=0.162 rB=0.238 a_out=6 u_out=6 mem=20.87661123275757
+p2 c047 40/40 L=0.807 Lq=-0.0601 Le=-0.273 rA=0.170 rB=0.230 a_out=5 u_out=5 mem=20.87661123275757
+== p2 attack c048 (8/17) ==
+p2 c048 1/40 L=1.148 Lq=-0.0257 Le=-0.238 rA=0.187 rB=0.213 a_out=0 u_out=0 mem=20.87661123275757
+p2 c048 2/40 L=1.149 Lq=-0.0297 Le=-0.228 rA=0.185 rB=0.215 a_out=0 u_out=0 mem=20.87661123275757
+p2 c048 3/40 L=1.086 Lq=-0.0457 Le=-0.244 rA=0.177 rB=0.223 a_out=1 u_out=1 mem=20.87661123275757
+p2 c048 4/40 L=1.067 Lq=-0.0503 Le=-0.272 rA=0.175 rB=0.225 a_out=1 u_out=1 mem=20.87661123275757
+p2 c048 5/40 L=1.007 Lq=-0.0550 Le=-0.282 rA=0.173 rB=0.227 a_out=2 u_out=2 mem=20.87661123275757
+p2 c048 6/40 L=1.001 Lq=-0.0644 Le=-0.275 rA=0.168 rB=0.232 a_out=2 u_out=2 mem=20.87661123275757
+p2 c048 7/40 L=0.900 Lq=-0.0812 Le=-0.316 rA=0.159 rB=0.241 a_out=3 u_out=3 mem=20.87661123275757
+p2 c048 8/40 L=0.845 Lq=-0.0875 Le=-0.328 rA=0.156 rB=0.244 a_out=4 u_out=4 mem=20.87661123275757
+p2 c048 9/40 L=0.908 Lq=-0.0794 Le=-0.305 rA=0.160 rB=0.240 a_out=3 u_out=3 mem=20.87661123275757
+p2 c048 10/40 L=0.830 Lq=-0.0934 Le=-0.347 rA=0.153 rB=0.247 a_out=4 u_out=4 mem=20.87661123275757
+p2 c048 11/40 L=0.828 Lq=-0.0948 Le=-0.348 rA=0.153 rB=0.247 a_out=4 u_out=4 mem=20.87661123275757
+p2 c048 12/40 L=0.831 Lq=-0.0937 Le=-0.344 rA=0.153 rB=0.247 a_out=4 u_out=4 mem=20.87661123275757
+p2 c048 13/40 L=0.818 Lq=-0.0996 Le=-0.358 rA=0.150 rB=0.250 a_out=4 u_out=4 mem=20.87661123275757
+p2 c048 14/40 L=0.790 Lq=-0.1032 Le=-0.360 rA=0.148 rB=0.252 a_out=5 u_out=5 mem=20.87661123275757
+p2 c048 15/40 L=0.792 Lq=-0.1018 Le=-0.357 rA=0.149 rB=0.251 a_out=5 u_out=5 mem=20.87661123275757
+p2 c048 16/40 L=0.775 Lq=-0.1103 Le=-0.374 rA=0.145 rB=0.255 a_out=5 u_out=5 mem=20.87661123275757
+p2 c048 17/40 L=0.775 Lq=-0.1093 Le=-0.376 rA=0.145 rB=0.255 a_out=5 u_out=5 mem=20.87661123275757
+p2 c048 18/40 L=0.817 Lq=-0.0989 Le=-0.362 rA=0.151 rB=0.249 a_out=4 u_out=4 mem=20.87661123275757
+p2 c048 19/40 L=0.837 Lq=-0.0895 Le=-0.340 rA=0.155 rB=0.245 a_out=4 u_out=4 mem=20.87661123275757
+p2 c048 20/40 L=0.890 Lq=-0.0822 Le=-0.335 rA=0.159 rB=0.241 a_out=3 u_out=3 mem=20.87661123275757
+p2 c048 21/40 L=0.827 Lq=-0.0930 Le=-0.354 rA=0.154 rB=0.246 a_out=4 u_out=4 mem=20.87661123275757
+p2 c048 22/40 L=0.784 Lq=-0.1040 Le=-0.370 rA=0.148 rB=0.252 a_out=5 u_out=5 mem=20.87661123275757
+p2 c048 23/40 L=0.794 Lq=-0.1014 Le=-0.354 rA=0.149 rB=0.251 a_out=5 u_out=5 mem=20.87661123275757
+p2 c048 24/40 L=0.823 Lq=-0.0960 Le=-0.356 rA=0.152 rB=0.248 a_out=4 u_out=4 mem=20.87661123275757
+p2 c048 25/40 L=0.783 Lq=-0.1069 Le=-0.365 rA=0.147 rB=0.253 a_out=5 u_out=5 mem=20.87661123275757
+p2 c048 26/40 L=0.747 Lq=-0.1157 Le=-0.379 rA=0.142 rB=0.258 a_out=6 u_out=6 mem=20.87661123275757
+p2 c048 27/40 L=0.774 Lq=-0.1115 Le=-0.374 rA=0.144 rB=0.256 a_out=5 u_out=5 mem=20.87661123275757
+p2 c048 28/40 L=0.777 Lq=-0.1105 Le=-0.371 rA=0.145 rB=0.255 a_out=5 u_out=5 mem=20.87661123275757
+p2 c048 29/40 L=0.743 Lq=-0.1205 Le=-0.378 rA=0.140 rB=0.260 a_out=6 u_out=6 mem=20.87661123275757
+p2 c048 30/40 L=0.780 Lq=-0.1113 Le=-0.363 rA=0.144 rB=0.256 a_out=5 u_out=5 mem=20.87661123275757
+p2 c048 31/40 L=0.747 Lq=-0.1166 Le=-0.379 rA=0.142 rB=0.258 a_out=6 u_out=6 mem=20.87661123275757
+p2 c048 32/40 L=0.734 Lq=-0.1238 Le=-0.390 rA=0.138 rB=0.262 a_out=6 u_out=6 mem=20.87661123275757
+p2 c048 33/40 L=0.742 Lq=-0.1211 Le=-0.379 rA=0.139 rB=0.261 a_out=6 u_out=6 mem=20.87661123275757
+p2 c048 34/40 L=0.737 Lq=-0.1218 Le=-0.388 rA=0.139 rB=0.261 a_out=6 u_out=6 mem=20.87661123275757
+p2 c048 35/40 L=0.746 Lq=-0.1172 Le=-0.380 rA=0.141 rB=0.259 a_out=6 u_out=6 mem=20.87661123275757
+p2 c048 36/40 L=0.734 Lq=-0.1239 Le=-0.390 rA=0.138 rB=0.262 a_out=6 u_out=6 mem=20.87661123275757
+p2 c048 37/40 L=0.576 Lq=-0.1348 Le=-0.397 rA=0.133 rB=0.267 a_out=7 u_out=7 mem=20.87661123275757
+p2 c048 38/40 L=0.583 Lq=-0.1316 Le=-0.388 rA=0.134 rB=0.266 a_out=7 u_out=7 mem=20.87661123275757
+p2 c048 39/40 L=0.746 Lq=-0.1183 Le=-0.378 rA=0.141 rB=0.259 a_out=6 u_out=6 mem=20.87661123275757
+p2 c048 40/40 L=0.769 Lq=-0.1147 Le=-0.379 rA=0.143 rB=0.257 a_out=5 u_out=5 mem=20.87661123275757
+== p2 attack c049 (9/17) ==
+p2 c049 1/40 L=0.961 Lq=-0.0524 Le=-0.243 rA=0.174 rB=0.226 a_out=0 u_out=0 mem=20.87661123275757
+p2 c049 2/40 L=0.892 Lq=-0.0697 Le=-0.295 rA=0.165 rB=0.235 a_out=2 u_out=2 mem=20.87661123275757
+p2 c049 3/40 L=0.889 Lq=-0.0716 Le=-0.297 rA=0.164 rB=0.236 a_out=2 u_out=2 mem=20.87661123275757
+p2 c049 4/40 L=0.876 Lq=-0.0789 Le=-0.310 rA=0.161 rB=0.239 a_out=2 u_out=2 mem=20.87661123275757
+p2 c049 5/40 L=0.870 Lq=-0.0832 Le=-0.312 rA=0.158 rB=0.242 a_out=2 u_out=2 mem=20.87661123275757
+p2 c049 6/40 L=0.791 Lq=-0.0850 Le=-0.313 rA=0.157 rB=0.243 a_out=3 u_out=3 mem=20.87661123275757
+p2 c049 7/40 L=0.784 Lq=-0.0878 Le=-0.321 rA=0.156 rB=0.244 a_out=3 u_out=3 mem=20.87661123275757
+p2 c049 8/40 L=0.766 Lq=-0.0985 Le=-0.335 rA=0.151 rB=0.249 a_out=3 u_out=3 mem=20.87661123275757
+p2 c049 9/40 L=0.753 Lq=-0.1017 Le=-0.342 rA=0.149 rB=0.251 a_out=4 u_out=4 mem=20.87661123275757
+p2 c049 10/40 L=0.748 Lq=-0.1079 Le=-0.341 rA=0.146 rB=0.254 a_out=4 u_out=4 mem=20.87661123275757
+p2 c049 11/40 L=0.743 Lq=-0.1097 Le=-0.350 rA=0.145 rB=0.255 a_out=4 u_out=4 mem=20.87661123275757
+p2 c049 12/40 L=0.752 Lq=-0.1029 Le=-0.345 rA=0.149 rB=0.251 a_out=4 u_out=4 mem=20.87661123275757
+p2 c049 13/40 L=0.737 Lq=-0.1129 Le=-0.355 rA=0.144 rB=0.256 a_out=4 u_out=4 mem=20.87661123275757
+p2 c049 14/40 L=0.565 Lq=-0.1295 Le=-0.371 rA=0.135 rB=0.265 a_out=5 u_out=5 mem=20.87661123275757
+p2 c049 15/40 L=0.571 Lq=-0.1280 Le=-0.362 rA=0.136 rB=0.264 a_out=5 u_out=5 mem=20.87661123275757
+p2 c049 16/40 L=0.555 Lq=-0.1349 Le=-0.372 rA=0.133 rB=0.267 a_out=6 u_out=6 mem=20.87661123275757
+p2 c049 17/40 L=0.546 Lq=-0.1413 Le=-0.377 rA=0.129 rB=0.271 a_out=6 u_out=6 mem=20.87661123275757
+p2 c049 18/40 L=0.542 Lq=-0.1449 Le=-0.379 rA=0.128 rB=0.272 a_out=6 u_out=6 mem=20.87661123275757
+p2 c049 19/40 L=0.487 Lq=-0.1552 Le=-0.392 rA=0.122 rB=0.278 a_out=7 u_out=6 mem=20.87661123275757
+p2 c049 20/40 L=0.486 Lq=-0.1560 Le=-0.392 rA=0.122 rB=0.278 a_out=7 u_out=6 mem=20.87661123275757
+p2 c049 21/40 L=0.481 Lq=-0.1602 Le=-0.394 rA=0.120 rB=0.280 a_out=7 u_out=6 mem=20.87661123275757
+p2 c049 22/40 L=0.486 Lq=-0.1569 Le=-0.390 rA=0.122 rB=0.278 a_out=7 u_out=6 mem=20.87661123275757
+p2 c049 23/40 L=0.482 Lq=-0.1596 Le=-0.394 rA=0.120 rB=0.280 a_out=7 u_out=6 mem=20.87661123275757
+p2 c049 24/40 L=0.443 Lq=-0.1637 Le=-0.394 rA=0.118 rB=0.282 a_out=8 u_out=6 mem=20.87661123275757
+p2 c049 25/40 L=0.440 Lq=-0.1655 Le=-0.398 rA=0.117 rB=0.283 a_out=8 u_out=6 mem=20.87661123275757
+p2 c049 26/40 L=0.436 Lq=-0.1675 Le=-0.403 rA=0.116 rB=0.284 a_out=8 u_out=6 mem=20.87661123275757
+p2 c049 27/40 L=0.431 Lq=-0.1712 Le=-0.406 rA=0.114 rB=0.286 a_out=8 u_out=6 mem=20.87661123275757
+p2 c049 28/40 L=0.439 Lq=-0.1646 Le=-0.402 rA=0.118 rB=0.282 a_out=8 u_out=6 mem=20.87661123275757
+p2 c049 29/40 L=0.426 Lq=-0.1751 Le=-0.408 rA=0.112 rB=0.288 a_out=8 u_out=6 mem=20.87661123275757
+p2 c049 30/40 L=0.363 Lq=-0.1835 Le=-0.417 rA=0.108 rB=0.292 a_out=9 u_out=6 mem=20.87661123275757
+p2 c049 31/40 L=0.324 Lq=-0.1952 Le=-0.425 rA=0.102 rB=0.298 a_out=10 u_out=6 mem=20.87661123275757
+p2 c049 32/40 L=0.371 Lq=-0.1786 Le=-0.411 rA=0.111 rB=0.289 a_out=9 u_out=6 mem=20.87661123275757
+p2 c049 33/40 L=0.368 Lq=-0.1819 Le=-0.411 rA=0.109 rB=0.291 a_out=9 u_out=6 mem=20.87661123275757
+p2 c049 34/40 L=0.367 Lq=-0.1820 Le=-0.412 rA=0.109 rB=0.291 a_out=9 u_out=6 mem=20.87661123275757
+p2 c049 35/40 L=0.353 Lq=-0.1920 Le=-0.420 rA=0.104 rB=0.296 a_out=9 u_out=6 mem=20.87661123275757
+p2 c049 36/40 L=0.310 Lq=-0.2066 Le=-0.431 rA=0.097 rB=0.303 a_out=10 u_out=6 mem=20.87661123275757
+p2 c049 37/40 L=0.316 Lq=-0.2020 Le=-0.427 rA=0.099 rB=0.301 a_out=10 u_out=6 mem=20.87661123275757
+p2 c049 38/40 L=0.362 Lq=-0.1867 Le=-0.414 rA=0.107 rB=0.293 a_out=9 u_out=6 mem=20.87661123275757
+p2 c049 39/40 L=0.324 Lq=-0.1955 Le=-0.425 rA=0.102 rB=0.298 a_out=10 u_out=6 mem=20.87661123275757
+p2 c049 40/40 L=0.326 Lq=-0.1943 Le=-0.422 rA=0.103 rB=0.297 a_out=10 u_out=6 mem=20.87661123275757
+== p2 attack c051 (10/17) ==
+p2 c051 1/40 L=1.084 Lq=-0.0504 Le=-0.110 rA=0.175 rB=0.225 a_out=0 u_out=0 mem=20.87661123275757
+p2 c051 2/40 L=0.812 Lq=-0.0913 Le=-0.205 rA=0.154 rB=0.246 a_out=3 u_out=3 mem=20.87661123275757
+p2 c051 3/40 L=0.866 Lq=-0.0772 Le=-0.169 rA=0.161 rB=0.239 a_out=2 u_out=2 mem=20.87661123275757
+p2 c051 4/40 L=0.815 Lq=-0.0893 Le=-0.246 rA=0.155 rB=0.245 a_out=2 u_out=2 mem=20.87661123275757
+p2 c051 5/40 L=0.809 Lq=-0.0903 Le=-0.257 rA=0.155 rB=0.245 a_out=2 u_out=2 mem=20.87661123275757
+p2 c051 6/40 L=0.778 Lq=-0.0931 Le=-0.270 rA=0.153 rB=0.247 a_out=3 u_out=3 mem=20.87661123275757
+p2 c051 7/40 L=0.787 Lq=-0.0911 Le=-0.256 rA=0.154 rB=0.246 a_out=3 u_out=3 mem=20.87661123275757
+p2 c051 8/40 L=0.774 Lq=-0.0981 Le=-0.268 rA=0.151 rB=0.249 a_out=3 u_out=3 mem=20.87661123275757
+p2 c051 9/40 L=0.829 Lq=-0.0822 Le=-0.232 rA=0.159 rB=0.241 a_out=2 u_out=2 mem=20.87661123275757
+p2 c051 10/40 L=0.928 Lq=-0.0740 Le=-0.216 rA=0.163 rB=0.237 a_out=1 u_out=1 mem=20.87661123275757
+p2 c051 11/40 L=0.783 Lq=-0.0954 Le=-0.254 rA=0.152 rB=0.248 a_out=3 u_out=3 mem=20.87661123275757
+p2 c051 12/40 L=0.830 Lq=-0.0819 Le=-0.232 rA=0.159 rB=0.241 a_out=2 u_out=2 mem=20.87661123275757
+p2 c051 13/40 L=0.847 Lq=-0.0754 Le=-0.211 rA=0.162 rB=0.238 a_out=2 u_out=2 mem=20.87661123275757
+p2 c051 14/40 L=0.819 Lq=-0.0847 Le=-0.247 rA=0.158 rB=0.242 a_out=2 u_out=2 mem=20.87661123275757
+p2 c051 15/40 L=0.846 Lq=-0.0817 Le=-0.201 rA=0.159 rB=0.241 a_out=2 u_out=2 mem=20.87661123275757
+p2 c051 16/40 L=0.830 Lq=-0.0862 Le=-0.224 rA=0.157 rB=0.243 a_out=2 u_out=2 mem=20.87661123275757
+p2 c051 17/40 L=0.805 Lq=-0.0916 Le=-0.221 rA=0.154 rB=0.246 a_out=3 u_out=3 mem=20.87661123275757
+p2 c051 18/40 L=0.773 Lq=-0.1027 Le=-0.262 rA=0.149 rB=0.251 a_out=3 u_out=3 mem=20.87661123275757
+p2 c051 19/40 L=0.744 Lq=-0.1096 Le=-0.267 rA=0.145 rB=0.255 a_out=4 u_out=4 mem=20.87661123275757
+p2 c051 20/40 L=0.743 Lq=-0.1084 Le=-0.272 rA=0.146 rB=0.254 a_out=4 u_out=4 mem=20.87661123275757
+p2 c051 21/40 L=0.718 Lq=-0.1197 Le=-0.299 rA=0.140 rB=0.260 a_out=4 u_out=4 mem=20.87661123275757
+p2 c051 22/40 L=0.721 Lq=-0.1213 Le=-0.290 rA=0.139 rB=0.261 a_out=4 u_out=4 mem=20.87661123275757
+p2 c051 23/40 L=0.708 Lq=-0.1221 Le=-0.313 rA=0.139 rB=0.261 a_out=4 u_out=4 mem=20.87661123275757
+p2 c051 24/40 L=0.681 Lq=-0.1271 Le=-0.321 rA=0.136 rB=0.264 a_out=5 u_out=5 mem=20.87661123275757
+p2 c051 25/40 L=0.684 Lq=-0.1297 Le=-0.311 rA=0.135 rB=0.265 a_out=5 u_out=5 mem=20.87661123275757
+p2 c051 26/40 L=0.726 Lq=-0.1172 Le=-0.287 rA=0.141 rB=0.259 a_out=4 u_out=4 mem=20.87661123275757
+p2 c051 27/40 L=0.718 Lq=-0.1203 Le=-0.298 rA=0.140 rB=0.260 a_out=4 u_out=4 mem=20.87661123275757
+p2 c051 28/40 L=0.673 Lq=-0.1321 Le=-0.328 rA=0.134 rB=0.266 a_out=5 u_out=5 mem=20.87661123275757
+p2 c051 29/40 L=0.669 Lq=-0.1362 Le=-0.328 rA=0.132 rB=0.268 a_out=5 u_out=5 mem=20.87661123275757
+p2 c051 30/40 L=0.600 Lq=-0.1411 Le=-0.332 rA=0.129 rB=0.271 a_out=6 u_out=6 mem=20.87661123275757
+p2 c051 31/40 L=0.600 Lq=-0.1405 Le=-0.333 rA=0.130 rB=0.270 a_out=6 u_out=6 mem=20.87661123275757
+p2 c051 32/40 L=0.668 Lq=-0.1355 Le=-0.330 rA=0.132 rB=0.268 a_out=5 u_out=5 mem=20.87661123275757
+p2 c051 33/40 L=0.586 Lq=-0.1473 Le=-0.348 rA=0.126 rB=0.274 a_out=6 u_out=6 mem=20.87661123275757
+p2 c051 34/40 L=0.548 Lq=-0.1559 Le=-0.365 rA=0.122 rB=0.278 a_out=7 u_out=6 mem=20.87661123275757
+p2 c051 35/40 L=0.589 Lq=-0.1467 Le=-0.343 rA=0.127 rB=0.273 a_out=6 u_out=6 mem=20.87661123275757
+p2 c051 36/40 L=0.578 Lq=-0.1499 Le=-0.357 rA=0.125 rB=0.275 a_out=6 u_out=6 mem=20.87661123275757
+p2 c051 37/40 L=0.576 Lq=-0.1514 Le=-0.359 rA=0.124 rB=0.276 a_out=6 u_out=6 mem=20.87661123275757
+p2 c051 38/40 L=0.577 Lq=-0.1515 Le=-0.357 rA=0.124 rB=0.276 a_out=6 u_out=6 mem=20.87661123275757
+p2 c051 39/40 L=0.582 Lq=-0.1481 Le=-0.354 rA=0.126 rB=0.274 a_out=6 u_out=6 mem=20.87661123275757
+p2 c051 40/40 L=0.539 Lq=-0.1620 Le=-0.370 rA=0.119 rB=0.281 a_out=7 u_out=6 mem=20.87661123275757
+== p2 attack c052 (11/17) ==
+p2 c052 1/40 L=0.940 Lq=-0.0711 Le=-0.250 rA=0.164 rB=0.236 a_out=0 u_out=0 mem=21.028218269348145
+p2 c052 2/40 L=0.916 Lq=-0.0763 Le=-0.289 rA=0.162 rB=0.238 a_out=0 u_out=0 mem=21.03206491470337
+p2 c052 3/40 L=0.837 Lq=-0.0811 Le=-0.300 rA=0.159 rB=0.241 a_out=1 u_out=1 mem=21.03206491470337
+p2 c052 4/40 L=0.837 Lq=-0.0804 Le=-0.301 rA=0.160 rB=0.240 a_out=1 u_out=1 mem=21.03206491470337
+p2 c052 5/40 L=0.829 Lq=-0.0875 Le=-0.303 rA=0.156 rB=0.244 a_out=1 u_out=1 mem=21.03206491470337
+p2 c052 6/40 L=0.971 Lq=-0.0561 Le=-0.261 rA=0.172 rB=0.228 a_out=0 u_out=0 mem=21.03206491470337
+p2 c052 7/40 L=0.975 Lq=-0.0565 Le=-0.253 rA=0.172 rB=0.228 a_out=0 u_out=0 mem=21.03206491470337
+p2 c052 8/40 L=0.914 Lq=-0.0736 Le=-0.304 rA=0.163 rB=0.237 a_out=0 u_out=0 mem=21.03206491470337
+p2 c052 9/40 L=0.823 Lq=-0.0858 Le=-0.324 rA=0.157 rB=0.243 a_out=1 u_out=1 mem=21.03206491470337
+p2 c052 10/40 L=0.834 Lq=-0.0833 Le=-0.307 rA=0.158 rB=0.242 a_out=1 u_out=1 mem=21.03206491470337
+p2 c052 11/40 L=0.826 Lq=-0.0814 Le=-0.329 rA=0.159 rB=0.241 a_out=1 u_out=1 mem=21.03206491470337
+p2 c052 12/40 L=0.917 Lq=-0.0734 Le=-0.299 rA=0.163 rB=0.237 a_out=0 u_out=0 mem=21.03206491470337
+p2 c052 13/40 L=0.920 Lq=-0.0714 Le=-0.298 rA=0.164 rB=0.236 a_out=0 u_out=0 mem=21.03206491470337
+p2 c052 14/40 L=0.813 Lq=-0.0916 Le=-0.334 rA=0.154 rB=0.246 a_out=1 u_out=1 mem=21.03206491470337
+p2 c052 15/40 L=0.794 Lq=-0.0946 Le=-0.353 rA=0.153 rB=0.247 a_out=2 u_out=2 mem=21.03206491470337
+p2 c052 16/40 L=0.772 Lq=-0.1087 Le=-0.357 rA=0.146 rB=0.254 a_out=3 u_out=3 mem=21.03206491470337
+p2 c052 17/40 L=0.764 Lq=-0.1098 Le=-0.369 rA=0.145 rB=0.255 a_out=3 u_out=3 mem=21.03206491470337
+p2 c052 18/40 L=0.769 Lq=-0.1072 Le=-0.366 rA=0.146 rB=0.254 a_out=3 u_out=3 mem=21.03206491470337
+p2 c052 19/40 L=0.760 Lq=-0.1142 Le=-0.368 rA=0.143 rB=0.257 a_out=3 u_out=3 mem=21.03206491470337
+p2 c052 20/40 L=0.771 Lq=-0.1073 Le=-0.360 rA=0.146 rB=0.254 a_out=3 u_out=3 mem=21.03206491470337
+p2 c052 21/40 L=0.663 Lq=-0.1228 Le=-0.375 rA=0.139 rB=0.261 a_out=4 u_out=4 mem=21.03206491470337
+p2 c052 22/40 L=0.766 Lq=-0.1092 Le=-0.366 rA=0.145 rB=0.255 a_out=3 u_out=3 mem=21.03206491470337
+p2 c052 23/40 L=0.790 Lq=-0.1031 Le=-0.347 rA=0.148 rB=0.252 a_out=2 u_out=2 mem=21.03206491470337
+p2 c052 24/40 L=0.788 Lq=-0.1028 Le=-0.350 rA=0.149 rB=0.251 a_out=2 u_out=2 mem=21.03206491470337
+p2 c052 25/40 L=0.790 Lq=-0.1050 Le=-0.342 rA=0.147 rB=0.253 a_out=2 u_out=2 mem=21.03206491470337
+p2 c052 26/40 L=0.639 Lq=-0.1399 Le=-0.394 rA=0.130 rB=0.270 a_out=5 u_out=5 mem=21.03206491470337
+p2 c052 27/40 L=0.659 Lq=-0.1280 Le=-0.379 rA=0.136 rB=0.264 a_out=4 u_out=4 mem=21.03206491470337
+p2 c052 28/40 L=0.641 Lq=-0.1383 Le=-0.394 rA=0.131 rB=0.269 a_out=5 u_out=5 mem=21.03206491470337
+p2 c052 29/40 L=0.663 Lq=-0.1252 Le=-0.378 rA=0.137 rB=0.263 a_out=4 u_out=4 mem=21.03206491470337
+p2 c052 30/40 L=0.664 Lq=-0.1230 Le=-0.378 rA=0.138 rB=0.262 a_out=4 u_out=4 mem=21.03206491470337
+p2 c052 31/40 L=0.655 Lq=-0.1282 Le=-0.384 rA=0.136 rB=0.264 a_out=4 u_out=4 mem=21.03206491470337
+p2 c052 32/40 L=0.759 Lq=-0.1166 Le=-0.369 rA=0.142 rB=0.258 a_out=3 u_out=3 mem=21.03206491470337
+p2 c052 33/40 L=0.655 Lq=-0.1280 Le=-0.388 rA=0.136 rB=0.264 a_out=4 u_out=4 mem=21.03206491470337
+p2 c052 34/40 L=0.628 Lq=-0.1442 Le=-0.407 rA=0.128 rB=0.272 a_out=5 u_out=5 mem=21.03206491470337
+p2 c052 35/40 L=0.631 Lq=-0.1411 Le=-0.406 rA=0.129 rB=0.271 a_out=5 u_out=5 mem=21.03206491470337
+p2 c052 36/40 L=0.630 Lq=-0.1437 Le=-0.409 rA=0.128 rB=0.272 a_out=5 u_out=5 mem=21.03206491470337
+p2 c052 37/40 L=0.581 Lq=-0.1509 Le=-0.414 rA=0.125 rB=0.275 a_out=6 u_out=6 mem=21.03206491470337
+p2 c052 38/40 L=0.581 Lq=-0.1522 Le=-0.411 rA=0.124 rB=0.276 a_out=6 u_out=6 mem=21.03206491470337
+p2 c052 39/40 L=0.643 Lq=-0.1348 Le=-0.398 rA=0.133 rB=0.267 a_out=4 u_out=4 mem=21.03206491470337
+p2 c052 40/40 L=0.640 Lq=-0.1371 Le=-0.397 rA=0.131 rB=0.269 a_out=5 u_out=5 mem=21.03206491470337
+== p2 attack c053 (12/17) ==
+p2 c053 1/40 L=1.007 Lq=-0.0373 Le=-0.204 rA=0.181 rB=0.219 a_out=0 u_out=0 mem=21.03206491470337
+p2 c053 2/40 L=0.935 Lq=-0.0579 Le=-0.246 rA=0.171 rB=0.229 a_out=2 u_out=2 mem=21.03206491470337
+p2 c053 3/40 L=0.831 Lq=-0.0748 Le=-0.296 rA=0.163 rB=0.237 a_out=3 u_out=3 mem=21.03206491470337
+p2 c053 4/40 L=0.828 Lq=-0.0770 Le=-0.297 rA=0.161 rB=0.239 a_out=3 u_out=3 mem=21.03206491470337
+p2 c053 5/40 L=0.909 Lq=-0.0625 Le=-0.287 rA=0.169 rB=0.231 a_out=2 u_out=2 mem=21.03206491470337
+p2 c053 6/40 L=0.831 Lq=-0.0729 Le=-0.300 rA=0.164 rB=0.236 a_out=3 u_out=3 mem=21.03206491470337
+p2 c053 7/40 L=0.903 Lq=-0.0660 Le=-0.290 rA=0.167 rB=0.233 a_out=2 u_out=2 mem=21.03206491470337
+p2 c053 8/40 L=0.830 Lq=-0.0760 Le=-0.297 rA=0.162 rB=0.238 a_out=3 u_out=3 mem=21.03206491470337
+p2 c053 9/40 L=0.813 Lq=-0.0835 Le=-0.314 rA=0.158 rB=0.242 a_out=3 u_out=3 mem=21.03206491470337
+p2 c053 10/40 L=0.680 Lq=-0.0889 Le=-0.332 rA=0.156 rB=0.244 a_out=4 u_out=4 mem=21.03206491470337
+p2 c053 11/40 L=0.685 Lq=-0.0894 Le=-0.323 rA=0.155 rB=0.245 a_out=4 u_out=4 mem=21.03206491470337
+p2 c053 12/40 L=0.655 Lq=-0.1023 Le=-0.346 rA=0.149 rB=0.251 a_out=5 u_out=5 mem=21.03206491470337
+p2 c053 13/40 L=0.651 Lq=-0.1032 Le=-0.353 rA=0.148 rB=0.252 a_out=5 u_out=5 mem=21.03206491470337
+p2 c053 14/40 L=0.647 Lq=-0.1079 Le=-0.351 rA=0.146 rB=0.254 a_out=5 u_out=5 mem=21.03206491470337
+p2 c053 15/40 L=0.637 Lq=-0.1124 Le=-0.362 rA=0.144 rB=0.256 a_out=5 u_out=5 mem=21.03206491470337
+p2 c053 16/40 L=0.627 Lq=-0.1186 Le=-0.367 rA=0.141 rB=0.259 a_out=6 u_out=6 mem=21.03206491470337
+p2 c053 17/40 L=0.607 Lq=-0.1306 Le=-0.384 rA=0.135 rB=0.265 a_out=6 u_out=6 mem=21.03206491470337
+p2 c053 18/40 L=0.627 Lq=-0.1179 Le=-0.370 rA=0.141 rB=0.259 a_out=6 u_out=6 mem=21.03206491470337
+p2 c053 19/40 L=0.610 Lq=-0.1265 Le=-0.386 rA=0.137 rB=0.263 a_out=6 u_out=6 mem=21.03206491470337
+p2 c053 20/40 L=0.547 Lq=-0.1348 Le=-0.395 rA=0.133 rB=0.267 a_out=7 u_out=6 mem=21.03206491470337
+p2 c053 21/40 L=0.545 Lq=-0.1358 Le=-0.395 rA=0.132 rB=0.268 a_out=7 u_out=6 mem=21.03206491470337
+p2 c053 22/40 L=0.603 Lq=-0.1306 Le=-0.389 rA=0.135 rB=0.265 a_out=6 u_out=6 mem=21.03206491470337
+p2 c053 23/40 L=0.606 Lq=-0.1291 Le=-0.387 rA=0.135 rB=0.265 a_out=6 u_out=6 mem=21.03206491470337
+p2 c053 24/40 L=0.552 Lq=-0.1315 Le=-0.390 rA=0.134 rB=0.266 a_out=7 u_out=6 mem=21.03206491470337
+p2 c053 25/40 L=0.610 Lq=-0.1280 Le=-0.384 rA=0.136 rB=0.264 a_out=6 u_out=6 mem=21.03206491470337
+p2 c053 26/40 L=0.547 Lq=-0.1342 Le=-0.398 rA=0.133 rB=0.267 a_out=7 u_out=6 mem=21.03206491470337
+p2 c053 27/40 L=0.549 Lq=-0.1346 Le=-0.393 rA=0.133 rB=0.267 a_out=7 u_out=6 mem=21.03206491470337
+p2 c053 28/40 L=0.544 Lq=-0.1388 Le=-0.395 rA=0.131 rB=0.269 a_out=7 u_out=6 mem=21.03206491470337
+p2 c053 29/40 L=0.538 Lq=-0.1429 Le=-0.398 rA=0.129 rB=0.271 a_out=7 u_out=6 mem=21.03206491470337
+p2 c053 30/40 L=0.502 Lq=-0.1474 Le=-0.408 rA=0.126 rB=0.274 a_out=8 u_out=6 mem=21.03206491470337
+p2 c053 31/40 L=0.500 Lq=-0.1480 Le=-0.408 rA=0.126 rB=0.274 a_out=8 u_out=6 mem=21.03206491470337
+p2 c053 32/40 L=0.645 Lq=-0.1050 Le=-0.360 rA=0.148 rB=0.252 a_out=5 u_out=5 mem=21.03206491470337
+p2 c053 33/40 L=0.608 Lq=-0.1268 Le=-0.388 rA=0.137 rB=0.263 a_out=6 u_out=6 mem=21.03206491470337
+p2 c053 34/40 L=0.536 Lq=-0.1418 Le=-0.401 rA=0.129 rB=0.271 a_out=7 u_out=6 mem=21.03206491470337
+p2 c053 35/40 L=0.545 Lq=-0.1376 Le=-0.395 rA=0.131 rB=0.269 a_out=7 u_out=6 mem=21.03206491470337
+p2 c053 36/40 L=0.548 Lq=-0.1341 Le=-0.393 rA=0.133 rB=0.267 a_out=7 u_out=6 mem=21.03206491470337
+p2 c053 37/40 L=0.632 Lq=-0.1142 Le=-0.369 rA=0.143 rB=0.257 a_out=5 u_out=5 mem=21.03206491470337
+p2 c053 38/40 L=0.644 Lq=-0.1091 Le=-0.355 rA=0.145 rB=0.255 a_out=5 u_out=5 mem=21.03206491470337
+p2 c053 39/40 L=0.618 Lq=-0.1225 Le=-0.379 rA=0.139 rB=0.261 a_out=6 u_out=6 mem=21.03206491470337
+p2 c053 40/40 L=0.552 Lq=-0.1333 Le=-0.387 rA=0.133 rB=0.267 a_out=7 u_out=6 mem=21.03206491470337
+== p2 attack c054 (13/17) ==
+p2 c054 1/40 L=1.042 Lq=-0.0355 Le=-0.177 rA=0.182 rB=0.218 a_out=0 u_out=0 mem=21.03206491470337
+p2 c054 2/40 L=1.051 Lq=-0.0350 Le=-0.161 rA=0.183 rB=0.217 a_out=0 u_out=0 mem=21.03206491470337
+p2 c054 3/40 L=0.973 Lq=-0.0479 Le=-0.197 rA=0.176 rB=0.224 a_out=1 u_out=1 mem=21.03206491470337
+p2 c054 4/40 L=0.943 Lq=-0.0569 Le=-0.200 rA=0.172 rB=0.228 a_out=2 u_out=2 mem=21.03206491470337
+p2 c054 5/40 L=0.900 Lq=-0.0670 Le=-0.265 rA=0.166 rB=0.234 a_out=2 u_out=2 mem=21.03206491470337
+p2 c054 6/40 L=0.938 Lq=-0.0554 Le=-0.213 rA=0.172 rB=0.228 a_out=2 u_out=2 mem=21.03206491470337
+p2 c054 7/40 L=0.910 Lq=-0.0675 Le=-0.245 rA=0.166 rB=0.234 a_out=2 u_out=2 mem=21.03206491470337
+p2 c054 8/40 L=0.865 Lq=-0.0721 Le=-0.259 rA=0.164 rB=0.236 a_out=3 u_out=3 mem=21.03206491470337
+p2 c054 9/40 L=0.849 Lq=-0.0754 Le=-0.283 rA=0.162 rB=0.238 a_out=3 u_out=3 mem=21.03206491470337
+p2 c054 10/40 L=0.837 Lq=-0.0842 Le=-0.290 rA=0.158 rB=0.242 a_out=3 u_out=3 mem=21.03206491470337
+p2 c054 11/40 L=0.858 Lq=-0.0747 Le=-0.267 rA=0.163 rB=0.237 a_out=3 u_out=3 mem=21.03206491470337
+p2 c054 12/40 L=0.713 Lq=-0.0854 Le=-0.288 rA=0.157 rB=0.243 a_out=4 u_out=4 mem=21.03206491470337
+p2 c054 13/40 L=0.711 Lq=-0.0860 Le=-0.292 rA=0.157 rB=0.243 a_out=4 u_out=4 mem=21.03206491470337
+p2 c054 14/40 L=0.711 Lq=-0.0867 Le=-0.290 rA=0.157 rB=0.243 a_out=4 u_out=4 mem=21.03206491470337
+p2 c054 15/40 L=0.714 Lq=-0.0873 Le=-0.284 rA=0.156 rB=0.244 a_out=4 u_out=4 mem=21.03206491470337
+p2 c054 16/40 L=0.696 Lq=-0.0971 Le=-0.300 rA=0.151 rB=0.249 a_out=4 u_out=4 mem=21.03206491470337
+p2 c054 17/40 L=0.634 Lq=-0.1013 Le=-0.317 rA=0.149 rB=0.251 a_out=5 u_out=5 mem=21.03206491470337
+p2 c054 18/40 L=0.639 Lq=-0.1004 Le=-0.310 rA=0.150 rB=0.250 a_out=5 u_out=5 mem=21.03206491470337
+p2 c054 19/40 L=0.698 Lq=-0.0958 Le=-0.299 rA=0.152 rB=0.248 a_out=4 u_out=4 mem=21.03206491470337
+p2 c054 20/40 L=0.642 Lq=-0.1004 Le=-0.304 rA=0.150 rB=0.250 a_out=5 u_out=5 mem=21.03206491470337
+p2 c054 21/40 L=0.634 Lq=-0.1043 Le=-0.312 rA=0.148 rB=0.252 a_out=5 u_out=5 mem=21.03206491470337
+p2 c054 22/40 L=0.627 Lq=-0.1057 Le=-0.323 rA=0.147 rB=0.253 a_out=5 u_out=5 mem=21.03206491470337
+p2 c054 23/40 L=0.619 Lq=-0.1076 Le=-0.336 rA=0.146 rB=0.254 a_out=5 u_out=5 mem=21.03206491470337
+p2 c054 24/40 L=0.556 Lq=-0.1177 Le=-0.348 rA=0.141 rB=0.259 a_out=6 u_out=6 mem=21.03206491470337
+p2 c054 25/40 L=0.611 Lq=-0.1132 Le=-0.341 rA=0.143 rB=0.257 a_out=5 u_out=5 mem=21.03206491470337
+p2 c054 26/40 L=0.552 Lq=-0.1216 Le=-0.348 rA=0.139 rB=0.261 a_out=6 u_out=6 mem=21.03206491470337
+p2 c054 27/40 L=0.549 Lq=-0.1216 Le=-0.354 rA=0.139 rB=0.261 a_out=6 u_out=6 mem=21.03206491470337
+p2 c054 28/40 L=0.556 Lq=-0.1185 Le=-0.346 rA=0.141 rB=0.259 a_out=6 u_out=6 mem=21.03206491470337
+p2 c054 29/40 L=0.613 Lq=-0.1125 Le=-0.338 rA=0.144 rB=0.256 a_out=5 u_out=5 mem=21.03206491470337
+p2 c054 30/40 L=0.558 Lq=-0.1173 Le=-0.344 rA=0.141 rB=0.259 a_out=6 u_out=6 mem=21.03206491470337
+p2 c054 31/40 L=0.555 Lq=-0.1181 Le=-0.348 rA=0.141 rB=0.259 a_out=6 u_out=6 mem=21.03206491470337
+p2 c054 32/40 L=0.558 Lq=-0.1159 Le=-0.347 rA=0.142 rB=0.258 a_out=6 u_out=6 mem=21.03206491470337
+p2 c054 33/40 L=0.552 Lq=-0.1188 Le=-0.351 rA=0.141 rB=0.259 a_out=6 u_out=6 mem=21.03206491470337
+p2 c054 34/40 L=0.615 Lq=-0.1094 Le=-0.339 rA=0.145 rB=0.255 a_out=5 u_out=5 mem=21.03206491470337
+p2 c054 35/40 L=0.551 Lq=-0.1183 Le=-0.356 rA=0.141 rB=0.259 a_out=6 u_out=6 mem=21.03206491470337
+p2 c054 36/40 L=0.547 Lq=-0.1216 Le=-0.356 rA=0.139 rB=0.261 a_out=6 u_out=6 mem=21.03206491470337
+p2 c054 37/40 L=0.602 Lq=-0.1151 Le=-0.353 rA=0.142 rB=0.258 a_out=5 u_out=5 mem=21.03206491470337
+p2 c054 38/40 L=0.616 Lq=-0.1110 Le=-0.334 rA=0.144 rB=0.256 a_out=5 u_out=5 mem=21.03206491470337
+p2 c054 39/40 L=0.617 Lq=-0.1074 Le=-0.338 rA=0.146 rB=0.254 a_out=5 u_out=5 mem=21.03206491470337
+p2 c054 40/40 L=0.614 Lq=-0.1107 Le=-0.339 rA=0.145 rB=0.255 a_out=5 u_out=5 mem=21.03206491470337
+== p2 attack c056 (14/17) ==
+p2 c056 1/40 L=1.323 Lq=+0.0269 Le=0.024 rA=0.213 rB=0.187 a_out=0 u_out=0 mem=21.03206491470337
+p2 c056 2/40 L=1.176 Lq=+0.0204 Le=-0.015 rA=0.210 rB=0.190 a_out=1 u_out=1 mem=21.03206491470337
+p2 c056 3/40 L=1.040 Lq=+0.0056 Le=-0.083 rA=0.203 rB=0.197 a_out=2 u_out=2 mem=21.03206491470337
+p2 c056 4/40 L=1.024 Lq=+0.0022 Le=-0.108 rA=0.201 rB=0.199 a_out=2 u_out=2 mem=21.03206491470337
+p2 c056 5/40 L=1.016 Lq=-0.0061 Le=-0.109 rA=0.197 rB=0.203 a_out=2 u_out=2 mem=21.03206491470337
+p2 c056 6/40 L=1.021 Lq=+0.0001 Le=-0.111 rA=0.200 rB=0.200 a_out=2 u_out=2 mem=21.03206491470337
+p2 c056 7/40 L=0.987 Lq=-0.0069 Le=-0.165 rA=0.197 rB=0.203 a_out=2 u_out=2 mem=21.03206491470337
+p2 c056 8/40 L=0.883 Lq=-0.0224 Le=-0.218 rA=0.189 rB=0.211 a_out=3 u_out=3 mem=21.03206491470337
+p2 c056 9/40 L=0.863 Lq=-0.0278 Le=-0.221 rA=0.186 rB=0.214 a_out=4 u_out=4 mem=21.03206491470337
+p2 c056 10/40 L=0.864 Lq=-0.0280 Le=-0.219 rA=0.186 rB=0.214 a_out=4 u_out=4 mem=21.03206491470337
+p2 c056 11/40 L=0.768 Lq=-0.0459 Le=-0.267 rA=0.177 rB=0.223 a_out=5 u_out=5 mem=21.03206491470337
+p2 c056 12/40 L=0.781 Lq=-0.0402 Le=-0.252 rA=0.180 rB=0.220 a_out=5 u_out=5 mem=21.03206491470337
+p2 c056 13/40 L=0.766 Lq=-0.0470 Le=-0.269 rA=0.176 rB=0.224 a_out=5 u_out=5 mem=21.03206491470337
+p2 c056 14/40 L=0.684 Lq=-0.0547 Le=-0.287 rA=0.173 rB=0.227 a_out=6 u_out=6 mem=21.03206491470337
+p2 c056 15/40 L=0.678 Lq=-0.0601 Le=-0.286 rA=0.170 rB=0.230 a_out=6 u_out=6 mem=21.03206491470337
+p2 c056 16/40 L=0.685 Lq=-0.0577 Le=-0.279 rA=0.171 rB=0.229 a_out=6 u_out=6 mem=21.03206491470337
+p2 c056 17/40 L=0.672 Lq=-0.0652 Le=-0.289 rA=0.167 rB=0.233 a_out=6 u_out=6 mem=21.03206491470337
+p2 c056 18/40 L=0.670 Lq=-0.0616 Le=-0.300 rA=0.169 rB=0.231 a_out=6 u_out=6 mem=21.03206491470337
+p2 c056 19/40 L=0.646 Lq=-0.0718 Le=-0.323 rA=0.164 rB=0.236 a_out=7 u_out=7 mem=21.03206491470337
+p2 c056 20/40 L=0.653 Lq=-0.0700 Le=-0.313 rA=0.165 rB=0.235 a_out=7 u_out=7 mem=21.03206491470337
+p2 c056 21/40 L=0.647 Lq=-0.0748 Le=-0.313 rA=0.163 rB=0.237 a_out=7 u_out=7 mem=21.03206491470337
+p2 c056 22/40 L=0.675 Lq=-0.0597 Le=-0.294 rA=0.170 rB=0.230 a_out=6 u_out=6 mem=21.03206491470337
+p2 c056 23/40 L=0.665 Lq=-0.0654 Le=-0.303 rA=0.167 rB=0.233 a_out=6 u_out=6 mem=21.03206491470337
+p2 c056 24/40 L=0.656 Lq=-0.0715 Le=-0.302 rA=0.164 rB=0.236 a_out=7 u_out=7 mem=21.03206491470337
+p2 c056 25/40 L=0.641 Lq=-0.0771 Le=-0.321 rA=0.161 rB=0.239 a_out=7 u_out=7 mem=21.03206491470337
+p2 c056 26/40 L=0.648 Lq=-0.0725 Le=-0.316 rA=0.164 rB=0.236 a_out=7 u_out=7 mem=21.03206491470337
+p2 c056 27/40 L=0.632 Lq=-0.0838 Le=-0.327 rA=0.158 rB=0.242 a_out=7 u_out=7 mem=21.03206491470337
+p2 c056 28/40 L=0.575 Lq=-0.0887 Le=-0.336 rA=0.156 rB=0.244 a_out=8 u_out=7 mem=21.03206491470337
+p2 c056 29/40 L=0.663 Lq=-0.0664 Le=-0.304 rA=0.167 rB=0.233 a_out=6 u_out=6 mem=21.03206491470337
+p2 c056 30/40 L=0.640 Lq=-0.0794 Le=-0.320 rA=0.160 rB=0.240 a_out=7 u_out=7 mem=21.03206491470337
+p2 c056 31/40 L=0.588 Lq=-0.0847 Le=-0.320 rA=0.158 rB=0.242 a_out=8 u_out=7 mem=21.03206491470337
+p2 c056 32/40 L=0.581 Lq=-0.0879 Le=-0.326 rA=0.156 rB=0.244 a_out=8 u_out=7 mem=21.03206491470337
+p2 c056 33/40 L=0.580 Lq=-0.0863 Le=-0.331 rA=0.157 rB=0.243 a_out=8 u_out=7 mem=21.03206491470337
+p2 c056 34/40 L=0.631 Lq=-0.0830 Le=-0.331 rA=0.158 rB=0.242 a_out=7 u_out=7 mem=21.03206491470337
+p2 c056 35/40 L=0.565 Lq=-0.0974 Le=-0.340 rA=0.151 rB=0.249 a_out=8 u_out=7 mem=21.03206491470337
+p2 c056 36/40 L=0.551 Lq=-0.1038 Le=-0.350 rA=0.148 rB=0.252 a_out=9 u_out=7 mem=21.03206491470337
+p2 c056 37/40 L=0.547 Lq=-0.1038 Le=-0.357 rA=0.148 rB=0.252 a_out=9 u_out=7 mem=21.03206491470337
+p2 c056 38/40 L=0.565 Lq=-0.0979 Le=-0.337 rA=0.151 rB=0.249 a_out=8 u_out=7 mem=21.03206491470337
+p2 c056 39/40 L=0.574 Lq=-0.0882 Le=-0.340 rA=0.156 rB=0.244 a_out=8 u_out=7 mem=21.03206491470337
+p2 c056 40/40 L=0.556 Lq=-0.0967 Le=-0.358 rA=0.152 rB=0.248 a_out=8 u_out=7 mem=21.03206491470337
+== p2 attack c057 (15/17) ==
+p2 c057 1/40 L=1.082 Lq=-0.0782 Le=-0.169 rA=0.161 rB=0.239 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 2/40 L=1.636 Lq=-0.0369 Le=0.083 rA=0.182 rB=0.218 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 3/40 L=1.630 Lq=-0.0358 Le=0.071 rA=0.182 rB=0.218 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 4/40 L=1.126 Lq=-0.0766 Le=-0.087 rA=0.162 rB=0.238 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 5/40 L=1.113 Lq=-0.0812 Le=-0.103 rA=0.159 rB=0.241 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 6/40 L=1.115 Lq=-0.0753 Le=-0.119 rA=0.162 rB=0.238 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 7/40 L=1.220 Lq=-0.0679 Le=-0.103 rA=0.166 rB=0.234 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 8/40 L=1.341 Lq=-0.0542 Le=0.053 rA=0.173 rB=0.227 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 9/40 L=1.256 Lq=-0.0662 Le=-0.034 rA=0.167 rB=0.233 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 10/40 L=1.224 Lq=-0.0674 Le=-0.093 rA=0.166 rB=0.234 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 11/40 L=1.227 Lq=-0.0705 Le=-0.083 rA=0.165 rB=0.235 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 12/40 L=1.204 Lq=-0.0689 Le=-0.131 rA=0.166 rB=0.234 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 13/40 L=1.119 Lq=-0.0793 Le=-0.100 rA=0.160 rB=0.240 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 14/40 L=1.207 Lq=-0.0741 Le=-0.114 rA=0.163 rB=0.237 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 15/40 L=1.100 Lq=-0.0801 Le=-0.135 rA=0.160 rB=0.240 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 16/40 L=1.083 Lq=-0.0855 Le=-0.158 rA=0.157 rB=0.243 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 17/40 L=1.225 Lq=-0.0676 Le=-0.091 rA=0.166 rB=0.234 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 18/40 L=1.105 Lq=-0.0848 Le=-0.115 rA=0.158 rB=0.242 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 19/40 L=1.095 Lq=-0.0806 Le=-0.143 rA=0.160 rB=0.240 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 20/40 L=1.081 Lq=-0.0821 Le=-0.168 rA=0.159 rB=0.241 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 21/40 L=1.083 Lq=-0.0833 Le=-0.164 rA=0.158 rB=0.242 a_out=0 u_out=0 mem=21.03206491470337
+p2 c057 22/40 L=0.939 Lq=-0.0944 Le=-0.213 rA=0.153 rB=0.247 a_out=1 u_out=1 mem=21.03206491470337
+p2 c057 23/40 L=0.940 Lq=-0.0973 Le=-0.206 rA=0.151 rB=0.249 a_out=1 u_out=1 mem=21.03206491470337
+p2 c057 24/40 L=0.932 Lq=-0.0935 Le=-0.231 rA=0.153 rB=0.247 a_out=1 u_out=1 mem=21.03206491470337
+p2 c057 25/40 L=0.792 Lq=-0.1101 Le=-0.270 rA=0.145 rB=0.255 a_out=2 u_out=2 mem=21.03206491470337
+p2 c057 26/40 L=0.796 Lq=-0.1085 Le=-0.266 rA=0.146 rB=0.254 a_out=2 u_out=2 mem=21.03206491470337
+p2 c057 27/40 L=0.918 Lq=-0.0995 Le=-0.247 rA=0.150 rB=0.250 a_out=1 u_out=1 mem=21.03206491470337
+p2 c057 28/40 L=0.910 Lq=-0.1039 Le=-0.254 rA=0.148 rB=0.252 a_out=1 u_out=1 mem=21.03206491470337
+p2 c057 29/40 L=0.787 Lq=-0.1134 Le=-0.274 rA=0.143 rB=0.257 a_out=2 u_out=2 mem=21.03206491470337
+p2 c057 30/40 L=0.783 Lq=-0.1131 Le=-0.281 rA=0.143 rB=0.257 a_out=2 u_out=2 mem=21.03206491470337
+p2 c057 31/40 L=0.787 Lq=-0.1134 Le=-0.274 rA=0.143 rB=0.257 a_out=2 u_out=2 mem=21.03206491470337
+p2 c057 32/40 L=0.776 Lq=-0.1174 Le=-0.289 rA=0.141 rB=0.259 a_out=2 u_out=2 mem=21.03206491470337
+p2 c057 33/40 L=0.778 Lq=-0.1144 Le=-0.289 rA=0.143 rB=0.257 a_out=2 u_out=2 mem=21.03206491470337
+p2 c057 34/40 L=0.648 Lq=-0.1273 Le=-0.301 rA=0.136 rB=0.264 a_out=3 u_out=3 mem=21.03206491470337
+p2 c057 35/40 L=0.654 Lq=-0.1252 Le=-0.294 rA=0.137 rB=0.263 a_out=3 u_out=3 mem=21.03206491470337
+p2 c057 36/40 L=0.783 Lq=-0.1161 Le=-0.279 rA=0.142 rB=0.258 a_out=2 u_out=2 mem=21.03206491470337
+p2 c057 37/40 L=0.798 Lq=-0.1133 Le=-0.253 rA=0.143 rB=0.257 a_out=2 u_out=2 mem=21.03206491470337
+p2 c057 38/40 L=0.657 Lq=-0.1285 Le=-0.282 rA=0.136 rB=0.264 a_out=3 u_out=3 mem=21.03206491470337
+p2 c057 39/40 L=0.653 Lq=-0.1286 Le=-0.289 rA=0.136 rB=0.264 a_out=3 u_out=3 mem=21.03206491470337
+p2 c057 40/40 L=0.803 Lq=-0.1067 Le=-0.255 rA=0.147 rB=0.253 a_out=2 u_out=2 mem=21.03206491470337
+== p2 attack c058 (16/17) ==
+p2 c058 1/40 L=1.248 Lq=-0.0261 Le=-0.017 rA=0.187 rB=0.213 a_out=0 u_out=0 mem=21.03206491470337
+p2 c058 2/40 L=1.206 Lq=-0.0369 Le=-0.080 rA=0.182 rB=0.218 a_out=0 u_out=0 mem=21.03206491470337
+p2 c058 3/40 L=1.147 Lq=-0.0413 Le=-0.075 rA=0.179 rB=0.221 a_out=1 u_out=1 mem=21.03206491470337
+p2 c058 4/40 L=1.207 Lq=-0.0364 Le=-0.080 rA=0.182 rB=0.218 a_out=0 u_out=0 mem=21.03206491470337
+p2 c058 5/40 L=1.106 Lq=-0.0430 Le=-0.153 rA=0.178 rB=0.222 a_out=1 u_out=1 mem=21.03206491470337
+p2 c058 6/40 L=1.111 Lq=-0.0419 Le=-0.149 rA=0.179 rB=0.221 a_out=1 u_out=1 mem=21.03206491470337
+p2 c058 7/40 L=1.095 Lq=-0.0480 Le=-0.169 rA=0.176 rB=0.224 a_out=1 u_out=1 mem=21.03206491470337
+p2 c058 8/40 L=1.069 Lq=-0.0579 Le=-0.177 rA=0.171 rB=0.229 a_out=2 u_out=2 mem=21.03206491470337
+p2 c058 9/40 L=1.066 Lq=-0.0540 Le=-0.191 rA=0.173 rB=0.227 a_out=2 u_out=2 mem=21.03206491470337
+p2 c058 10/40 L=1.103 Lq=-0.0447 Le=-0.160 rA=0.178 rB=0.222 a_out=1 u_out=1 mem=21.03206491470337
+p2 c058 11/40 L=1.054 Lq=-0.0569 Le=-0.206 rA=0.172 rB=0.228 a_out=2 u_out=2 mem=21.03206491470337
+p2 c058 12/40 L=1.092 Lq=-0.0440 Le=-0.179 rA=0.178 rB=0.222 a_out=1 u_out=1 mem=21.03206491470337
+p2 c058 13/40 L=1.046 Lq=-0.0604 Le=-0.216 rA=0.170 rB=0.230 a_out=2 u_out=2 mem=21.03206491470337
+p2 c058 14/40 L=1.033 Lq=-0.0637 Le=-0.235 rA=0.168 rB=0.232 a_out=2 u_out=2 mem=21.03206491470337
+p2 c058 15/40 L=1.042 Lq=-0.0598 Le=-0.224 rA=0.170 rB=0.230 a_out=2 u_out=2 mem=21.03206491470337
+p2 c058 16/40 L=1.028 Lq=-0.0690 Le=-0.235 rA=0.166 rB=0.234 a_out=2 u_out=2 mem=21.03206491470337
+p2 c058 17/40 L=0.889 Lq=-0.0760 Le=-0.265 rA=0.162 rB=0.238 a_out=3 u_out=3 mem=21.03206491470337
+p2 c058 18/40 L=0.887 Lq=-0.0821 Le=-0.257 rA=0.159 rB=0.241 a_out=3 u_out=3 mem=21.03206491470337
+p2 c058 19/40 L=0.889 Lq=-0.0805 Le=-0.256 rA=0.160 rB=0.240 a_out=3 u_out=3 mem=21.03206491470337
+p2 c058 20/40 L=0.857 Lq=-0.0898 Le=-0.272 rA=0.155 rB=0.245 a_out=4 u_out=4 mem=21.03206491470337
+p2 c058 21/40 L=0.902 Lq=-0.0782 Le=-0.235 rA=0.161 rB=0.239 a_out=3 u_out=3 mem=21.03206491470337
+p2 c058 22/40 L=0.887 Lq=-0.0836 Le=-0.255 rA=0.158 rB=0.242 a_out=3 u_out=3 mem=21.03206491470337
+p2 c058 23/40 L=0.892 Lq=-0.0797 Le=-0.253 rA=0.160 rB=0.240 a_out=3 u_out=3 mem=21.03206491470337
+p2 c058 24/40 L=0.853 Lq=-0.0905 Le=-0.280 rA=0.155 rB=0.245 a_out=4 u_out=4 mem=21.03206491470337
+p2 c058 25/40 L=0.871 Lq=-0.0859 Le=-0.253 rA=0.157 rB=0.243 a_out=4 u_out=4 mem=21.03206491470337
+p2 c058 26/40 L=0.854 Lq=-0.0903 Le=-0.277 rA=0.155 rB=0.245 a_out=4 u_out=4 mem=21.03206491470337
+p2 c058 27/40 L=0.845 Lq=-0.0932 Le=-0.289 rA=0.153 rB=0.247 a_out=4 u_out=4 mem=21.03206491470337
+p2 c058 28/40 L=0.837 Lq=-0.0964 Le=-0.298 rA=0.152 rB=0.248 a_out=4 u_out=4 mem=21.03206491470337
+p2 c058 29/40 L=0.731 Lq=-0.1015 Le=-0.300 rA=0.149 rB=0.251 a_out=5 u_out=5 mem=21.03206491470337
+p2 c058 30/40 L=0.733 Lq=-0.1010 Le=-0.299 rA=0.150 rB=0.250 a_out=5 u_out=5 mem=21.03206491470337
+p2 c058 31/40 L=0.725 Lq=-0.1022 Le=-0.311 rA=0.149 rB=0.251 a_out=5 u_out=5 mem=21.03206491470337
+p2 c058 32/40 L=0.728 Lq=-0.1043 Le=-0.302 rA=0.148 rB=0.252 a_out=5 u_out=5 mem=21.03206491470337
+p2 c058 33/40 L=0.714 Lq=-0.1118 Le=-0.315 rA=0.144 rB=0.256 a_out=5 u_out=5 mem=21.03206491470337
+p2 c058 34/40 L=0.725 Lq=-0.1064 Le=-0.303 rA=0.147 rB=0.253 a_out=5 u_out=5 mem=21.03206491470337
+p2 c058 35/40 L=0.705 Lq=-0.1132 Le=-0.329 rA=0.143 rB=0.257 a_out=5 u_out=5 mem=21.03206491470337
+p2 c058 36/40 L=0.682 Lq=-0.1213 Le=-0.328 rA=0.139 rB=0.261 a_out=6 u_out=6 mem=21.03206491470337
+p2 c058 37/40 L=0.707 Lq=-0.1144 Le=-0.323 rA=0.143 rB=0.257 a_out=5 u_out=5 mem=21.03206491470337
+p2 c058 38/40 L=0.722 Lq=-0.1058 Le=-0.310 rA=0.147 rB=0.253 a_out=5 u_out=5 mem=21.03206491470337
+p2 c058 39/40 L=0.837 Lq=-0.0996 Le=-0.293 rA=0.150 rB=0.250 a_out=4 u_out=4 mem=21.03206491470337
+p2 c058 40/40 L=0.715 Lq=-0.1102 Le=-0.316 rA=0.145 rB=0.255 a_out=5 u_out=5 mem=21.03206491470337
+== p2 attack c059 (17/17) ==
+p2 c059 1/40 L=4.093 Lq=-0.0503 Le=0.270 rA=0.175 rB=0.225 a_out=0 u_out=0 mem=21.03206491470337
+p2 c059 2/40 L=3.959 Lq=-0.0541 Le=0.209 rA=0.173 rB=0.227 a_out=1 u_out=0 mem=21.03206491470337
+p2 c059 3/40 L=3.945 Lq=-0.0591 Le=0.190 rA=0.170 rB=0.230 a_out=1 u_out=0 mem=21.03206491470337
+p2 c059 4/40 L=3.872 Lq=-0.0619 Le=0.051 rA=0.169 rB=0.231 a_out=1 u_out=0 mem=21.03206491470337
+p2 c059 5/40 L=3.866 Lq=-0.0604 Le=0.033 rA=0.170 rB=0.230 a_out=1 u_out=0 mem=21.03206491470337
+p2 c059 6/40 L=3.832 Lq=-0.0764 Le=0.030 rA=0.162 rB=0.238 a_out=2 u_out=0 mem=21.03206491470337
+p2 c059 7/40 L=3.807 Lq=-0.0758 Le=-0.024 rA=0.162 rB=0.238 a_out=2 u_out=0 mem=21.03206491470337
+p2 c059 8/40 L=3.707 Lq=-0.0855 Le=-0.021 rA=0.157 rB=0.243 a_out=3 u_out=0 mem=21.03206491470337
+p2 c059 9/40 L=3.799 Lq=-0.0727 Le=-0.045 rA=0.164 rB=0.236 a_out=2 u_out=0 mem=21.03206491470337
+p2 c059 10/40 L=3.795 Lq=-0.0768 Le=-0.045 rA=0.162 rB=0.238 a_out=2 u_out=0 mem=21.03206491470337
+p2 c059 11/40 L=3.703 Lq=-0.0864 Le=-0.029 rA=0.157 rB=0.243 a_out=3 u_out=0 mem=21.03206491470337
+p2 c059 12/40 L=3.818 Lq=-0.0821 Le=0.013 rA=0.159 rB=0.241 a_out=2 u_out=0 mem=21.03206491470337
+p2 c059 13/40 L=3.817 Lq=-0.0750 Le=-0.004 rA=0.162 rB=0.238 a_out=2 u_out=0 mem=21.03206491470337
+p2 c059 14/40 L=3.846 Lq=-0.0679 Le=0.007 rA=0.166 rB=0.234 a_out=1 u_out=0 mem=21.03206491470337
+p2 c059 15/40 L=3.801 Lq=-0.0727 Le=-0.042 rA=0.164 rB=0.236 a_out=2 u_out=0 mem=21.03206491470337
+p2 c059 16/40 L=3.808 Lq=-0.0744 Le=-0.024 rA=0.163 rB=0.237 a_out=2 u_out=0 mem=21.03206491470337
+p2 c059 17/40 L=3.793 Lq=-0.0738 Le=-0.057 rA=0.163 rB=0.237 a_out=2 u_out=0 mem=21.03206491470337
+p2 c059 18/40 L=3.800 Lq=-0.0712 Le=-0.047 rA=0.164 rB=0.236 a_out=2 u_out=0 mem=21.03206491470337
+p2 c059 19/40 L=3.799 Lq=-0.0831 Le=-0.025 rA=0.158 rB=0.242 a_out=2 u_out=0 mem=21.03206491470337
+p2 c059 20/40 L=3.695 Lq=-0.0889 Le=-0.040 rA=0.156 rB=0.244 a_out=3 u_out=0 mem=21.03206491470337
+p2 c059 21/40 L=3.695 Lq=-0.0848 Le=-0.048 rA=0.158 rB=0.242 a_out=3 u_out=0 mem=21.03206491470337
+p2 c059 22/40 L=3.875 Lq=-0.0683 Le=0.067 rA=0.166 rB=0.234 a_out=1 u_out=0 mem=21.03206491470337
+p2 c059 23/40 L=3.781 Lq=-0.0769 Le=-0.074 rA=0.162 rB=0.238 a_out=2 u_out=0 mem=21.03206491470337
+p2 c059 24/40 L=3.688 Lq=-0.0853 Le=-0.061 rA=0.157 rB=0.243 a_out=3 u_out=0 mem=21.03206491470337
+p2 c059 25/40 L=3.666 Lq=-0.0919 Le=-0.092 rA=0.154 rB=0.246 a_out=3 u_out=0 mem=21.03206491470337
+p2 c059 26/40 L=3.669 Lq=-0.0846 Le=-0.101 rA=0.158 rB=0.242 a_out=3 u_out=0 mem=21.03206491470337
+p2 c059 27/40 L=3.781 Lq=-0.0761 Le=-0.077 rA=0.162 rB=0.238 a_out=2 u_out=0 mem=21.03206491470337
+p2 c059 28/40 L=3.784 Lq=-0.0799 Le=-0.062 rA=0.160 rB=0.240 a_out=2 u_out=0 mem=21.03206491470337
+p2 c059 29/40 L=3.581 Lq=-0.1015 Le=-0.112 rA=0.149 rB=0.251 a_out=4 u_out=0 mem=21.03206491470337
+p2 c059 30/40 L=3.661 Lq=-0.0934 Le=-0.100 rA=0.153 rB=0.247 a_out=3 u_out=0 mem=21.03206491470337
+p2 c059 31/40 L=3.672 Lq=-0.0932 Le=-0.078 rA=0.153 rB=0.247 a_out=3 u_out=0 mem=21.03206491470337
+p2 c059 32/40 L=3.572 Lq=-0.1094 Le=-0.116 rA=0.145 rB=0.255 a_out=4 u_out=0 mem=21.03206491470337
+p2 c059 33/40 L=3.570 Lq=-0.1004 Le=-0.137 rA=0.150 rB=0.250 a_out=4 u_out=0 mem=21.03206491470337
+p2 c059 34/40 L=3.554 Lq=-0.1078 Le=-0.154 rA=0.146 rB=0.254 a_out=4 u_out=0 mem=21.03206491470337
+p2 c059 35/40 L=3.425 Lq=-0.1264 Le=-0.160 rA=0.137 rB=0.263 a_out=5 u_out=0 mem=21.03206491470337
+p2 c059 36/40 L=3.426 Lq=-0.1180 Le=-0.175 rA=0.141 rB=0.259 a_out=5 u_out=0 mem=21.03206491470337
+p2 c059 37/40 L=3.574 Lq=-0.1039 Le=-0.121 rA=0.148 rB=0.252 a_out=4 u_out=0 mem=21.03206491470337
+p2 c059 38/40 L=3.440 Lq=-0.1176 Le=-0.147 rA=0.141 rB=0.259 a_out=5 u_out=0 mem=21.03206491470337
+p2 c059 39/40 L=3.553 Lq=-0.1100 Le=-0.150 rA=0.145 rB=0.255 a_out=4 u_out=0 mem=21.03206491470337
+p2 c059 40/40 L=3.418 Lq=-0.1228 Le=-0.182 rA=0.139 rB=0.261 a_out=5 u_out=0 mem=21.03206491470337
+{'n': 17, 'path': '/root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/coco_plus/p2_attack.json'}
+{'n_ok': 17, 'n_error': 0, 'n_screen_kept': 17, 'n_localized': 5, 'frac_localized': 0.29411764705882354, 'frac_full_hold': 1.0, 'frac_comp_only_fail': 0.29411764705882354, 'frac_a_out': 1.0, 'mean_a_out': 5.882352941176471, 'mean_u_out': 4.882352941176471, 'mean_u_evict_rate': 0.7313725490196079, 'frac_swap_avtp': 1.0, 'frac_isolated_ok': 0.9411764705882353, 'frac_restore_a_ok': 1.0, 'frac_restore_recovers_fail': 1.0, 'n_p1_overlap': 0, 'decision': 'CONTINUE', 'reason': 'compressed-only task failure with full-token holding', 'dataset': 'coco300_standin', 'model': 'Qwen2-VL-7B-Instruct', 'r_base': 0.2, 'eps': 0.06274509803921569, 'steps': 40}
+{'methods': {'random': {'n': 0}, 'task': {'n': 0}, 'caa': {'n': 0}, 'rank': {'n': 17, 'frac_full_hold': 1.0, 'frac_comp_only_fail': 0.23529411764705882, 'mean_a_out': 5.764705882352941, 'mean_u_out': 4.588235294117647, 'mean_u_evict_rate': 0.6719887955182073, 'n_cof': 4}, 'vcache': {'n': 17, 'frac_full_hold': 1.0, 'frac_comp_only_fail': 0.29411764705882354, 'mean_a_out': 5.882352941176471, 'mean_u_out': 4.882352941176471, 'mean_u_evict_rate': 0.7313725490196079, 'n_cof': 5}}, 'decision': 'CONTINUE', 'reason': 'V-CachePoll compressed-only fail beats same-budget baselines; full-token holds', 'best_other_cof': 0.23529411764705882, 'best_other_u': 0.6719887955182073, 'dataset': 'coco300_standin', 'model': 'Qwen2-VL-7B-Instruct', 'r_base': 0.2, 'eps': 0.06274509803921569, 'steps': 40}
+== done ==

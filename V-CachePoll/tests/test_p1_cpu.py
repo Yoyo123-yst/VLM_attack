@@ -99,5 +99,16 @@ class TestVision(unittest.TestCase):
         self.assertLess(float(value_loss(h, h)), 1e-5)
 
 
+class TestForwardLossImports(unittest.TestCase):
+    def test_vcache_path_does_not_shadow_combined_loss(self):
+        import inspect
+
+        from vcachepoll.attack import _forward_loss
+
+        src = inspect.getsource(_forward_loss)
+        self.assertNotIn("from .losses import combined_loss", src)
+        self.assertIn("combined_loss(", src)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

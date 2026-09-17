@@ -1,0 +1,60 @@
+{
+  "updated_at": "2026-09-16T16:04:37+08:00",
+  "old_n": 32,
+  "new_n": 17,
+  "combined_n": 49,
+  "vcache_old": {
+    "n": 32,
+    "frac_full_hold": 0.96875,
+    "frac_comp_only_fail": 0.21875,
+    "mean_a_out": 7.40625,
+    "mean_u_out": 5.59375,
+    "mean_u_evict_rate": 0.8261904761904761,
+    "n_cof": 7
+  },
+  "vcache_new": {
+    "n": 17,
+    "frac_full_hold": 1.0,
+    "frac_comp_only_fail": 0.29411764705882354,
+    "mean_a_out": 5.882352941176471,
+    "mean_u_out": 4.882352941176471,
+    "mean_u_evict_rate": 0.7313725490196079,
+    "n_cof": 5
+  },
+  "vcache_combined": {
+    "n": 49,
+    "frac_full_hold": 0.9795918367346939,
+    "frac_comp_only_fail": 0.24489795918367346,
+    "mean_a_out": 6.877551020408164,
+    "mean_u_out": 5.346938775510204,
+    "mean_u_evict_rate": 0.7932944606413993,
+    "n_cof": 12
+  },
+  "rank_old": {
+    "n": 32,
+    "frac_full_hold": 0.96875,
+    "frac_comp_only_fail": 0.15625,
+    "mean_a_out": 6.6875,
+    "mean_u_out": 5.65625,
+    "mean_u_evict_rate": 0.8331845238095238,
+    "n_cof": 5
+  },
+  "rank_new": {
+    "n": 17,
+    "frac_full_hold": 1.0,
+    "frac_comp_only_fail": 0.23529411764705882,
+    "mean_a_out": 5.764705882352941,
+    "mean_u_out": 4.588235294117647,
+    "mean_u_evict_rate": 0.6719887955182073,
+    "n_cof": 4
+  },
+  "rank_combined": {
+    "n": 49,
+    "frac_full_hold": 0.9795918367346939,
+    "frac_comp_only_fail": 0.1836734693877551,
+    "mean_a_out": 6.36734693877551,
+    "mean_u_out": 5.285714285714286,
+    "mean_u_evict_rate": 0.777259475218659,
+    "n_cof": 9
+  }
+}

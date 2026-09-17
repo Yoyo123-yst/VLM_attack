@@ -1,0 +1,33 @@
+seed: 2026
+output_dir: /root/autodl-tmp/multimodal_attack_project/V-CachePoll/out/p11
+
+data:
+  coco_root: /root/autodl-tmp/V-Attack-main/datasets/coco300/val2017
+  vqa_json: /root/autodl-tmp/V-Attack-main/Eval/coco300_vqa_main.json
+  coco_csv: /root/autodl-tmp/V-Attack-main/datasets/coco300.csv
+  n_pairs: 8
+  n_smoke: 2
+  n_screen_max: 8
+  question_prefix: "Look at the first image only. Ignore the second image."
+  textvqa_json: /root/autodl-tmp/multimodal_attack_project/V-CachePoll/data/textvqa/TextVQA_0.5.1_val.json
+  textvqa_image_dir: /root/autodl-tmp/multimodal_attack_project/V-CachePoll/data/textvqa/images
+  chartqa_dir: /root/autodl-tmp/multimodal_attack_project/V-CachePoll/data/chartqa
+
+model:
+  local_path: /root/autodl-tmp/models/Qwen2-VL-7B-Instruct
+  image_size: 336
+  max_new_tokens: 32
+  attn_implementation: sdpa
+  dtype: bfloat16
+
+compressor:
+  r_base: 0.2
+  alpha: 1.0
+  r_min: 0.05
+  r_max: 0.9
+  score_layers: [1, 14, 19]
+  spatial_merge_size: 2
+
+p11:
+  screen: [a_only_correct, full_multi_correct, clean_compressed_correct]
+  note: TextVQA JSON is present; images are not. ChartQA is not on disk. Use COCO stand-in until images land.

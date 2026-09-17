@@ -1,0 +1,20 @@
+{
+  "n": 1,
+  "pairs": [
+    {
+      "pair_id": "c000_dup2",
+      "a_file": "000000000285.jpg",
+      "b_file": "000000018519.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000000285.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000018519.jpg",
+      "source": "Grizzly bear",
+      "question": "What is the large creature that occupies most of the frame?",
+      "prompt": "Look at the first image only. Ignore the other images. What is the large creature that occupies most of the frame?",
+      "b_paths": [
+        "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000018519.jpg",
+        "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000018519.jpg"
+      ],
+      "n_aux": 2
+    }
+  ]
+}

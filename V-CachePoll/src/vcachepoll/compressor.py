@@ -117,12 +117,13 @@ def exchange_events(
     keep_adv: torch.Tensor,
     owner: torch.Tensor,
     victim: int = 0,
-    attacker: int = 1,
+    attacker: int | None = 1,
 ) -> Dict[str, int]:
     a_out = int(((owner == victim) & keep_clean & ~keep_adv).sum().item())
     a_in = int(((owner == victim) & ~keep_clean & keep_adv).sum().item())
-    b_in = int(((owner == attacker) & ~keep_clean & keep_adv).sum().item())
-    b_out = int(((owner == attacker) & keep_clean & ~keep_adv).sum().item())
+    att = (owner != victim) if attacker is None else (owner == int(attacker))
+    b_in = int((att & ~keep_clean & keep_adv).sum().item())
+    b_out = int((att & keep_clean & ~keep_adv).sum().item())
     a_kept_clean = int(((owner == victim) & keep_clean).sum().item())
     overlap_a = int(((owner == victim) & keep_clean & keep_adv).sum().item())
     return {
@@ -164,3 +165,86 @@ def layer_variation_score(hidden_by_layer: Dict[int, torch.Tensor], score_layers
 
 def summarize_keep(keep: torch.Tensor, owner: torch.Tensor, n_images: int) -> List[int]:
     return [int(((owner == i) & keep).sum().item()) for i in range(n_images)]
+
+
+def shared_k_total(n_per_image: Sequence[int], r_base: float) -> int:
+    """Single integer budget shared by every compressor in a fair comparison."""
+    n = [int(x) for x in n_per_image]
+    if not n or min(n) <= 0:
+        raise ValueError(f"bad n_per_image {n_per_image}")
+    total = sum(n)
+    m = len(n)
+    k = int(round(float(r_base) * total))
+    k = max(k, m)
+    return min(k, total)
+
+
+def snap_k_to_total(k: torch.Tensor, k_total: int, n_per_image: Sequence[int]) -> torch.Tensor:
+    n = torch.tensor(list(n_per_image), dtype=torch.long, device=k.device)
+    out = k.to(torch.long).clone()
+    out = torch.minimum(out, n)
+    out = torch.clamp(out, min=1)
+    cap = int(n.sum().item())
+    m = int(n.numel())
+    target = max(m, min(int(k_total), cap))
+    guard = 0
+    while int(out.sum().item()) != target and guard < 10000:
+        guard += 1
+        diff = target - int(out.sum().item())
+        if diff > 0:
+            slack = n - out
+            if int(slack.max().item()) <= 0:
+                break
+            i = int(torch.argmax(slack).item())
+            out[i] = out[i] + 1
+        else:
+            slack = out - 1
+            if int(slack.max().item()) <= 0:
+                break
+            i = int(torch.argmax(slack).item())
+            out[i] = out[i] - 1
+    return out
+
+
+def isolated_k_matched(n_per_image: Sequence[int], r_base: float) -> torch.Tensor:
+    n = torch.tensor(list(n_per_image), dtype=torch.long)
+    k_total = shared_k_total(n_per_image, r_base)
+    raw = n.to(torch.float32) * (float(k_total) / max(float(n.sum().item()), 1.0))
+    k = torch.round(raw).to(torch.long)
+    return snap_k_to_total(k, k_total, n_per_image)
+
+
+def select_spatial_uniform(owner: torch.Tensor, k: torch.Tensor) -> torch.Tensor:
+    """FEATHER-style spatial coverage: even strides inside each image, not score Top-K."""
+    keep = torch.zeros(owner.shape[0], dtype=torch.bool, device=owner.device)
+    n_images = int(k.numel())
+    for i in range(n_images):
+        idx = torch.nonzero(owner == i, as_tuple=False).flatten()
+        ni = int(idx.numel())
+        if ni == 0:
+            continue
+        ki = max(1, min(int(k[i].item()), ni))
+        if ki == ni:
+            keep[idx] = True
+            continue
+        pos = torch.linspace(0, ni - 1, steps=ki, device=owner.device)
+        sel = pos.round().to(torch.long)
+        keep[idx[sel]] = True
+    return keep
+
+
+def query_relevance_scores(visual_h: torch.Tensor, query_h: torch.Tensor) -> torch.Tensor:
+    """QuietPrune-style query–visual cosine. visual_h: [N, D], query_h: [D]."""
+    v = torch.nn.functional.normalize(visual_h.float(), dim=-1)
+    q = torch.nn.functional.normalize(query_h.float().reshape(-1), dim=0)
+    return v @ q
+
+
+def restore_u(keep_adv: torch.Tensor, u_mask: torch.Tensor) -> torch.Tensor:
+    out = keep_adv.clone()
+    out[u_mask.bool()] = True
+    return out
+
+
+def quota_sum_target(n_images: int, r_base: float) -> float:
+    return float(n_images) * float(r_base)

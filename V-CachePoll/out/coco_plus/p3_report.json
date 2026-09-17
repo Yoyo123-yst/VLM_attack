@@ -1,0 +1,40 @@
+{
+  "methods": {
+    "random": {
+      "n": 0
+    },
+    "task": {
+      "n": 0
+    },
+    "caa": {
+      "n": 0
+    },
+    "rank": {
+      "n": 17,
+      "frac_full_hold": 1.0,
+      "frac_comp_only_fail": 0.23529411764705882,
+      "mean_a_out": 5.764705882352941,
+      "mean_u_out": 4.588235294117647,
+      "mean_u_evict_rate": 0.6719887955182073,
+      "n_cof": 4
+    },
+    "vcache": {
+      "n": 17,
+      "frac_full_hold": 1.0,
+      "frac_comp_only_fail": 0.29411764705882354,
+      "mean_a_out": 5.882352941176471,
+      "mean_u_out": 4.882352941176471,
+      "mean_u_evict_rate": 0.7313725490196079,
+      "n_cof": 5
+    }
+  },
+  "decision": "CONTINUE",
+  "reason": "V-CachePoll compressed-only fail beats same-budget baselines; full-token holds",
+  "best_other_cof": 0.23529411764705882,
+  "best_other_u": 0.6719887955182073,
+  "dataset": "coco300_standin",
+  "model": "Qwen2-VL-7B-Instruct",
+  "r_base": 0.2,
+  "eps": 0.06274509803921569,
+  "steps": 40
+}

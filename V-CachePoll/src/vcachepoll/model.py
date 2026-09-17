@@ -124,10 +124,13 @@ class QwenMultiImage:
     def patchify(self, x01: torch.Tensor) -> Tuple[torch.Tensor, torch.Tensor]:
         return patchify_x01(x01.to(dtype=torch.float32))
 
-    def pixels_from_x01(self, xA: torch.Tensor, xB: torch.Tensor) -> torch.Tensor:
-        pv_a, _ = self.patchify(xA)
-        pv_b, _ = self.patchify(xB)
-        return torch.cat([pv_a, pv_b], dim=0)
+    def pixels_from_xs(self, xs: Sequence[torch.Tensor]) -> torch.Tensor:
+        if not xs:
+            raise ValueError("pixels_from_xs needs at least one image tensor")
+        return torch.cat([self.patchify(x)[0] for x in xs], dim=0)
+
+    def pixels_from_x01(self, xA: torch.Tensor, xB: torch.Tensor, *rest: torch.Tensor) -> torch.Tensor:
+        return self.pixels_from_xs([xA, xB, *rest])
 
     def split_processor_pixels(self, packed: PackedInput) -> Tuple[torch.Tensor, torch.Tensor]:
         pv = packed.tensors["pixel_values"]
@@ -220,3 +223,13 @@ def load_pair_images(pair: Dict[str, Any], b_image: Optional[Image.Image] = None
     a = open_rgb(pair["a_path"])
     b = b_image if b_image is not None else open_rgb(pair["b_path"])
     return a, b
+
+
+def load_sample_images(pair: Dict[str, Any], b_image: Optional[Image.Image] = None) -> List[Image.Image]:
+    a = open_rgb(pair["a_path"])
+    paths = list(pair.get("b_paths") or [pair["b_path"]])
+    if b_image is not None:
+        rest = [b_image] + [open_rgb(p) for p in paths[1:]]
+    else:
+        rest = [open_rgb(p) for p in paths]
+    return [a, *rest]

@@ -82,4 +82,25 @@ python scripts/run_p3.py --stage report
 
 Live status: `out/p3_random_progress.json`, `out/p3_task_progress.json`, `out/p3_caa_progress.json`, `out/p3_rank_progress.json`, `out/NIGHT_STATUS.md`.
 
+## P4–P11 (from `改进.md`)
+
+Order: logging → multi-image → multi-budget → multi-compressor → causal controls → multi-model → multi-dataset. Do not add `L_amp` (P12) until those finish.
+
+Gate: Unit test → 2-sample smoke → 8-sample pilot → full run. Success remains compression-only failure (full-token correct, shared compression wrong). A/B are experimenter labels. AVTP-style compressor is a victim plugin.
+
+```bash
+python tests/test_p0_cpu.py
+python tests/test_p1_cpu.py
+python tests/test_extend_cpu.py
+python scripts/run_extend.py --phase inventory
+python scripts/run_extend.py --phase p5 --stage pairs --n-aux 1
+python scripts/run_extend.py --phase p8
+python scripts/run_extend.py --phase p9 --stage table
+# GPU, only when nvidia-smi is free (do not steal MSC/HSSC):
+python scripts/run_extend.py --phase p4 --stage smoke --limit 2
+python scripts/run_extend.py --phase p4 --stage attack   # writes out/p4/, does not overwrite out/p2_attack.json
+```
+
+Live status: `out/extend/STATUS.md`. P4/P5/P6/P7 GPU outputs go to `out/p4` … `out/p7`, never `out/p2_attack.json`.
+
 

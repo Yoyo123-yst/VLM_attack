@@ -1,0 +1,119 @@
+{
+  "dataset": "coco300_maux1",
+  "n": 8,
+  "n_aux": 1,
+  "pairs": [
+    {
+      "pair_id": "c000",
+      "a_file": "000000000285.jpg",
+      "b_file": "000000018519.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000000285.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000018519.jpg",
+      "source": "Grizzly bear",
+      "question": "What is the large creature that occupies most of the frame?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large creature that occupies most of the frame?",
+      "b_paths": [
+        "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000018519.jpg"
+      ],
+      "n_aux": 1
+    },
+    {
+      "pair_id": "c001",
+      "a_file": "000000000776.jpg",
+      "b_file": "000000328030.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000000776.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000328030.jpg",
+      "source": "Teddy bear",
+      "question": "What is the object that appears to be nestled between the two plush figures?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that appears to be nestled between the two plush figures?",
+      "b_paths": [
+        "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000328030.jpg"
+      ],
+      "n_aux": 1
+    },
+    {
+      "pair_id": "c002",
+      "a_file": "000000001425.jpg",
+      "b_file": "000000491683.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000001425.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000491683.jpg",
+      "source": "Sandwich",
+      "question": "What is the object that has been partially consumed and placed on the flat, round surface?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that has been partially consumed and placed on the flat, round surface?",
+      "b_paths": [
+        "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000491683.jpg"
+      ],
+      "n_aux": 1
+    },
+    {
+      "pair_id": "c003",
+      "a_file": "000000001584.jpg",
+      "b_file": "000000229849.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000001584.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000229849.jpg",
+      "source": "Double-decker bus",
+      "question": "What is the object that is positioned on the road and has two levels for passengers?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that is positioned on the road and has two levels for passengers?",
+      "b_paths": [
+        "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000229849.jpg"
+      ],
+      "n_aux": 1
+    },
+    {
+      "pair_id": "c004",
+      "a_file": "000000001675.jpg",
+      "b_file": "000000032887.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000001675.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000032887.jpg",
+      "source": "Black cat",
+      "question": "What is the dark object that seems to be partially obscuring the typing surface?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the dark object that seems to be partially obscuring the typing surface?",
+      "b_paths": [
+        "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000032887.jpg"
+      ],
+      "n_aux": 1
+    },
+    {
+      "pair_id": "c005",
+      "a_file": "000000001993.jpg",
+      "b_file": "000000076547.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000001993.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000076547.jpg",
+      "source": "Bed",
+      "question": "What is the object that occupies the space near the window, taking up a significant portion of the room?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that occupies the space near the window, taking up a significant portion of the room?",
+      "b_paths": [
+        "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000076547.jpg"
+      ],
+      "n_aux": 1
+    },
+    {
+      "pair_id": "c006",
+      "a_file": "000000002006.jpg",
+      "b_file": "000000010764.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000002006.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000010764.jpg",
+      "source": "Bus",
+      "question": "What is the large vehicle that is positioned near the curb?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the large vehicle that is positioned near the curb?",
+      "b_paths": [
+        "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000010764.jpg"
+      ],
+      "n_aux": 1
+    },
+    {
+      "pair_id": "c007",
+      "a_file": "000000002149.jpg",
+      "b_file": "000000431848.jpg",
+      "a_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000002149.jpg",
+      "b_path": "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000431848.jpg",
+      "source": "Green apple",
+      "question": "What is the object that the white dish is containing?",
+      "prompt": "Look at the first image only. Ignore the second image. What is the object that the white dish is containing?",
+      "b_paths": [
+        "/root/autodl-tmp/V-Attack-main/datasets/coco300/val2017/000000431848.jpg"
+      ],
+      "n_aux": 1
+    }
+  ]
+}

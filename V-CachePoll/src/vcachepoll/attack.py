@@ -10,11 +10,12 @@ from typing import Any, Dict, List, Optional
 
 import torch
 
-from .compressor import exchange_events, restore_victim, summarize_keep
+from .compressor import exchange_events, restore_u, restore_victim, summarize_keep
 from .config import out_dir
 from .io import load_json, save_json
-from .losses import combined_loss
-from .model import QwenMultiImage, load_pair_images
+from .losses import caa_b_loss, cage_b_loss, combined_loss, lamp_like_loss
+from .mechlog import delta_a_is_zero, linf_ok, margin_crossing, mechanism_snapshot, quota_conserved
+from .model import QwenMultiImage, load_pair_images, load_sample_images
 from .probe import _ok, _select
 from .vision import clip_delta, tv_loss, x01_to_pil
 
@@ -41,7 +42,8 @@ def _select_cfg(scores, owner, n_per, cfg, mode: str):
 
 def _metrics_from_scores(scores, owner, n_per, cfg, keep_clean, mode: str = "avtp") -> Dict[str, Any]:
     quota, keep = _select_cfg(scores, owner, n_per, cfg, mode)
-    ev = exchange_events(keep_clean, keep, owner)
+    attacker = 1 if int(owner.max().item()) <= 1 else None
+    ev = exchange_events(keep_clean, keep, owner, attacker=attacker)
     return {
         "r": [float(x) for x in quota.r.detach().cpu().tolist()],
         "k": [int(x) for x in quota.k.detach().cpu().tolist()],
@@ -53,7 +55,44 @@ def _metrics_from_scores(scores, owner, n_per, cfg, keep_clean, mode: str = "avt
 
 
 def _J(ev: Dict[str, int], r: List[float], u_out: int = 0, w1: float = 2.0, w2: float = 2.0, w3: float = 8.0, w4: float = 10.0) -> float:
-    return float(w1 * ev["a_out"] + w2 * ev["b_in"] + w3 * (r[1] - r[0]) + w4 * u_out)
+    r_aux = (sum(r[1:]) / max(len(r) - 1, 1)) if len(r) > 1 else 0.0
+    return float(w1 * ev["a_out"] + w2 * ev["b_in"] + w3 * (r_aux - r[0]) + w4 * u_out)
+
+
+def _attack_aux_idx(state_or_cfg, n_aux: int) -> List[int]:
+    if isinstance(state_or_cfg, dict) and "attack" in state_or_cfg:
+        perturb = str(state_or_cfg.get("attack", {}).get("perturb") or "single")
+    else:
+        perturb = "single"
+    if perturb == "multi":
+        return list(range(max(int(n_aux), 1)))
+    return [0]
+
+
+def _perturbed_xs(state: Dict[str, Any], delta) -> List:
+    aux = list(state.get("x_aux") or [state["xB0"]])
+    attack_aux = list(state.get("attack_aux") or [0])
+    xs = [state["xA"]]
+    if torch.is_tensor(delta):
+        if delta.dim() == aux[0].dim() + 1:
+            dmap = {int(i): delta[j] for j, i in enumerate(attack_aux)}
+        else:
+            dmap = {int(attack_aux[0]): delta}
+    else:
+        dmap = {int(i): d for i, d in zip(attack_aux, delta)}
+    for i, x0 in enumerate(aux):
+        if i in dmap:
+            xs.append(torch.clamp(x0 + dmap[i], 0.0, 1.0))
+        else:
+            xs.append(x0)
+    return xs
+
+
+def _tv_attacked(xs: List, attack_aux: List[int]):
+    parts = [xs[1 + i] for i in attack_aux if 1 + i < len(xs)]
+    if not parts:
+        return xs[1]
+    return parts[0]
 
 
 def _log_prefix(cfg: Dict[str, Any]) -> str:
@@ -66,12 +105,13 @@ def _result_path(cfg: Dict[str, Any], key: str, default: str) -> Path:
 
 
 def prepare_sample(wrapper: QwenMultiImage, pair: Dict[str, Any], cfg: Dict[str, Any]) -> Dict[str, Any]:
-    a, b = load_pair_images(pair)
-    packed = wrapper.pack([a, b], pair["prompt"])
+    images = load_sample_images(pair)
+    packed = wrapper.pack(images, pair["prompt"])
     grid = packed.tensors["image_grid_thw"]
-    xA = wrapper.x01_for_grid(a, grid[0]).detach()
-    xB0 = wrapper.x01_for_grid(b, grid[1]).detach()
-    pv = wrapper.pixels_from_x01(xA, xB0).detach()
+    xs = [wrapper.x01_for_grid(im, grid[i]).detach() for i, im in enumerate(images)]
+    xA, x_aux = xs[0], xs[1:]
+    xB0 = x_aux[0]
+    pv = wrapper.pixels_from_xs(xs).detach()
     packed = wrapper.with_pixels(packed, pv)
     n_from_pv = int(pv.shape[0]) // (2 * 2)
     if n_from_pv != sum(packed.n_per_image):
@@ -82,7 +122,11 @@ def prepare_sample(wrapper: QwenMultiImage, pair: Dict[str, Any], cfg: Dict[str,
     with torch.no_grad():
         scores, h_clean, out = wrapper._forward_hidden(packed, pixel_values=pv)
         del out
-    quota, keep = _select_cfg(scores, owner, packed.n_per_image, cfg, "avtp")
+    mode = str(cfg.get("compressor", {}).get("mode") or "avtp")
+    if mode not in {"avtp", "global", "isolated", "query", "query_aware", "feather", "spatial"}:
+        mode = "avtp"
+    sel_mode = "avtp" if mode in {"query", "query_aware"} else mode
+    quota, keep = _select_cfg(scores, owner, packed.n_per_image, cfg, sel_mode)
     u_idx = pair.get("u_idx")
     if u_idx:
         u_mask = torch.zeros_like(keep)
@@ -97,24 +141,33 @@ def prepare_sample(wrapper: QwenMultiImage, pair: Dict[str, Any], cfg: Dict[str,
             top = torch.topk(scores[a_keep], k=min(n_top, int(a_keep.numel())), largest=True).indices
             u_mask = torch.zeros_like(keep)
             u_mask[a_keep[top]] = True
-    v_mask = owner == 1
+    v_mask = owner >= 1
     gold = pair.get("ans_a_only") or pair.get("screen", {}).get("ans_a_only")
+    attack_aux = _attack_aux_idx(cfg, n_aux=len(x_aux))
+    mech_clean = mechanism_snapshot(
+        scores, owner, packed.n_per_image, keep, keep, u_mask, quota.r, quota.k, quota.i_bar
+    )
     return {
         "pair": pair,
         "packed": packed,
         "xA": xA,
         "xB0": xB0,
+        "x_aux": x_aux,
+        "attack_aux": attack_aux,
         "owner": owner,
         "keep_clean": keep.detach(),
         "u_mask": u_mask.detach(),
         "v_mask": v_mask.detach(),
         "h_clean": h_clean.detach(),
+        "scores_clean": scores.detach(),
         "gold": gold,
         "r_clean": [float(x) for x in quota.r.detach().cpu().tolist()],
         "k_clean": [int(x) for x in quota.k.detach().cpu().tolist()],
         "i_bar_clean": [float(x) for x in quota.i_bar.detach().cpu().tolist()],
         "n_u": int(u_mask.sum().item()),
         "gold_ids": _gold_ids(wrapper, gold),
+        "mech_clean": mech_clean,
+        "delta_a_zero": True,
     }
 
 
@@ -128,8 +181,6 @@ def _gold_ids(wrapper: QwenMultiImage, gold: Optional[str]) -> torch.Tensor:
 
 
 def _aux_from_scores(scores, owner, n_per, cfg, u_mask, v_mask, h_adv, h_clean, xB):
-    from .losses import combined_loss
-
     _loss, aux = combined_loss(
         scores=scores,
         owner=owner,
@@ -192,8 +243,9 @@ def _task_loss(wrapper, packed, pixel_values, gold_ids):
 def _forward_loss(wrapper, state, delta, cfg):
     atk = cfg["attack"]
     kind = str(atk.get("loss_kind", "vcache"))
-    xB = torch.clamp(state["xB0"] + delta, 0.0, 1.0)
-    pv = wrapper.pixels_from_x01(state["xA"], xB)
+    xs = _perturbed_xs(state, delta)
+    xB = _tv_attacked(xs, list(state.get("attack_aux") or [0]))
+    pv = wrapper.pixels_from_xs(xs)
     if kind == "task":
         loss, scores, h_adv = _task_loss(wrapper, state["packed"], pv, state["gold_ids"])
         aux = _aux_from_scores(
@@ -202,11 +254,19 @@ def _forward_loss(wrapper, state, delta, cfg):
         )
         aux["L_task"] = loss.detach()
         return loss, aux, scores, xB, pv
+    if kind in {"lamp", "lamp_like"}:
+        task, scores, h_adv = _task_loss(wrapper, state["packed"], pv, state["gold_ids"])
+        loss = task + lamp_like_loss(scores, state["owner"], h_adv, state["h_clean"])
+        aux = _aux_from_scores(
+            scores, state["owner"], state["packed"].n_per_image, cfg,
+            state["u_mask"], state["v_mask"], h_adv, state["h_clean"], xB,
+        )
+        aux["L_lamp"] = loss.detach()
+        aux["L_task"] = task.detach()
+        return loss, aux, scores, xB, pv
 
     scores, h_adv = wrapper.visual_scores_grad(state["packed"], pv)
     if kind == "caa":
-        from .losses import caa_b_loss
-
         loss = caa_b_loss(scores, state["owner"], state["keep_clean"])
         aux = _aux_from_scores(
             scores, state["owner"], state["packed"].n_per_image, cfg,
@@ -215,8 +275,6 @@ def _forward_loss(wrapper, state, delta, cfg):
         aux["L_caa"] = loss.detach()
         return loss, aux, scores, xB, pv
     if kind == "cage":
-        from .losses import cage_b_loss
-
         loss = cage_b_loss(scores, state["owner"], state["keep_clean"])
         aux = _aux_from_scores(
             scores, state["owner"], state["packed"].n_per_image, cfg,
@@ -225,8 +283,6 @@ def _forward_loss(wrapper, state, delta, cfg):
         aux["L_cage"] = loss.detach()
         return loss, aux, scores, xB, pv
     if kind == "rank":
-        from .losses import combined_loss
-
         loss, aux = combined_loss(
             scores=scores,
             owner=state["owner"],
@@ -298,27 +354,42 @@ def _log_step(pair_id: str, step: int, steps: int, loss, aux, ev, elapsed: float
     print(
         f"{prefix} {pair_id} {step}/{steps} L={row['loss']:.3f} "
         f"Lq={row['L_quota']:+.4f} Le={row['L_evict']:.3f} "
-        f"rA={r[0]:.3f} rB={r[1]:.3f} a_out={ev['a_out']} u_out={u_out} "
+        f"rA={r[0]:.3f} rB={sum(r[1:]) / max(len(r) - 1, 1):.3f} a_out={ev['a_out']} u_out={u_out} "
         f"mem={row['mem_gb']}",
         flush=True,
     )
     return row
 
 
+def _delta_leaf(state: Dict[str, Any]) -> torch.Tensor:
+    attack_aux = list(state.get("attack_aux") or [0])
+    if len(attack_aux) > 1:
+        return torch.zeros_like(torch.stack([state["x_aux"][i] for i in attack_aux]))
+    return torch.zeros_like(state["xB0"])
+
+
+def _delta_anchor(state: Dict[str, Any], delta: torch.Tensor) -> torch.Tensor:
+    attack_aux = list(state.get("attack_aux") or [0])
+    if torch.is_tensor(delta) and delta.dim() == state["xB0"].dim() + 1:
+        return torch.stack([state["x_aux"][i] for i in attack_aux])
+    return state["xB0"]
+
+
 def exchange_search(wrapper, state, delta, cfg) -> torch.Tensor:
     atk = cfg["attack"]
     eps = float(atk["eps"])
     scales = [float(s) for s in atk.get("search_scales", [0.5, 0.75, 1.0, 1.25, 1.5])]
-    xB0 = state["xB0"]
-    best = clip_delta(xB0, delta.detach(), eps)
+    x0 = _delta_anchor(state, delta if torch.is_tensor(delta) else delta[0])
+    d0 = delta.detach() if torch.is_tensor(delta) else torch.stack([d.detach() for d in delta])
+    best = clip_delta(x0, d0, eps)
     best_j = -1e9
     linf = float(best.abs().amax().clamp(min=1e-8))
-    cands = [clip_delta(xB0, best * s, eps) for s in scales]
-    cands.append(clip_delta(xB0, best * (eps / linf), eps))
+    cands = [clip_delta(x0, best * s, eps) for s in scales]
+    cands.append(clip_delta(x0, best * (eps / linf), eps))
     with torch.no_grad():
         for cand in cands:
-            xB = torch.clamp(xB0 + cand, 0.0, 1.0)
-            pv = wrapper.pixels_from_x01(state["xA"], xB)
+            xs = _perturbed_xs(state, cand)
+            pv = wrapper.pixels_from_xs(xs)
             scores = wrapper.visual_scores(wrapper.with_pixels(state["packed"], pv))
             met = _metrics_from_scores(scores, state["owner"], state["packed"].n_per_image, cfg, state["keep_clean"])
             u_out = int((state["u_mask"].to(met["keep"].device) & ~met["keep"]).sum().item())
@@ -332,8 +403,8 @@ def exchange_search(wrapper, state, delta, cfg) -> torch.Tensor:
 def evaluate_final(wrapper, state, delta, cfg) -> Dict[str, Any]:
     pair = state["pair"]
     gold = state["gold"]
-    xB = torch.clamp(state["xB0"] + delta, 0.0, 1.0)
-    pv = wrapper.pixels_from_x01(state["xA"], xB).detach()
+    xs = _perturbed_xs(state, delta)
+    pv = wrapper.pixels_from_xs(xs).detach()
     packed = wrapper.with_pixels(state["packed"], pv)
     scores = wrapper.visual_scores(packed)
     owner = state["owner"]
@@ -346,23 +417,68 @@ def evaluate_final(wrapper, state, delta, cfg) -> Dict[str, Any]:
     ans_iso = wrapper.generate(packed, keep_visual=keep_iso)
     keep_restore = restore_victim(avtp["keep"], state["keep_clean"], owner, victim=0)
     ans_restore = wrapper.generate(packed, keep_visual=keep_restore)
+    u_mask = state["u_mask"].to(avtp["keep"].device)
+    keep_restore_u = restore_u(avtp["keep"], u_mask)
+    ans_restore_u = wrapper.generate(packed, keep_visual=keep_restore_u)
     full_ok = _ok(ans_full, pair, gold=gold)
     avtp_ok = _ok(ans_avtp, pair, gold=gold)
-    u_mask = state["u_mask"].to(avtp["keep"].device)
+    iso_ok = _ok(ans_iso, pair, gold=gold)
+    restore_a_ok = _ok(ans_restore, pair, gold=gold)
+    restore_u_ok = _ok(ans_restore_u, pair, gold=gold)
     u_out = int((u_mask & ~avtp["keep"]).sum().item())
     n_u = int(u_mask.sum().item())
+    r_t = torch.tensor(avtp["r"], dtype=torch.float32)
+    k_t = torch.tensor(avtp["k"], dtype=torch.long)
+    i_t = torch.tensor(avtp["i_bar"], dtype=torch.float32)
+    mech_adv = mechanism_snapshot(
+        scores, owner, n_per, avtp["keep"], state["keep_clean"], u_mask, r_t, k_t, i_t
+    )
+    mech_clean = state.get("mech_clean")
+    if mech_clean is None and state.get("scores_clean") is not None:
+        mech_clean = mechanism_snapshot(
+            state["scores_clean"],
+            owner,
+            n_per,
+            state["keep_clean"],
+            state["keep_clean"],
+            u_mask,
+            torch.tensor(state["r_clean"], dtype=torch.float32),
+            torch.tensor(state["k_clean"], dtype=torch.long),
+        )
+    d_att = delta if torch.is_tensor(delta) else torch.stack(list(delta))
+    eps = float(cfg.get("attack", {}).get("eps") or 16 / 255)
+    r_base = float(cfg["compressor"]["r_base"])
+    family = {}
+    if bool(cfg.get("compressor", {}).get("eval_family")):
+        for mode in ("avtp", "global", "isolated", "feather"):
+            q, keep_m = _select_cfg(scores, owner, n_per, {**cfg, "compressor": {**cfg["compressor"], "match_k_total": True}}, mode)
+            ans_m = wrapper.generate(packed, keep_visual=keep_m)
+            family[mode] = {
+                "k": [int(x) for x in q.k.detach().cpu().tolist()],
+                "k_sum": int(keep_m.sum().item()),
+                "ok": bool(_ok(ans_m, pair, gold=gold)),
+            }
     return {
         "ans_full": ans_full,
         "ans_avtp": ans_avtp,
         "ans_isolated": ans_iso,
         "ans_restore_a": ans_restore,
+        "ans_restore_u": ans_restore_u,
         "full_ok": bool(full_ok),
         "avtp_ok": bool(avtp_ok),
-        "isolated_ok": bool(_ok(ans_iso, pair, gold=gold)),
-        "restore_a_ok": bool(_ok(ans_restore, pair, gold=gold)),
+        "isolated_ok": bool(iso_ok),
+        "restore_a_ok": bool(restore_a_ok),
+        "restore_u_ok": bool(restore_u_ok),
         "avtp": {k: v for k, v in avtp.items() if k != "keep"},
         "global": {k: v for k, v in glob.items() if k != "keep"},
-        "linf": float(delta.abs().amax().cpu()),
+        "linf": float(d_att.detach().abs().amax().cpu()),
+        "linf_ok": linf_ok(d_att, eps),
+        "delta_a_zero": delta_a_is_zero(state["xA"], xs[0]),
+        "quota_sum_ok": quota_conserved(r_t, r_base),
+        "mech_clean": mech_clean,
+        "mech_adv": mech_adv,
+        "margin_cross": margin_crossing(mech_clean or {}, mech_adv),
+        "family": family,
         "comp_only_fail": bool(full_ok and not avtp_ok),
         "n_u": n_u,
         "u_out": u_out,
@@ -383,7 +499,7 @@ def pgd_one(
     steps = int(steps if steps is not None else atk["steps"])
     search_every = int(atk.get("search_every", 10))
     pair_id = state["pair"]["pair_id"]
-    delta = torch.zeros_like(state["xB0"])
+    delta = _delta_leaf(state)
     history: List[Dict[str, Any]] = []
     t0 = time.time()
     oom_fallback = False
@@ -407,7 +523,7 @@ def pgd_one(
         if grad is None:
             raise RuntimeError(f"{pair_id}: no image gradient")
         gnorm = float(grad.detach().float().abs().mean().cpu())
-        delta = clip_delta(state["xB0"], delta.detach() - alpha * grad.sign(), eps)
+        delta = clip_delta(_delta_anchor(state, delta.detach()), delta.detach() - alpha * grad.sign(), eps)
         if search_every > 0 and step % search_every == 0:
             delta = exchange_search(wrapper, state, delta, cfg)
 
@@ -615,7 +731,7 @@ def _strip(obj: Any) -> Any:
     if torch.is_tensor(obj):
         return obj.detach().cpu().tolist()
     if isinstance(obj, dict):
-        return {k: _strip(v) for k, v in obj.items() if k not in {"keep", "delta", "packed", "xA", "xB0", "owner", "u_mask", "v_mask", "h_clean", "keep_clean", "gold_ids"}}
+        return {k: _strip(v) for k, v in obj.items() if k not in {"keep", "delta", "packed", "xA", "xB0", "x_aux", "owner", "u_mask", "v_mask", "h_clean", "keep_clean", "gold_ids", "scores_clean"}}
     if isinstance(obj, list):
         return [_strip(x) for x in obj]
     return obj

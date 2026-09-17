@@ -2,7 +2,7 @@
 
 Visual token squatting / cache-pollution probes on multi-image pruning.
 
-当前进展见 **[PROGRESS.md](PROGRESS.md)**。P0–P3 均判定 CONTINUE。P0 使用本地 **COCO val2017 + coco300 VQA** 替身，TextVQA 尚未上盘。
+当前进展见 **[PROGRESS.md](PROGRESS.md)**。P0–P3 均判定 CONTINUE。过夜 P4 全量 32 条压缩专属失败 **25.0%**（P2 为 21.9%），见 [`out/extend/STATUS.md`](out/extend/STATUS.md)。P0 使用本地 **COCO val2017 + coco300 VQA** 替身，TextVQA 图尚未上盘。
 
 ```bash
 source /root/miniconda3/etc/profile.d/conda.sh
@@ -25,6 +25,9 @@ python scripts/run_p2.py --stage crit
 python scripts/run_p2.py --stage smoke
 python scripts/run_p2.py --stage attack
 python scripts/run_p2.py --stage report
+python tests/test_extend_cpu.py
+python scripts/run_extend.py --phase inventory
+python scripts/run_extend.py --phase p4 --stage attack
 ```
 
 `pairs` is CPU-only. `smoke` loads Qwen2-VL-7B on 2 samples. Do not start with `p0` until smoke works.

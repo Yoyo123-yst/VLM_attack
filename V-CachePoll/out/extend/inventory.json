@@ -1,0 +1,66 @@
+{
+  "gpu_free": false,
+  "gpu_holder": {
+    "pid": 19518,
+    "mem": "14928 MiB",
+    "cmd": "/root/autodl-tmp/conda/envs/vattack/bin/python -u /root/autodl-tmp/multimodal_attack_project/MSC/scripts/run_p01.py --resume"
+  },
+  "disk": {
+    "free_gb": 5.01,
+    "ok": true
+  },
+  "p10": {
+    "qwen2vl": {
+      "path": "/root/autodl-tmp/models/Qwen2-VL-7B-Instruct",
+      "present": true,
+      "role": "current baseline victim"
+    },
+    "qwen3vl": {
+      "path": "/root/autodl-tmp/models/Qwen3-VL-8B-Instruct",
+      "present": false,
+      "role": "AVTP original family; P10 M0–M5"
+    },
+    "internvl35": {
+      "path": "/root/autodl-tmp/models/InternVL3.5-8B",
+      "present": false,
+      "role": "AVTP original family; P10 M0–M5"
+    },
+    "llava_ov": {
+      "path": "/root/autodl-tmp/models/LLaVA-OneVision-7B",
+      "present": false,
+      "role": "AVTP original family; P10 M0–M5"
+    }
+  },
+  "p11": {
+    "textvqa_json": "/root/autodl-tmp/multimodal_attack_project/V-CachePoll/data/textvqa/TextVQA_0.5.1_val.json",
+    "textvqa_images": false,
+    "chartqa": false,
+    "coco_standin": true,
+    "screen_rule": "A-only correct AND full multi-image correct AND clean compressed correct"
+  },
+  "p12": {
+    "add_amp_loss": false,
+    "reason": "Doc P12: wait until multi-image + multi-budget + multi-compressor finish. Do not add L_amp now."
+  },
+  "p6": {
+    "experiment_a": "budget-specific attack at each r in budgets",
+    "experiment_b": "train at r=0.2, evaluate saved delta at each r_test",
+    "experiment_c": "SKIP — doc says do not add EOT-style randomized budget by default",
+    "budgets": [
+      0.1,
+      0.2,
+      0.3,
+      0.5
+    ],
+    "train_r": 0.2
+  },
+  "next_gpu": [
+    "cd /root/autodl-tmp/multimodal_attack_project/V-CachePoll && /root/autodl-tmp/conda/envs/vattack/bin/python scripts/run_extend.py --phase p4 --stage smoke --limit 2",
+    "cd /root/autodl-tmp/multimodal_attack_project/V-CachePoll && /root/autodl-tmp/conda/envs/vattack/bin/python scripts/run_extend.py --phase p4 --stage pilot --limit 8",
+    "cd /root/autodl-tmp/multimodal_attack_project/V-CachePoll && /root/autodl-tmp/conda/envs/vattack/bin/python scripts/run_extend.py --phase p4 --stage attack",
+    "cd /root/autodl-tmp/multimodal_attack_project/V-CachePoll && /root/autodl-tmp/conda/envs/vattack/bin/python scripts/run_extend.py --phase p5 --stage smoke --n-aux 1 --limit 4",
+    "cd /root/autodl-tmp/multimodal_attack_project/V-CachePoll && /root/autodl-tmp/conda/envs/vattack/bin/python scripts/run_extend.py --phase p6 --stage smoke --limit 1",
+    "cd /root/autodl-tmp/multimodal_attack_project/V-CachePoll && /root/autodl-tmp/conda/envs/vattack/bin/python scripts/run_extend.py --phase p7 --stage smoke --limit 2",
+    "cd /root/autodl-tmp/multimodal_attack_project/V-CachePoll && /root/autodl-tmp/conda/envs/vattack/bin/python scripts/run_extend.py --phase p9 --stage lamp --limit 8"
+  ]
+}

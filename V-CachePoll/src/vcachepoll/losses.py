@@ -10,9 +10,13 @@ import torch.nn.functional as F
 from .compressor import image_quotas, mean_importance_per_image
 
 
+def _aux_mask(owner: torch.Tensor) -> torch.Tensor:
+    return owner >= 1
+
+
 def caa_b_loss(scores: torch.Tensor, owner: torch.Tensor, keep_clean: torch.Tensor) -> torch.Tensor:
     """CAA-B-only: lift currently uninformative B tokens over A's weakest kept score."""
-    b = scores[owner == 1].float()
+    b = scores[_aux_mask(owner)].float()
     if b.numel() == 0:
         return scores.sum() * 0.0
     n_low = max(1, b.numel() // 3)
@@ -24,9 +28,9 @@ def caa_b_loss(scores: torch.Tensor, owner: torch.Tensor, keep_clean: torch.Tens
 
 def cage_b_loss(scores: torch.Tensor, owner: torch.Tensor, keep_clean: torch.Tensor) -> torch.Tensor:
     """CAGE-B-only: push currently dropped B tokens over the clean keep cutoff."""
-    dropped = scores[(owner == 1) & ~keep_clean].float()
+    dropped = scores[_aux_mask(owner) & ~keep_clean].float()
     if dropped.numel() == 0:
-        kept_b = scores[(owner == 1) & keep_clean].float()
+        kept_b = scores[_aux_mask(owner) & keep_clean].float()
         if kept_b.numel() == 0:
             return scores.sum() * 0.0
         cut = kept_b.min().detach()
@@ -37,10 +41,10 @@ def cage_b_loss(scores: torch.Tensor, owner: torch.Tensor, keep_clean: torch.Ten
 
 
 def quota_loss(r: torch.Tensor) -> torch.Tensor:
-    """Minimize r_A - r_B so B takes budget from A."""
+    """Minimize r_A - mean(r_{B_j}). Two-image case is exactly r_A - r_B."""
     if r.numel() < 2:
         raise ValueError("need at least two image ratios")
-    return r[0] - r[1]
+    return r[0] - r[1:].mean()
 
 
 def threshold_evict_loss(
@@ -85,6 +89,30 @@ def eviction_loss(
     tau = max(float(tau), 1e-4)
     softmin = -tau * torch.logsumexp(-sp / tau, dim=1)
     return softmin.mean()
+
+
+def lamp_like_loss(
+    scores: torch.Tensor,
+    owner: torch.Tensor,
+    h_adv: torch.Tensor,
+    h_clean: torch.Tensor,
+) -> torch.Tensor:
+    """Ordinary multi-image interference: raise aux scores and shift last-token hidden.
+
+    Not a compressor-budget attack. Used as a P9 LAMP-style control, not a method claim.
+    """
+    b = scores[_aux_mask(owner)].float()
+    a = scores[owner == 0].float()
+    if b.numel() == 0 or a.numel() == 0:
+        contagion = scores.sum() * 0.0
+    else:
+        contagion = a.mean() - b.mean()
+    shift = 1.0 - F.cosine_similarity(
+        h_adv.float().reshape(-1),
+        h_clean.float().reshape(-1).detach(),
+        dim=0,
+    )
+    return contagion + 0.25 * shift
 
 
 def value_loss(h_adv: torch.Tensor, h_clean: torch.Tensor) -> torch.Tensor:
